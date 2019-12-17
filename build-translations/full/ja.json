@@ -1,0 +1,2135 @@
+{
+	"domain": {
+		"alarm_control_panel": "Alarm control panel",
+		"automation": "オートメーション",
+		"binary_sensor": "バイナリセンサー",
+		"calendar": "カレンダー",
+		"camera": "カメラ",
+		"climate": "Climate",
+		"configurator": "Configurator",
+		"conversation": "Conversation",
+		"cover": "Cover",
+		"device_tracker": "Device tracker",
+		"fan": "Fan",
+		"group": "グループ",
+		"hassio": "Hass.io",
+		"history_graph": "History graph",
+		"homeassistant": "Home Assistant",
+		"image_processing": "画像処理",
+		"input_boolean": "Input boolean",
+		"input_datetime": "Input datetime",
+		"input_number": "Input number",
+		"input_select": "Input select",
+		"input_text": "Input text",
+		"light": "照明",
+		"lock": "Lock",
+		"lovelace": "Lovelace",
+		"mailbox": "メールボックス",
+		"media_player": "メディアプレーヤー",
+		"notify": "通知",
+		"person": "Person",
+		"plant": "Plant",
+		"proximity": "Proximity",
+		"remote": "Remote",
+		"scene": "Scene",
+		"script": "スクリプト",
+		"sensor": "センサー",
+		"sun": "太陽",
+		"switch": "スイッチ",
+		"system_health": "System Health",
+		"updater": "アップデーター",
+		"vacuum": "Vacuum",
+		"weblink": "Weblink",
+		"zha": "ZHA",
+		"zwave": "Z-Wave"
+	},
+	"panel": {
+		"calendar": "カレンダー",
+		"config": "設定",
+		"states": "状態",
+		"map": "地図",
+		"logbook": "ログブック",
+		"history": "履歴",
+		"mailbox": "メールボックス",
+		"shopping_list": "買い物リスト",
+		"developer_tools": "開発者ツール",
+		"profile": "Profile"
+	},
+	"state": {
+		"default": {
+			"off": "オフ",
+			"on": "オン",
+			"unknown": "不明",
+			"unavailable": "利用不可"
+		},
+		"alarm_control_panel": {
+			"armed": "Armed",
+			"disarmed": "Disarmed",
+			"armed_home": "Armed home",
+			"armed_away": "Armed away",
+			"armed_night": "Armed night",
+			"armed_custom_bypass": "Armed custom bypass",
+			"pending": "Pending",
+			"arming": "Arming",
+			"disarming": "Disarming",
+			"triggered": "トリガー"
+		},
+		"automation": {
+			"off": "オフ",
+			"on": "オン"
+		},
+		"binary_sensor": {
+			"default": {
+				"off": "オフ",
+				"on": "オン"
+			},
+			"battery": {
+				"off": "通常",
+				"on": "低"
+			},
+			"cold": {
+				"off": "通常",
+				"on": "低温"
+			},
+			"connectivity": {
+				"off": "切断",
+				"on": "接続済"
+			},
+			"door": {
+				"off": "閉じました",
+				"on": "開けました"
+			},
+			"garage_door": {
+				"off": "閉じました",
+				"on": "開けました"
+			},
+			"gas": {
+				"off": "未検出",
+				"on": "検出"
+			},
+			"heat": {
+				"off": "正常",
+				"on": "高温"
+			},
+			"lock": {
+				"off": "ロックされました",
+				"on": "ロックされていません"
+			},
+			"moisture": {
+				"off": "ドライ",
+				"on": "ウェット"
+			},
+			"motion": {
+				"off": "未検出",
+				"on": "検出"
+			},
+			"occupancy": {
+				"off": "未検出",
+				"on": "検出"
+			},
+			"opening": {
+				"off": "閉じました",
+				"on": "Open"
+			},
+			"presence": {
+				"off": "外出",
+				"on": "在宅"
+			},
+			"problem": {
+				"off": "OK",
+				"on": "Problem"
+			},
+			"safety": {
+				"off": "安全",
+				"on": "危険"
+			},
+			"smoke": {
+				"off": "未検出",
+				"on": "検出"
+			},
+			"sound": {
+				"off": "未検出",
+				"on": "検出"
+			},
+			"vibration": {
+				"off": "未検出",
+				"on": "検出"
+			},
+			"window": {
+				"off": "閉じました",
+				"on": "開けました"
+			}
+		},
+		"calendar": {
+			"off": "オフ",
+			"on": "オン"
+		},
+		"camera": {
+			"recording": "Recording",
+			"streaming": "Streaming",
+			"idle": "アイドル"
+		},
+		"climate": {
+			"off": "オフ",
+			"heat": "暖房",
+			"cool": "冷房",
+			"heat_cool": "Heat/Cool",
+			"auto": "オート",
+			"dry": "ドライ",
+			"fan_only": "ファンのみ",
+			"eco": "エコ",
+			"gas": "ガス",
+			"idle": "アイドル",
+			"manual": "マニュアル",
+			"on": "オン",
+			"performance": "パフォーマンス"
+		},
+		"configurator": {
+			"configure": "設定",
+			"configured": "設定済み"
+		},
+		"cover": {
+			"open": "Open",
+			"opening": "Opening",
+			"closed": "Closed",
+			"closing": "Closing",
+			"stopped": "Stopped"
+		},
+		"device_tracker": {
+			"home": "在宅",
+			"not_home": "外出"
+		},
+		"fan": {
+			"off": "オフ",
+			"on": "オン"
+		},
+		"group": {
+			"off": "オフ",
+			"on": "オン",
+			"home": "在宅",
+			"not_home": "外出",
+			"open": "Open",
+			"opening": "Opening",
+			"closed": "閉じました",
+			"closing": "Closing",
+			"stopped": "Stopped",
+			"locked": "ロックされました",
+			"unlocked": "Unlocked",
+			"ok": "OK",
+			"problem": "Problem"
+		},
+		"input_boolean": {
+			"off": "オフ",
+			"on": "オン"
+		},
+		"light": {
+			"off": "オフ",
+			"on": "オン"
+		},
+		"lock": {
+			"locked": "Locked",
+			"unlocked": "Unlocked"
+		},
+		"media_player": {
+			"off": "オフ",
+			"on": "オン",
+			"playing": "再生中",
+			"paused": "一時停止",
+			"idle": "アイドル",
+			"standby": "Standby"
+		},
+		"person": {
+			"home": "Home",
+			"not_home": "Away"
+		},
+		"plant": {
+			"ok": "OK",
+			"problem": "Problem"
+		},
+		"remote": {
+			"off": "オフ",
+			"on": "オン"
+		},
+		"scene": {
+			"scening": "Scening"
+		},
+		"script": {
+			"off": "オフ",
+			"on": "オン"
+		},
+		"sensor": {
+			"off": "オフ",
+			"on": "オン"
+		},
+		"sun": {
+			"above_horizon": "地平線の上",
+			"below_horizon": "地平線より下"
+		},
+		"switch": {
+			"off": "オフ",
+			"on": "オン"
+		},
+		"timer": {
+			"active": "active",
+			"idle": "idle",
+			"paused": "paused"
+		},
+		"vacuum": {
+			"cleaning": "Cleaning",
+			"docked": "Docked",
+			"error": "Error",
+			"idle": "Idle",
+			"off": "Off",
+			"on": "On",
+			"paused": "Paused",
+			"returning": "Returning to dock"
+		},
+		"weather": {
+			"clear-night": "晴れた夜",
+			"cloudy": "曇り",
+			"exceptional": "Exceptional",
+			"fog": "霧",
+			"hail": "雹",
+			"lightning": "雷",
+			"lightning-rainy": "雷雨",
+			"partlycloudy": "晴れ時々曇り",
+			"pouring": "大雨",
+			"rainy": "雨",
+			"snowy": "雪",
+			"snowy-rainy": "みぞれ",
+			"sunny": "晴れ",
+			"windy": "強風",
+			"windy-variant": "Windy"
+		},
+		"zwave": {
+			"default": {
+				"initializing": "初期化中",
+				"dead": "Dead",
+				"sleeping": "スリープ",
+				"ready": "準備完了"
+			},
+			"query_stage": {
+				"initializing": "初期化中 ( {query_stage} )",
+				"dead": " ({query_stage})"
+			}
+		}
+	},
+	"state_attributes": {
+		"climate": {
+			"fan_mode": {
+				"off": "Off",
+				"on": "On",
+				"auto": "Auto"
+			},
+			"preset_mode": {
+				"none": "None",
+				"eco": "Eco",
+				"away": "Away",
+				"boost": "Boost",
+				"comfort": "Comfort",
+				"home": "Home",
+				"sleep": "Sleep",
+				"activity": "Activity"
+			},
+			"hvac_action": {
+				"off": "Off",
+				"heating": "Heating",
+				"cooling": "Cooling",
+				"drying": "Drying",
+				"idle": "Idle",
+				"fan": "Fan"
+			}
+		}
+	},
+	"state_badge": {
+		"default": {
+			"unknown": "不明",
+			"unavailable": "Unavai",
+			"error": "Error",
+			"entity_not_found": "Entity Not Found"
+		},
+		"alarm_control_panel": {
+			"armed": "Armed",
+			"disarmed": "Disarm",
+			"armed_home": "アームしました",
+			"armed_away": "Armed",
+			"armed_night": "Armed",
+			"armed_custom_bypass": "Armed",
+			"pending": "Pend",
+			"arming": "Arming",
+			"disarming": "Disarm",
+			"triggered": "Trig"
+		},
+		"device_tracker": {
+			"home": "在宅",
+			"not_home": "外出"
+		},
+		"person": {
+			"home": "Home",
+			"not_home": "Away"
+		}
+	},
+	"groups": {
+		"system-admin": "Administrators",
+		"system-users": "Users",
+		"system-read-only": "Read-Only Users"
+	},
+	"config_entry": {
+		"disabled_by": {
+			"user": "User",
+			"integration": "Integration",
+			"config_entry": "Config Entry"
+		}
+	},
+	"ui": {
+		"auth_store": {
+			"ask": "Do you want to save this login?",
+			"decline": "No thanks",
+			"confirm": "Save login"
+		},
+		"card": {
+			"alarm_control_panel": {
+				"code": "パスワード",
+				"clear_code": "削除",
+				"disarm": "Disarm",
+				"arm_home": "Arm home",
+				"arm_away": "Arm away",
+				"arm_night": "Arm night",
+				"arm_custom_bypass": "Custom bypass"
+			},
+			"automation": {
+				"last_triggered": "Last triggered",
+				"trigger": "トリガー"
+			},
+			"camera": {
+				"not_available": "画像がありません。"
+			},
+			"climate": {
+				"currently": "現在",
+				"on_off": "オン／オフ",
+				"target_temperature": "目標温度",
+				"target_temperature_entity": "{name} target temperature",
+				"target_temperature_mode": "{name} target temperature {mode}",
+				"current_temperature": "{name} current temperature",
+				"heating": "{name} heating",
+				"cooling": "{name} cooling",
+				"high": "high",
+				"low": "low",
+				"target_humidity": "目標湿度",
+				"operation": "運転切替",
+				"fan_mode": "Fan mode",
+				"swing_mode": "Swing mode",
+				"preset_mode": "Preset",
+				"away_mode": "Away mode",
+				"aux_heat": "Aux heat"
+			},
+			"counter": {
+				"actions": {
+					"increment": "increment",
+					"decrement": "decrement",
+					"reset": "reset"
+				}
+			},
+			"cover": {
+				"position": "Position",
+				"tilt_position": "Tilt position"
+			},
+			"fan": {
+				"speed": "風速",
+				"oscillate": "Oscillate",
+				"direction": "Direction",
+				"forward": "Forward",
+				"reverse": "Reverse"
+			},
+			"light": {
+				"brightness": "明るさ",
+				"color_temperature": "色温度",
+				"white_value": "White value",
+				"effect": "Effect"
+			},
+			"lock": {
+				"code": "Code",
+				"lock": "ロック",
+				"unlock": "ロック解除"
+			},
+			"media_player": {
+				"source": "Source",
+				"sound_mode": "Sound mode",
+				"text_to_speak": "音声合成"
+			},
+			"persistent_notification": {
+				"dismiss": "Dismiss"
+			},
+			"scene": {
+				"activate": "有効化"
+			},
+			"script": {
+				"execute": "実行"
+			},
+			"timer": {
+				"actions": {
+					"start": "start",
+					"pause": "pause",
+					"cancel": "cancel",
+					"finish": "finish"
+				}
+			},
+			"vacuum": {
+				"actions": {
+					"resume_cleaning": "Resume cleaning",
+					"return_to_base": "Return to dock",
+					"start_cleaning": "Start cleaning",
+					"turn_on": "Turn on",
+					"turn_off": "Turn off"
+				}
+			},
+			"water_heater": {
+				"currently": "Currently",
+				"on_off": "On / off",
+				"target_temperature": "目標温度",
+				"operation": "Operation",
+				"away_mode": "Away mode"
+			},
+			"weather": {
+				"attributes": {
+					"air_pressure": "気圧",
+					"humidity": "湿度",
+					"temperature": "温度",
+					"visibility": "Visibility",
+					"wind_speed": "風速"
+				},
+				"cardinal_direction": {
+					"e": "東",
+					"ene": "東北東",
+					"ese": "東南東",
+					"n": "北",
+					"ne": "北東",
+					"nne": "北北東",
+					"nw": "北西",
+					"nnw": "北北西",
+					"s": "南",
+					"se": "南東",
+					"sse": "南南東",
+					"ssw": "南南西",
+					"sw": "南西",
+					"w": "西",
+					"wnw": "西北西",
+					"wsw": "西南西"
+				},
+				"forecast": "天気予報"
+			}
+		},
+		"common": {
+			"loading": "読込中",
+			"cancel": "キャンセル",
+			"save": "Save",
+			"yes": "はい",
+			"no": "いいえ",
+			"successfully_saved": "Successfully saved"
+		},
+		"components": {
+			"entity": {
+				"entity-picker": {
+					"entity": "エンティティ",
+					"clear": "Clear",
+					"show_entities": "Show entities"
+				}
+			},
+			"device-picker": {
+				"clear": "Clear",
+				"show_devices": "Show devices",
+				"device": "デバイス"
+			},
+			"relative_time": {
+				"past": "{time}前",
+				"future": "{time}以内",
+				"never": "Never",
+				"duration": {
+					"second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+					"minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+					"hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+					"day": "{count} {count, plural,\n  one {day}\n  other {days}\n}",
+					"week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+				}
+			},
+			"history_charts": {
+				"loading_history": "状態履歴を読込中...",
+				"no_history_found": "状態履歴がありません。"
+			},
+			"service-picker": {
+				"service": "サービス"
+			}
+		},
+		"dialogs": {
+			"voice_command": {
+				"did_not_hear": "Home Assistant は何も聞きませんでした",
+				"found": "以下の結果は見つけました：",
+				"error": "エラーが発生しました",
+				"how_can_i_help": "どうなご用でしょう？",
+				"label": "質問を入力して「Enter」を押してください。",
+				"label_voice": "Type and press 'Enter' or tap the microphone to speak"
+			},
+			"confirmation": {
+				"cancel": "Cancel",
+				"ok": "OK",
+				"title": "Are you sure?"
+			},
+			"more_info_control": {
+				"script": {
+					"last_action": "Last Action"
+				},
+				"sun": {
+					"elevation": "高度",
+					"rising": "日の出ます",
+					"setting": "日の入っています"
+				},
+				"updater": {
+					"title": "Update Instructions"
+				}
+			},
+			"more_info_settings": {
+				"save": "保存",
+				"name": "名前の上書き",
+				"entity_id": "Entity ID"
+			},
+			"options_flow": {
+				"form": {
+					"header": "Options"
+				},
+				"success": {
+					"description": "Options successfully saved."
+				}
+			},
+			"config_entry_system_options": {
+				"title": "{integration} のシステムオプション",
+				"enable_new_entities_label": "Enable newly added entities.",
+				"enable_new_entities_description": "If disabled, newly discovered entities for {integration} will not be automatically added to Home Assistant."
+			},
+			"zha_device_info": {
+				"manuf": "by {manufacturer}",
+				"no_area": "No Area",
+				"buttons": {
+					"add": "Add Devices",
+					"remove": "Remove Device",
+					"reconfigure": "Reconfigure Device"
+				},
+				"services": {
+					"reconfigure": "Reconfigure ZHA device (heal device). Use this if you are having issues with the device. If the device in question is a battery powered device please ensure it is awake and accepting commands when you use this service.",
+					"updateDeviceName": "Set a custom name for this device in the device registry.",
+					"remove": "Zigbee ネットワークからデバイスを削除します。"
+				},
+				"quirk": "Quirk",
+				"last_seen": "Last Seen",
+				"power_source": "Power Source",
+				"unknown": "Unknown",
+				"zha_device_card": {
+					"device_name_placeholder": "User given name",
+					"area_picker_label": "Area",
+					"update_name_button": "Update Name"
+				}
+			},
+			"domain_toggler": {
+				"title": "Toggle Domains"
+			}
+		},
+		"duration": {
+			"second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}",
+			"minute": "{count} {count, plural,\n  one {分}\n  other {分}\n}",
+			"hour": "{count} {count, plural,\n  one {時間}\n  other {時間}\n}",
+			"day": "{count} {count, plural,\n  one {day}\n  other {days}\n}",
+			"week": "{count} {count, plural,\n  one {週間}\n  other {週間}\n}"
+		},
+		"login-form": {
+			"password": "パスワード",
+			"remember": "Remember",
+			"log_in": "ログイン"
+		},
+		"notification_drawer": {
+			"click_to_configure": "Click button to configure {entity}",
+			"empty": "No Notifications",
+			"title": "Notifications"
+		},
+		"notification_toast": {
+			"service_call_failed": "サービス{service}の呼び出しに失敗しました。",
+			"connection_lost": "切断されました。再接続中...",
+			"triggered": "Triggered {name}",
+			"entity_turned_off": "{entity}をオフにしました。",
+			"entity_turned_on": "{entity}をオンにしました。",
+			"service_called": "サービス{service}を呼び出しました。"
+		},
+		"sidebar": {
+			"external_app_configuration": "App Configuration",
+			"sidebar_toggle": "Sidebar Toggle",
+			"log_out": "ログアウト"
+		},
+		"panel": {
+			"config": {
+				"header": "Home Assistantの設定",
+				"introduction": "Here it is possible to configure your components and Home Assistant. Not everything is possible to configure from the UI yet, but we're working on it.",
+				"common": {
+					"editor": {
+						"confirm_unsaved": "You have unsaved changes. Are you sure you want to leave?"
+					}
+				},
+				"area_registry": {
+					"caption": "エリア",
+					"description": "Overview of all areas in your home.",
+					"picker": {
+						"header": "エリア",
+						"introduction": "Areas are used to organize where devices are. This information will be used throughout Home Assistant to help you in organizing your interface, permissions and integrations with other systems.",
+						"introduction2": "To place devices in an area, use the link below to navigate to the integrations page and then click on a configured integration to get to the device cards.",
+						"integrations_page": "Integrations page",
+						"no_areas": "Looks like you have no areas yet!",
+						"create_area": "CREATE AREA"
+					},
+					"editor": {
+						"default_name": "New Area",
+						"delete": "DELETE",
+						"update": "UPDATE",
+						"create": "CREATE"
+					}
+				},
+				"core": {
+					"caption": "一般",
+					"description": "設定ファイルの検証とサーバーの操作",
+					"section": {
+						"core": {
+							"header": "一般的な設定",
+							"introduction": "Changing your configuration can be a tiresome process. We know. This section will try to make your life a little bit easier.",
+							"core_config": {
+								"edit_requires_storage": "Editor disabled because config stored in configuration.yaml.",
+								"location_name": "Name of your Home Assistant installation",
+								"latitude": "Latitude",
+								"longitude": "Longitude",
+								"elevation": "Elevation",
+								"elevation_meters": "meters",
+								"time_zone": "タイムゾーン",
+								"unit_system": "Unit System",
+								"unit_system_imperial": "Imperial",
+								"unit_system_metric": "Metric",
+								"imperial_example": "Fahrenheit, pounds",
+								"metric_example": "Celsius, kilograms",
+								"save_button": "Save"
+							}
+						},
+						"server_control": {
+							"reloading": {
+								"automation": "オートメーションの再読込",
+								"core": "コアの再読込",
+								"group": "グループの再読込",
+								"heading": "設定の再読込",
+								"introduction": "Home Assistantの一部は、再起動を必要とせずに再読込できます。再読込を押すと、現在の設定をアンロードし、新しい設定を読み込みます。",
+								"script": "スクリプトの再読込"
+							},
+							"server_management": {
+								"heading": "サーバー管理",
+								"introduction": "Home AssistantからHome Assistantサーバーを操作します。",
+								"restart": "再起動",
+								"stop": "停止"
+							},
+							"validation": {
+								"check_config": "設定を確認",
+								"heading": "設定の検証",
+								"invalid": "設定は無効です",
+								"valid": "設定は有効です！"
+							}
+						}
+					}
+				},
+				"server_control": {
+					"caption": "サーバー コントロール",
+					"description": "Restart and stop the Home Assistant server",
+					"section": {
+						"validation": {
+							"heading": "Configuration validation",
+							"introduction": "Validate your configuration if you recently made some changes to your configuration and want to make sure that it is all valid",
+							"check_config": "Check config",
+							"valid": "Configuration valid!",
+							"invalid": "Configuration invalid"
+						},
+						"reloading": {
+							"heading": "Configuration reloading",
+							"introduction": "Some parts of Home Assistant can reload without requiring a restart. Hitting reload will unload their current configuration and load the new one.",
+							"core": "Reload location & customizations",
+							"group": "Reload groups",
+							"automation": "Reload automations",
+							"script": "Reload scripts",
+							"scene": "Reload scenes"
+						},
+						"server_management": {
+							"heading": "Server management",
+							"introduction": "Control your Home Assistant server… from Home Assistant.",
+							"restart": "Restart",
+							"confirm_restart": "Are you sure you want to restart Home Assistant?",
+							"stop": "Stop",
+							"confirm_stop": "Are you sure you want to stop Home Assistant?"
+						}
+					}
+				},
+				"customize": {
+					"caption": "カスタマイズ",
+					"description": "Customize your entities",
+					"picker": {
+						"header": "カスタマイズ",
+						"introduction": "Tweak per-entity attributes. Added/edited customizations will take effect immediately. Removed customizations will take effect when the entity is updated."
+					},
+					"warning": {
+						"include_sentence": "It seems that your configuration.yaml doesn't properly",
+						"include_link": "customize.yaml を含めます",
+						"not_applied": "Changes made here are written in it, but will not be applied after a configuration reload unless the include is in place."
+					},
+					"attributes_customize": "The following attributes are already set in customize.yaml",
+					"attributes_outside": "The following attributes are customized from outside of customize.yaml",
+					"different_include": "Possibly via a domain, a glob or a different include.",
+					"attributes_set": "The following attributes of the entity are set programmatically.",
+					"attributes_override": "必要に応じてオーバーライドできます。",
+					"attributes_not_set": "次の属性は設定されていません。必要に応じて設定してください。",
+					"pick_attribute": "オーバーライドする属性を選択してください"
+				},
+				"automation": {
+					"caption": "オートメーション",
+					"description": "オートメーションの作成と編集",
+					"picker": {
+						"header": "オートメーションエディター",
+						"introduction": "The automation editor allows you to create and edit automations. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about automations",
+						"pick_automation": "Pick automation to edit",
+						"no_automations": "編集可能なオートメーションが見つかりません。",
+						"add_automation": "オートメーションの追加",
+						"only_editable": "automations.yaml で定義されたオートメーションのみが編集可能です。",
+						"edit_automation": "オートメーションを編集",
+						"show_info_automation": "Show info about automation",
+						"delete_automation": "オートメーションを削除",
+						"delete_confirm": "このオートメーションを削除してもよろしいですか？"
+					},
+					"editor": {
+						"introduction": "オートメーションを使用して、あなたの家を生き生きとさせましょう。",
+						"default_name": "新しいオートメーション",
+						"load_error_not_editable": "Only automations in automations.yaml are editable.",
+						"load_error_unknown": "Error loading automation ({err_no}).",
+						"save": "保存",
+						"unsaved_confirm": "You have unsaved changes. Are you sure you want to leave?",
+						"alias": "名前",
+						"description": {
+							"label": "Description",
+							"placeholder": "Optional description"
+						},
+						"triggers": {
+							"name": "トリガー",
+							"header": "トリガー",
+							"introduction": "トリガーはオートメーションルールの処理を開始させます。同じルールに対して複数のトリガーを指定することが可能です。トリガーが開始されると、Home Assistantは条件があれば確認し、アクションを呼び出します。\n\n[トリガーについて](https://home-assistant.io/docs/automation/trigger/)",
+							"learn_more": "Learn more about triggers",
+							"add": "トリガーを追加",
+							"duplicate": "複製",
+							"delete": "削除",
+							"delete_confirm": "本当に削除しますか？",
+							"unsupported_platform": "サポートされていないプラットフォーム： {platform}",
+							"type_select": "トリガーの種類",
+							"type": {
+								"device": {
+									"label": "Device",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"event": {
+									"label": "イベント",
+									"event_type": "イベントの種類",
+									"event_data": "イベントのデータ"
+								},
+								"geo_location": {
+									"label": "Geolocation",
+									"source": "Source",
+									"zone": "ゾーン",
+									"event": "Event:",
+									"enter": "Enter",
+									"leave": "Leave"
+								},
+								"state": {
+									"label": "State",
+									"from": "変化前",
+									"for": "For",
+									"to": "変化後"
+								},
+								"homeassistant": {
+									"label": "Home Assistant",
+									"event": "Event:",
+									"start": "起動",
+									"shutdown": "停止"
+								},
+								"mqtt": {
+									"label": "MQTT",
+									"topic": "Topic",
+									"payload": "Payload (optional)"
+								},
+								"numeric_state": {
+									"label": "Numeric state",
+									"above": "Above",
+									"below": "Below",
+									"value_template": "バリューテンプレート（オプショナル）"
+								},
+								"sun": {
+									"label": "太陽",
+									"event": "イベント",
+									"sunrise": "日の出",
+									"sunset": "日の入",
+									"offset": "オフセット（オプション）"
+								},
+								"template": {
+									"label": "テンプレート",
+									"value_template": "バリューテンプレート"
+								},
+								"time": {
+									"label": "時刻",
+									"at": "At"
+								},
+								"time_pattern": {
+									"label": "Time Pattern",
+									"hours": "Hours",
+									"minutes": "Minutes",
+									"seconds": "Seconds"
+								},
+								"webhook": {
+									"label": "Webhook",
+									"webhook_id": "Webhook ID"
+								},
+								"zone": {
+									"label": "Zone",
+									"entity": "Entity with location",
+									"zone": "ゾーン",
+									"event": "イベント：",
+									"enter": "Enter",
+									"leave": "Leave"
+								}
+							}
+						},
+						"conditions": {
+							"name": "条件",
+							"header": "条件",
+							"introduction": "Conditions are an optional part of an automation rule and can be used to prevent an action from happening when triggered. Conditions look very similar to triggers but are very different. A trigger will look at events happening in the system while a condition only looks at how the system looks right now. A trigger can observe that a switch is being turned on. A condition can only see if a switch is currently on or off.",
+							"learn_more": "Learn more about conditions",
+							"add": "条件を追加",
+							"duplicate": "デュプリケート",
+							"delete": "削除",
+							"delete_confirm": "本当に削除しますか？",
+							"unsupported_condition": "未サポートの条件：{condition}",
+							"type_select": "条件の種類",
+							"type": {
+								"and": {
+									"label": "And"
+								},
+								"device": {
+									"label": "Device",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"numeric_state": {
+									"label": "Numeric state",
+									"above": "超過",
+									"below": "未満",
+									"value_template": "バリューテンプレート（オプショナル）"
+								},
+								"or": {
+									"label": "Or"
+								},
+								"state": {
+									"label": "状態",
+									"state": "状態"
+								},
+								"sun": {
+									"label": "太陽",
+									"before": "Before:",
+									"after": "After:",
+									"before_offset": "Before offset (optional)",
+									"after_offset": "After offset (optional)",
+									"sunrise": "日の出",
+									"sunset": "日の入"
+								},
+								"template": {
+									"label": "テンプレート",
+									"value_template": "バリューテンプレート"
+								},
+								"time": {
+									"label": "時間",
+									"after": "After",
+									"before": "Before"
+								},
+								"zone": {
+									"label": "ゾーン",
+									"entity": "Entity with location",
+									"zone": "ゾーン"
+								}
+							}
+						},
+						"actions": {
+							"name": "アクション",
+							"header": "アクション",
+							"introduction": "アクションは、オートメーションがトリガーされたときにHome Assistantが実行するものです。\n\n [アクションの詳細]（https://home-assistant.io/docs/automation/action/）",
+							"learn_more": "Learn more about actions",
+							"add": "アクションを追加",
+							"duplicate": "デュプリケート",
+							"delete": "削除",
+							"delete_confirm": "本当に削除しますか？",
+							"unsupported_action": "未サポートのアクション：{action}",
+							"type_select": "アクションの種類",
+							"type": {
+								"service": {
+									"label": "Call service",
+									"service_data": "サービスのデータ"
+								},
+								"delay": {
+									"label": "Delay",
+									"delay": "遅延"
+								},
+								"wait_template": {
+									"label": "Wait",
+									"wait_template": "Wait Template",
+									"timeout": "タイムアウト（オプション）"
+								},
+								"condition": {
+									"label": "条件"
+								},
+								"event": {
+									"label": "Fire event",
+									"event": "イベント：",
+									"service_data": "サービスデータ"
+								},
+								"device_id": {
+									"label": "Device",
+									"extra_fields": {
+										"code": "Code"
+									}
+								},
+								"scene": {
+									"label": "Activate scene"
+								}
+							}
+						}
+					}
+				},
+				"script": {
+					"caption": "スクリプト",
+					"description": "スクリプトの作成と編集",
+					"picker": {
+						"header": "Script Editor",
+						"introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scripts",
+						"no_scripts": "We couldn’t find any editable scripts",
+						"add_script": "Add script",
+						"trigger_script": "トリガースクリプト",
+						"edit_script": "スクリプトを編集"
+					},
+					"editor": {
+						"introduction": "Use scripts to execute a sequence of actions.",
+						"header": "Script: {name}",
+						"default_name": "New Script",
+						"load_error_not_editable": "Only scripts inside scripts.yaml are editable.",
+						"delete_confirm": "Are you sure you want to delete this script?",
+						"delete_script": "スクリプトを削除",
+						"sequence": "シーケンス",
+						"sequence_sentence": "The sequence of actions of this script.",
+						"link_available_actions": "Learn more about available actions."
+					}
+				},
+				"scene": {
+					"caption": "シーン",
+					"description": "シーンの作成と編集",
+					"activated": "アクティブ化されたシーン {name}。",
+					"picker": {
+						"header": "シーンエディター",
+						"introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "シーンの情報をもっと見る。",
+						"pick_scene": "編集するシーンを選択",
+						"no_scenes": "編集可能なシーンが見つかりません。",
+						"add_scene": "シーンを追加",
+						"only_editable": "Only scenes defined in scenes.yaml are editable.",
+						"edit_scene": "シーンを編集",
+						"show_info_scene": "シーンに関する情報を表示",
+						"delete_scene": "シーンを削除",
+						"delete_confirm": "Are you sure you want to delete this scene?"
+					},
+					"editor": {
+						"introduction": "Use scenes to bring your home alive.",
+						"default_name": "新しいシーン",
+						"load_error_not_editable": "Only scenes in scenes.yaml are editable.",
+						"load_error_unknown": "Error loading scene ({err_no}).",
+						"save": "保存",
+						"unsaved_confirm": "未保存の変更があります、終了してもよろしいですか？",
+						"name": "名前",
+						"devices": {
+							"header": "デバイス",
+							"introduction": "Add the devices that you want to be included in your scene. Set all the devices to the state you want for this scene.",
+							"add": "デバイスを追加",
+							"delete": "デバイスを削除"
+						},
+						"entities": {
+							"header": "エンティティ",
+							"introduction": "Entities that do not belong to a devices can be set here.",
+							"without_device": "デバイスのないエンティティ",
+							"device_entities": "デバイスに属するエンティティを追加するには、デバイスも追加されます。",
+							"add": "エンティティを追加",
+							"delete": "エンティティを削除"
+						}
+					}
+				},
+				"cloud": {
+					"caption": "Home Assistant Cloud",
+					"description_login": "Logged in as {email}",
+					"description_not_login": "Not logged in",
+					"description_features": "自宅の外からコントロールするために、AlexaとGoogleアシスタントに統合します。",
+					"login": {
+						"title": "Cloud Login",
+						"introduction": "Home Assistant Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+						"introduction2": "This service is run by our partner ",
+						"introduction2a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"introduction3": "Home Assistant Cloud is a subscription service with a free one month trial. No payment information necessary.",
+						"learn_more_link": "Learn more about Home Assistant Cloud",
+						"dismiss": "Dismiss",
+						"sign_in": "Sign in",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"forgot_password": "forgot password?",
+						"start_trial": "Start your free 1 month trial",
+						"trial_info": "No payment information necessary",
+						"alert_password_change_required": "You need to change your password before logging in.",
+						"alert_email_confirm_necessary": "You need to confirm your email before logging in."
+					},
+					"forgot_password": {
+						"title": "Forgot password",
+						"subtitle": "Forgot your password",
+						"instructions": "Enter your email address and we will send you a link to reset your password.",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"send_reset_email": "Send reset email",
+						"check_your_email": "Check your email for instructions on how to reset your password."
+					},
+					"register": {
+						"title": "Register Account",
+						"headline": "Start your free trial",
+						"information": "Create an account to start your free one month trial with Home Assistant Cloud. No payment information necessary.",
+						"information2": "The trial will give you access to all the benefits of Home Assistant Cloud, including:",
+						"feature_remote_control": "Control of Home Assistant away from home",
+						"feature_google_home": "Integration with Google Assistant",
+						"feature_amazon_alexa": "Integration with Amazon Alexa",
+						"feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
+						"information3": "This service is run by our partner ",
+						"information3a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"information4": "By registering an account you agree to the following terms and conditions.",
+						"link_terms_conditions": "Terms and Conditions",
+						"link_privacy_policy": "Privacy Policy",
+						"create_account": "Create Account",
+						"email_address": "Email address",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"start_trial": "Start Trial",
+						"resend_confirm_email": "Resend confirmation email",
+						"account_created": "Account created! Check your email for instructions on how to activate your account."
+					},
+					"account": {
+						"thank_you_note": "Thank you for being part of Home Assistant Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
+						"nabu_casa_account": "Nabu Casa Account",
+						"connection_status": "Cloud connection status",
+						"manage_account": "Manage Account",
+						"sign_out": "Sign out",
+						"integrations": "Integrations",
+						"integrations_introduction": "Integrations for Home Assistant Cloud allow you to connect with services in the cloud without having to expose your Home Assistant instance publicly on the internet.",
+						"integrations_introduction2": "Check the website for ",
+						"integrations_link_all_features": " all available features",
+						"connected": "Connected",
+						"not_connected": "Not Connected",
+						"fetching_subscription": "Fetching subscription…",
+						"remote": {
+							"title": "Remote Control",
+							"access_is_being_prepared": "Remote access is being prepared. We will notify you when it's ready.",
+							"info": "Home Assistant Cloud provides a secure remote connection to your instance while away from home.",
+							"instance_is_available": "Your instance is available at",
+							"instance_will_be_available": "Your instance will be available at",
+							"link_learn_how_it_works": "Learn how it works",
+							"certificate_info": "Certificate Info"
+						},
+						"alexa": {
+							"title": "Alexa",
+							"info": "With the Alexa integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Alexa-enabled device.",
+							"enable_ha_skill": "Enable the Home Assistant skill for Alexa",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+							"sync_entities": "Sync Entities",
+							"manage_entities": "Manage Entities",
+							"sync_entities_error": "Failed to sync entities:",
+							"state_reporting_error": "Unable to {enable_disable} report state.",
+							"enable": "enable",
+							"disable": "disable"
+						},
+						"google": {
+							"title": "Google Assistant",
+							"info": "With the Google Assistant integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Google Assistant-enabled device.",
+							"enable_ha_skill": "Activate the Home Assistant skill for Google Assistant",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Google. This allows you to always see the latest states in the Google app.",
+							"security_devices": "Security Devices",
+							"enter_pin_info": "Please enter a pin to interact with security devices. Security devices are doors, garage doors and locks. You will be asked to say/enter this pin when interacting with such devices via Google Assistant.",
+							"devices_pin": "Security Devices Pin",
+							"enter_pin_hint": "Enter a PIN to use security devices",
+							"sync_entities": "Sync Entities to Google",
+							"manage_entities": "Manage Entities",
+							"enter_pin_error": "Unable to store pin:"
+						},
+						"webhooks": {
+							"title": "Webhooks",
+							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to Home Assistant from anywhere, without exposing your instance to the internet.",
+							"no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
+							"no_hooks_yet_link_integration": "webhook-based integration",
+							"no_hooks_yet2": " or by creating a ",
+							"no_hooks_yet_link_automation": "webhook automation",
+							"link_learn_more": "Learn more about creating webhook-powered automations.",
+							"loading": "Loading ...",
+							"manage": "Manage",
+							"disable_hook_error_msg": "Failed to disable webhook:"
+						}
+					},
+					"alexa": {
+						"title": "Alexa",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"expose": "Expose to Alexa"
+					},
+					"dialog_certificate": {
+						"certificate_information": "Certificate Information",
+						"certificate_expiration_date": "Certificate expiration date",
+						"will_be_auto_renewed": "Will be automatically renewed",
+						"fingerprint": "Certificate fingerprint:",
+						"close": "Close"
+					},
+					"google": {
+						"title": "Google Assistant",
+						"expose": "Expose to Google Assistant",
+						"disable_2FA": "Disable two factor authentication",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"sync_to_google": "Synchronizing changes to Google."
+					},
+					"dialog_cloudhook": {
+						"webhook_for": "Webhook for {name}",
+						"available_at": "The webhook is available at the following url:",
+						"managed_by_integration": "This webhook is managed by an integration and cannot be disabled.",
+						"info_disable_webhook": "If you no longer want to use this webhook, you can",
+						"link_disable_webhook": "disable it",
+						"view_documentation": "View documentation",
+						"close": "Close",
+						"confirm_disable": "Are you sure you want to disable this webhook?",
+						"copied_to_clipboard": "Copied to clipboard"
+					}
+				},
+				"devices": {
+					"caption": "Devices",
+					"description": "Manage connected devices",
+					"unnamed_device": "名前のないデバイス",
+					"unknown_error": "不明なエラー",
+					"area_picker_label": "エリア",
+					"automation": {
+						"triggers": {
+							"caption": "Do something when..."
+						},
+						"conditions": {
+							"caption": "Only do something if..."
+						},
+						"actions": {
+							"caption": "When something is triggered..."
+						}
+					},
+					"device_not_found": "デバイスが見つかりません。",
+					"info": "デバイス情報",
+					"details": "これらはデバイスの詳細な情報です。",
+					"entities": "エンティティ",
+					"automations": "オートメーション",
+					"confirm_rename_entity_ids": "エンティティの ID も変更しますか？",
+					"data_table": {
+						"device": "デバイス",
+						"manufacturer": "メーカー",
+						"model": "型番",
+						"area": "エリア",
+						"integration": "インテグレーション",
+						"battery": "バッテリー"
+					}
+				},
+				"entity_registry": {
+					"caption": "エンティティ",
+					"description": "Overview of all known entities.",
+					"picker": {
+						"header": "エンティティ",
+						"introduction": "Home Assistant keeps a registry of every entity it has ever seen that can be uniquely identified. Each of these entities will have an entity ID assigned which will be reserved for just this entity.",
+						"introduction2": "Use the entity registry to override the name, change the entity ID or remove the entry from Home Assistant. Note, removing the entity registry entry won't remove the entity. To do that, follow the link below and remove it from the integrations page.",
+						"integrations_page": "Integrations page",
+						"show_disabled": "Show disabled entities",
+						"headers": {
+							"name": "Name",
+							"entity_id": "Entity ID",
+							"integration": "Integration",
+							"enabled": "Enabled"
+						}
+					},
+					"editor": {
+						"unavailable": "This entity is not currently available.",
+						"default_name": "New Area",
+						"enabled_label": "Enable entity",
+						"enabled_cause": "Disabled by {cause}.",
+						"enabled_description": "Disabled entities will not be added to Home Assistant.",
+						"delete": "DELETE",
+						"confirm_delete": "Are you sure you want to delete this entry?",
+						"confirm_delete2": "Deleting an entry will not remove the entity from Home Assistant. To do this, you will need to remove the integration '{platform}' from Home Assistant.",
+						"update": "UPDATE",
+						"note": "Note: this might not work yet with all integrations."
+					}
+				},
+				"person": {
+					"caption": "Persons",
+					"description": "Manage the persons that Home Assistant tracks.",
+					"introduction": "Here you can define each person of interest in Home Assistant.",
+					"note_about_persons_configured_in_yaml": "Note: persons configured via configuration.yaml cannot be edited via the UI.",
+					"no_persons_created_yet": "Looks like you have not created any persons yet.",
+					"create_person": "Create Person",
+					"add_person": "Add Person",
+					"confirm_delete": "Are you sure you want to delete this person?",
+					"confirm_delete2": "All devices belonging to this person will become unassigned.",
+					"detail": {
+						"new_person": "New Person",
+						"name": "Name",
+						"name_error_msg": "Name is required",
+						"linked_user": "Linked User",
+						"device_tracker_intro": "Select the devices that belong to this person.",
+						"no_device_tracker_available_intro": "When you have devices that indicate the presence of a person, you will be able to assign them to a person here. You can add your first device by adding a presence-detection integration from the integrations page.",
+						"link_presence_detection_integrations": "Presence Detection Integrations",
+						"link_integrations_page": "Integrations page",
+						"device_tracker_picked": "Track Device",
+						"device_tracker_pick": "Pick device to track",
+						"delete": "Delete",
+						"create": "Create",
+						"update": "Update"
+					}
+				},
+				"integrations": {
+					"caption": "Integrations",
+					"description": "インテグレーションの管理とセットアップ",
+					"discovered": "Discovered",
+					"configured": "Configured",
+					"new": "Set up a new integration",
+					"note_about_integrations": "Not all integrations can be configured via the UI yet.",
+					"note_about_website_reference": "More are available on the ",
+					"home_assistant_website": "Home Assistant website",
+					"configure": "Configure",
+					"none": "Nothing configured yet",
+					"integration_not_found": "インテグレーションが見つかりません。",
+					"config_entry": {
+						"settings_button": "Edit settings for {integration}",
+						"system_options_button": "System options for {integration}",
+						"delete_button": "Delete {integration}",
+						"no_devices": "This integration has no devices.",
+						"no_device": "Entities without devices",
+						"delete_confirm": "Are you sure you want to delete this integration?",
+						"restart_confirm": "Restart Home Assistant to finish removing this integration",
+						"manuf": "by {manufacturer}",
+						"hub": "Connected via",
+						"firmware": "Firmware: {version}",
+						"device_unavailable": "device unavailable",
+						"entity_unavailable": "entity unavailable",
+						"area": "In {area}",
+						"no_area": "No Area"
+					},
+					"config_flow": {
+						"aborted": "中止",
+						"close": "閉じる",
+						"finish": "完了",
+						"submit": "送信",
+						"not_all_required_fields": "Not all required fields are filled in.",
+						"add_area": "エリアを追加",
+						"area_picker_label": "エリア",
+						"failed_create_area": "エリアを作成できませんでした。",
+						"error_saving_area": "エリアを保存できません: {error}",
+						"name_new_area": "新しいエリアの名前は？",
+						"created_config": "{name} の構成が作成しました。",
+						"external_step": {
+							"description": "This step requires you to visit an external website to be completed.",
+							"open_site": "Open website"
+						}
+					}
+				},
+				"users": {
+					"caption": "ユーザー",
+					"description": "ユーザーの管理",
+					"picker": {
+						"title": "ユーザー",
+						"system_generated": "System generated"
+					},
+					"editor": {
+						"caption": "View user",
+						"rename_user": "ユーザー名を変更",
+						"change_password": "パスワードの変更",
+						"activate_user": "ユーザーを有効化",
+						"deactivate_user": "ユーザーを無効化",
+						"delete_user": "ユーザーを削除",
+						"id": "ID",
+						"owner": "Owner",
+						"group": "Group",
+						"active": "Active",
+						"system_generated": "System generated",
+						"system_generated_users_not_removable": "Unable to remove system generated users.",
+						"unnamed_user": "Unnamed User",
+						"enter_new_name": "Enter new name",
+						"user_rename_failed": "User rename failed:",
+						"group_update_failed": "Group update failed:",
+						"confirm_user_deletion": "Are you sure you want to delete {name}?"
+					},
+					"add_user": {
+						"caption": "Add user",
+						"name": "Name",
+						"username": "Username",
+						"password": "Password",
+						"create": "Create"
+					}
+				},
+				"zha": {
+					"caption": "ZHA",
+					"description": "Zigbee Home Automation network management",
+					"common": {
+						"add_devices": "Add Devices",
+						"clusters": "Clusters",
+						"devices": "Devices",
+						"manufacturer_code_override": "Manufacturer Code Override",
+						"value": "Value"
+					},
+					"add_device_page": {
+						"header": "Zigbee Home Automation - Add Devices",
+						"spinner": "Searching for ZHA Zigbee devices...",
+						"discovery_text": "Discovered devices will show up here. Follow the instructions for your device(s) and place the device(s) in pairing mode.",
+						"search_again": "Search Again"
+					},
+					"network_management": {
+						"header": "Network Management",
+						"introduction": "Commands that affect the entire network"
+					},
+					"node_management": {
+						"header": "Device Management",
+						"introduction": "Run ZHA commands that affect a single device. Pick a device to see a list of available commands.",
+						"hint_battery_devices": "Note: Sleepy (battery powered) devices need to be awake when executing commands against them. You can generally wake a sleepy device by triggering it.",
+						"hint_wakeup": "Some devices such as Xiaomi sensors have a wake up button that you can press at ~5 second intervals that keep devices awake while you interact with them.",
+						"help_node_dropdown": "Select a device to view per-device options."
+					},
+					"clusters": {
+						"help_cluster_dropdown": "Select a cluster to view attributes and commands."
+					},
+					"cluster_attributes": {
+						"header": "Cluster Attributes",
+						"introduction": "View and edit cluster attributes.",
+						"attributes_of_cluster": "Attributes of the selected cluster",
+						"get_zigbee_attribute": "Get Zigbee Attribute",
+						"set_zigbee_attribute": "Set Zigbee Attribute",
+						"help_attribute_dropdown": "Select an attribute to view or set its value.",
+						"help_get_zigbee_attribute": "Get the value for the selected attribute.",
+						"help_set_zigbee_attribute": "Set attribute value for the specified cluster on the specified entity."
+					},
+					"cluster_commands": {
+						"header": "Cluster Commands",
+						"introduction": "View and issue cluster commands.",
+						"commands_of_cluster": "Commands of the selected cluster",
+						"issue_zigbee_command": "Issue Zigbee Command",
+						"help_command_dropdown": "Select a command to interact with."
+					}
+				},
+				"zwave": {
+					"caption": "Z-Wave",
+					"description": "Z-waveネットワークを管理します",
+					"learn_more": "Learn more about Z-Wave",
+					"common": {
+						"value": "バリュー",
+						"instance": "Instance",
+						"index": "Index",
+						"unknown": "unknown",
+						"wakeup_interval": "Wakeup Interval"
+					},
+					"network_management": {
+						"header": "Z-Wave Network Management",
+						"introduction": "Run commands that affect the Z-Wave network. You won't get feedback on whether most commands succeeded, but you can check the OZW Log to try to find out."
+					},
+					"ozw_log": {
+						"header": "OZW Log",
+						"introduction": "View the log. 0 is the minimum (loads entire log) and 1000 is the maximum. Load will show a static log and tail will auto update with the last specified number of lines of the log."
+					},
+					"network_status": {
+						"network_stopped": "Z-Wave Network Stopped",
+						"network_starting": "Starting Z-Wave Network...",
+						"network_starting_note": "This may take a while depending on the size of your network.",
+						"network_started": "Z-Wave Network Started",
+						"network_started_note_some_queried": "Awake nodes have been queried. Sleeping nodes will be queried when they wake.",
+						"network_started_note_all_queried": "All nodes have been queried."
+					},
+					"node_config": {
+						"header": "Node Config Options",
+						"seconds": "seconds",
+						"set_wakeup": "Set Wakeup Interval",
+						"config_parameter": "Config Parameter",
+						"config_value": "バリューを設定",
+						"true": "True",
+						"false": "False",
+						"set_config_parameter": "構成パラメーターの設定"
+					},
+					"values": {
+						"header": "Node Values"
+					},
+					"services": {
+						"start_network": "Start Network",
+						"stop_network": "Stop Network",
+						"heal_network": "Heal Network",
+						"test_network": "Test Network",
+						"soft_reset": "Soft Reset",
+						"save_config": "Save Config",
+						"add_node_secure": "Add Node Secure",
+						"add_node": "Add Node",
+						"remove_node": "Remove Node",
+						"cancel_command": "Cancel Command"
+					}
+				}
+			},
+			"history": {
+				"showing_entries": "Showing entries for",
+				"period": "期間"
+			},
+			"logbook": {
+				"showing_entries": "Showing entries for",
+				"period": "Period",
+				"entries_not_found": "No logbook entries found."
+			},
+			"lovelace": {
+				"cards": {
+					"confirm_delete": "Are you sure you want to delete this card?",
+					"empty_state": {
+						"title": "Welcome Home",
+						"no_devices": "This page allows you to control your devices, however it looks like you have no devices set up yet. Head to the integrations page to get started.",
+						"go_to_integrations_page": "Go to the integrations page."
+					},
+					"shopping-list": {
+						"checked_items": "Checked items",
+						"clear_items": "チェックされたアイテムを削除",
+						"add_item": "Add item"
+					},
+					"picture-elements": {
+						"hold": "Hold:",
+						"tap": "Tap:",
+						"navigate_to": "Navigate to {location}",
+						"url": "Open window to {url_path}",
+						"toggle": "Toggle {name}",
+						"call_service": "Call service {name}",
+						"more_info": "Show more-info: {name}"
+					}
+				},
+				"unused_entities": {
+					"title": "未使用のエンティティ",
+					"available_entities": "これらは Lovelace UI にまだありませんの使用可能なエンティティです。",
+					"select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+					"entity": "エンティティ",
+					"entity_id": "エンティティ ID",
+					"domain": "ドメイン",
+					"last_changed": "最終変更"
+				},
+				"views": {
+					"confirm_delete": "Are you sure you want to delete this view?",
+					"existing_cards": "You can't delete a view that has cards in it. Remove the cards first."
+				},
+				"menu": {
+					"configure_ui": "Configure UI",
+					"help": "Help",
+					"refresh": "Refresh",
+					"close": "閉じる"
+				},
+				"editor": {
+					"header": "Edit UI",
+					"menu": {
+						"open": "Lovelace メニューを開く",
+						"raw_editor": "Raw config editor"
+					},
+					"raw_editor": {
+						"header": "Edit Config",
+						"save": "Save",
+						"unsaved_changes": "Unsaved changes",
+						"saved": "Saved",
+						"confirm_unsaved_changes": "未保存の変更があります、終了してもよろしいですか？",
+						"confirm_unsaved_comments": "Your config contains comment(s), these will not be saved. Do you want to continue?",
+						"error_parse_yaml": "YAMLを解析できません: {error}",
+						"error_invalid_config": "設定が無効です: {error}",
+						"error_save_yaml": "YAMLを保存できません: {error}"
+					},
+					"edit_lovelace": {
+						"header": "Title of your Lovelace UI",
+						"explanation": "This title is shown above all your views in Lovelace.",
+						"edit_title": "タイトルを編集"
+					},
+					"edit_view": {
+						"header": "View Configuration",
+						"header_name": "{name} View Configuration",
+						"add": "Add view",
+						"edit": "Edit view",
+						"delete": "Delete view",
+						"move_left": "ビューを左に移動",
+						"move_right": "ビューを右に移動"
+					},
+					"edit_card": {
+						"header": "Card Configuration",
+						"pick_card": "どのカードを追加しますか？",
+						"pick_card_view_title": "Which card would you like to add to your {name} view?",
+						"toggle_editor": "Toggle Editor",
+						"show_visual_editor": "Show Visual Editor",
+						"show_code_editor": "Show Code Editor",
+						"add": "Add Card",
+						"edit": "Edit",
+						"delete": "カードを削除",
+						"move": "Move to View",
+						"options": "その他のオプション"
+					},
+					"save_config": {
+						"header": "Take control of your Lovelace UI",
+						"para": "By default Home Assistant will maintain your user interface, updating it when new entities or Lovelace components become available. If you take control we will no longer make changes automatically for you.",
+						"para_sure": "Are you sure you want to take control of your user interface?",
+						"cancel": "Never mind",
+						"save": "Take control"
+					},
+					"migrate": {
+						"header": "Configuration Incompatible",
+						"para_no_id": "This element doesn't have an ID. Please add an ID to this element in 'ui-lovelace.yaml'.",
+						"para_migrate": "Home Assistant can add ID's to all your cards and views automatically for you by pressing the 'Migrate config' button.",
+						"migrate": "Migrate config"
+					},
+					"card": {
+						"alarm-panel": {
+							"name": "Alarm Panel",
+							"available_states": "Available States"
+						},
+						"conditional": {
+							"name": "Conditional"
+						},
+						"config": {
+							"required": "Required",
+							"optional": "Optional"
+						},
+						"entities": {
+							"name": "Entities",
+							"show_header_toggle": "Show Header Toggle?",
+							"toggle": "Toggle entities."
+						},
+						"entity-button": {
+							"name": "Entity Button"
+						},
+						"entity-filter": {
+							"name": "Entity Filter"
+						},
+						"gauge": {
+							"name": "Gauge",
+							"severity": {
+								"define": "Define Severity?",
+								"green": "Green",
+								"red": "Red",
+								"yellow": "Yellow"
+							}
+						},
+						"glance": {
+							"name": "Glance",
+							"columns": "Columns"
+						},
+						"history-graph": {
+							"name": "History Graph"
+						},
+						"horizontal-stack": {
+							"name": "Horizontal Stack"
+						},
+						"iframe": {
+							"name": "iFrame"
+						},
+						"light": {
+							"name": "Light"
+						},
+						"generic": {
+							"aspect_ratio": "Aspect Ratio",
+							"camera_image": "Camera Entity",
+							"camera_view": "Camera View",
+							"entities": "Entities",
+							"entity": "Entity",
+							"hold_action": "Hold Action",
+							"hours_to_show": "Hours to Show",
+							"icon": "Icon",
+							"icon_height": "Icon Height",
+							"image": "Image Path",
+							"maximum": "Maximum",
+							"minimum": "Minimum",
+							"name": "Name",
+							"refresh_interval": "Refresh Interval",
+							"show_icon": "Show Icon?",
+							"show_name": "Show Name?",
+							"show_state": "Show State?",
+							"tap_action": "Tap Action",
+							"title": "Title",
+							"theme": "Theme",
+							"unit": "Unit",
+							"url": "Url"
+						},
+						"map": {
+							"name": "Map",
+							"geo_location_sources": "Geolocation Sources",
+							"dark_mode": "Dark Mode?",
+							"default_zoom": "Default Zoom",
+							"source": "Source"
+						},
+						"markdown": {
+							"name": "Markdown",
+							"content": "Content"
+						},
+						"media-control": {
+							"name": "Media Control"
+						},
+						"picture": {
+							"name": "Picture"
+						},
+						"picture-elements": {
+							"name": "Picture Elements"
+						},
+						"picture-entity": {
+							"name": "Picture Entity"
+						},
+						"picture-glance": {
+							"name": "Picture Glance"
+						},
+						"plant-status": {
+							"name": "Plant Status"
+						},
+						"sensor": {
+							"name": "Sensor",
+							"graph_detail": "Graph Detail",
+							"graph_type": "Graph Type"
+						},
+						"shopping-list": {
+							"name": "Shopping List"
+						},
+						"thermostat": {
+							"name": "Thermostat"
+						},
+						"vertical-stack": {
+							"name": "Vertical Stack"
+						},
+						"weather-forecast": {
+							"name": "Weather Forecast"
+						}
+					},
+					"view": {
+						"panel_mode": {
+							"title": "Panel Mode?",
+							"description": "This renders the first card at full width; other cards in this view will not be rendered."
+						}
+					}
+				},
+				"warning": {
+					"entity_not_found": "Entity not available: {entity}",
+					"entity_non_numeric": "Entity is non-numeric: {entity}"
+				},
+				"changed_toast": {
+					"message": "The Lovelace config was updated, would you like to refresh?",
+					"refresh": "Refresh"
+				},
+				"reload_lovelace": "Reload Lovelace"
+			},
+			"mailbox": {
+				"empty": "メッセージはありません",
+				"playback_title": "Message playback",
+				"delete_prompt": "このメッセージを削除しますか？",
+				"delete_button": "削除"
+			},
+			"profile": {
+				"current_user": "You are currently logged in as {fullName}.",
+				"is_owner": "You are an owner.",
+				"logout": "Log out",
+				"force_narrow": {
+					"header": "Always hide the sidebar",
+					"description": "This will hide the sidebar by default, similar to the mobile experience."
+				},
+				"vibrate": {
+					"header": "Vibrate",
+					"description": "Enable or disable vibration on this device when controlling devices."
+				},
+				"push_notifications": {
+					"header": "Push Notifications",
+					"description": "このデバイスに通知を送信します。",
+					"error_load_platform": "Configure notify.html5.",
+					"error_use_https": "Requires SSL enabled for frontend.",
+					"push_notifications": "Push notifications",
+					"link_promo": "Learn more"
+				},
+				"language": {
+					"header": "Language",
+					"link_promo": "Help translating",
+					"dropdown_label": "Language"
+				},
+				"themes": {
+					"header": "Theme",
+					"error_no_theme": "No themes available.",
+					"link_promo": "Learn about themes",
+					"dropdown_label": "Theme"
+				},
+				"change_password": {
+					"header": "Change Password",
+					"current_password": "Current Password",
+					"new_password": "New Password",
+					"confirm_new_password": "Confirm New Password",
+					"error_required": "Required",
+					"submit": "Submit"
+				},
+				"mfa": {
+					"header": "Multi-factor Authentication Modules",
+					"disable": "Disable",
+					"enable": "Enable",
+					"confirm_disable": "Are you sure you want to disable {name}?"
+				},
+				"mfa_setup": {
+					"title_aborted": "Aborted",
+					"title_success": "Success!",
+					"step_done": "Setup done for {step}",
+					"close": "Close",
+					"submit": "Submit"
+				},
+				"advanced_mode": {
+					"title": "Advanced Mode",
+					"description": "Home Assistant hides advanced features and options by default. You can make these features accessible by checking this toggle. This is a user-specific setting and does not impact other users using Home Assistant.",
+					"hint_enable": "Missing config options? Enable advanced mode on",
+					"link_profile_page": "プロフィールページ"
+				},
+				"refresh_tokens": {
+					"header": "Refresh Tokens",
+					"description": "Each refresh token represents a login session. Refresh tokens will be automatically removed when you click log out. The following refresh tokens are currently active for your account.",
+					"token_title": "Refresh token for {clientId}",
+					"created_at": "Created at {date}",
+					"last_used": "Last used at {date} from {location}",
+					"not_used": "Has never been used",
+					"confirm_delete": "Are you sure you want to delete the refresh token for {name}?",
+					"delete_failed": "Failed to delete the refresh token.",
+					"current_token_tooltip": "Unable to delete current refresh token"
+				},
+				"long_lived_access_tokens": {
+					"header": "Long-Lived Access Tokens",
+					"description": "Create long-lived access tokens to allow your scripts to interact with your Home Assistant instance. Each token will be valid for 10 years from creation. The following long-lived access tokens are currently active.",
+					"learn_auth_requests": "Learn how to make authenticated requests.",
+					"created_at": "Created at {date}",
+					"last_used": "Last used at {date} from {location}",
+					"not_used": "Has never been used",
+					"confirm_delete": "Are you sure you want to delete the access token for {name}?",
+					"delete_failed": "Failed to delete the access token.",
+					"create": "Create Token",
+					"create_failed": "Failed to create the access token.",
+					"prompt_name": "Name?",
+					"prompt_copy_token": "Copy your access token. It will not be shown again.",
+					"empty_state": "You have no long-lived access tokens yet."
+				}
+			},
+			"shopping-list": {
+				"clear_completed": "削除完了",
+				"add_item": "アイテムを追加",
+				"microphone_tip": "Tap the microphone on the top right and say or type “Add candy to my shopping list”"
+			},
+			"page-authorize": {
+				"initializing": "Initializing",
+				"authorizing_client": "You're about to give {clientId} access to your Home Assistant instance.",
+				"logging_in_with": "Logging in with **{authProviderName}**.",
+				"pick_auth_provider": "Or log in with",
+				"abort_intro": "Login aborted",
+				"form": {
+					"working": "Please wait",
+					"unknown_error": "Something went wrong",
+					"providers": {
+						"command_line": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Username",
+										"password": "Password"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Two-factor Authentication Code"
+									},
+									"description": "Open the **{mfa_module_name}** on your device to view your two-factor authentication code and verify your identity:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Invalid username or password",
+								"invalid_code": "Invalid authentication code"
+							},
+							"abort": {
+								"login_expired": "Session expired, please login again."
+							}
+						},
+						"homeassistant": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Username",
+										"password": "Password"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Two-factor Authentication Code"
+									},
+									"description": "Open the **{mfa_module_name}** on your device to view your two-factor authentication code and verify your identity:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Invalid username or password",
+								"invalid_code": "Invalid authentication code"
+							},
+							"abort": {
+								"login_expired": "Session expired, please login again."
+							}
+						},
+						"legacy_api_password": {
+							"step": {
+								"init": {
+									"data": {
+										"password": "API Password"
+									},
+									"description": "Please input the API password in your http config:"
+								},
+								"mfa": {
+									"data": {
+										"code": "Two-factor Authentication Code"
+									},
+									"description": "Open the **{mfa_module_name}** on your device to view your two-factor authentication code and verify your identity:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Invalid API password",
+								"invalid_code": "Invalid authentication code"
+							},
+							"abort": {
+								"no_api_password_set": "You don't have an API password configured.",
+								"login_expired": "Session expired, please login again."
+							}
+						},
+						"trusted_networks": {
+							"step": {
+								"init": {
+									"data": {
+										"user": "User"
+									},
+									"description": "Please select a user you want to login as:"
+								}
+							},
+							"abort": {
+								"not_whitelisted": "Your computer is not whitelisted."
+							}
+						}
+					}
+				}
+			},
+			"page-demo": {
+				"cards": {
+					"demo": {
+						"demo_by": "by {name}",
+						"next_demo": "Next demo",
+						"introduction": "Welcome home! You've reached the Home Assistant demo where we showcase the best UIs created by our community.",
+						"learn_more": "Learn more about Home Assistant"
+					}
+				},
+				"config": {
+					"arsaboo": {
+						"names": {
+							"upstairs": "Upstairs",
+							"family_room": "Family Room",
+							"kitchen": "Kitchen",
+							"patio": "Patio",
+							"hallway": "Hallway",
+							"master_bedroom": "Master Bedroom",
+							"left": "Left",
+							"right": "Right",
+							"mirror": "Mirror",
+							"temperature_study": "Temperature Study"
+						},
+						"labels": {
+							"lights": "Lights",
+							"information": "Information",
+							"morning_commute": "Morning Commute",
+							"commute_home": "Commute to Home",
+							"entertainment": "Entertainment",
+							"activity": "Activity",
+							"hdmi_input": "HDMI Input",
+							"hdmi_switcher": "HDMIスイッチ",
+							"volume": "Volume",
+							"total_tv_time": "Total TV Time",
+							"turn_tv_off": "Turn Television off",
+							"air": "Air"
+						},
+						"unit": {
+							"watching": "watching",
+							"minutes_abbr": "min"
+						}
+					}
+				}
+			},
+			"developer-tools": {
+				"tabs": {
+					"info": {
+						"title": "Info",
+						"remove": "Remove",
+						"set": "Set",
+						"default_ui": "{action} {name} as default page on this device",
+						"lovelace_ui": "Go to the Lovelace UI",
+						"states_ui": "Go to the states UI",
+						"home_assistant_logo": "Home Assistant logo",
+						"path_configuration": "Path to configuration.yaml: {path}",
+						"developed_by": "Developed by a bunch of awesome people.",
+						"license": "Published under the Apache 2.0 license",
+						"source": "Source:",
+						"server": "server",
+						"frontend": "frontend-ui",
+						"built_using": "Built using",
+						"icons_by": "Icons by",
+						"frontend_version": "Frontend version: {version} - {type}",
+						"custom_uis": "Custom UIs:",
+						"system_health_error": "System Health component is not loaded. Add 'system_health:' to configuration.yaml"
+					},
+					"logs": {
+						"title": "Logs",
+						"details": "Log Details ({level})",
+						"load_full_log": "Load Full Home Assistant Log",
+						"loading_log": "Loading error log…",
+						"no_errors": "No errors have been reported.",
+						"no_issues": "There are no new issues!",
+						"clear": "Clear",
+						"refresh": "Refresh",
+						"multiple_messages": "message first occurred at {time} and shows up {counter} times"
+					},
+					"events": {
+						"title": "イベント",
+						"description": "Fire an event on the event bus.",
+						"documentation": "Events Documentation.",
+						"type": "Event Type",
+						"data": "Event Data (YAML, optional)",
+						"fire_event": "Fire Event",
+						"event_fired": "Event {name} fired",
+						"available_events": "Available Events",
+						"count_listeners": " ({count}  listeners)",
+						"listen_to_events": "Listen to events",
+						"listening_to": "Listening to",
+						"subscribe_to": "Event to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"alert_event_type": "Event type is a mandatory field",
+						"notification_event_fired": "Event {type} successful fired!"
+					},
+					"mqtt": {
+						"title": "MQTT",
+						"description_publish": "Publish a packet",
+						"topic": "topic",
+						"payload": "Payload (template allowed)",
+						"publish": "Publish",
+						"description_listen": "Listen to a topic",
+						"listening_to": "Listening to",
+						"subscribe_to": "Topic to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"message_received": "Message {id} received on {topic} at {time}:"
+					},
+					"services": {
+						"title": "サービス",
+						"description": "The service dev tool allows you to call any available service in Home Assistant.",
+						"data": "Service Data (YAML, optional)",
+						"call_service": "Call Service",
+						"select_service": "Select a service to see the description",
+						"no_description": "No description is available",
+						"no_parameters": "This service takes no parameters.",
+						"column_parameter": "Parameter",
+						"column_description": "Description",
+						"column_example": "Example",
+						"fill_example_data": "Fill Example Data",
+						"alert_parsing_yaml": "Error parsing YAML: {data}"
+					},
+					"states": {
+						"title": "States",
+						"description1": "Set the representation of a device within Home Assistant.",
+						"description2": "This will not communicate with the actual device.",
+						"entity": "Entity",
+						"state": "State",
+						"attributes": "Attributes",
+						"state_attributes": "State attributes (YAML, optional)",
+						"set_state": "Set State",
+						"current_entities": "Current entities",
+						"filter_entities": "Filter entities",
+						"filter_states": "Filter states",
+						"filter_attributes": "Filter attributes",
+						"no_entities": "No entities",
+						"more_info": "More Info",
+						"alert_entity_field": "Entity is a mandatory field"
+					},
+					"templates": {
+						"title": "テンプレート",
+						"description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+						"editor": "Template editor",
+						"jinja_documentation": "Jinja2 template documentation",
+						"template_extensions": "Home Assistant template extensions",
+						"unknown_error_template": "Unknown error rendering template"
+					}
+				}
+			},
+			"page-onboarding": {
+				"intro": "Are you ready to awaken your home, reclaim your privacy and join a worldwide community of tinkerers?",
+				"user": {
+					"intro": "Let's get started by creating a user account.",
+					"required_field": "Required",
+					"data": {
+						"name": "Name",
+						"username": "Username",
+						"password": "Password",
+						"password_confirm": "Confirm Password"
+					},
+					"create_account": "Create Account",
+					"error": {
+						"required_fields": "Fill in all required fields",
+						"password_not_match": "Passwords don't match"
+					}
+				},
+				"core-config": {
+					"intro": "Hello {name}, welcome to Home Assistant. How would you like to name your home?",
+					"intro_location": "どこに住んでいるか知りたいです。 この情報は、他の情報の表示および太陽の位置に関する自動化の設定に役立ちます。 これらの情報がインターネットで外部と共有されることがありません。",
+					"intro_location_detect": "We can help you fill in this information by making a one-time request to an external service.",
+					"location_name_default": "Home",
+					"button_detect": "Detect",
+					"finish": "Next"
+				},
+				"integration": {
+					"intro": "Devices and services are represented in Home Assistant as integrations. You can set them up now, or do it later from the configuration screen.",
+					"more_integrations": "More",
+					"finish": "Finish"
+				}
+			},
+			"custom": {
+				"external_panel": {
+					"question_trust": "Do you trust the external panel {name} at {link}?",
+					"complete_access": "Home Assistant のすべてのデータにアクセスできます。",
+					"hide_message": "このメッセージを非表示にするには、ドキュメントから panel_custom コンポーネントを確認してください"
+				}
+			}
+		}
+	},
+	"attribute": {
+		"weather": {
+			"humidity": "湿度",
+			"wind_speed": "風速"
+		}
+	}
+}

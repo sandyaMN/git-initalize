@@ -1,0 +1,2155 @@
+{
+	"domain": {
+		"alarm_control_panel": "Panel rheoli larwm",
+		"automation": "Awtomeiddio",
+		"binary_sensor": "Synhwyrydd deuaidd",
+		"calendar": "Calendr",
+		"camera": "Camera",
+		"climate": "Hinsawdd",
+		"configurator": "Ffurfweddwr",
+		"conversation": "Sgwrs",
+		"cover": "Clawr",
+		"device_tracker": "Traciwr dyfais",
+		"fan": "Ffan",
+		"group": "Grŵp",
+		"hassio": "Hass.io",
+		"history_graph": "Hanes graff",
+		"homeassistant": "Home Assistant",
+		"image_processing": "Prosesu delwedd",
+		"input_boolean": "Mewnbynnu boolean",
+		"input_datetime": "Mewnbynnu dyddiad/amser",
+		"input_number": "Mewnbynnu rhif",
+		"input_select": "Mewnbynnu dewis",
+		"input_text": "Mewnbynnu testun",
+		"light": "Golau",
+		"lock": "Clo",
+		"lovelace": "Lovelace",
+		"mailbox": "Blwch post",
+		"media_player": "Chwaraewr cyfryngau",
+		"notify": "Hysbysu",
+		"person": "Person",
+		"plant": "Planhigion",
+		"proximity": "Agosrwydd",
+		"remote": "Symudol",
+		"scene": "Golygfa",
+		"script": "Sgript",
+		"sensor": "Synhwyrydd",
+		"sun": "Haul",
+		"switch": "Newid",
+		"system_health": "Iechyd System",
+		"updater": "Diweddarwr",
+		"vacuum": "Vacuum",
+		"weblink": "Cyswllt gwe",
+		"zha": "ZHA",
+		"zwave": "Z-Wave"
+	},
+	"panel": {
+		"calendar": "Calendar",
+		"config": "Ffurfweddu",
+		"states": "Trosolwg",
+		"map": "Map",
+		"logbook": "Llyfr llogi",
+		"history": "Hanes",
+		"mailbox": "Blwch post",
+		"shopping_list": "Rhestr siopa",
+		"developer_tools": "Offer datblygwr",
+		"profile": "Profile",
+		"dev-info": "Gwybodaeth"
+	},
+	"state": {
+		"default": {
+			"off": "i ffwrdd",
+			"on": "Ar",
+			"unknown": "Anhysbys",
+			"unavailable": "Ddim ar gael"
+		},
+		"alarm_control_panel": {
+			"armed": "Arfogi",
+			"disarmed": "Diarfogi",
+			"armed_home": "Arfogi gartref",
+			"armed_away": "Arfog i ffwrdd",
+			"armed_night": "Arfog nos",
+			"armed_custom_bypass": "Ffordd osgoi larwm personol",
+			"pending": "Yn yr arfaeth",
+			"arming": "Arfogi",
+			"disarming": "Ddiarfogi",
+			"triggered": "Sbarduno"
+		},
+		"automation": {
+			"off": "i ffwrdd",
+			"on": "Ar"
+		},
+		"binary_sensor": {
+			"default": {
+				"off": "i ffwrdd",
+				"on": "Ar"
+			},
+			"battery": {
+				"off": "Arferol",
+				"on": "Isel"
+			},
+			"cold": {
+				"off": "Arferol",
+				"on": "Oer"
+			},
+			"connectivity": {
+				"off": "Wedi datgysylltu",
+				"on": "Cysylltiedig"
+			},
+			"door": {
+				"off": "Cau",
+				"on": "Agor"
+			},
+			"garage_door": {
+				"off": "Cau",
+				"on": "Agor"
+			},
+			"gas": {
+				"off": "Clir",
+				"on": "Wedi'i ganfod"
+			},
+			"heat": {
+				"off": "Arferol",
+				"on": "Poeth"
+			},
+			"lock": {
+				"off": "Cloi",
+				"on": "Dad-gloi"
+			},
+			"moisture": {
+				"off": "Sych",
+				"on": "Gwlyb"
+			},
+			"motion": {
+				"off": "Clir",
+				"on": "Wedi'i ganfod"
+			},
+			"occupancy": {
+				"off": "Clir",
+				"on": "Wedi'i ganfod"
+			},
+			"opening": {
+				"off": "Cau",
+				"on": "Agor"
+			},
+			"presence": {
+				"off": "Allan",
+				"on": "Gartref"
+			},
+			"problem": {
+				"off": "iawn",
+				"on": "Problem"
+			},
+			"safety": {
+				"off": "Diogel",
+				"on": "Anniogel"
+			},
+			"smoke": {
+				"off": "Clir",
+				"on": "Wedi'i ganfod"
+			},
+			"sound": {
+				"off": "Clir",
+				"on": "Wedi'i ganfod"
+			},
+			"vibration": {
+				"off": "Clir",
+				"on": "Wedi'i ganfod"
+			},
+			"window": {
+				"off": "Cau",
+				"on": "Agored"
+			}
+		},
+		"calendar": {
+			"off": "i ffwrdd",
+			"on": "Ar"
+		},
+		"camera": {
+			"recording": "Recordio",
+			"streaming": "Ffrydio",
+			"idle": "Segur"
+		},
+		"climate": {
+			"off": "i ffwrdd",
+			"heat": "Gwres",
+			"cool": "Sefydlog",
+			"heat_cool": "Heat/Cool",
+			"auto": "Awto",
+			"dry": "Sych",
+			"fan_only": "Fan yn unig",
+			"eco": "Eco",
+			"electric": "Trydan",
+			"gas": "Nwy",
+			"heat_pump": "Pwmp gwres",
+			"high_demand": "Galw uchel",
+			"idle": "Segur",
+			"manual": "Llawlyfr",
+			"on": "Ar",
+			"performance": "Perfformiad"
+		},
+		"configurator": {
+			"configure": "Ffurfweddu",
+			"configured": "Wedi'i ffurfweddu"
+		},
+		"cover": {
+			"open": "Agor",
+			"opening": "Yn agor",
+			"closed": "Ar gau",
+			"closing": "Cau",
+			"stopped": "Stopio"
+		},
+		"device_tracker": {
+			"home": "Gartref",
+			"not_home": "Diim gartref"
+		},
+		"fan": {
+			"off": "i ffwrdd",
+			"on": "Ar"
+		},
+		"group": {
+			"off": "i ffwrdd",
+			"on": "Ar",
+			"home": "Gartref",
+			"not_home": "Dim gartref",
+			"open": "Agored",
+			"opening": "Agor",
+			"closed": "Wedi cau",
+			"closing": "Yn cau",
+			"stopped": "Stopio",
+			"locked": " Cloi",
+			"unlocked": "Dadgloi",
+			"ok": "Iawn",
+			"problem": "Problem"
+		},
+		"input_boolean": {
+			"off": "i ffwrdd",
+			"on": "Ar"
+		},
+		"light": {
+			"off": "i ffwrdd",
+			"on": "Ar"
+		},
+		"lock": {
+			"locked": "Wedi cloi",
+			"unlocked": "Datgloi"
+		},
+		"media_player": {
+			"off": "i ffwrdd",
+			"on": "Ar",
+			"playing": "Chwarae",
+			"paused": "Wedi rhewi",
+			"idle": "Segur",
+			"standby": "Gorffwys"
+		},
+		"person": {
+			"home": "Gartref",
+			"not_home": "I ffwrdd"
+		},
+		"plant": {
+			"ok": "Iawn",
+			"problem": "Problem"
+		},
+		"remote": {
+			"off": "i ffwrdd",
+			"on": "Ar"
+		},
+		"scene": {
+			"scening": "Sefyllfa"
+		},
+		"script": {
+			"off": "i ffwrdd",
+			"on": "Ar"
+		},
+		"sensor": {
+			"off": "i ffwrdd",
+			"on": "Ar"
+		},
+		"sun": {
+			"above_horizon": "Dros y gorwel",
+			"below_horizon": "Islaw'r gorwel"
+		},
+		"switch": {
+			"off": "i ffwrdd",
+			"on": "Ar"
+		},
+		"timer": {
+			"active": "gweithredol",
+			"idle": "segur",
+			"paused": "wedi rhewi"
+		},
+		"vacuum": {
+			"cleaning": "Cleaning",
+			"docked": "Docked",
+			"error": "Error",
+			"idle": "Idle",
+			"off": "Off",
+			"on": "On",
+			"paused": "Paused",
+			"returning": "Returning to dock"
+		},
+		"weather": {
+			"clear-night": "Clir, nos",
+			"cloudy": "Cymylog",
+			"exceptional": "Exceptional",
+			"fog": "Niwl",
+			"hail": "Cenllysg",
+			"lightning": "Mellt",
+			"lightning-rainy": "Mellt, glawog",
+			"partlycloudy": "Cymharol gymylog",
+			"pouring": "Arllwys",
+			"rainy": "Glawog",
+			"snowy": "Eira",
+			"snowy-rainy": "Eira, gwlyb",
+			"sunny": "Heulog",
+			"windy": "Gwyntog",
+			"windy-variant": "Gwyntog"
+		},
+		"zwave": {
+			"default": {
+				"initializing": "Ymgychwyn",
+				"dead": "Marw",
+				"sleeping": "Cysgu",
+				"ready": "Barod"
+			},
+			"query_stage": {
+				"initializing": "Ymgychwyn ( {query_stage} )",
+				"dead": "Marw ({query_stage})"
+			}
+		}
+	},
+	"state_attributes": {
+		"climate": {
+			"fan_mode": {
+				"off": "Off",
+				"on": "Ar",
+				"auto": "Awto"
+			},
+			"preset_mode": {
+				"none": "Dim",
+				"eco": "Eco",
+				"away": "I ffwrdd",
+				"boost": "Cynydd",
+				"comfort": "Cyfforddus",
+				"home": "Cartref",
+				"sleep": "Cysgu",
+				"activity": "Gweithgaredd"
+			},
+			"hvac_action": {
+				"off": "Off",
+				"heating": "Heating",
+				"cooling": "Cooling",
+				"drying": "Drying",
+				"idle": "Idle",
+				"fan": "Fan"
+			}
+		}
+	},
+	"state_badge": {
+		"default": {
+			"unknown": "?",
+			"unavailable": "off",
+			"error": "Gwall",
+			"entity_not_found": "Heb ganfod endid"
+		},
+		"alarm_control_panel": {
+			"armed": "Arfogi",
+			"disarmed": "Diarfogi",
+			"armed_home": "Arfogi",
+			"armed_away": "Arfogi",
+			"armed_night": "Arfogi",
+			"armed_custom_bypass": "Arfogi",
+			"pending": "Disgwyl",
+			"arming": "Arfogi",
+			"disarming": "Diarfogi",
+			"triggered": "Sbarduno"
+		},
+		"device_tracker": {
+			"home": "Adra",
+			"not_home": "Diim gartref"
+		},
+		"person": {
+			"home": "Gartref",
+			"not_home": "I ffwrdd"
+		}
+	},
+	"groups": {
+		"system-admin": "Gweinyddwyr",
+		"system-users": "Defnyddwyr",
+		"system-read-only": "Defnyddwyr Darllen yn Unig"
+	},
+	"config_entry": {
+		"disabled_by": {
+			"user": "User",
+			"integration": "Integration",
+			"config_entry": "Config Entry"
+		}
+	},
+	"ui": {
+		"auth_store": {
+			"ask": "Do you want to save this login?",
+			"decline": "No thanks",
+			"confirm": "Save login"
+		},
+		"card": {
+			"alarm_control_panel": {
+				"code": "Code",
+				"clear_code": "Clear",
+				"disarm": "Disarm",
+				"arm_home": "Arm home",
+				"arm_away": "Arm away",
+				"arm_night": "Larwm nos",
+				"arm_custom_bypass": "Ffordd osgoi personol",
+				"armed_custom_bypass": "Ffordd osgoi personol"
+			},
+			"automation": {
+				"last_triggered": "Last triggered",
+				"trigger": "Trigger"
+			},
+			"camera": {
+				"not_available": "Delwedd ddim ar gael"
+			},
+			"climate": {
+				"currently": "Currently",
+				"on_off": "On / off",
+				"target_temperature": "Target temperature",
+				"target_temperature_entity": "{name} target temperature",
+				"target_temperature_mode": "{name} target temperature {mode}",
+				"current_temperature": "{name} current temperature",
+				"heating": "{name} heating",
+				"cooling": "{name} cooling",
+				"high": "high",
+				"low": "low",
+				"target_humidity": "Target humidity",
+				"operation": "Operation",
+				"fan_mode": "Fan mode",
+				"swing_mode": "Swing mode",
+				"preset_mode": "Rhagosodiad",
+				"away_mode": "Away mode",
+				"aux_heat": "Aux heat"
+			},
+			"counter": {
+				"actions": {
+					"increment": "increment",
+					"decrement": "decrement",
+					"reset": "reset"
+				}
+			},
+			"cover": {
+				"position": "Position",
+				"tilt_position": "Tilt position"
+			},
+			"fan": {
+				"speed": "Speed",
+				"oscillate": "Oscillate",
+				"direction": "Direction",
+				"forward": "Forward",
+				"reverse": "Reverse"
+			},
+			"light": {
+				"brightness": "Brightness",
+				"color_temperature": "Color temperature",
+				"white_value": "White value",
+				"effect": "Effect"
+			},
+			"lock": {
+				"code": "Code",
+				"lock": "Lock",
+				"unlock": "Unlock"
+			},
+			"media_player": {
+				"source": "Source",
+				"sound_mode": "Sound mode",
+				"text_to_speak": "Text to speak"
+			},
+			"persistent_notification": {
+				"dismiss": "Anwybyddu"
+			},
+			"scene": {
+				"activate": "Actifadu"
+			},
+			"script": {
+				"execute": "Gweithredu"
+			},
+			"timer": {
+				"actions": {
+					"start": "start",
+					"pause": "pause",
+					"cancel": "cancel",
+					"finish": "finish"
+				}
+			},
+			"vacuum": {
+				"actions": {
+					"resume_cleaning": "Resume cleaning",
+					"return_to_base": "Return to dock",
+					"start_cleaning": "Start cleaning",
+					"turn_on": "Turn on",
+					"turn_off": "Turn off"
+				}
+			},
+			"water_heater": {
+				"currently": "Ar hyn o bryd",
+				"on_off": "Ar / i ffwrdd",
+				"target_temperature": "Tymheredd targed",
+				"operation": "Gweithredu",
+				"away_mode": "Dull i ffwrdd"
+			},
+			"weather": {
+				"attributes": {
+					"air_pressure": "Pwysedd aer",
+					"humidity": "Lleithder",
+					"temperature": "Tymheredd",
+					"visibility": "Gwelededd",
+					"wind_speed": "Cyflymder gwynt"
+				},
+				"cardinal_direction": {
+					"e": "D",
+					"ene": "DGDd",
+					"ese": "DDDd",
+					"n": "G",
+					"ne": "GDd",
+					"nne": "GGDd",
+					"nw": "GO",
+					"nnw": "GGO",
+					"s": "D",
+					"se": "DDd",
+					"sse": "DDDd",
+					"ssw": "DDO",
+					"sw": "DO",
+					"w": "G",
+					"wnw": "GGO",
+					"wsw": "GDO"
+				},
+				"forecast": "Rhagolwg"
+			}
+		},
+		"common": {
+			"loading": "Llwytho",
+			"cancel": "Canslo",
+			"save": "Arbed",
+			"yes": "Yes",
+			"no": "No",
+			"successfully_saved": "Successfully saved"
+		},
+		"components": {
+			"entity": {
+				"entity-picker": {
+					"entity": "Endid",
+					"clear": "Clear",
+					"show_entities": "Show entities"
+				}
+			},
+			"device-picker": {
+				"clear": "Clear",
+				"show_devices": "Show devices",
+				"device": "Device"
+			},
+			"relative_time": {
+				"past": "{time} ago",
+				"future": "In {time}",
+				"never": "Never",
+				"duration": {
+					"second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+					"minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+					"hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+					"day": "{count} {count, plural,\n  one {day}\n  other {days}\n}",
+					"week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+				}
+			},
+			"history_charts": {
+				"loading_history": "Loading state history...",
+				"no_history_found": "No state history found."
+			},
+			"service-picker": {
+				"service": "Gwasanaeth"
+			}
+		},
+		"dialogs": {
+			"voice_command": {
+				"did_not_hear": "Home Assistant did not hear anything",
+				"found": "I found the following for you:",
+				"error": "Oops, an error has occurred",
+				"how_can_i_help": "How can I help?",
+				"label": "Teipiwch gwestiwn a gwasgwch 'Enter'",
+				"label_voice": "Teipiwch a pwyswch 'Enter' neu tapiwch y meicroffon i siarad"
+			},
+			"confirmation": {
+				"cancel": "Cancel",
+				"ok": "OK",
+				"title": "Are you sure?"
+			},
+			"more_info_control": {
+				"script": {
+					"last_action": "Gweithrediad diwethaf"
+				},
+				"sun": {
+					"elevation": "Uchder",
+					"rising": "Cynyddu",
+					"setting": "Gosod"
+				},
+				"updater": {
+					"title": "Diweddaru Cyfarwyddiadau"
+				}
+			},
+			"more_info_settings": {
+				"save": "Save",
+				"name": "Gwrthwneud Enw",
+				"entity_id": "Entity ID"
+			},
+			"options_flow": {
+				"form": {
+					"header": "Options"
+				},
+				"success": {
+					"description": "Options successfully saved."
+				}
+			},
+			"config_entry_system_options": {
+				"title": "System Options for {integration}",
+				"enable_new_entities_label": "Enable newly added entities.",
+				"enable_new_entities_description": "If disabled, newly discovered entities for {integration} will not be automatically added to Home Assistant."
+			},
+			"zha_device_info": {
+				"manuf": "by {manufacturer}",
+				"no_area": "No Area",
+				"buttons": {
+					"add": "Add Devices",
+					"remove": "Remove Device",
+					"reconfigure": "Reconfigure Device"
+				},
+				"services": {
+					"reconfigure": "Reconfigure ZHA device (heal device). Use this if you are having issues with the device. If the device in question is a battery powered device please ensure it is awake and accepting commands when you use this service.",
+					"updateDeviceName": "Set a custom name for this device in the device registry.",
+					"remove": "Remove a device from the Zigbee network."
+				},
+				"quirk": "Quirk",
+				"last_seen": "Last Seen",
+				"power_source": "Power Source",
+				"unknown": "Unknown",
+				"zha_device_card": {
+					"device_name_placeholder": "User given name",
+					"area_picker_label": "Area",
+					"update_name_button": "Update Name"
+				}
+			},
+			"domain_toggler": {
+				"title": "Toggle Domains"
+			}
+		},
+		"duration": {
+			"second": "Eiliad",
+			"minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+			"hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+			"day": "{count} {count, plural,\n  one {day}\n  other {days}\n}",
+			"week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+		},
+		"login-form": {
+			"password": "Cyfrinair",
+			"remember": "Cofiwch",
+			"log_in": "Mewngofnodi"
+		},
+		"notification_drawer": {
+			"click_to_configure": "Click button to configure {entity}",
+			"empty": "No Notifications",
+			"title": "Notifications"
+		},
+		"notification_toast": {
+			"service_call_failed": "Failed to call service {service}.",
+			"connection_lost": "Connection lost. Reconnecting…",
+			"triggered": "Triggered {name}"
+		},
+		"sidebar": {
+			"external_app_configuration": "Ffurfweddu App",
+			"sidebar_toggle": "Sidebar Toggle",
+			"log_out": "Allgofnodi"
+		},
+		"panel": {
+			"config": {
+				"header": "Ffurfweddu Home Assistant",
+				"introduction": "Yma mae'n bosib ffurfweddu'ch cydrannau ac Home Assistant. Nid yw popeth yn bosib i'w ffurfweddu o'r UI eto, ond rydym yn gweithio arno.",
+				"common": {
+					"editor": {
+						"confirm_unsaved": "You have unsaved changes. Are you sure you want to leave?"
+					}
+				},
+				"area_registry": {
+					"caption": "Gofrestrfa ardal",
+					"description": "Trosolwg o bob ardal yn eich cartref.",
+					"picker": {
+						"header": "Gofrestrfa ardal",
+						"introduction": "Defnyddir ardaloedd i drefnu lle mae dyfeisiau. Defnyddir y wybodaeth hon drwy gydol Home Assistant i helpu chi i drefnu eich rhyngwyneb, caniatadau ac integreiddio â systemau eraill.",
+						"introduction2": "I osod dyfeisiau mewn ardal, defnyddiwch y ddolen isod i fynd i'r dudalen integreiddio ac yna cliciwch ar integreiddiau wedi'i ffurfweddu i gyrraedd y cardiau dyfais.",
+						"integrations_page": "Tudalen rhyngwynebu",
+						"no_areas": "Edrych fel nad oes gennych ardaloedd eto!",
+						"create_area": "CREU ARDAL"
+					},
+					"editor": {
+						"default_name": "Ardal Newydd",
+						"delete": "DILEU",
+						"update": "DIWEDDARIAD",
+						"create": "CREU"
+					},
+					"create_area": "CREU ARDAL",
+					"no_areas": "Edrych fel nad oes gennych ardaloedd eto!"
+				},
+				"core": {
+					"caption": "Cyffredinol",
+					"description": "Dilyswch eich ffeil ffurfweddu a rheoli'r gweinydd",
+					"section": {
+						"core": {
+							"header": "Rheoli ffurfweddu a gweinydd",
+							"introduction": "Gellir newid ffurfweddiad eich proses ddiflas. Rydym yn gwybod. Bydd yr adran hon yn ceisio gwneud eich bywyd ychydig yn haws.",
+							"core_config": {
+								"edit_requires_storage": "Golygydd wedi'i analluogi oherwydd bod ffurfwedd wedi'i storio mewn 'configuration.yaml'.",
+								"location_name": "Enw eich gosodiad Home Assistant",
+								"latitude": "Lledred",
+								"longitude": "Hydred",
+								"elevation": "Uchder",
+								"elevation_meters": "metrau",
+								"time_zone": "Parth Amser",
+								"unit_system": "System Uned",
+								"unit_system_imperial": "Imperial",
+								"unit_system_metric": "Metrig",
+								"imperial_example": "Fahrenheit, pwys",
+								"metric_example": "Celsius, cilogramau",
+								"save_button": "Arbed"
+							}
+						},
+						"server_control": {
+							"reloading": {
+								"automation": "Ail-lwytho awtomeiddiau",
+								"core": "Ail-lwytho craidd",
+								"group": "Ail-lwytho grwpiau",
+								"heading": "Ail-lwytho ffurfweddu",
+								"introduction": "Gall rhai rhannau o Home Assistant ail-lwytho heb orfod ailgychwyn. Bydd taro ail-lwytho yn dadlwytho eu cyfluniad cyfredol a llwytho'r un newydd.",
+								"script": "Ail-lwytho sgriptiau"
+							},
+							"server_management": {
+								"heading": "Rheoli gweinydd",
+								"introduction": "Rheoli gweinydd eich Home Assistant ... o Home Assistant",
+								"restart": "Ailgychwyn",
+								"stop": "Stopio"
+							},
+							"validation": {
+								"check_config": "Gwiriwch ffurfweddu",
+								"heading": "Dilysu ffurfweddu",
+								"introduction": "Dilyswch eich ffurfweddiad os gwnaethoch rai newidiadau yn ddiweddar i'ch cyfluniad ac rydych eisiau gwneud yn siŵr ei fod yn hollol ddilys",
+								"invalid": "Ffurfweddiad annilys",
+								"valid": "Ffurfweddiad dilys!"
+							}
+						}
+					}
+				},
+				"server_control": {
+					"caption": "Server Controls",
+					"description": "Restart and stop the Home Assistant server",
+					"section": {
+						"validation": {
+							"heading": "Configuration validation",
+							"introduction": "Dilyswch eich ffurfweddiad os gwnaethoch rai newidiadau ffurfweddu yn ddiweddar ac rydych eisiau gwneud yn siŵr fod o'n ddilys",
+							"check_config": "Gwirio config",
+							"valid": "Ffurfweddiad dilys!",
+							"invalid": "Ffurfweddiad annilys"
+						},
+						"reloading": {
+							"heading": "Ffurfweddiad yn ail-lwytho",
+							"introduction": "Gall rhai rhannau o Home Assistant ail-lwytho heb orfod ailgychwyn. Bydd taro ail-lwytho yn dadlwytho eu cyfluniad cyfredol a llwytho'r un newydd.",
+							"core": "Ail-lwytho craidd",
+							"group": "Ail-lwytho grwpiau",
+							"automation": "Ail-lwytho awtomeiddiadau",
+							"script": "Ail-lwytho sgriptiau",
+							"scene": "Reload scenes"
+						},
+						"server_management": {
+							"heading": "Rheoli gweinydd",
+							"introduction": "Rheoli eich gweinydd Home Assistant.. o Home Assistant.",
+							"restart": "Ailgychwyn",
+							"confirm_restart": "Are you sure you want to restart Home Assistant?",
+							"stop": "Stopio",
+							"confirm_stop": "Are you sure you want to stop Home Assistant?"
+						}
+					}
+				},
+				"customize": {
+					"caption": "Addasu",
+					"description": "Addasu eich endidau",
+					"picker": {
+						"header": "Addasu",
+						"introduction": "Addasu nodweddion yr endid. Bydd ychwanegu/golygu osodiadau bersonol i rym ar unwaith. Bydd addasiadau sydd wedi tynnu yn dod i rym pan fydd yr endid yn cael ei ddiweddaru."
+					},
+					"warning": {
+						"include_sentence": "It seems that your configuration.yaml doesn't properly",
+						"include_link": "include customize.yaml",
+						"not_applied": "Changes made here are written in it, but will not be applied after a configuration reload unless the include is in place."
+					},
+					"attributes_customize": "The following attributes are already set in customize.yaml",
+					"attributes_outside": "The following attributes are customized from outside of customize.yaml",
+					"different_include": "Possibly via a domain, a glob or a different include.",
+					"attributes_set": "The following attributes of the entity are set programmatically.",
+					"attributes_override": "You can override them if you like.",
+					"attributes_not_set": "The following attributes weren't set. Set them if you like.",
+					"pick_attribute": "Pick an attribute to override"
+				},
+				"automation": {
+					"caption": "Awtomeiddio",
+					"description": "Creu a golygu awtomeiddio",
+					"picker": {
+						"header": "Golygydd awtomeiddio",
+						"introduction": "Mae'r olygydd awtomeiddio yn caniatáu ichi greu a golygu awtomeiddiau. Darllenwch [y cyfarwyddiadau] (https://home-assistant.io/docs/automation/editor/) i sicrhau bod chi wedi ffurfweddu'r Home Assistant yn gywir.",
+						"learn_more": "Dysgu mwy am awtomeiddio",
+						"pick_automation": "Dewiswch awtomeiddiad i olygu",
+						"no_automations": "Doeddem ddim yn gallu darganfod unrhyw awtomeiddiau",
+						"add_automation": "Ychwanegu awtomeiddiad",
+						"only_editable": "Only automations defined in automations.yaml are editable.",
+						"edit_automation": "Edit automation",
+						"show_info_automation": "Show info about automation",
+						"delete_automation": "Delete automation",
+						"delete_confirm": "Are you sure you want to delete this automation?"
+					},
+					"editor": {
+						"introduction": "Defnyddiwch awtomeiddio i ddod â'ch cartref yn fyw",
+						"default_name": "Awtomeiddiad Newydd",
+						"load_error_not_editable": "Dim ond awtomiadau yn 'automations. yaml' y gellir golygu.",
+						"load_error_unknown": "Gwall wrth lwytho awtomeiddad ( {err_no} ).",
+						"save": "Arbed",
+						"unsaved_confirm": "Mae gennych newidiadau heb eu cadw. Ydych chi'n siŵr bod chi eisiau gadael?",
+						"alias": "Enw",
+						"description": {
+							"label": "Description",
+							"placeholder": "Optional description"
+						},
+						"triggers": {
+							"name": "Trigger",
+							"header": "Sbardunau",
+							"introduction": "Sbarduno yw'r hyn sy'n dechrau proses rheol awtomeiddio.  Mae'n bosib dewis nifer o sbardunau i'run rheol. Unwaith mae sbardun yn cychwyn, bydd Home Assistant yn dilysu'r amodau, os o gwbl, a galw'r gweithred. \n\n[dysgwch mwy am sbardunau.] (https://home-assistant.io/docs/automation/trigger/)",
+							"learn_more": "Dysgu mwy am sbardunau",
+							"add": "Ychwanegu sbardun",
+							"duplicate": "Dyblyg",
+							"delete": "Dileu",
+							"delete_confirm": "Sicr bod chi eisiau dileu?",
+							"unsupported_platform": "Llwyfan heb gymorth: {platform}",
+							"type_select": "Math sbardun",
+							"type": {
+								"device": {
+									"label": "Device",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"event": {
+									"label": "Digwyddiad",
+									"event_type": "Math o ddigwyddiad",
+									"event_data": "Data Digwyddiad"
+								},
+								"geo_location": {
+									"label": "Lleoliad deaddyrol",
+									"source": "Ffynhonnell",
+									"zone": "Parth",
+									"event": "Digwyddiad:",
+									"enter": "Mewn",
+									"leave": "Gadael"
+								},
+								"state": {
+									"label": "Stad",
+									"from": "O",
+									"for": "For",
+									"to": "I"
+								},
+								"homeassistant": {
+									"label": "Home Assistant",
+									"event": "Digwyddiad:",
+									"start": "Dechrau",
+									"shutdown": "Darfod"
+								},
+								"mqtt": {
+									"label": "MQTT",
+									"topic": "Pwnc",
+									"payload": "Prif-lwyth (dewisol)"
+								},
+								"numeric_state": {
+									"label": "Cyflwr rhifol",
+									"above": "Uwch",
+									"below": "Llai",
+									"value_template": "Templed Gwerth (dewisol)"
+								},
+								"sun": {
+									"label": "Haul",
+									"event": "Digwyddiad",
+									"sunrise": "Haul yn codi",
+									"sunset": "Machlud",
+									"offset": "Gwrthbwyso (dewisol)"
+								},
+								"template": {
+									"label": "Templed",
+									"value_template": "Templed gwerth"
+								},
+								"time": {
+									"label": "Amser",
+									"at": "Ar"
+								},
+								"time_pattern": {
+									"label": "Patrwm Amser",
+									"hours": "Oriau",
+									"minutes": "Munudau",
+									"seconds": "Eiliadau"
+								},
+								"webhook": {
+									"label": "Gwefachiad",
+									"webhook_id": "Enw Gwefachiad"
+								},
+								"zone": {
+									"label": "Parth",
+									"entity": "Endid gyda lleoliad",
+									"zone": "Parth",
+									"event": "Digwyddiad",
+									"enter": "Mewn",
+									"leave": "Gadael"
+								}
+							}
+						},
+						"conditions": {
+							"name": "Condition",
+							"header": "Amodau",
+							"introduction": "Mae'r amodau'n rhan ddewisol o reol awtomeiddio, a gellir eu defnyddio i atal camau rhag digwydd pan fyddant yn cael eu sbarduno. Mae'r amodau'n edrych yn debyg iawn i sbardunau ond maent yn wahanol iawn. Bydd sbardun yn edrych ar ddigwyddiadau sy'n digwydd yn y system tra bod amod yn edrych ar sut mae'r system yn edrych ar hyn o bryd. Gall sbarduno arsylwi bod switsh yn cael ei droi ymlaen. Dim ond os yw switsh ar neu i ffwrdd ar hyn o bryd y gall cyflwr weld. \n\n [Dysgwch fwy am amodau.] (Https://home-assistant.io/docs/scripts/conditions/)",
+							"learn_more": "Dysgu mwy am amodau",
+							"add": "Ychwanegu amodau",
+							"duplicate": "Dyblygu",
+							"delete": "Dileu",
+							"delete_confirm": "Siwr bod chi eisiau dileu?",
+							"unsupported_condition": "Cyflwr heb gymorth: {condition}",
+							"type_select": "Math o gyflwr",
+							"type": {
+								"and": {
+									"label": "And"
+								},
+								"device": {
+									"label": "Device",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"numeric_state": {
+									"label": "Stad rhifol",
+									"above": "Uwch",
+									"below": "Llai",
+									"value_template": "Templed gwerth (opsiynol)"
+								},
+								"or": {
+									"label": "Or"
+								},
+								"state": {
+									"label": "Cyflwr",
+									"state": "Cyflwr"
+								},
+								"sun": {
+									"label": "Haul",
+									"before": "Cyn:",
+									"after": "Ar ôl:",
+									"before_offset": "Cyn gwrthbwyso (dewisol)",
+									"after_offset": "Ar ôl gwrthbwyso (dewisol)",
+									"sunrise": "Gwawrio",
+									"sunset": "Machlud"
+								},
+								"template": {
+									"label": "Templed",
+									"value_template": "Templed gwerth"
+								},
+								"time": {
+									"label": "Amser",
+									"after": "Ar ôl",
+									"before": "Cyn"
+								},
+								"zone": {
+									"label": "Ardal",
+									"entity": "Endid gyda lleoliad",
+									"zone": "Ardal"
+								}
+							}
+						},
+						"actions": {
+							"name": "Action",
+							"header": "Camau gweithredu",
+							"introduction": "Y camau gweithredu yw'r hyn mae Home Assistant yn gwneud pan mae'r awtomeiddio yn cael ei sbarduno\n\n[Dysgwch mwy am weithred.](https://home-assistant.io/docs/automation/action/)",
+							"learn_more": "Dysgu mwy am gamau gweithredu",
+							"add": "Ychwanegu camau",
+							"duplicate": "Dyblygu",
+							"delete": "Dileu",
+							"delete_confirm": "Ydych yn siŵr bod chi eisiau dileu?",
+							"unsupported_action": "Gweithredu heb gefnogaeth: {action}",
+							"type_select": "Math weithrediad",
+							"type": {
+								"service": {
+									"label": "Gwasanaeth galw",
+									"service_data": "Data gwasanaeth"
+								},
+								"delay": {
+									"label": "Oedi",
+									"delay": "Oedi"
+								},
+								"wait_template": {
+									"label": "Aros",
+									"wait_template": "Templed Aros",
+									"timeout": "Terfyn amser (dewisol)"
+								},
+								"condition": {
+									"label": "Cyflwr"
+								},
+								"event": {
+									"label": "Digwyddiad tân",
+									"event": "Digwyddiad",
+									"service_data": "Data gwasanaeth"
+								},
+								"device_id": {
+									"label": "Device",
+									"extra_fields": {
+										"code": "Code"
+									}
+								},
+								"scene": {
+									"label": "Activate scene"
+								}
+							}
+						}
+					}
+				},
+				"script": {
+					"caption": "Sgript",
+					"description": "Creu a golygu sgriptiau",
+					"picker": {
+						"header": "Script Editor",
+						"introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scripts",
+						"no_scripts": "We couldn’t find any editable scripts",
+						"add_script": "Add script",
+						"trigger_script": "Trigger script",
+						"edit_script": "Edit script"
+					},
+					"editor": {
+						"introduction": "Use scripts to execute a sequence of actions.",
+						"header": "Script: {name}",
+						"default_name": "New Script",
+						"load_error_not_editable": "Only scripts inside scripts.yaml are editable.",
+						"delete_confirm": "Are you sure you want to delete this script?",
+						"delete_script": "Delete script",
+						"sequence": "Sequence",
+						"sequence_sentence": "The sequence of actions of this script.",
+						"link_available_actions": "Learn more about available actions."
+					}
+				},
+				"scene": {
+					"caption": "Scenes",
+					"description": "Create and edit scenes",
+					"activated": "Activated scene {name}.",
+					"picker": {
+						"header": "Scene Editor",
+						"introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scenes",
+						"pick_scene": "Pick scene to edit",
+						"no_scenes": "We couldn’t find any editable scenes",
+						"add_scene": "Add scene",
+						"only_editable": "Only scenes defined in scenes.yaml are editable.",
+						"edit_scene": "Edit scene",
+						"show_info_scene": "Show info about scene",
+						"delete_scene": "Delete scene",
+						"delete_confirm": "Are you sure you want to delete this scene?"
+					},
+					"editor": {
+						"introduction": "Use scenes to bring your home alive.",
+						"default_name": "New Scene",
+						"load_error_not_editable": "Only scenes in scenes.yaml are editable.",
+						"load_error_unknown": "Error loading scene ({err_no}).",
+						"save": "Save",
+						"unsaved_confirm": "You have unsaved changes. Are you sure you want to leave?",
+						"name": "Name",
+						"devices": {
+							"header": "Devices",
+							"introduction": "Add the devices that you want to be included in your scene. Set all the devices to the state you want for this scene.",
+							"add": "Add a device",
+							"delete": "Delete device"
+						},
+						"entities": {
+							"header": "Entities",
+							"introduction": "Entities that do not belong to a devices can be set here.",
+							"without_device": "Entities without device",
+							"device_entities": "If you add an entity that belongs to a device, the device will be added.",
+							"add": "Add an entity",
+							"delete": "Delete entity"
+						}
+					}
+				},
+				"cloud": {
+					"caption": "Home Assistant Cloud",
+					"description_login": "Wedi mewngofnodi fel {email}",
+					"description_not_login": "Heb fewngofnodi",
+					"description_features": "Rheolaeth oddi cartref, integreiddio gyda Alexa a Google Assistant.",
+					"login": {
+						"title": "Cloud Login",
+						"introduction": "Home Assistant Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+						"introduction2": "This service is run by our partner ",
+						"introduction2a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"introduction3": "Home Assistant Cloud is a subscription service with a free one month trial. No payment information necessary.",
+						"learn_more_link": "Learn more about Home Assistant Cloud",
+						"dismiss": "Dismiss",
+						"sign_in": "Sign in",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"forgot_password": "forgot password?",
+						"start_trial": "Start your free 1 month trial",
+						"trial_info": "No payment information necessary",
+						"alert_password_change_required": "You need to change your password before logging in.",
+						"alert_email_confirm_necessary": "You need to confirm your email before logging in."
+					},
+					"forgot_password": {
+						"title": "Forgot password",
+						"subtitle": "Forgot your password",
+						"instructions": "Enter your email address and we will send you a link to reset your password.",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"send_reset_email": "Send reset email",
+						"check_your_email": "Check your email for instructions on how to reset your password."
+					},
+					"register": {
+						"title": "Register Account",
+						"headline": "Start your free trial",
+						"information": "Create an account to start your free one month trial with Home Assistant Cloud. No payment information necessary.",
+						"information2": "The trial will give you access to all the benefits of Home Assistant Cloud, including:",
+						"feature_remote_control": "Control of Home Assistant away from home",
+						"feature_google_home": "Integration with Google Assistant",
+						"feature_amazon_alexa": "Integration with Amazon Alexa",
+						"feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
+						"information3": "This service is run by our partner ",
+						"information3a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"information4": "By registering an account you agree to the following terms and conditions.",
+						"link_terms_conditions": "Terms and Conditions",
+						"link_privacy_policy": "Privacy Policy",
+						"create_account": "Create Account",
+						"email_address": "Email address",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"start_trial": "Start Trial",
+						"resend_confirm_email": "Resend confirmation email",
+						"account_created": "Account created! Check your email for instructions on how to activate your account."
+					},
+					"account": {
+						"thank_you_note": "Thank you for being part of Home Assistant Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
+						"nabu_casa_account": "Nabu Casa Account",
+						"connection_status": "Cloud connection status",
+						"manage_account": "Manage Account",
+						"sign_out": "Sign out",
+						"integrations": "Integrations",
+						"integrations_introduction": "Integrations for Home Assistant Cloud allow you to connect with services in the cloud without having to expose your Home Assistant instance publicly on the internet.",
+						"integrations_introduction2": "Check the website for ",
+						"integrations_link_all_features": " all available features",
+						"connected": "Connected",
+						"not_connected": "Not Connected",
+						"fetching_subscription": "Fetching subscription…",
+						"remote": {
+							"title": "Remote Control",
+							"access_is_being_prepared": "Remote access is being prepared. We will notify you when it's ready.",
+							"info": "Home Assistant Cloud provides a secure remote connection to your instance while away from home.",
+							"instance_is_available": "Your instance is available at",
+							"instance_will_be_available": "Your instance will be available at",
+							"link_learn_how_it_works": "Learn how it works",
+							"certificate_info": "Certificate Info"
+						},
+						"alexa": {
+							"title": "Alexa",
+							"info": "With the Alexa integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Alexa-enabled device.",
+							"enable_ha_skill": "Enable the Home Assistant skill for Alexa",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+							"sync_entities": "Sync Entities",
+							"manage_entities": "Manage Entities",
+							"sync_entities_error": "Failed to sync entities:",
+							"state_reporting_error": "Unable to {enable_disable} report state.",
+							"enable": "enable",
+							"disable": "disable"
+						},
+						"google": {
+							"title": "Google Assistant",
+							"info": "With the Google Assistant integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Google Assistant-enabled device.",
+							"enable_ha_skill": "Activate the Home Assistant skill for Google Assistant",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Google. This allows you to always see the latest states in the Google app.",
+							"security_devices": "Security Devices",
+							"enter_pin_info": "Please enter a pin to interact with security devices. Security devices are doors, garage doors and locks. You will be asked to say/enter this pin when interacting with such devices via Google Assistant.",
+							"devices_pin": "Security Devices Pin",
+							"enter_pin_hint": "Enter a PIN to use security devices",
+							"sync_entities": "Sync Entities to Google",
+							"manage_entities": "Manage Entities",
+							"enter_pin_error": "Unable to store pin:"
+						},
+						"webhooks": {
+							"title": "Webhooks",
+							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to Home Assistant from anywhere, without exposing your instance to the internet.",
+							"no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
+							"no_hooks_yet_link_integration": "webhook-based integration",
+							"no_hooks_yet2": " or by creating a ",
+							"no_hooks_yet_link_automation": "webhook automation",
+							"link_learn_more": "Learn more about creating webhook-powered automations.",
+							"loading": "Loading ...",
+							"manage": "Manage",
+							"disable_hook_error_msg": "Failed to disable webhook:"
+						}
+					},
+					"alexa": {
+						"title": "Alexa",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"expose": "Expose to Alexa"
+					},
+					"dialog_certificate": {
+						"certificate_information": "Certificate Information",
+						"certificate_expiration_date": "Certificate expiration date",
+						"will_be_auto_renewed": "Will be automatically renewed",
+						"fingerprint": "Certificate fingerprint:",
+						"close": "Close"
+					},
+					"google": {
+						"title": "Google Assistant",
+						"expose": "Expose to Google Assistant",
+						"disable_2FA": "Disable two factor authentication",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"sync_to_google": "Synchronizing changes to Google."
+					},
+					"dialog_cloudhook": {
+						"webhook_for": "Webhook for {name}",
+						"available_at": "The webhook is available at the following url:",
+						"managed_by_integration": "This webhook is managed by an integration and cannot be disabled.",
+						"info_disable_webhook": "If you no longer want to use this webhook, you can",
+						"link_disable_webhook": "disable it",
+						"view_documentation": "View documentation",
+						"close": "Close",
+						"confirm_disable": "Are you sure you want to disable this webhook?",
+						"copied_to_clipboard": "Copied to clipboard"
+					}
+				},
+				"devices": {
+					"caption": "Devices",
+					"description": "Manage connected devices",
+					"unnamed_device": "Unnamed device",
+					"unknown_error": "Unknown error",
+					"area_picker_label": "Area",
+					"automation": {
+						"triggers": {
+							"caption": "Do something when..."
+						},
+						"conditions": {
+							"caption": "Only do something if..."
+						},
+						"actions": {
+							"caption": "When something is triggered..."
+						}
+					},
+					"device_not_found": "Device not found.",
+					"info": "Device info",
+					"details": "Here are all the details of your device.",
+					"entities": "Entities",
+					"automations": "Automations",
+					"confirm_rename_entity_ids": "Do you also want to rename the entity id's of your entities?",
+					"data_table": {
+						"device": "Device",
+						"manufacturer": "Manufacturer",
+						"model": "Model",
+						"area": "Area",
+						"integration": "Integration",
+						"battery": "Battery"
+					}
+				},
+				"entity_registry": {
+					"caption": "Gofrestrfa Endid",
+					"description": "Trosolwg o holl endidau hysbys.",
+					"picker": {
+						"header": "Gofrestrfa Endid",
+						"introduction": "Mae Home Assistant yn cadw gofrestrfa pob endid a welodd erioed ble gellir eu nodi yn unigryw. Bydd pob un endid wedi neilltuo efo endid adnabod sy'n cael eu cadw ar gyfer yr endid hwnnw.",
+						"introduction2": "Defnyddiwch y gofrestrfa endid i ddiystyru yr enw, newid ID endid neu gael gwared y cofnod Home Assistant. Noder, ni fydd dileu'r cofnod cofrestrfa endid yn dileu yr endid. I wneud hynny, dilynwch y ddolen isod a thynnu oddi ar y dudalen integreiddio.",
+						"integrations_page": "Tudalen rhyngwynebu",
+						"show_disabled": "Show disabled entities",
+						"headers": {
+							"name": "Name",
+							"entity_id": "Entity ID",
+							"integration": "Integration",
+							"enabled": "Enabled"
+						},
+						"unavailable": "(ddim ar gael)"
+					},
+					"editor": {
+						"unavailable": "Endid yma ddim ar gael ar hyn o bryd.",
+						"default_name": "Ardal Newydd",
+						"enabled_label": "Enable entity",
+						"enabled_cause": "Disabled by {cause}.",
+						"enabled_description": "Disabled entities will not be added to Home Assistant.",
+						"delete": "DILEU",
+						"confirm_delete": "Are you sure you want to delete this entry?",
+						"confirm_delete2": "Deleting an entry will not remove the entity from Home Assistant. To do this, you will need to remove the integration '{platform}' from Home Assistant.",
+						"update": "DIWEDDARIAD",
+						"note": "Note: this might not work yet with all integrations."
+					}
+				},
+				"person": {
+					"caption": "Pobl",
+					"description": "Rheoli'r pobl mae Home Assistant yn tracio.",
+					"introduction": "Here you can define each person of interest in Home Assistant.",
+					"note_about_persons_configured_in_yaml": "Note: persons configured via configuration.yaml cannot be edited via the UI.",
+					"no_persons_created_yet": "Looks like you have not created any persons yet.",
+					"create_person": "Create Person",
+					"add_person": "Add Person",
+					"confirm_delete": "Are you sure you want to delete this person?",
+					"confirm_delete2": "All devices belonging to this person will become unassigned.",
+					"detail": {
+						"new_person": "New Person",
+						"name": "Enw",
+						"name_error_msg": "Name is required",
+						"linked_user": "Linked User",
+						"device_tracker_intro": "Dewiswch y dyfeisiau sy'n perthyn i'r person hwn.",
+						"no_device_tracker_available_intro": "When you have devices that indicate the presence of a person, you will be able to assign them to a person here. You can add your first device by adding a presence-detection integration from the integrations page.",
+						"link_presence_detection_integrations": "Presence Detection Integrations",
+						"link_integrations_page": "Integrations page",
+						"device_tracker_picked": "Tracio Dyfeis",
+						"device_tracker_pick": "Dewiswch dyfeis i'w dracio",
+						"delete": "Delete",
+						"create": "Create",
+						"update": "Update"
+					}
+				},
+				"integrations": {
+					"caption": "Integreiddiadau",
+					"description": "Rheoli dyfeisiau a gwasanaethau cysylltiedig",
+					"discovered": "Darganfuwyd",
+					"configured": "Wedi'i ffurfweddu",
+					"new": "Sefydlu integreiddiad newydd",
+					"note_about_integrations": "Not all integrations can be configured via the UI yet.",
+					"note_about_website_reference": "More are available on the ",
+					"home_assistant_website": "Home Assistant website",
+					"configure": "Ffurfweddu",
+					"none": "Dim byd wedi'i ffurfweddu eto.",
+					"integration_not_found": "Integration not found.",
+					"config_entry": {
+						"settings_button": "Edit settings for {integration}",
+						"system_options_button": "System options for {integration}",
+						"delete_button": "Delete {integration}",
+						"no_devices": "Tydi'r integreiddad yma ddim efo dyfeisiadau.",
+						"no_device": "Endidau heb ddyfeisiau",
+						"delete_confirm": "A ydych yn siŵr bod chi eisiau dileu'r integreiddiad yma?",
+						"restart_confirm": "Ailgychwyn Home Assistant i ddarfod dileu'r integreiddiad hwn",
+						"manuf": "gan {manufacturer}",
+						"hub": "Cysylltiad drwy",
+						"firmware": "Cadarnwedd: {version}",
+						"device_unavailable": "Dyfais ddim ar gael",
+						"entity_unavailable": "endid ar gael",
+						"area": "In {area}",
+						"no_area": "Dim Ardal",
+						"via": "Cysylltiad drwy"
+					},
+					"config_flow": {
+						"aborted": "Aborted",
+						"close": "Close",
+						"finish": "Finish",
+						"submit": "Submit",
+						"not_all_required_fields": "Not all required fields are filled in.",
+						"add_area": "Add Area",
+						"area_picker_label": "Area",
+						"failed_create_area": "Failed to create area.",
+						"error_saving_area": "Error saving area: {error}",
+						"name_new_area": "Name of the new area?",
+						"created_config": "Created config for {name}.",
+						"external_step": {
+							"description": "Mae'r cam angen ichi ymweld â wefan allanol i'w lenwi.",
+							"open_site": "Gwefan agored"
+						}
+					}
+				},
+				"users": {
+					"caption": "Users",
+					"description": "Manage users",
+					"picker": {
+						"title": "Users",
+						"system_generated": "System generated"
+					},
+					"editor": {
+						"caption": "Gweld defnyddiwr",
+						"rename_user": "Rename user",
+						"change_password": "Change password",
+						"activate_user": "Activate user",
+						"deactivate_user": "Deactivate user",
+						"delete_user": "Delete user",
+						"id": "ID",
+						"owner": "Owner",
+						"group": "Group",
+						"active": "Active",
+						"system_generated": "System generated",
+						"system_generated_users_not_removable": "Unable to remove system generated users.",
+						"unnamed_user": "Unnamed User",
+						"enter_new_name": "Enter new name",
+						"user_rename_failed": "User rename failed:",
+						"group_update_failed": "Group update failed:",
+						"confirm_user_deletion": "Are you sure you want to delete {name}?"
+					},
+					"add_user": {
+						"caption": "Ychwanegu defnyddiwr",
+						"name": "Enw",
+						"username": "Enw Defnyddiwr",
+						"password": "Cyfrinair",
+						"create": "Creu"
+					}
+				},
+				"zha": {
+					"caption": "ZHA",
+					"description": "Rheoli rhwydwaith awtomatiaeth cartref Zigbee",
+					"common": {
+						"add_devices": "Add Devices",
+						"clusters": "Clusters",
+						"devices": "Devices",
+						"manufacturer_code_override": "Manufacturer Code Override",
+						"value": "Value"
+					},
+					"add_device_page": {
+						"header": "Awtomeiddiad Cartref Zigbee - Ychwanegwch Dyfeisiadau",
+						"spinner": "Chwilio am ddyfeisiau ZHA Zigbee ...",
+						"discovery_text": "Bydd dyfeisiau a ddarganfuwyd yn ymddangos yma. Dilynwch y cyfarwyddiadau ar gyfer eich dyfais / dyfaisiau a rhowch y ddyfais / dyfeisiau yn y modd paru.",
+						"search_again": "Search Again"
+					},
+					"network_management": {
+						"header": "Network Management",
+						"introduction": "Commands that affect the entire network"
+					},
+					"node_management": {
+						"header": "Device Management",
+						"introduction": "Run ZHA commands that affect a single device. Pick a device to see a list of available commands.",
+						"hint_battery_devices": "Note: Sleepy (battery powered) devices need to be awake when executing commands against them. You can generally wake a sleepy device by triggering it.",
+						"hint_wakeup": "Some devices such as Xiaomi sensors have a wake up button that you can press at ~5 second intervals that keep devices awake while you interact with them.",
+						"help_node_dropdown": "Dewiswch ddyfais i weld yr opsiynau fesul dyfais."
+					},
+					"clusters": {
+						"help_cluster_dropdown": "Dewiswch clwstwr i weld priodoleddau a gorchmynion."
+					},
+					"cluster_attributes": {
+						"header": "Priodoleddau clwstwr",
+						"introduction": "Gweld a golygu priodoleddau clwstwr.",
+						"attributes_of_cluster": "Priodoleddau'r clwstwr a ddewiswyd",
+						"get_zigbee_attribute": "Cael Priodoledd Zigbee",
+						"set_zigbee_attribute": "Gosod priodoledd Zigbee",
+						"help_attribute_dropdown": "Dewisiwch y priodoledd i weld neu osod ei werth",
+						"help_get_zigbee_attribute": "Cael y gwerth ar gyfer y priodoledd a ddewiswyd.",
+						"help_set_zigbee_attribute": "Gosod gwerth priodwedd ar gyfer y clwstwr penodedig ar yr endid penodedig."
+					},
+					"cluster_commands": {
+						"header": "Gorchmynion clwstwr",
+						"introduction": "Gweld a chyhoeddi gorchmynion clwstwr.",
+						"commands_of_cluster": "Gorchmynion y clwstwr a ddewiswyd",
+						"issue_zigbee_command": "Cyhoeddi Gorchymyn Zigbee",
+						"help_command_dropdown": "Dewiswch orchymyn i ryngweithio ag ef."
+					},
+					"device_card": {
+						"area_picker_label": "Ardal",
+						"device_name_placeholder": "Enw a roddwyd gan y defnyddiwr",
+						"update_name_button": "Diweddaru Enw"
+					},
+					"services": {
+						"reconfigure": "Ad-drefnu ddyfais ZHA (gwella dyfais). Defnyddiwch hwn os ydych yn cael problemau gyda'r ddyfais. Os ydi'r ddyfais dan sylw wedi pweru á batri, plis gwnewch yn siwr bod o'n ddeffro a derbyn gorchmynion pan fyddwch yn defnyddio gwasanaeth hwn.",
+						"remove": "Tynnwch ddyfais o'r rhwydwaith Zigbee.",
+						"updateDeviceName": "Gosod enw personol ar gyfer y ddyfais hon yn y gofrestrfa ddyfais."
+					}
+				},
+				"zwave": {
+					"caption": "Z-Wave",
+					"description": "Rheoli eich rhwydwaith Z-Wave",
+					"learn_more": "Dysgu mwy am Z-Wave",
+					"common": {
+						"value": "Value",
+						"instance": "Instance",
+						"index": "Index",
+						"unknown": "unknown",
+						"wakeup_interval": "Wakeup Interval"
+					},
+					"network_management": {
+						"header": "Z-Wave Network Management",
+						"introduction": "Run commands that affect the Z-Wave network. You won't get feedback on whether most commands succeeded, but you can check the OZW Log to try to find out."
+					},
+					"ozw_log": {
+						"header": "OZW Log",
+						"introduction": "Gweld y log. 0 yn y lleiaf (llwyth cyfan log) a 1000 yn yr uchafswm. Llwyth yn dangos sefydlog o log ac yn y gynffon, bydd yn diweddariad automatig gyda nifer penodol diwethaf o linellau o log."
+					},
+					"network_status": {
+						"network_stopped": "Z-Wave Network Stopped",
+						"network_starting": "Starting Z-Wave Network...",
+						"network_starting_note": "This may take a while depending on the size of your network.",
+						"network_started": "Z-Wave Network Started",
+						"network_started_note_some_queried": "Awake nodes have been queried. Sleeping nodes will be queried when they wake.",
+						"network_started_note_all_queried": "All nodes have been queried."
+					},
+					"node_config": {
+						"header": "Node Config Options",
+						"seconds": "seconds",
+						"set_wakeup": "Set Wakeup Interval",
+						"config_parameter": "Config Parameter",
+						"config_value": "Config Value",
+						"true": "True",
+						"false": "False",
+						"set_config_parameter": "Gosod Paramedr Ffurfweddu"
+					},
+					"values": {
+						"header": "Node Values"
+					},
+					"services": {
+						"start_network": "Start Network",
+						"stop_network": "Stop Network",
+						"heal_network": "Heal Network",
+						"test_network": "Test Network",
+						"soft_reset": "Soft Reset",
+						"save_config": "Save Config",
+						"add_node_secure": "Add Node Secure",
+						"add_node": "Add Node",
+						"remove_node": "Remove Node",
+						"cancel_command": "Cancel Command"
+					}
+				}
+			},
+			"history": {
+				"showing_entries": "Dangos cofnodion ar gyfer",
+				"period": "Cyfnod"
+			},
+			"logbook": {
+				"showing_entries": "Dangos endidau i",
+				"period": "Cyfnod",
+				"entries_not_found": "No logbook entries found."
+			},
+			"lovelace": {
+				"cards": {
+					"confirm_delete": "Are you sure you want to delete this card?",
+					"empty_state": {
+						"title": "Croeso Gartref",
+						"no_devices": "Mae'r dudalen hon yn eich galluogi i reoli'ch dyfeisiau, ond mae'n edrych fel nad oes gennych ddyfeisiau wedi eu sefydlu eto. Ewch i'r dudalen integreiddio i ddechrau.",
+						"go_to_integrations_page": "Ewch i'r dudalen integreiddio."
+					},
+					"shopping-list": {
+						"checked_items": "Eitemau wedi ticio",
+						"clear_items": "Clirio eitemau wedi ticio",
+						"add_item": "Ychwanegu eitem"
+					},
+					"picture-elements": {
+						"hold": "Disgwyl",
+						"tap": "Tarwch:",
+						"navigate_to": "Ewch i {location}",
+						"url": "Open window to {url_path}",
+						"toggle": "Toglo {name}",
+						"call_service": "Galw gwasanaeth {name}",
+						"more_info": "Dangos mwy o wybodaeth: {name}"
+					}
+				},
+				"unused_entities": {
+					"title": "Unused entities",
+					"available_entities": "These are the entities that you have available, but are not in your Lovelace UI yet.",
+					"select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+					"entity": "Endid",
+					"entity_id": "ID Endid",
+					"domain": "Parth",
+					"last_changed": "Newid Diwethaf"
+				},
+				"views": {
+					"confirm_delete": "Are you sure you want to delete this view?",
+					"existing_cards": "You can't delete a view that has cards in it. Remove the cards first."
+				},
+				"menu": {
+					"configure_ui": "Ffurfweddu rhyngwyneb defnyddiwr",
+					"help": "Help",
+					"refresh": "Adnewyddu",
+					"close": "Cau",
+					"unused_entities": "Endidau heb ei ddefnyddio"
+				},
+				"editor": {
+					"header": "Golygu rhyngwyneb defnyddiwr",
+					"menu": {
+						"open": "Open Lovelace menu",
+						"raw_editor": "Golygydd ffurfweddu craidd"
+					},
+					"raw_editor": {
+						"header": "Golygu ffurfweddu",
+						"save": "Arbed",
+						"unsaved_changes": "Newidiadau heb eu cadw",
+						"saved": "Arbed",
+						"confirm_unsaved_changes": "Mae gennych newidiadau heb eu cadw. Ydych chi'n siŵr bod chi eisiau gadael?",
+						"confirm_unsaved_comments": "Mae eich cyfluniad yn cynnwys sylwadau (au), ni fydd y rhain yn cael eu cadw. Ydych chi eisio parhau?",
+						"error_parse_yaml": "Methu gramadegu YAML: {Error}",
+						"error_invalid_config": "Dydy eich cyfluniad ddim yn ddilys: {Error}",
+						"error_save_yaml": "Methu arbed YAML: {error}"
+					},
+					"edit_lovelace": {
+						"header": "Title of your Lovelace UI",
+						"explanation": "This title is shown above all your views in Lovelace.",
+						"edit_title": "Golygu teitl"
+					},
+					"edit_view": {
+						"header": "Gweld Ffurfweddiad",
+						"header_name": "{name} View Configuration",
+						"add": "Ychwanegu golwg",
+						"edit": "Golygu golwg",
+						"delete": "Delete golwg",
+						"move_left": "Symud y wedd i'r chwith",
+						"move_right": "Symud y wedd i'r dde"
+					},
+					"edit_card": {
+						"header": "Ffurfweddu Cerdyn",
+						"pick_card": "Dewiswch y cerdyn rydych eisiau ychwanegu",
+						"pick_card_view_title": "Which card would you like to add to your {name} view?",
+						"toggle_editor": "Toglo Golygydd",
+						"show_visual_editor": "Dangos Golygydd Gweledol",
+						"show_code_editor": "Dangos Golygydd Cod",
+						"add": "Ychwanegu Cerdyn",
+						"edit": "Golygu",
+						"delete": "Dileu",
+						"move": "Symud",
+						"options": "More options",
+						"save": "Arbed"
+					},
+					"save_config": {
+						"header": "Cymerwch reolaeth ar eich rhyngwyneb defnyddiwr Lovelace",
+						"para": "Gwneith Home Assistant gynnal eich rhyngwyneb defnyddiwr yn ddiofyn, a'i diweddaru pan fydd endidau neu gydrannau Lovelace newydd yn dod ar gael. Os ydych yn cymryd rheolaeth nawn ddim gwneud newidiadau awtomatig pellach i chi.",
+						"para_sure": "A ydych yn siŵr bod chi eisiau rheoli eich rhyngwyneb defnyddiwr?",
+						"cancel": "Dim ots",
+						"save": "Cymerwch reolaeth"
+					},
+					"migrate": {
+						"header": "Ffurfweddiad anghydnaws",
+						"para_no_id": "Tydi'r elfen yma ddim efo ID. Plís ychwanegwch ID i'r elfen yma yn 'ui-lovelace.yaml'.",
+						"para_migrate": "Gall Home Assistant ychwanegu IDs i bob un o'ch cardiau ac edrychiadau yn awtomatig i chi wrth bwyso'r botwm 'Mudo ffurfweddiad'.",
+						"migrate": "Mudo ffurfweddiad"
+					},
+					"card": {
+						"alarm-panel": {
+							"name": "Panel Larwm",
+							"available_states": "Cyflerau posib"
+						},
+						"conditional": {
+							"name": "Amodol"
+						},
+						"config": {
+							"required": "Required",
+							"optional": "Optional"
+						},
+						"entities": {
+							"name": "Endidau",
+							"show_header_toggle": "Show Header Toggle?",
+							"toggle": "Toggle entities."
+						},
+						"entity-button": {
+							"name": "Botwm Endid"
+						},
+						"entity-filter": {
+							"name": "Hidlo Endid"
+						},
+						"gauge": {
+							"name": "Medrydd",
+							"severity": {
+								"define": "Define Severity?",
+								"green": "Green",
+								"red": "Red",
+								"yellow": "Yellow"
+							}
+						},
+						"glance": {
+							"name": "Cipolwg",
+							"columns": "Columns"
+						},
+						"history-graph": {
+							"name": "Graff Hanes"
+						},
+						"horizontal-stack": {
+							"name": "Stac Fertigol"
+						},
+						"iframe": {
+							"name": "iFrame"
+						},
+						"light": {
+							"name": "Golau"
+						},
+						"generic": {
+							"aspect_ratio": "Aspect Ratio",
+							"camera_image": "Camera Entity",
+							"camera_view": "Camera View",
+							"entities": "Entities",
+							"entity": "Entity",
+							"hold_action": "Hold Action",
+							"hours_to_show": "Hours to Show",
+							"icon": "Icon",
+							"icon_height": "Icon Height",
+							"image": "Image Path",
+							"maximum": "Maximum",
+							"minimum": "Minimum",
+							"name": "Name",
+							"refresh_interval": "Refresh Interval",
+							"show_icon": "Show Icon?",
+							"show_name": "Show Name?",
+							"show_state": "Show State?",
+							"tap_action": "Tap Action",
+							"title": "Title",
+							"theme": "Theme",
+							"unit": "Unit",
+							"url": "Url"
+						},
+						"map": {
+							"name": "Map",
+							"geo_location_sources": "Geolocation Sources",
+							"dark_mode": "Dark Mode?",
+							"default_zoom": "Default Zoom",
+							"source": "Source"
+						},
+						"markdown": {
+							"name": "Marclawr",
+							"content": "Content"
+						},
+						"media-control": {
+							"name": "Rheoli cyfryngau"
+						},
+						"picture": {
+							"name": "Llun"
+						},
+						"picture-elements": {
+							"name": "Elfennau'r Llun"
+						},
+						"picture-entity": {
+							"name": "Endid Llun"
+						},
+						"picture-glance": {
+							"name": "Cipolwg ar lun"
+						},
+						"plant-status": {
+							"name": "Statws planhigyn"
+						},
+						"sensor": {
+							"name": "Synhwyrydd",
+							"graph_detail": "Graph Detail",
+							"graph_type": "Graph Type"
+						},
+						"shopping-list": {
+							"name": "Rhestr siopa"
+						},
+						"thermostat": {
+							"name": "Thermostat"
+						},
+						"vertical-stack": {
+							"name": "Stac Fertigol"
+						},
+						"weather-forecast": {
+							"name": "Rhagolwg tywydd"
+						}
+					},
+					"view": {
+						"panel_mode": {
+							"title": "Panel Mode?",
+							"description": "This renders the first card at full width; other cards in this view will not be rendered."
+						}
+					}
+				},
+				"warning": {
+					"entity_not_found": "Endid ddim ar gael: {entity}",
+					"entity_non_numeric": "Endid di-rhifol: {entity}"
+				},
+				"changed_toast": {
+					"message": "Diweddarwyd ffurfwedd Lovelace, hoffech adnewyddu?",
+					"refresh": "Adnewyddu"
+				},
+				"reload_lovelace": "Ail-lwytho Lovelace"
+			},
+			"mailbox": {
+				"empty": "Nid oes gennych negeseuon",
+				"playback_title": "Chwarae neges",
+				"delete_prompt": "Dileu'r neges hon?",
+				"delete_button": "Dileu"
+			},
+			"profile": {
+				"current_user": "You are currently logged in as {fullName}.",
+				"is_owner": "You are an owner.",
+				"logout": "Log out",
+				"force_narrow": {
+					"header": "Always hide the sidebar",
+					"description": "This will hide the sidebar by default, similar to the mobile experience."
+				},
+				"vibrate": {
+					"header": "Vibrate",
+					"description": "Enable or disable vibration on this device when controlling devices."
+				},
+				"push_notifications": {
+					"header": "Push Notifications",
+					"description": "Send notifications to this device.",
+					"error_load_platform": "Configure notify.html5.",
+					"error_use_https": "Requires SSL enabled for frontend.",
+					"push_notifications": "Push notifications",
+					"link_promo": "Learn more"
+				},
+				"language": {
+					"header": "Language",
+					"link_promo": "Help translating",
+					"dropdown_label": "Language"
+				},
+				"themes": {
+					"header": "Theme",
+					"error_no_theme": "No themes available.",
+					"link_promo": "Learn about themes",
+					"dropdown_label": "Theme"
+				},
+				"change_password": {
+					"header": "Change Password",
+					"current_password": "Current Password",
+					"new_password": "New Password",
+					"confirm_new_password": "Confirm New Password",
+					"error_required": "Required",
+					"submit": "Submit"
+				},
+				"mfa": {
+					"header": "Multi-factor Authentication Modules",
+					"disable": "Disable",
+					"enable": "Enable",
+					"confirm_disable": "Are you sure you want to disable {name}?"
+				},
+				"mfa_setup": {
+					"title_aborted": "Aborted",
+					"title_success": "Success!",
+					"step_done": "Setup done for {step}",
+					"close": "Close",
+					"submit": "Submit"
+				},
+				"advanced_mode": {
+					"title": "Modd Uwch",
+					"description": "Mae Home Assistant yn cuddio nodweddion uwch ac opsiynau yn ddiofyn. Gallwch wneud y nodweddion hyn yn hygyrch trwy ticio'r toggle hwn. Mae hwn yn leoliad penodol i ddefnyddwyr ac nid yw'n effeithio ar ddefnyddwyr eraill sy'n defnyddio Home Assistant.",
+					"hint_enable": "Opsiynau ffurfweddu ar goll? Galluogi modd uwch ymlaen",
+					"link_profile_page": "eich tudalen proffil"
+				},
+				"refresh_tokens": {
+					"header": "Refresh Tokens",
+					"description": "Each refresh token represents a login session. Refresh tokens will be automatically removed when you click log out. The following refresh tokens are currently active for your account.",
+					"token_title": "Refresh token for {clientId}",
+					"created_at": "Created at {date}",
+					"last_used": "Last used at {date} from {location}",
+					"not_used": "Has never been used",
+					"confirm_delete": "Are you sure you want to delete the refresh token for {name}?",
+					"delete_failed": "Failed to delete the refresh token.",
+					"current_token_tooltip": "Unable to delete current refresh token"
+				},
+				"long_lived_access_tokens": {
+					"header": "Long-Lived Access Tokens",
+					"description": "Create long-lived access tokens to allow your scripts to interact with your Home Assistant instance. Each token will be valid for 10 years from creation. The following long-lived access tokens are currently active.",
+					"learn_auth_requests": "Learn how to make authenticated requests.",
+					"created_at": "Created at {date}",
+					"last_used": "Last used at {date} from {location}",
+					"not_used": "Has never been used",
+					"confirm_delete": "Are you sure you want to delete the access token for {name}?",
+					"delete_failed": "Failed to delete the access token.",
+					"create": "Create Token",
+					"create_failed": "Failed to create the access token.",
+					"prompt_name": "Name?",
+					"prompt_copy_token": "Copy your access token. It will not be shown again.",
+					"empty_state": "You have no long-lived access tokens yet."
+				}
+			},
+			"shopping-list": {
+				"clear_completed": "Clir wedi'i gwblhau",
+				"add_item": "Ychwanegu eitem",
+				"microphone_tip": "Tarwch y meicroffon ar dde uchaf a dweud \"Add candy to my shopping list\""
+			},
+			"page-authorize": {
+				"initializing": "Initializing",
+				"authorizing_client": "You're about to give {clientId} access to your Home Assistant instance.",
+				"logging_in_with": "Logging in with **{authProviderName}**.",
+				"pick_auth_provider": "Or log in with",
+				"abort_intro": "Login aborted",
+				"form": {
+					"working": "Please wait",
+					"unknown_error": "Something went wrong",
+					"providers": {
+						"command_line": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Enw defnyddiwr",
+										"password": "Cyfrinair"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Cod dilysu dwy-ffactor"
+									},
+									"description": "Open the **{mfa_module_name}** on your device to view your two-factor authentication code and verify your identity:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Defnyddiwr neu cyfrinair annilys",
+								"invalid_code": "Dilysiad annilys "
+							},
+							"abort": {
+								"login_expired": "Sesiwn wedi dod i ben, plis mewngofnodwch eto"
+							}
+						},
+						"homeassistant": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Username",
+										"password": "Password"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Two-factor Authentication Code"
+									},
+									"description": "Open the **{mfa_module_name}** on your device to view your two-factor authentication code and verify your identity:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Invalid username or password",
+								"invalid_code": "Invalid authentication code"
+							},
+							"abort": {
+								"login_expired": "Session expired, please login again."
+							}
+						},
+						"legacy_api_password": {
+							"step": {
+								"init": {
+									"data": {
+										"password": "API Password"
+									},
+									"description": "Please input the API password in your http config:"
+								},
+								"mfa": {
+									"data": {
+										"code": "Two-factor Authentication Code"
+									},
+									"description": "Open the **{mfa_module_name}** on your device to view your two-factor authentication code and verify your identity:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Invalid API password",
+								"invalid_code": "Invalid authentication code"
+							},
+							"abort": {
+								"no_api_password_set": "You don't have an API password configured.",
+								"login_expired": "Session expired, please login again."
+							}
+						},
+						"trusted_networks": {
+							"step": {
+								"init": {
+									"data": {
+										"user": "User"
+									},
+									"description": "Please select a user you want to login as:"
+								}
+							},
+							"abort": {
+								"not_whitelisted": "Your computer is not whitelisted."
+							}
+						}
+					}
+				}
+			},
+			"page-demo": {
+				"cards": {
+					"demo": {
+						"demo_by": "gan {name}",
+						"next_demo": "Demo nesaf",
+						"introduction": "Croeso adre! Rydych wedi cyrraedd demo Home Assistant lle rydym yn arddangos y UIs gorau a grewyd gan ein cymuned.",
+						"learn_more": "Dysgwch fwy am Home Assistant"
+					}
+				},
+				"config": {
+					"arsaboo": {
+						"names": {
+							"upstairs": "I fyny'r grisiau",
+							"family_room": "Ystafell Teulu",
+							"kitchen": "Cegin",
+							"patio": "Patio",
+							"hallway": "Cyntedd",
+							"master_bedroom": "Prif Ystafell Wely",
+							"left": "Chwith",
+							"right": "Dde",
+							"mirror": "Drych",
+							"temperature_study": "Temperature Study"
+						},
+						"labels": {
+							"lights": "Goleuadau",
+							"information": "Gwybodaeth",
+							"morning_commute": "Cymudo bore",
+							"commute_home": "Cymudo i'r Cartref",
+							"entertainment": "Adloniant",
+							"activity": "Gweithgaredd",
+							"hdmi_input": "Mewnbwn HDMI",
+							"hdmi_switcher": "Newidydd HDMI",
+							"volume": "Uchder",
+							"total_tv_time": "Cyfanswm Amser Teledu",
+							"turn_tv_off": "Diffodd y teledu",
+							"air": "Aer"
+						},
+						"unit": {
+							"watching": "gwylio",
+							"minutes_abbr": "munud"
+						}
+					}
+				}
+			},
+			"developer-tools": {
+				"tabs": {
+					"info": {
+						"title": "Info",
+						"remove": "Remove",
+						"set": "Set",
+						"default_ui": "{action} {name} as default page on this device",
+						"lovelace_ui": "Go to the Lovelace UI",
+						"states_ui": "Go to the states UI",
+						"home_assistant_logo": "Home Assistant logo",
+						"path_configuration": "Path to configuration.yaml: {path}",
+						"developed_by": "Developed by a bunch of awesome people.",
+						"license": "Published under the Apache 2.0 license",
+						"source": "Source:",
+						"server": "server",
+						"frontend": "frontend-ui",
+						"built_using": "Built using",
+						"icons_by": "Icons by",
+						"frontend_version": "Frontend version: {version} - {type}",
+						"custom_uis": "Custom UIs:",
+						"system_health_error": "System Health component is not loaded. Add 'system_health:' to configuration.yaml"
+					},
+					"logs": {
+						"title": "Logs",
+						"details": "Log Details ({level})",
+						"load_full_log": "Load Full Home Assistant Log",
+						"loading_log": "Loading error log…",
+						"no_errors": "No errors have been reported.",
+						"no_issues": "There are no new issues!",
+						"clear": "Clear",
+						"refresh": "Refresh",
+						"multiple_messages": "message first occurred at {time} and shows up {counter} times"
+					},
+					"events": {
+						"title": "Digwyddiadau",
+						"description": "Fire an event on the event bus.",
+						"documentation": "Events Documentation.",
+						"type": "Event Type",
+						"data": "Event Data (YAML, optional)",
+						"fire_event": "Fire Event",
+						"event_fired": "Event {name} fired",
+						"available_events": "Available Events",
+						"count_listeners": " ({count}  listeners)",
+						"listen_to_events": "Listen to events",
+						"listening_to": "Listening to",
+						"subscribe_to": "Event to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"alert_event_type": "Event type is a mandatory field",
+						"notification_event_fired": "Event {type} successful fired!"
+					},
+					"mqtt": {
+						"title": "MQTT",
+						"description_publish": "Publish a packet",
+						"topic": "topic",
+						"payload": "Payload (template allowed)",
+						"publish": "Publish",
+						"description_listen": "Listen to a topic",
+						"listening_to": "Listening to",
+						"subscribe_to": "Topic to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"message_received": "Message {id} received on {topic} at {time}:"
+					},
+					"services": {
+						"title": "Gwasanaethau",
+						"description": "The service dev tool allows you to call any available service in Home Assistant.",
+						"data": "Service Data (YAML, optional)",
+						"call_service": "Call Service",
+						"select_service": "Select a service to see the description",
+						"no_description": "No description is available",
+						"no_parameters": "This service takes no parameters.",
+						"column_parameter": "Parameter",
+						"column_description": "Description",
+						"column_example": "Example",
+						"fill_example_data": "Fill Example Data",
+						"alert_parsing_yaml": "Error parsing YAML: {data}"
+					},
+					"states": {
+						"title": "Cyflerau",
+						"description1": "Set the representation of a device within Home Assistant.",
+						"description2": "This will not communicate with the actual device.",
+						"entity": "Entity",
+						"state": "State",
+						"attributes": "Attributes",
+						"state_attributes": "State attributes (YAML, optional)",
+						"set_state": "Set State",
+						"current_entities": "Current entities",
+						"filter_entities": "Filter entities",
+						"filter_states": "Filter states",
+						"filter_attributes": "Filter attributes",
+						"no_entities": "No entities",
+						"more_info": "More Info",
+						"alert_entity_field": "Entity is a mandatory field"
+					},
+					"templates": {
+						"title": "Templedi",
+						"description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+						"editor": "Template editor",
+						"jinja_documentation": "Jinja2 template documentation",
+						"template_extensions": "Home Assistant template extensions",
+						"unknown_error_template": "Unknown error rendering template"
+					}
+				}
+			},
+			"page-onboarding": {
+				"intro": "Are you ready to awaken your home, reclaim your privacy and join a worldwide community of tinkerers?",
+				"user": {
+					"intro": "Let's get started by creating a user account.",
+					"required_field": "Required",
+					"data": {
+						"name": "Name",
+						"username": "Username",
+						"password": "Password",
+						"password_confirm": "Cadarnhewch y Cyfrinair"
+					},
+					"create_account": "Create Account",
+					"error": {
+						"required_fields": "Fill in all required fields",
+						"password_not_match": "Cyfrineiriau ddim yn cyfateb"
+					}
+				},
+				"core-config": {
+					"intro": "Helo {name}, croeso i Home Assistant. Sut hoffech enwi eich tŷ?",
+					"intro_location": "Hoffem wybod ble rydych chi'n byw. Bydd y wybodaeth yn helpu i arddangos gwybodaeth a sefydlu awtomeiddiadau haul. Tydi'r data byth yn cael ei rannu thu allan i'ch rhwydwaith.",
+					"intro_location_detect": "Gallwn eich helpu i lenwi'r wybodaeth hon drwy wneud cais un-tro i wasanaeth allanol.",
+					"location_name_default": "Hafan",
+					"button_detect": "Canfod",
+					"finish": "Nesaf"
+				},
+				"integration": {
+					"intro": "Cynrychiolir dyfeisiau a gwasanaethau yn Home Assistant fel integreiddiadau. Gallwch eu gosod nawr, neu'n ddiweddarach o'r sgrin ffurfweddu.",
+					"more_integrations": "Mwy",
+					"finish": "Gorffen"
+				}
+			},
+			"custom": {
+				"external_panel": {
+					"question_trust": "Ydych chi'n ymddiried yn y panel allanol {name} yn {link} ?",
+					"complete_access": "Byddaf efo mynediad i holl ddata yn Home Assistant",
+					"hide_message": "Gwirio'r dogfennau ar gyfer y gydran panel_custom er mwyn cuddio'r neges hon"
+				}
+			}
+		}
+	},
+	"attribute": {
+		"weather": {
+			"humidity": "Lleithder",
+			"visibility": "Gwelededd",
+			"wind_speed": "Cyflymder gwynt"
+		}
+	}
+}

@@ -1,0 +1,2151 @@
+{
+	"domain": {
+		"alarm_control_panel": "کنترل پنل آلارم",
+		"automation": "اتوماسیون",
+		"binary_sensor": "حسگر باینری",
+		"calendar": "تقویم",
+		"camera": "دوربین",
+		"climate": "Climate",
+		"configurator": "تنظیم کننده",
+		"conversation": "گفتگو",
+		"cover": "پوشش",
+		"device_tracker": "Device tracker",
+		"fan": "فن",
+		"group": "گروه",
+		"hassio": "Hass.io",
+		"history_graph": "History graph",
+		"homeassistant": "Home Assistant",
+		"image_processing": "پردازش تصویر",
+		"input_boolean": "ورودی بولین",
+		"input_datetime": "Input datetime",
+		"input_number": "Input number",
+		"input_select": "Input select",
+		"input_text": "Input text",
+		"light": "چراغ",
+		"lock": "قفل",
+		"lovelace": "Lovelace",
+		"mailbox": "میل باکس",
+		"media_player": "Media player",
+		"notify": "Notify",
+		"person": "فرد",
+		"plant": "Plant",
+		"proximity": "Proximity",
+		"remote": "Remote",
+		"scene": "Scene",
+		"script": "Script",
+		"sensor": "سنسور",
+		"sun": "آفتاب",
+		"switch": "سوئیچ",
+		"system_health": "سلامت سیستم",
+		"updater": "Updater",
+		"vacuum": "خلاء",
+		"weblink": "لینک سایت",
+		"zha": "ZHA",
+		"zwave": "Z-Wave"
+	},
+	"panel": {
+		"calendar": "تقویم",
+		"config": "پیکربندی",
+		"states": "نمای کلی",
+		"map": "نقشه",
+		"logbook": "گزارش روزانه",
+		"history": "تاریخچه",
+		"mailbox": "صندوق پستی",
+		"shopping_list": "لیست خرید",
+		"developer_tools": "ابزارهای توسعه",
+		"profile": "Profile",
+		"dev-info": "اطلاعات"
+	},
+	"state": {
+		"default": {
+			"off": "خاموش",
+			"on": "روشن",
+			"unknown": "نامشخص",
+			"unavailable": "غیرقابل دسترس"
+		},
+		"alarm_control_panel": {
+			"armed": "مصلح شده",
+			"disarmed": "غیر مسلح",
+			"armed_home": "مسلح شده خانه",
+			"armed_away": "مسلح شده بیرون",
+			"armed_night": "مسلح شده شب",
+			"armed_custom_bypass": "بایگانی سفارشی مسلح",
+			"pending": "در انتظار",
+			"arming": "در حال مسلح کردن",
+			"disarming": "در حال غیر مسلح کردن",
+			"triggered": "راه انداخته شده"
+		},
+		"automation": {
+			"off": "خاموش",
+			"on": "فعال"
+		},
+		"binary_sensor": {
+			"default": {
+				"off": "خاموش",
+				"on": "روشن"
+			},
+			"battery": {
+				"off": "عادی",
+				"on": "کم"
+			},
+			"cold": {
+				"off": "عادی",
+				"on": "سرد"
+			},
+			"connectivity": {
+				"off": "Disconnected",
+				"on": "Connected"
+			},
+			"door": {
+				"off": "بسته",
+				"on": "باز"
+			},
+			"garage_door": {
+				"off": "بسته",
+				"on": "باز"
+			},
+			"gas": {
+				"off": "عادی",
+				"on": "شناسایی شد"
+			},
+			"heat": {
+				"off": "عادی",
+				"on": "داغ"
+			},
+			"lock": {
+				"off": "قفل",
+				"on": "باز"
+			},
+			"moisture": {
+				"off": "خشک",
+				"on": "مرطوب"
+			},
+			"motion": {
+				"off": "عادی",
+				"on": "شناسایی شد"
+			},
+			"occupancy": {
+				"off": "عادی",
+				"on": "شناسایی شد"
+			},
+			"opening": {
+				"off": "بسته شده",
+				"on": "باز"
+			},
+			"presence": {
+				"off": "بیرون",
+				"on": "خانه"
+			},
+			"problem": {
+				"off": "خوب",
+				"on": "مشکل"
+			},
+			"safety": {
+				"off": "امن",
+				"on": "نا امن"
+			},
+			"smoke": {
+				"off": "عادی",
+				"on": "شناسایی شد"
+			},
+			"sound": {
+				"off": "عادی",
+				"on": "شناسایی شد"
+			},
+			"vibration": {
+				"off": "پاک کردن",
+				"on": "شناسایی شد"
+			},
+			"window": {
+				"off": "بسته",
+				"on": "باز"
+			}
+		},
+		"calendar": {
+			"off": "غیرفعال",
+			"on": "فعال"
+		},
+		"camera": {
+			"recording": "در حال ضبط",
+			"streaming": "در حال پخش",
+			"idle": "بیکار"
+		},
+		"climate": {
+			"off": "خاموش",
+			"heat": "حرارت",
+			"cool": "خنک",
+			"heat_cool": "Heat/Cool",
+			"auto": "خودکار",
+			"dry": "خشک",
+			"fan_only": "فقط پنکه",
+			"eco": "سازگار با محیط زیست",
+			"electric": "الکتریکی",
+			"gas": "گاز",
+			"heat_pump": "پمپ حرارتی",
+			"high_demand": "تقاضای بالا",
+			"idle": "بیکار",
+			"manual": "کتابچه راهنمای",
+			"on": "روشن",
+			"performance": "کارایی"
+		},
+		"configurator": {
+			"configure": "پیکربندی",
+			"configured": "پیکربندی شده"
+		},
+		"cover": {
+			"open": "باز",
+			"opening": "در حال باز شدن",
+			"closed": "بسته شده",
+			"closing": "در حال بسته شدن",
+			"stopped": "متوقف"
+		},
+		"device_tracker": {
+			"home": "خانه",
+			"not_home": "بیرون"
+		},
+		"fan": {
+			"off": "خاموش",
+			"on": "روشن"
+		},
+		"group": {
+			"off": "غیرفعال",
+			"on": "فعال",
+			"home": "خانه",
+			"not_home": "بیرون",
+			"open": "باز",
+			"opening": "در حال باز شدن",
+			"closed": "بسته",
+			"closing": "در حال بسته شدن",
+			"stopped": "متوقف",
+			"locked": "قفل شده",
+			"unlocked": "باز",
+			"ok": "خوب",
+			"problem": "مشکل"
+		},
+		"input_boolean": {
+			"off": "غیرفعال",
+			"on": "فعال"
+		},
+		"light": {
+			"off": "خاموش",
+			"on": "روشن"
+		},
+		"lock": {
+			"locked": "قفل شده",
+			"unlocked": "باز"
+		},
+		"media_player": {
+			"off": "خاموش",
+			"on": "روشن",
+			"playing": "در حال پخش",
+			"paused": "در حالت مکث",
+			"idle": "بیکار",
+			"standby": "آماده به کار"
+		},
+		"person": {
+			"home": "خانه",
+			"not_home": "بیرون"
+		},
+		"plant": {
+			"ok": "خوب",
+			"problem": "مشکل"
+		},
+		"remote": {
+			"off": "خاموش",
+			"on": "روشن"
+		},
+		"scene": {
+			"scening": "صحنه"
+		},
+		"script": {
+			"off": "غیرفعال",
+			"on": "فعال"
+		},
+		"sensor": {
+			"off": "غیر فعال",
+			"on": "فعال"
+		},
+		"sun": {
+			"above_horizon": "بالای افق",
+			"below_horizon": "زیر افق"
+		},
+		"switch": {
+			"off": "خاموش",
+			"on": "روشن"
+		},
+		"timer": {
+			"active": "فعال",
+			"idle": "بیکار ",
+			"paused": "متوقف شد"
+		},
+		"vacuum": {
+			"cleaning": "تمیز کردن",
+			"docked": "Docked",
+			"error": "Error",
+			"idle": "Idle",
+			"off": "غیر فعال",
+			"on": "فغال",
+			"paused": "مکث",
+			"returning": "Returning to dock"
+		},
+		"weather": {
+			"clear-night": "Clear, night",
+			"cloudy": "ابری",
+			"exceptional": "Exceptional",
+			"fog": "مه",
+			"hail": "تگرگ",
+			"lightning": "رعد و برق",
+			"lightning-rainy": "Lightning, rainy",
+			"partlycloudy": "نیمه ابری",
+			"pouring": "ریختن",
+			"rainy": "بارانی",
+			"snowy": "برفی",
+			"snowy-rainy": "برفی، بارانی",
+			"sunny": "آفتابی",
+			"windy": "باد",
+			"windy-variant": "باد"
+		},
+		"zwave": {
+			"default": {
+				"initializing": "در حال آماده شدن",
+				"dead": "مرده",
+				"sleeping": "در حال خواب",
+				"ready": "آماده"
+			},
+			"query_stage": {
+				"initializing": "در حال آماده شدن ( {query_stage} )",
+				"dead": "مرده ({query_stage})"
+			}
+		}
+	},
+	"state_attributes": {
+		"climate": {
+			"fan_mode": {
+				"off": "خاموش",
+				"on": "روشن",
+				"auto": "خودکار"
+			},
+			"preset_mode": {
+				"none": "None",
+				"eco": "Eco",
+				"away": "Away",
+				"boost": "Boost",
+				"comfort": "Comfort",
+				"home": "Home",
+				"sleep": "Sleep",
+				"activity": "Activity"
+			},
+			"hvac_action": {
+				"off": "Off",
+				"heating": "Heating",
+				"cooling": "Cooling",
+				"drying": "Drying",
+				"idle": "Idle",
+				"fan": "Fan"
+			}
+		}
+	},
+	"state_badge": {
+		"default": {
+			"unknown": "نامشخص",
+			"unavailable": "غیرقابل دسترس",
+			"error": "خطا",
+			"entity_not_found": "نهاد یافت نشد"
+		},
+		"alarm_control_panel": {
+			"armed": "مصلح شده",
+			"disarmed": "غیر مسلح",
+			"armed_home": "تجهیزات خانه",
+			"armed_away": "تجهیزات بیرون",
+			"armed_night": "مصلح شده",
+			"armed_custom_bypass": "مجهز",
+			"pending": "در انتظار",
+			"arming": "در حال مسلح کردن",
+			"disarming": "در حال غیر مسلح کردن",
+			"triggered": "راه انداخته شده"
+		},
+		"device_tracker": {
+			"home": "خانه",
+			"not_home": "بیرون"
+		},
+		"person": {
+			"home": "خانه",
+			"not_home": "بیرون"
+		}
+	},
+	"groups": {
+		"system-admin": "مدیران",
+		"system-users": "کاربران",
+		"system-read-only": "کاربران فقط خواندنی"
+	},
+	"config_entry": {
+		"disabled_by": {
+			"user": "User",
+			"integration": "Integration",
+			"config_entry": "Config Entry"
+		}
+	},
+	"ui": {
+		"auth_store": {
+			"ask": "Do you want to save this login?",
+			"decline": "No thanks",
+			"confirm": "ذخیره ورود به سیستم"
+		},
+		"card": {
+			"alarm_control_panel": {
+				"code": "کد",
+				"clear_code": "پاک کردن",
+				"disarm": "خلع سلاح",
+				"arm_home": "Arm home",
+				"arm_away": "Arm away",
+				"arm_night": "نوبت شب",
+				"arm_custom_bypass": "بایگانی سفارشی",
+				"armed_custom_bypass": "بایگانی سفارشی"
+			},
+			"automation": {
+				"last_triggered": "آخرین ماشه",
+				"trigger": "ماشه"
+			},
+			"camera": {
+				"not_available": "Image not available"
+			},
+			"climate": {
+				"currently": "در حال حاضر",
+				"on_off": "روشن/خاموش",
+				"target_temperature": "هدف دما",
+				"target_temperature_entity": "{name} target temperature",
+				"target_temperature_mode": "{name} target temperature {mode}",
+				"current_temperature": "{name} current temperature",
+				"heating": "{name} heating",
+				"cooling": "{name} cooling",
+				"high": "high",
+				"low": "low",
+				"target_humidity": "هدف رطوبت",
+				"operation": "عملیات",
+				"fan_mode": "حالت فن",
+				"swing_mode": "حالت چرخش",
+				"preset_mode": "Preset",
+				"away_mode": "حالت بیرون",
+				"aux_heat": "Aux گرما"
+			},
+			"counter": {
+				"actions": {
+					"increment": "increment",
+					"decrement": "decrement",
+					"reset": "reset"
+				}
+			},
+			"cover": {
+				"position": "موقعیت",
+				"tilt_position": "موقعیت شیب"
+			},
+			"fan": {
+				"speed": "سرعت",
+				"oscillate": "نوسان",
+				"direction": "جهت",
+				"forward": "Forward",
+				"reverse": "Reverse"
+			},
+			"light": {
+				"brightness": "روشنایی",
+				"color_temperature": "دمای رنگ",
+				"white_value": "ارزش سفید",
+				"effect": "Effect"
+			},
+			"lock": {
+				"code": "رمز",
+				"lock": "قفل",
+				"unlock": "باز کردن"
+			},
+			"media_player": {
+				"source": "منبع",
+				"sound_mode": "حالت صدا",
+				"text_to_speak": "متن به صحبت کردن"
+			},
+			"persistent_notification": {
+				"dismiss": "رد"
+			},
+			"scene": {
+				"activate": "فعال سازی"
+			},
+			"script": {
+				"execute": "اجرا کردن"
+			},
+			"timer": {
+				"actions": {
+					"start": "start",
+					"pause": "pause",
+					"cancel": "cancel",
+					"finish": "finish"
+				}
+			},
+			"vacuum": {
+				"actions": {
+					"resume_cleaning": "Resume cleaning",
+					"return_to_base": "Return to dock",
+					"start_cleaning": "Start cleaning",
+					"turn_on": "Turn on",
+					"turn_off": "Turn off"
+				}
+			},
+			"water_heater": {
+				"currently": "در حال حاضر",
+				"on_off": "روشن/خاموش",
+				"target_temperature": "دمای هدف",
+				"operation": "عملیات",
+				"away_mode": "حالت بیرون"
+			},
+			"weather": {
+				"attributes": {
+					"air_pressure": "فشار هوا",
+					"humidity": "رطوبت",
+					"temperature": "دما",
+					"visibility": "قابل دیدن",
+					"wind_speed": "سرعت باد"
+				},
+				"cardinal_direction": {
+					"e": "شرق",
+					"ene": "ENE",
+					"ese": "ESE",
+					"n": "شمال",
+					"ne": "NE",
+					"nne": "شمال شرقی",
+					"nw": "شمال غربی",
+					"nnw": "شمال غربی",
+					"s": "جنوب",
+					"se": "جنوب شرقی",
+					"sse": "SSE",
+					"ssw": "جنوب غربی",
+					"sw": "جنوب غربی",
+					"w": "شرق",
+					"wnw": "شمال شرقی",
+					"wsw": "جنوب غربی"
+				},
+				"forecast": "پیش بینی"
+			}
+		},
+		"common": {
+			"loading": "Loading",
+			"cancel": "Cancel",
+			"save": "ذخیره",
+			"yes": "Yes",
+			"no": "No",
+			"successfully_saved": "Successfully saved"
+		},
+		"components": {
+			"entity": {
+				"entity-picker": {
+					"entity": "نهاد",
+					"clear": "Clear",
+					"show_entities": "Show entities"
+				}
+			},
+			"device-picker": {
+				"clear": "Clear",
+				"show_devices": "Show devices",
+				"device": "Device"
+			},
+			"relative_time": {
+				"past": "{time} قبل",
+				"future": "در {time}",
+				"never": "هرگز",
+				"duration": {
+					"second": "تعداد {count ، جمع ،\n  یکی {ثانیه}\n  دیگر {ثانیه}\n}",
+					"minute": "{count} {تعداد, جمع,\nیکی {دقیقه}\nدیگر {ساعت}\n}",
+					"hour": "تعداد {count ، جمع ،\n  یک {ساعت}\n  دیگر {ساعت}\n}",
+					"day": "{count} {تعداد, جمع,\nیکی {روز}\nدیگر {روز}\n}",
+					"week": "تعداد {count ، جمع ،\n  یک {هفته}\n  دیگر {هفته}\n}"
+				}
+			},
+			"history_charts": {
+				"loading_history": "بارگیری وضعیت تاریخچه",
+				"no_history_found": "هیچ دولتی سابقه یافت."
+			},
+			"service-picker": {
+				"service": "Service"
+			}
+		},
+		"dialogs": {
+			"voice_command": {
+				"did_not_hear": "Home Assistant did not hear anything",
+				"found": "I found the following for you:",
+				"error": "Oops, an error has occurred",
+				"how_can_i_help": "How can I help?",
+				"label": "Type a question and press 'Enter'",
+				"label_voice": "Type and press 'Enter' or tap the microphone to speak"
+			},
+			"confirmation": {
+				"cancel": "Cancel",
+				"ok": "OK",
+				"title": "Are you sure?"
+			},
+			"more_info_control": {
+				"script": {
+					"last_action": "آخرین اقدام"
+				},
+				"sun": {
+					"elevation": "ارتفاع",
+					"rising": "افزایش",
+					"setting": "تنظیمات"
+				},
+				"updater": {
+					"title": "دستورالعمل به روز رسانی"
+				}
+			},
+			"more_info_settings": {
+				"save": "ذخیره",
+				"name": "باطل کردن",
+				"entity_id": "شناسه نهاد"
+			},
+			"options_flow": {
+				"form": {
+					"header": "Options"
+				},
+				"success": {
+					"description": "Options successfully saved."
+				}
+			},
+			"config_entry_system_options": {
+				"title": "System Options for {integration}",
+				"enable_new_entities_label": "Enable newly added entities.",
+				"enable_new_entities_description": "If disabled, newly discovered entities for {integration} will not be automatically added to Home Assistant."
+			},
+			"zha_device_info": {
+				"manuf": "by {manufacturer}",
+				"no_area": "No Area",
+				"buttons": {
+					"add": "Add Devices",
+					"remove": "Remove Device",
+					"reconfigure": "Reconfigure Device"
+				},
+				"services": {
+					"reconfigure": "Reconfigure ZHA device (heal device). Use this if you are having issues with the device. If the device in question is a battery powered device please ensure it is awake and accepting commands when you use this service.",
+					"updateDeviceName": "Set a custom name for this device in the device registry.",
+					"remove": "Remove a device from the Zigbee network."
+				},
+				"quirk": "Quirk",
+				"last_seen": "Last Seen",
+				"power_source": "Power Source",
+				"unknown": "Unknown",
+				"zha_device_card": {
+					"device_name_placeholder": "User given name",
+					"area_picker_label": "Area",
+					"update_name_button": "Update Name"
+				}
+			},
+			"domain_toggler": {
+				"title": "Toggle Domains"
+			}
+		},
+		"duration": {
+			"second": "ویرایشگر اتوماسیون اجازه می دهد تا شما را به ایجاد و ویرایش اتوماسیون بپردازید. لطفا پیوند زیر را بخوانید تا دستورالعمل ها را متوجه بشید تا مطمئن شوید که صفحه اصلی دستیار را به درستی پیکربندی کرده اید.",
+			"minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+			"hour": "{count} {تعداد, جمع,\nیکی {ساعت}\nدیگر {ساعت}\n}",
+			"day": "\n{count} {count, plural,\n  one {روز}\n  other {روز ها}\n}\n",
+			"week": "\n{count} {count, plural,\n  one {هفته}\n  other {هفته ها}\n}\n"
+		},
+		"login-form": {
+			"password": "رمز عبور",
+			"remember": "یاد آوردن",
+			"log_in": "ورود"
+		},
+		"notification_drawer": {
+			"click_to_configure": "برای پیکربندی {entity} روی دکمه کلیک کنید",
+			"empty": "بدون اعلان",
+			"title": "اعلانها"
+		},
+		"notification_toast": {
+			"service_call_failed": "تماس با سرویس {service} ناموفق بود",
+			"connection_lost": "اتصالبرقرار نشد . اتصال مجدد...",
+			"triggered": "Triggered {name}",
+			"entity_turned_off": "خاموش {نهاد}.",
+			"entity_turned_on": "روشن {نهاد}.",
+			"service_called": "سرویس {service} نامیده می شود."
+		},
+		"sidebar": {
+			"external_app_configuration": "پیکربندی برنامه",
+			"sidebar_toggle": "Sidebar Toggle",
+			"log_out": "خروج"
+		},
+		"panel": {
+			"config": {
+				"header": "پیکربندی HOME ASSistant",
+				"introduction": "در اینجا می توانید اجزای خود و صفحه اصلی دستیار را پیکربندی کنید. ",
+				"common": {
+					"editor": {
+						"confirm_unsaved": "You have unsaved changes. Are you sure you want to leave?"
+					}
+				},
+				"area_registry": {
+					"caption": "ثبت نام منطقه",
+					"description": "بررسی کلیه مناطق  خانه شما",
+					"picker": {
+						"header": "ثبت منطقه",
+						"introduction": "مناطق برای سازمان دهی دستگاه های جاسازی شده استفاده می شوند. این اطلاعات در سراسر دستیار خانگی برای کمک به شما در سازماندهی رابط کاربری، مجوزها و ادغام با دیگر سیستم ها مورد استفاده قرار می گیرد.",
+						"introduction2": "برای قرار دادن دستگاه در یک منطقه، از پیوند زیر برای حرکت به صفحه ی ادغام استفاده کنید و سپس روی ادغام پیکربندی شوید تا به کارت دستگاه دسترسی پیدا کنید.",
+						"integrations_page": "صفحه ادغام",
+						"no_areas": "به نظر می رسد هنوز هیچ زمینه ای ندارید",
+						"create_area": "ایجاد منطقه"
+					},
+					"editor": {
+						"default_name": "منطقه جدید",
+						"delete": "حذف",
+						"update": "به روز رسانی",
+						"create": "ايجاد كردن"
+					},
+					"create_area": "ایجاد منطقه"
+				},
+				"core": {
+					"caption": "General",
+					"description": "Change your general Home Assistant configuration",
+					"section": {
+						"core": {
+							"header": "پیکربندی و کنترل سرور",
+							"introduction": "تغییر پیکربندی شما می تواند یک روند خسته کننده باشد. ما میدانیم. این بخش سعی خواهد کرد زندگی شما را کمی ساده تر کند.",
+							"core_config": {
+								"edit_requires_storage": "ویرایشگر غیرفعال شده است چون پیکربندی ذخیره شده در configuration.yaml.",
+								"location_name": "نام برای نصب صفحه اصلی دستیار شما",
+								"latitude": "طول و عرض جغرافیایی",
+								"longitude": "جغرافیایی",
+								"elevation": "ارتفاع",
+								"elevation_meters": "متر",
+								"time_zone": "منطقه زمانی",
+								"unit_system": "واحد سیستم",
+								"unit_system_imperial": "امپریال",
+								"unit_system_metric": "متر",
+								"imperial_example": "فارنهایت، پوند",
+								"metric_example": "سانتیگراد، کیلوگرم",
+								"save_button": "ذخیره"
+							}
+						},
+						"server_control": {
+							"reloading": {
+								"automation": "بازنگری automations",
+								"core": "بارگذاری مجدد ",
+								"group": "بارگذاری مجدد گروه ها",
+								"heading": "بارگذاری مجدد پیکربندی",
+								"introduction": "برخی از قسمت های Home Assistant می توانند بدون نیاز به راه اندازی مجدد مجدد بارگیری شوند. برای بارگذاری مجدد ضربه بزنید. پیکربندی کنونی خود را بارگیری و اطلاعات جدید را بارگذاری می کند.",
+								"script": "بازنگری اسکریپت"
+							},
+							"server_management": {
+								"introduction": "صفحه اصلی home assistant سرور خود را کنترل کنید ... از  home assistant"
+							},
+							"validation": {
+								"check_config": "بررسی پیکربندی",
+								"heading": "تایید  پیکربندی"
+							}
+						}
+					}
+				},
+				"server_control": {
+					"caption": "Server Controls",
+					"description": "Restart and stop the Home Assistant server",
+					"section": {
+						"validation": {
+							"heading": "Configuration validation",
+							"introduction": "Validate your configuration if you recently made some changes to your configuration and want to make sure that it is all valid",
+							"check_config": "Check config",
+							"valid": "Configuration valid!",
+							"invalid": "Configuration invalid"
+						},
+						"reloading": {
+							"heading": "Configuration reloading",
+							"introduction": "برخی از قسمت‌های Home Assistant بدون نیاز به راه‌اندازی مجدد می‌توانند بارگیری شوند.  با بارگیری مجدد، تنظیمات فعلی آنها حذف می‌شوند و نسخه جدید را بارگیری خواهد شد.",
+							"core": "بارگذاری مجدد هسته",
+							"group": "بارگیری مجدد گروه‌ها",
+							"automation": "بارگیری مجدد اتوماسیون",
+							"script": "بارگزاری مجدد اسکریپت",
+							"scene": "بارگذاری سناریوها"
+						},
+						"server_management": {
+							"heading": "مدیریت سرور",
+							"introduction": "سرور Home Assistant خود را کنترل کنید ... از Home Assistant.",
+							"restart": "راه‌اندازی مجدد",
+							"confirm_restart": "Are you sure you want to restart Home Assistant?",
+							"stop": "بایست",
+							"confirm_stop": "Are you sure you want to stop Home Assistant?"
+						}
+					}
+				},
+				"customize": {
+					"caption": "Customizations",
+					"description": "Customize your entities",
+					"picker": {
+						"header": "Customizations",
+						"introduction": "نویسه ویژگی های هر سازمانی. سفارشی سازی اضافه شده / ویرایش شده فورا اثر می کند. سفارشی های حذف شده هنگامی که موجودیت به روز می شود اثر می کند."
+					},
+					"warning": {
+						"include_sentence": "It seems that your configuration.yaml doesn't properly",
+						"include_link": "include customize.yaml",
+						"not_applied": "Changes made here are written in it, but will not be applied after a configuration reload unless the include is in place."
+					},
+					"attributes_customize": "The following attributes are already set in customize.yaml",
+					"attributes_outside": "The following attributes are customized from outside of customize.yaml",
+					"different_include": "Possibly via a domain, a glob or a different include.",
+					"attributes_set": "The following attributes of the entity are set programmatically.",
+					"attributes_override": "You can override them if you like.",
+					"attributes_not_set": "The following attributes weren't set. Set them if you like.",
+					"pick_attribute": "Pick an attribute to override"
+				},
+				"automation": {
+					"caption": "اتوماسیون",
+					"description": "ایجاد و ویرایش اتوماسیون",
+					"picker": {
+						"header": "ویرایشگر اتوماسیون",
+						"introduction": "ویرایشگر اتوماسیون اجازه می دهد تا شما را به ایجاد و ویرایش اتوماسیون بپردازید . لطفا پیوند زیر را بخوانید تا دستورالعمل ها را بخواند تا مطمئن شوید که صفحه اصلی دستیار را به درستی پیکربندی کرده اید.",
+						"learn_more": "درباره اتوماسیون بیشتر بدانید",
+						"pick_automation": "انتخاب اتوماسیون برای ویرایش",
+						"no_automations": "هیچ اتوماسیون قابل ویرایشی پیدا نشد",
+						"add_automation": "اضافه کردن اتوماسیون",
+						"only_editable": "Only automations defined in automations.yaml are editable.",
+						"edit_automation": "Edit automation",
+						"show_info_automation": "Show info about automation",
+						"delete_automation": "Delete automation",
+						"delete_confirm": "Are you sure you want to delete this automation?"
+					},
+					"editor": {
+						"introduction": "از اتوماسیون استفاده کنید برای زنده کردن خانه",
+						"default_name": "اضافه کردن اتوماسیون",
+						"load_error_not_editable": "فقط اتوماسیون در automations.yaml قابل ویرایش هستند.",
+						"load_error_unknown": "خطا در بارگذاری اتوماسیون ({err_no}).",
+						"save": "ذخیره",
+						"unsaved_confirm": "You have unsaved changes. Are you sure you want to leave?",
+						"alias": "نام",
+						"description": {
+							"label": "Description",
+							"placeholder": "Optional description"
+						},
+						"triggers": {
+							"name": "Trigger",
+							"header": "Triggers",
+							"introduction": "راه حلی است که پردازش یک قانون اتوماسیون را آغاز می کند. ممکن است چند عامل برای یک قاعده مشخص شود. هنگامی که یک ماشه شروع می شود، Home Assistant شرایط را تایید می کند، اگر وجود داشته باشد، و اقدام را فراخوانی می کند.",
+							"learn_more": "درباره ماشه بیشتر بدانید",
+							"add": "Add trigger",
+							"duplicate": "کپی کنید",
+							"delete": "حذف",
+							"delete_confirm": "Sure you want to delete?",
+							"unsupported_platform": "Unsupported platform: {platform}",
+							"type_select": "Trigger type",
+							"type": {
+								"device": {
+									"label": "Device",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"event": {
+									"label": "رویداد",
+									"event_type": "نوع رویداد",
+									"event_data": "داده های رویداد"
+								},
+								"geo_location": {
+									"label": "موقعیت جغرافیایی",
+									"source": "منبع",
+									"zone": "منطقه",
+									"event": "رویداد:",
+									"enter": "ورود",
+									"leave": "ترک کردن"
+								},
+								"state": {
+									"label": "وضعیت",
+									"from": "From",
+									"for": "For",
+									"to": "To"
+								},
+								"homeassistant": {
+									"label": "Home Assistant",
+									"event": "Event:",
+									"start": "Start",
+									"shutdown": "Shutdown"
+								},
+								"mqtt": {
+									"label": "MQTT",
+									"topic": "Topic",
+									"payload": "Payload (optional)"
+								},
+								"numeric_state": {
+									"label": "حالت عددی",
+									"above": "Above",
+									"below": "Below",
+									"value_template": "Value template (optional)"
+								},
+								"sun": {
+									"label": "آفتاب",
+									"event": "اتفاق",
+									"sunrise": "طلوع",
+									"sunset": "غروب",
+									"offset": "Offset (optional)"
+								},
+								"template": {
+									"label": "قالب",
+									"value_template": "Value template"
+								},
+								"time": {
+									"label": "زمان",
+									"at": "At"
+								},
+								"time_pattern": {
+									"label": "الگو زمان",
+									"hours": "ساعت ها",
+									"minutes": "دقیقه ها",
+									"seconds": "ثانیه ها"
+								},
+								"webhook": {
+									"label": "Webhook",
+									"webhook_id": "شناسه Webhook"
+								},
+								"zone": {
+									"label": "Zone",
+									"entity": "نهاد با موقعیت",
+									"zone": "منطقه",
+									"event": "اتفاق",
+									"enter": "Enter",
+									"leave": "Leave"
+								}
+							}
+						},
+						"conditions": {
+							"name": "Condition",
+							"header": "شرایط",
+							"introduction": "شرایط یک بخش اختیاری از یک قانون اتوماسیون است و می تواند مورد استفاده قرار گیرد تا از وقوع رویداد زمانی که باعث ایجاد فعالیت می شود جلوگیری شود. شرایط بسیار شبیه به ماژورها هستند اما خیلی متفاوت هستند. یک ماشه به حوادث اتفاق می افتد در سیستم نگاه کنید، در حالی که یک وضعیت فقط به نظر می رسد که سیستم به نظر می رسد در حال حاضر. یک ماشه می تواند مشاهده کند که سوئیچ روشن است. یک وضعیت فقط می تواند ببینید که آیا یک سوئیچ در حال حاضر روشن یا خاموش است.",
+							"learn_more": "درباره شرایط بیشتر بدانید",
+							"add": "اضافه کردن شرط",
+							"duplicate": "نمایش مطالب برای",
+							"delete": "حذف",
+							"delete_confirm": "مطمئنا میخواهید حذف کنید؟",
+							"unsupported_condition": "شرایط غیرقابل پشتیبانی: {condition}",
+							"type_select": "نوع وضعیت",
+							"type": {
+								"and": {
+									"label": "And"
+								},
+								"device": {
+									"label": "Device",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"numeric_state": {
+									"label": "Numeric state",
+									"above": "بالاتر",
+									"below": "پایین تر",
+									"value_template": "قالب مقدار (اختیاری)"
+								},
+								"or": {
+									"label": "Or"
+								},
+								"state": {
+									"label": "حالت",
+									"state": "حالت"
+								},
+								"sun": {
+									"label": "آفتاب",
+									"before": "قبل از:",
+									"after": "بعد از:",
+									"before_offset": "قبل از افست (اختیاری)",
+									"after_offset": "پس از افست (اختیاری)",
+									"sunrise": "طلوع",
+									"sunset": "غروب"
+								},
+								"template": {
+									"label": "قالب",
+									"value_template": "مقدار قالب"
+								},
+								"time": {
+									"label": "زمان",
+									"after": "بعد از",
+									"before": "قبل از"
+								},
+								"zone": {
+									"label": "منطقه",
+									"entity": "وجود با محل",
+									"zone": "منطقه"
+								}
+							}
+						},
+						"actions": {
+							"name": "Action",
+							"header": "اقدامات",
+							"introduction": "این اقدامات همان چیزی است که دستیار خانه انجام می دهد وقتی که اتوماسیون راه اندازی می شود.",
+							"learn_more": "درباره عملکردها بیشتر بدانید",
+							"add": "افزودن اقدام",
+							"duplicate": "دوبل کردن",
+							"delete": "حذف",
+							"delete_confirm": "مطمئنا میخواهید حذف کنید؟",
+							"unsupported_action": "عمل پشتیبانی نشده: {action}",
+							"type_select": "نوع عمل",
+							"type": {
+								"service": {
+									"label": "خدمات تماس",
+									"service_data": "داده های خدمات"
+								},
+								"delay": {
+									"label": "تاخیر",
+									"delay": "تاخیر"
+								},
+								"wait_template": {
+									"label": "صبر کنید",
+									"wait_template": "منتظر قالب",
+									"timeout": "Timeout (optional)"
+								},
+								"condition": {
+									"label": "وضعیت"
+								},
+								"event": {
+									"label": "رویداد آتش",
+									"event": "اتفاق",
+									"service_data": "اطلاعات خدمات"
+								},
+								"device_id": {
+									"label": "Device",
+									"extra_fields": {
+										"code": "Code"
+									}
+								},
+								"scene": {
+									"label": "Activate scene"
+								}
+							}
+						}
+					}
+				},
+				"script": {
+					"caption": "Scripts",
+					"description": "Create and edit scripts",
+					"picker": {
+						"header": "Script Editor",
+						"introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scripts",
+						"no_scripts": "We couldn’t find any editable scripts",
+						"add_script": "Add script",
+						"trigger_script": "Trigger script",
+						"edit_script": "Edit script"
+					},
+					"editor": {
+						"introduction": "Use scripts to execute a sequence of actions.",
+						"header": "Script: {name}",
+						"default_name": "New Script",
+						"load_error_not_editable": "Only scripts inside scripts.yaml are editable.",
+						"delete_confirm": "Are you sure you want to delete this script?",
+						"delete_script": "Delete script",
+						"sequence": "Sequence",
+						"sequence_sentence": "The sequence of actions of this script.",
+						"link_available_actions": "Learn more about available actions."
+					}
+				},
+				"scene": {
+					"caption": "Scenes",
+					"description": "Create and edit scenes",
+					"activated": "Activated scene {name}.",
+					"picker": {
+						"header": "Scene Editor",
+						"introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scenes",
+						"pick_scene": "Pick scene to edit",
+						"no_scenes": "We couldn’t find any editable scenes",
+						"add_scene": "Add scene",
+						"only_editable": "Only scenes defined in scenes.yaml are editable.",
+						"edit_scene": "Edit scene",
+						"show_info_scene": "Show info about scene",
+						"delete_scene": "Delete scene",
+						"delete_confirm": "Are you sure you want to delete this scene?"
+					},
+					"editor": {
+						"introduction": "Use scenes to bring your home alive.",
+						"default_name": "New Scene",
+						"load_error_not_editable": "Only scenes in scenes.yaml are editable.",
+						"load_error_unknown": "Error loading scene ({err_no}).",
+						"save": "Save",
+						"unsaved_confirm": "You have unsaved changes. Are you sure you want to leave?",
+						"name": "Name",
+						"devices": {
+							"header": "Devices",
+							"introduction": "Add the devices that you want to be included in your scene. Set all the devices to the state you want for this scene.",
+							"add": "Add a device",
+							"delete": "Delete device"
+						},
+						"entities": {
+							"header": "Entities",
+							"introduction": "Entities that do not belong to a devices can be set here.",
+							"without_device": "Entities without device",
+							"device_entities": "If you add an entity that belongs to a device, the device will be added.",
+							"add": "Add an entity",
+							"delete": "Delete entity"
+						}
+					}
+				},
+				"cloud": {
+					"caption": " home assistant ابر",
+					"description_login": "وارد شده به عنوان {email}",
+					"description_not_login": "وارد نشده اید",
+					"description_features": "کنترل کردن از خانه، ادغام با Alexa و Google Assistant.",
+					"login": {
+						"title": "Cloud Login",
+						"introduction": "Home Assistant Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+						"introduction2": "This service is run by our partner ",
+						"introduction2a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"introduction3": "Home Assistant Cloud is a subscription service with a free one month trial. No payment information necessary.",
+						"learn_more_link": "Learn more about Home Assistant Cloud",
+						"dismiss": "Dismiss",
+						"sign_in": "Sign in",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"forgot_password": "forgot password?",
+						"start_trial": "Start your free 1 month trial",
+						"trial_info": "No payment information necessary",
+						"alert_password_change_required": "You need to change your password before logging in.",
+						"alert_email_confirm_necessary": "You need to confirm your email before logging in."
+					},
+					"forgot_password": {
+						"title": "Forgot password",
+						"subtitle": "Forgot your password",
+						"instructions": "Enter your email address and we will send you a link to reset your password.",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"send_reset_email": "Send reset email",
+						"check_your_email": "Check your email for instructions on how to reset your password."
+					},
+					"register": {
+						"title": "Register Account",
+						"headline": "Start your free trial",
+						"information": "Create an account to start your free one month trial with Home Assistant Cloud. No payment information necessary.",
+						"information2": "The trial will give you access to all the benefits of Home Assistant Cloud, including:",
+						"feature_remote_control": "Control of Home Assistant away from home",
+						"feature_google_home": "Integration with Google Assistant",
+						"feature_amazon_alexa": "Integration with Amazon Alexa",
+						"feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
+						"information3": "This service is run by our partner ",
+						"information3a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"information4": "By registering an account you agree to the following terms and conditions.",
+						"link_terms_conditions": "Terms and Conditions",
+						"link_privacy_policy": "Privacy Policy",
+						"create_account": "Create Account",
+						"email_address": "Email address",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"start_trial": "Start Trial",
+						"resend_confirm_email": "Resend confirmation email",
+						"account_created": "Account created! Check your email for instructions on how to activate your account."
+					},
+					"account": {
+						"thank_you_note": "Thank you for being part of Home Assistant Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
+						"nabu_casa_account": "Nabu Casa Account",
+						"connection_status": "Cloud connection status",
+						"manage_account": "Manage Account",
+						"sign_out": "Sign out",
+						"integrations": "Integrations",
+						"integrations_introduction": "Integrations for Home Assistant Cloud allow you to connect with services in the cloud without having to expose your Home Assistant instance publicly on the internet.",
+						"integrations_introduction2": "Check the website for ",
+						"integrations_link_all_features": " all available features",
+						"connected": "Connected",
+						"not_connected": "Not Connected",
+						"fetching_subscription": "Fetching subscription…",
+						"remote": {
+							"title": "Remote Control",
+							"access_is_being_prepared": "Remote access is being prepared. We will notify you when it's ready.",
+							"info": "Home Assistant Cloud provides a secure remote connection to your instance while away from home.",
+							"instance_is_available": "Your instance is available at",
+							"instance_will_be_available": "Your instance will be available at",
+							"link_learn_how_it_works": "Learn how it works",
+							"certificate_info": "Certificate Info"
+						},
+						"alexa": {
+							"title": "Alexa",
+							"info": "With the Alexa integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Alexa-enabled device.",
+							"enable_ha_skill": "Enable the Home Assistant skill for Alexa",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+							"sync_entities": "Sync Entities",
+							"manage_entities": "Manage Entities",
+							"sync_entities_error": "Failed to sync entities:",
+							"state_reporting_error": "Unable to {enable_disable} report state.",
+							"enable": "enable",
+							"disable": "disable"
+						},
+						"google": {
+							"title": "Google Assistant",
+							"info": "With the Google Assistant integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Google Assistant-enabled device.",
+							"enable_ha_skill": "Activate the Home Assistant skill for Google Assistant",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Google. This allows you to always see the latest states in the Google app.",
+							"security_devices": "Security Devices",
+							"enter_pin_info": "Please enter a pin to interact with security devices. Security devices are doors, garage doors and locks. You will be asked to say/enter this pin when interacting with such devices via Google Assistant.",
+							"devices_pin": "Security Devices Pin",
+							"enter_pin_hint": "Enter a PIN to use security devices",
+							"sync_entities": "Sync Entities to Google",
+							"manage_entities": "Manage Entities",
+							"enter_pin_error": "Unable to store pin:"
+						},
+						"webhooks": {
+							"title": "Webhooks",
+							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to Home Assistant from anywhere, without exposing your instance to the internet.",
+							"no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
+							"no_hooks_yet_link_integration": "webhook-based integration",
+							"no_hooks_yet2": " or by creating a ",
+							"no_hooks_yet_link_automation": "webhook automation",
+							"link_learn_more": "Learn more about creating webhook-powered automations.",
+							"loading": "Loading ...",
+							"manage": "Manage",
+							"disable_hook_error_msg": "Failed to disable webhook:"
+						}
+					},
+					"alexa": {
+						"title": "Alexa",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"expose": "Expose to Alexa"
+					},
+					"dialog_certificate": {
+						"certificate_information": "Certificate Information",
+						"certificate_expiration_date": "Certificate expiration date",
+						"will_be_auto_renewed": "Will be automatically renewed",
+						"fingerprint": "Certificate fingerprint:",
+						"close": "Close"
+					},
+					"google": {
+						"title": "Google Assistant",
+						"expose": "Expose to Google Assistant",
+						"disable_2FA": "Disable two factor authentication",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"sync_to_google": "Synchronizing changes to Google."
+					},
+					"dialog_cloudhook": {
+						"webhook_for": "Webhook for {name}",
+						"available_at": "The webhook is available at the following url:",
+						"managed_by_integration": "This webhook is managed by an integration and cannot be disabled.",
+						"info_disable_webhook": "If you no longer want to use this webhook, you can",
+						"link_disable_webhook": "disable it",
+						"view_documentation": "View documentation",
+						"close": "Close",
+						"confirm_disable": "Are you sure you want to disable this webhook?",
+						"copied_to_clipboard": "Copied to clipboard"
+					}
+				},
+				"devices": {
+					"caption": "Devices",
+					"description": "Manage connected devices",
+					"unnamed_device": "Unnamed device",
+					"unknown_error": "Unknown error",
+					"area_picker_label": "Area",
+					"automation": {
+						"triggers": {
+							"caption": "Do something when..."
+						},
+						"conditions": {
+							"caption": "Only do something if..."
+						},
+						"actions": {
+							"caption": "When something is triggered..."
+						}
+					},
+					"device_not_found": "Device not found.",
+					"info": "Device info",
+					"details": "Here are all the details of your device.",
+					"entities": "Entities",
+					"automations": "Automations",
+					"confirm_rename_entity_ids": "Do you also want to rename the entity id's of your entities?",
+					"data_table": {
+						"device": "Device",
+						"manufacturer": "Manufacturer",
+						"model": "Model",
+						"area": "Area",
+						"integration": "Integration",
+						"battery": "Battery"
+					}
+				},
+				"entity_registry": {
+					"caption": "ثبت  منطقه",
+					"description": "مرور کلیه اشخاص شناخته شده.",
+					"picker": {
+						"header": "ثبت  منطقه",
+						"introduction": "دستیار خانه نگهداری رجیستری از هر نهاد که تا به حال دیده است که می تواند منحصر به فرد شناسایی شده است. هر یک از این نهاد ها یک شناسه نهادی اختصاص داده است که فقط برای این نهاد محفوظ خواهد ماند.",
+						"introduction2": "از رجیستر entity استفاده کنید تا نام را عوض کند، شناسه موجودیت را تغییر دهید یا ورودی را از صفحه اصلی دستیار حذف کنید. توجه داشته باشید، از بین بردن ورودی رجیستر entity entity entity را حذف نخواهد کرد. برای انجام این کار، پیوند زیر را دنبال کنید و آن را از صفحه ی ادغام حذف کنید.",
+						"integrations_page": "صفحه ادغام",
+						"show_disabled": "Show disabled entities",
+						"headers": {
+							"name": "Name",
+							"entity_id": "Entity ID",
+							"integration": "Integration",
+							"enabled": "Enabled"
+						},
+						"unavailable": "(در دسترس نیست)"
+					},
+					"editor": {
+						"unavailable": "این نهاد در حال حاضر در دسترس نیست",
+						"default_name": "منطقه جدید",
+						"enabled_label": "Enable entity",
+						"enabled_cause": "Disabled by {cause}.",
+						"enabled_description": "Disabled entities will not be added to Home Assistant.",
+						"delete": "حذف",
+						"confirm_delete": "Are you sure you want to delete this entry?",
+						"confirm_delete2": "Deleting an entry will not remove the entity from Home Assistant. To do this, you will need to remove the integration '{platform}' from Home Assistant.",
+						"update": "به روز رسانی",
+						"note": "Note: this might not work yet with all integrations."
+					}
+				},
+				"person": {
+					"caption": "افراد",
+					"description": "مدیریت افراد خانه هوشمند",
+					"introduction": "Here you can define each person of interest in Home Assistant.",
+					"note_about_persons_configured_in_yaml": "Note: persons configured via configuration.yaml cannot be edited via the UI.",
+					"no_persons_created_yet": "Looks like you have not created any persons yet.",
+					"create_person": "Create Person",
+					"add_person": "Add Person",
+					"confirm_delete": "Are you sure you want to delete this person?",
+					"confirm_delete2": "All devices belonging to this person will become unassigned.",
+					"detail": {
+						"new_person": "New Person",
+						"name": "نام",
+						"name_error_msg": "Name is required",
+						"linked_user": "Linked User",
+						"device_tracker_intro": "دستگاه هایی که متعلق به این شخص هستند را انتخاب کنید.",
+						"no_device_tracker_available_intro": "When you have devices that indicate the presence of a person, you will be able to assign them to a person here. You can add your first device by adding a presence-detection integration from the integrations page.",
+						"link_presence_detection_integrations": "Presence Detection Integrations",
+						"link_integrations_page": "Integrations page",
+						"device_tracker_picked": "پیگیری دستگاه",
+						"device_tracker_pick": "دستگاه را برای پیگیری انتخاب کنید",
+						"delete": "Delete",
+						"create": "Create",
+						"update": "Update"
+					}
+				},
+				"integrations": {
+					"caption": "یکپارچگی",
+					"description": "مدیریت دستگاهها و خدمات متصل شده",
+					"discovered": "کشف شده",
+					"configured": "پیکربندی شده",
+					"new": "تنظیم ادغام جدید",
+					"note_about_integrations": "Not all integrations can be configured via the UI yet.",
+					"note_about_website_reference": "More are available on the ",
+					"home_assistant_website": "Home Assistant website",
+					"configure": "پیکربندی",
+					"none": "هیچ چیز پیکربندی نشده است",
+					"integration_not_found": "Integration not found.",
+					"config_entry": {
+						"settings_button": "Edit settings for {integration}",
+						"system_options_button": "System options for {integration}",
+						"delete_button": "Delete {integration}",
+						"no_devices": "این ادغام هیچ دستگاهی ندارد.",
+						"no_device": " بدون دستگاه",
+						"delete_confirm": "Are you sure you want to delete this integration?",
+						"restart_confirm": "راه اندازی مجدد home assistant به پایان بردن این ادغام",
+						"manuf": "توسط {manufacturer}",
+						"hub": "اتصال از طریق",
+						"firmware": "سیستم عامل: {version}",
+						"device_unavailable": "دستگاه در دسترس نیست",
+						"entity_unavailable": "نهاد در دسترس نیست",
+						"area": "In {area}",
+						"no_area": "بدون منطقه",
+						"via": "اتصال از طریق"
+					},
+					"config_flow": {
+						"aborted": "Aborted",
+						"close": "Close",
+						"finish": "Finish",
+						"submit": "Submit",
+						"not_all_required_fields": "Not all required fields are filled in.",
+						"add_area": "Add Area",
+						"area_picker_label": "Area",
+						"failed_create_area": "Failed to create area.",
+						"error_saving_area": "Error saving area: {error}",
+						"name_new_area": "Name of the new area?",
+						"created_config": "Created config for {name}.",
+						"external_step": {
+							"description": "این مرحله نیاز به بازدید از وب سایت خارجی دارد که باید تکمیل شود.",
+							"open_site": "باز کردن سایت"
+						}
+					}
+				},
+				"users": {
+					"caption": "کاربران",
+					"description": "مدیریت کاربران",
+					"picker": {
+						"title": "کاربران",
+						"system_generated": "System generated"
+					},
+					"editor": {
+						"caption": "مشاهده کاربر",
+						"rename_user": "تغییر نام کاربر",
+						"change_password": "تغییر رمز عبور",
+						"activate_user": "فعال کردن کاربر",
+						"deactivate_user": "غیر فعال کردن کاربر",
+						"delete_user": "حذف کاربر",
+						"id": "ID",
+						"owner": "Owner",
+						"group": "Group",
+						"active": "Active",
+						"system_generated": "System generated",
+						"system_generated_users_not_removable": "Unable to remove system generated users.",
+						"unnamed_user": "کاربر نامشخص",
+						"enter_new_name": "نام جدید را وارد کنید",
+						"user_rename_failed": "تغییر نام کاربری انجام نشد:",
+						"group_update_failed": "بروزرسانی گروه انجام نشد:",
+						"confirm_user_deletion": "آیا مطمئنید می خواهید {name} را حذف کنید ؟"
+					},
+					"add_user": {
+						"caption": "افزودن کاربر",
+						"name": "نام",
+						"username": "نام کاربری",
+						"password": "رمز عبور",
+						"create": "ایجاد"
+					}
+				},
+				"zha": {
+					"caption": "ZHA",
+					"description": " صفحه اصلی اتوماسیون مدیریت شبکه Zigbee",
+					"common": {
+						"add_devices": "افزودن دستگاهها",
+						"clusters": "Clusters",
+						"devices": "دستگاه ها",
+						"manufacturer_code_override": "Manufacturer Code Override",
+						"value": "مقدار"
+					},
+					"add_device_page": {
+						"header": " صفحه اصلی اتوماسیون مدیریت شبکه Zigbee",
+						"spinner": "جستجو برای دستگاه های ZHY Zigbee ...",
+						"discovery_text": "دستگاه های کشف شده در اینجا نشان داده می شوند. دستورالعمل های دستگاه (های) خود را دنبال کنید و دستگاه (های) را در حالت جفت قرار دهید.",
+						"search_again": "جستجوی مجدد"
+					},
+					"network_management": {
+						"header": "مدیریت شبکه",
+						"introduction": "دستوراتی که روی کل شبکه تأثیر می گذارند"
+					},
+					"node_management": {
+						"header": "مدیریت دستگاه",
+						"introduction": "Run ZHA commands that affect a single device. Pick a device to see a list of available commands.",
+						"hint_battery_devices": "Note: Sleepy (battery powered) devices need to be awake when executing commands against them. You can generally wake a sleepy device by triggering it.",
+						"hint_wakeup": "Some devices such as Xiaomi sensors have a wake up button that you can press at ~5 second intervals that keep devices awake while you interact with them.",
+						"help_node_dropdown": "Select a device to view per-device options."
+					},
+					"clusters": {
+						"help_cluster_dropdown": "Select a cluster to view attributes and commands."
+					},
+					"cluster_attributes": {
+						"header": "Cluster Attributes",
+						"introduction": "View and edit cluster attributes.",
+						"attributes_of_cluster": "Attributes of the selected cluster",
+						"get_zigbee_attribute": "Get Zigbee Attribute",
+						"set_zigbee_attribute": "Set Zigbee Attribute",
+						"help_attribute_dropdown": "Select an attribute to view or set its value.",
+						"help_get_zigbee_attribute": "Get the value for the selected attribute.",
+						"help_set_zigbee_attribute": "Set attribute value for the specified cluster on the specified entity."
+					},
+					"cluster_commands": {
+						"header": "Cluster Commands",
+						"introduction": "View and issue cluster commands.",
+						"commands_of_cluster": "Commands of the selected cluster",
+						"issue_zigbee_command": "Issue Zigbee Command",
+						"help_command_dropdown": "Select a command to interact with."
+					},
+					"device_card": {
+						"area_picker_label": "منطقه",
+						"device_name_placeholder": "نام کاربر داده شده",
+						"update_name_button": "به روز رسانی نام"
+					},
+					"services": {
+						"reconfigure": "دستگاه ZHA پیکربندی مجدد (تعمیر دستگاه). از این استفاده کنید اگر با دستگاه مشکل دارید. اگر دستگاه مورد نظر یک دستگاه باتری است ، لطفا اطمینان حاصل شود که هنگام استفاده از این سرویس ، دستورات بیدار و پذیرش است.",
+						"remove": "یک دستگاه را از شبکه ZigBee حذف کنید.",
+						"updateDeviceName": "یک نام سفارشی برای این دستگاه در رجیستری دستگاه تنظیم کنید."
+					}
+				},
+				"zwave": {
+					"caption": "Z-Wave",
+					"description": "Manage your Z-Wave network",
+					"learn_more": "Learn more about Z-Wave",
+					"common": {
+						"value": "Value",
+						"instance": "Instance",
+						"index": "Index",
+						"unknown": "نامشخص",
+						"wakeup_interval": "فاصله Wakeup"
+					},
+					"network_management": {
+						"header": "Z-Wave Network Management",
+						"introduction": "Run commands that affect the Z-Wave network. You won't get feedback on whether most commands succeeded, but you can check the OZW Log to try to find out."
+					},
+					"ozw_log": {
+						"header": "OZW Log",
+						"introduction": "View the log. 0 is the minimum (loads entire log) and 1000 is the maximum. Load will show a static log and tail will auto update with the last specified number of lines of the log."
+					},
+					"network_status": {
+						"network_stopped": "Z-Wave Network Stopped",
+						"network_starting": "Starting Z-Wave Network...",
+						"network_starting_note": "This may take a while depending on the size of your network.",
+						"network_started": "Z-Wave Network Started",
+						"network_started_note_some_queried": "Awake nodes have been queried. Sleeping nodes will be queried when they wake.",
+						"network_started_note_all_queried": "All nodes have been queried."
+					},
+					"node_config": {
+						"header": "گزینه‌های پیکربندی گره",
+						"seconds": "ثانیه‌ها",
+						"set_wakeup": "تنظیم فاصله Wakeup",
+						"config_parameter": "پارامتر پیکربندی",
+						"config_value": "مقدار پیکربندی",
+						"true": "صحیح",
+						"false": "نادرست",
+						"set_config_parameter": "تنظیم پارامتر پیکربندی"
+					},
+					"values": {
+						"header": "Node Values"
+					},
+					"services": {
+						"start_network": "Start Network",
+						"stop_network": "Stop Network",
+						"heal_network": "Heal Network",
+						"test_network": "Test Network",
+						"soft_reset": "Soft Reset",
+						"save_config": "Save Config",
+						"add_node_secure": "Add Node Secure",
+						"add_node": "Add Node",
+						"remove_node": "Remove Node",
+						"cancel_command": "Cancel Command"
+					}
+				}
+			},
+			"history": {
+				"showing_entries": "نمایش نوشته ها برای",
+				"period": "Period"
+			},
+			"logbook": {
+				"showing_entries": "نمایش نامه برای",
+				"period": "دوره",
+				"entries_not_found": "No logbook entries found."
+			},
+			"lovelace": {
+				"cards": {
+					"confirm_delete": "Are you sure you want to delete this card?",
+					"empty_state": {
+						"title": "به خانه خوش آمدی",
+						"no_devices": "این صفحه به شما اجازه می دهد تا دستگاه های خود را کنترل کنید، با این حال به نظر می رسد که هیچ دستگاهی تنظیم نشده است. برای شروع به صفحه ادغام بروید.",
+						"go_to_integrations_page": "به صفحه ادغام بروید."
+					},
+					"shopping-list": {
+						"checked_items": "موارد بررسی شده",
+						"clear_items": "Clear checked items",
+						"add_item": "اضافه کردن آیتم"
+					},
+					"picture-elements": {
+						"hold": "نگه دارید:",
+						"tap": "ضربه زدن:",
+						"navigate_to": "رفتن به {location}",
+						"url": "Open window to {url_path}",
+						"toggle": "تغییر {name}",
+						"call_service": "سرویس تماس {name}",
+						"more_info": "نمایش اطلاعات بیشتر: {name}"
+					}
+				},
+				"unused_entities": {
+					"title": "Unused entities",
+					"available_entities": "These are the entities that you have available, but are not in your Lovelace UI yet.",
+					"select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+					"entity": "Entity",
+					"entity_id": "Entity ID",
+					"domain": "Domain",
+					"last_changed": "Last Changed"
+				},
+				"views": {
+					"confirm_delete": "Are you sure you want to delete this view?",
+					"existing_cards": "You can't delete a view that has cards in it. Remove the cards first."
+				},
+				"menu": {
+					"configure_ui": "Configure UI",
+					"help": "کمک",
+					"refresh": "تازه کردن",
+					"close": "Close",
+					"unused_entities": "نهادهای استفاده نشده"
+				},
+				"editor": {
+					"header": "ویرایش رابط کاربری",
+					"menu": {
+						"open": "Open Lovelace menu",
+						"raw_editor": "ویرایشگر اتوماسیون"
+					},
+					"raw_editor": {
+						"header": "ویرایش پیکربندی",
+						"save": "ذخیره",
+						"unsaved_changes": "تغییرات ذخیره نشده",
+						"saved": "ذخیره",
+						"confirm_unsaved_changes": "You have unsaved changes, are you sure you want to exit?",
+						"confirm_unsaved_comments": "Your config contains comment(s), these will not be saved. Do you want to continue?",
+						"error_parse_yaml": "Unable to parse YAML: {error}",
+						"error_invalid_config": "Your config is not valid: {error}",
+						"error_save_yaml": "Unable to save YAML: {error}"
+					},
+					"edit_lovelace": {
+						"header": "Title of your Lovelace UI",
+						"explanation": "This title is shown above all your views in Lovelace.",
+						"edit_title": "Edit title"
+					},
+					"edit_view": {
+						"header": "View Configuration",
+						"header_name": "{name} View Configuration",
+						"add": "افزودن نمایه",
+						"edit": "ویرایش نما",
+						"delete": "Delete view",
+						"move_left": "Move view left",
+						"move_right": "Move view right"
+					},
+					"edit_card": {
+						"header": "Card Configuration",
+						"pick_card": "کارتی را که می خواهید اضافه کنید انتخاب کنید ؛",
+						"pick_card_view_title": "Which card would you like to add to your {name} view?",
+						"toggle_editor": "تغییر ویرایشگر",
+						"show_visual_editor": "Show Visual Editor",
+						"show_code_editor": "Show Code Editor",
+						"add": "افزودن کارت",
+						"edit": "ویرایش",
+						"delete": "حذف",
+						"move": "Move to View",
+						"options": "More options",
+						"save": "ذخیره"
+					},
+					"save_config": {
+						"header": "کنترل UI Lovelace خود را بگیرید",
+						"para": "به طور پیش فرض Home Assistant رابط کاربر خود را حفظ می کند، آن را به روز می کند زمانی که موجودیت های جدید و یا اجزای Lovelace در دسترس قرار گیرد. اگر کنترل داشته باشید دیگر تغییرات را برای شما انجام نخواهیم داد.",
+						"para_sure": "آیا مطمئن هستید که میخواهید کنترل رابط کاربری خود را کنترل کنید؟",
+						"cancel": "بیخیال",
+						"save": "کنترل را به دست گرفتن"
+					},
+					"migrate": {
+						"header": "Configuration Incompatible",
+						"para_no_id": "این عنصر ID ندارد لطفا یک شناسه را برای این عنصر در ui-lovelace.yaml اضافه کنید.",
+						"para_migrate": "صفحه اصلی  home assistant می تواند با استفاده از دکمه 'Migrate config' به صورت خودکار برای شما کارت شناسایی را به تمام کارت های خود اضافه کند.",
+						"migrate": "انتقال پیکربندی"
+					},
+					"card": {
+						"alarm-panel": {
+							"name": "Alarm Panel",
+							"available_states": "Available States"
+						},
+						"conditional": {
+							"name": "Conditional"
+						},
+						"config": {
+							"required": "Required",
+							"optional": "Optional"
+						},
+						"entities": {
+							"name": "Entities",
+							"show_header_toggle": "Show Header Toggle?",
+							"toggle": "Toggle entities."
+						},
+						"entity-button": {
+							"name": "Entity Button"
+						},
+						"entity-filter": {
+							"name": "Entity Filter"
+						},
+						"gauge": {
+							"name": "Gauge",
+							"severity": {
+								"define": "Define Severity?",
+								"green": "Green",
+								"red": "Red",
+								"yellow": "Yellow"
+							}
+						},
+						"glance": {
+							"name": "Glance",
+							"columns": "Columns"
+						},
+						"history-graph": {
+							"name": "History Graph"
+						},
+						"horizontal-stack": {
+							"name": "Horizontal Stack"
+						},
+						"iframe": {
+							"name": "iFrame"
+						},
+						"light": {
+							"name": "چراغ"
+						},
+						"generic": {
+							"aspect_ratio": "Aspect Ratio",
+							"camera_image": "Camera Entity",
+							"camera_view": "Camera View",
+							"entities": "Entities",
+							"entity": "Entity",
+							"hold_action": "Hold Action",
+							"hours_to_show": "Hours to Show",
+							"icon": "Icon",
+							"icon_height": "Icon Height",
+							"image": "Image Path",
+							"maximum": "بیشترین",
+							"minimum": "کمترین",
+							"name": "نام",
+							"refresh_interval": "فاصله رفرش",
+							"show_icon": "نمایش آیکون؟",
+							"show_name": "نمایش نام؟",
+							"show_state": "نمایش وضعیت؟",
+							"tap_action": "Tap Action",
+							"title": "عنوان",
+							"theme": "زمینه",
+							"unit": "واحد",
+							"url": "آدرس"
+						},
+						"map": {
+							"name": "نقشه",
+							"geo_location_sources": "منابع موقعیت یابی",
+							"dark_mode": "حالت تاریک",
+							"default_zoom": "بزرگنمایی پیش فرض",
+							"source": "منبع"
+						},
+						"markdown": {
+							"name": "Markdown",
+							"content": "محتوا"
+						},
+						"media-control": {
+							"name": "کنترل رسانه"
+						},
+						"picture": {
+							"name": "تصویر"
+						},
+						"picture-elements": {
+							"name": "Picture Elements"
+						},
+						"picture-entity": {
+							"name": "Picture Entity"
+						},
+						"picture-glance": {
+							"name": "Picture Glance"
+						},
+						"plant-status": {
+							"name": "Plant Status"
+						},
+						"sensor": {
+							"name": "سنسور",
+							"graph_detail": "نمودار جزئیات",
+							"graph_type": "نوع نمودار"
+						},
+						"shopping-list": {
+							"name": "لیست خرید"
+						},
+						"thermostat": {
+							"name": "ترموستات"
+						},
+						"vertical-stack": {
+							"name": "Vertical Stack"
+						},
+						"weather-forecast": {
+							"name": "پیش بینی آب و هوا"
+						}
+					},
+					"view": {
+						"panel_mode": {
+							"title": "Panel Mode?",
+							"description": "This renders the first card at full width; other cards in this view will not be rendered."
+						}
+					}
+				},
+				"warning": {
+					"entity_not_found": "نهاد موجود نیست: {entity}",
+					"entity_non_numeric": "نهاد غیر عددی است: {entity}"
+				},
+				"changed_toast": {
+					"message": "پیکربندی Lovelace به روز شد، آیا مایل به بروزرسانی  هستید؟",
+					"refresh": "تازه کردن"
+				},
+				"reload_lovelace": "بازنگری Lovelace"
+			},
+			"mailbox": {
+				"empty": "شما پیامی ندارید",
+				"playback_title": "Message playback",
+				"delete_prompt": "Delete this message?",
+				"delete_button": "Delete"
+			},
+			"profile": {
+				"current_user": "شما در حال حاضر به عنوان {fullName} وارد شده اید.",
+				"is_owner": "You are an owner.",
+				"logout": "Log out",
+				"force_narrow": {
+					"header": "Always hide the sidebar",
+					"description": "This will hide the sidebar by default, similar to the mobile experience."
+				},
+				"vibrate": {
+					"header": "ویبره",
+					"description": "هنگام کنترل دستگاه، حالت ویبره فعال یا غیرفعال می‌شود."
+				},
+				"push_notifications": {
+					"header": "ارسال اعلانها",
+					"description": "ارسال اعلانها به این دستگاه",
+					"error_load_platform": "Configure notify.html5.",
+					"error_use_https": "Requires SSL enabled for frontend.",
+					"push_notifications": "ارسال اعلانها",
+					"link_promo": "بیشتر بدانید"
+				},
+				"language": {
+					"header": "Language",
+					"link_promo": "Help translating",
+					"dropdown_label": "Language"
+				},
+				"themes": {
+					"header": "Theme",
+					"error_no_theme": "No themes available.",
+					"link_promo": "Learn about themes",
+					"dropdown_label": "Theme"
+				},
+				"change_password": {
+					"header": "تغییر رمز عبور",
+					"current_password": "رمز فعلی",
+					"new_password": "رمز جدید",
+					"confirm_new_password": "تائید رمز جدید",
+					"error_required": "Required",
+					"submit": "Submit"
+				},
+				"mfa": {
+					"header": "Multi-factor Authentication Modules",
+					"disable": "Disable",
+					"enable": "Enable",
+					"confirm_disable": "آیا مطمئن هستید که میخواهید {name} غیرفعال کنید؟"
+				},
+				"mfa_setup": {
+					"title_aborted": "لغو شد",
+					"title_success": "Success!",
+					"step_done": "Setup done for {step}",
+					"close": "Close",
+					"submit": "Submit"
+				},
+				"advanced_mode": {
+					"title": "حالت پیشرفته",
+					"description": "سیستم به طور پیش فرض ویژگی ها و گزینه های پیشرفته را پنهان می کند. می توانید با تغییر این گزینه ، این ویژگی ها را در فعال کنید. این  تنظیم خاص یک کاربر بوده و استفاده سایر کاربران این سیستم را تحت تأثیر قرار نمی دهد.",
+					"hint_enable": "Missing config options? Enable advanced mode on",
+					"link_profile_page": "your profile page"
+				},
+				"refresh_tokens": {
+					"header": "تازه کردن نشانه",
+					"description": "هر نشانه بازخوانی نشان دهنده یک جلسه ورود به سیستم است. هنگام خروج از سیستم ، نشانه های تازه سازی به صورت خودکار حذف می شوند. نشانه های تازه سازی زیر در حال حاضر برای حساب شما فعال هستند.",
+					"token_title": "تازه token برای {clientId}",
+					"created_at": "ایجاد شده در {date}",
+					"last_used": "آخرین در {date} از {location}",
+					"not_used": "هرگز استفاده نشده است",
+					"confirm_delete": "Are you sure you want to delete the refresh token for {name}?",
+					"delete_failed": "token حذف نشد.",
+					"current_token_tooltip": "عدم امکان حذف تازه کردن​ token"
+				},
+				"long_lived_access_tokens": {
+					"header": "Long-Lived Access Tokens",
+					"description": "علامت های دسترسی طولانی مدت را ایجاد کنید تا اسکریپت های شما بتوانند با مثال معاونت Home خود ارتباط برقرار کنند. هر علامت گذاری برای 10 سال معتبر است. برچسبهای دسترسی طولانی مدت در حال حاضر فعال هستند.",
+					"learn_auth_requests": "با نحوه انجام درخواست های تأیید اعتبار آشنا شوید.",
+					"created_at": "ایجاد شده در {date}",
+					"last_used": "آخرین مورد استفاده در {date} از {location}",
+					"not_used": "هرگز استفاده نشده است",
+					"confirm_delete": "آیا مطمئن هستید که میخواهید token زیر را برای {name} حذف کنید؟",
+					"delete_failed": "Failed to delete the access token.",
+					"create": "Create Token",
+					"create_failed": "Failed to create the access token.",
+					"prompt_name": "Name?",
+					"prompt_copy_token": "Copy your access token. It will not be shown again.",
+					"empty_state": "You have no long-lived access tokens yet."
+				}
+			},
+			"shopping-list": {
+				"clear_completed": "Clear completed",
+				"add_item": "اضافه کردن آیتم",
+				"microphone_tip": "Tap the microphone on the top right and say or type “Add candy to my shopping list”"
+			},
+			"page-authorize": {
+				"initializing": "Initializing",
+				"authorizing_client": "شما در مورد ارائه {clientId} به عنوان مثال دستیار Home Assistant هستید.",
+				"logging_in_with": "ورود با ** {authProviderName} **.",
+				"pick_auth_provider": "یا وارد سیستم شوید",
+				"abort_intro": "ورود به سیستم لغو شد",
+				"form": {
+					"working": "لطفاً منتظر بمانید",
+					"unknown_error": "Something went wrong",
+					"providers": {
+						"command_line": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "نام کاربری",
+										"password": "پسورد"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "تایید دو مرحله ای"
+									},
+									"description": "باز کردن **{mfa_module_name}** * * * در دستگاه خود را برای مشاهده شما دو فاکتور تأیید هویت کد و هویت خود را تایید کنید:"
+								}
+							},
+							"error": {
+								"invalid_auth": "کد احراز هویت نامعتبر",
+								"invalid_code": "کد احراز هویت نامعتبر"
+							},
+							"abort": {
+								"login_expired": "ورود منقضی شده است، لطفا دوباره وارد شوید."
+							}
+						},
+						"homeassistant": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "نام کاربری",
+										"password": "رمز عبور"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Two-factor Authentication Code"
+									},
+									"description": "باز کردن **{mfa_module_name}** * * * در دستگاه خود را برای مشاهده شما دو فاکتور تأیید هویت کد و هویت خود را تایید کنید:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Invalid username or password",
+								"invalid_code": "کد احراز هویت نامعتبر"
+							},
+							"abort": {
+								"login_expired": "ورود منقضی شده است، لطفا دوباره وارد شوید."
+							}
+						},
+						"legacy_api_password": {
+							"step": {
+								"init": {
+									"data": {
+										"password": "API Password"
+									},
+									"description": "Please input the API password in your http config:"
+								},
+								"mfa": {
+									"data": {
+										"code": "Two-factor Authentication Code"
+									},
+									"description": "باز کردن **{mfa_module_name}** * * * در دستگاه خود را برای مشاهده شما دو فاکتور تأیید هویت کد و هویت خود را تایید کنید:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Invalid API password",
+								"invalid_code": "کد احراز هویت نامعتبر"
+							},
+							"abort": {
+								"no_api_password_set": "You don't have an API password configured.",
+								"login_expired": "لطفا دوباره وارد شوید."
+							}
+						},
+						"trusted_networks": {
+							"step": {
+								"init": {
+									"data": {
+										"user": "User"
+									},
+									"description": "Please select a user you want to login as:"
+								}
+							},
+							"abort": {
+								"not_whitelisted": "Your computer is not whitelisted."
+							}
+						}
+					}
+				}
+			},
+			"page-demo": {
+				"cards": {
+					"demo": {
+						"demo_by": "by {name}",
+						"next_demo": "Next demo",
+						"introduction": "Welcome home! You've reached the Home Assistant demo where we showcase the best UIs created by our community.",
+						"learn_more": "Learn more about Home Assistant"
+					}
+				},
+				"config": {
+					"arsaboo": {
+						"names": {
+							"upstairs": "Upstairs",
+							"family_room": "Family Room",
+							"kitchen": "Kitchen",
+							"patio": "Patio",
+							"hallway": "Hallway",
+							"master_bedroom": "Master Bedroom",
+							"left": "Left",
+							"right": "Right",
+							"mirror": "Mirror",
+							"temperature_study": "Temperature Study"
+						},
+						"labels": {
+							"lights": "Lights",
+							"information": "Information",
+							"morning_commute": "Morning Commute",
+							"commute_home": "Commute to Home",
+							"entertainment": "Entertainment",
+							"activity": "Activity",
+							"hdmi_input": "HDMI Input",
+							"hdmi_switcher": "HDMI Switcher",
+							"volume": "Volume",
+							"total_tv_time": "Total TV Time",
+							"turn_tv_off": "Turn Television off",
+							"air": "Air"
+						},
+						"unit": {
+							"watching": "watching",
+							"minutes_abbr": "min"
+						}
+					}
+				}
+			},
+			"developer-tools": {
+				"tabs": {
+					"info": {
+						"title": "اطلاعات",
+						"remove": "Remove",
+						"set": "Set",
+						"default_ui": "{action} {name} as default page on this device",
+						"lovelace_ui": "Go to the Lovelace UI",
+						"states_ui": "Go to the states UI",
+						"home_assistant_logo": "Home Assistant logo",
+						"path_configuration": "Path to configuration.yaml: {path}",
+						"developed_by": "Developed by a bunch of awesome people.",
+						"license": "Published under the Apache 2.0 license",
+						"source": "Source:",
+						"server": "server",
+						"frontend": "frontend-ui",
+						"built_using": "Built using",
+						"icons_by": "Icons by",
+						"frontend_version": "Frontend version: {version} - {type}",
+						"custom_uis": "Custom UIs:",
+						"system_health_error": "System Health component is not loaded. Add 'system_health:' to configuration.yaml"
+					},
+					"logs": {
+						"title": "وقایع",
+						"details": "Log Details ({level})",
+						"load_full_log": "Load Full Home Assistant Log",
+						"loading_log": "Loading error log…",
+						"no_errors": "No errors have been reported.",
+						"no_issues": "There are no new issues!",
+						"clear": "Clear",
+						"refresh": "Refresh",
+						"multiple_messages": "message first occurred at {time} and shows up {counter} times"
+					},
+					"events": {
+						"title": "رویدادها",
+						"description": "Fire an event on the event bus.",
+						"documentation": "Events Documentation.",
+						"type": "Event Type",
+						"data": "Event Data (YAML, optional)",
+						"fire_event": "Fire Event",
+						"event_fired": "Event {name} fired",
+						"available_events": "Available Events",
+						"count_listeners": " ({count}  listeners)",
+						"listen_to_events": "Listen to events",
+						"listening_to": "Listening to",
+						"subscribe_to": "Event to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"alert_event_type": "Event type is a mandatory field",
+						"notification_event_fired": "Event {type} successful fired!"
+					},
+					"mqtt": {
+						"title": "MQTT",
+						"description_publish": "Publish a packet",
+						"topic": "topic",
+						"payload": "Payload (template allowed)",
+						"publish": "Publish",
+						"description_listen": "Listen to a topic",
+						"listening_to": "Listening to",
+						"subscribe_to": "Topic to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"message_received": "Message {id} received on {topic} at {time}:"
+					},
+					"services": {
+						"title": "خدمات",
+						"description": "The service dev tool allows you to call any available service in Home Assistant.",
+						"data": "Service Data (YAML, optional)",
+						"call_service": "Call Service",
+						"select_service": "Select a service to see the description",
+						"no_description": "No description is available",
+						"no_parameters": "This service takes no parameters.",
+						"column_parameter": "Parameter",
+						"column_description": "Description",
+						"column_example": "Example",
+						"fill_example_data": "Fill Example Data",
+						"alert_parsing_yaml": "Error parsing YAML: {data}"
+					},
+					"states": {
+						"title": "وضعیت",
+						"description1": "Set the representation of a device within Home Assistant.",
+						"description2": "This will not communicate with the actual device.",
+						"entity": "Entity",
+						"state": "State",
+						"attributes": "Attributes",
+						"state_attributes": "State attributes (YAML, optional)",
+						"set_state": "Set State",
+						"current_entities": "Current entities",
+						"filter_entities": "Filter entities",
+						"filter_states": "Filter states",
+						"filter_attributes": "Filter attributes",
+						"no_entities": "No entities",
+						"more_info": "More Info",
+						"alert_entity_field": "Entity is a mandatory field"
+					},
+					"templates": {
+						"title": "قالب",
+						"description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+						"editor": "Template editor",
+						"jinja_documentation": "Jinja2 template documentation",
+						"template_extensions": "Home Assistant template extensions",
+						"unknown_error_template": "Unknown error rendering template"
+					}
+				}
+			},
+			"page-onboarding": {
+				"intro": "Are you ready to awaken your home, reclaim your privacy and join a worldwide community of tinkerers?",
+				"user": {
+					"intro": "Let's get started by creating a user account.",
+					"required_field": "Required",
+					"data": {
+						"name": "نام",
+						"username": "نام کاربری",
+						"password": "رمز عبور",
+						"password_confirm": "تایید رمز عبور"
+					},
+					"create_account": "ایجاد حساب کاربری",
+					"error": {
+						"required_fields": "تمام فیلدهای لازم را پر کنید",
+						"password_not_match": "رمزهای عبور مطابقت ندارند"
+					}
+				},
+				"core-config": {
+					"intro": "سلام {name} ، به دستیار خانگی خوش آمدید چگونه می خواهید خانه خود را نام ببرید؟",
+					"intro_location": "ما می خواهیم بدانیم کجا زندگی می کنید این اطلاعات برای نمایش اطلاعات و تنظیم خودکار اتوماسیون مبتنی بر آخورشید کمک خواهد کرد. این اطلاعات در خارج از شبکه شما به اشتراک گذاشته نمیشود .",
+					"intro_location_detect": "ما می تواند کمک به شما در پر کردن این اطلاعات با ساخت یک درخواست به یک سرویس خارجی.",
+					"location_name_default": "خانه",
+					"button_detect": "تشخیص",
+					"finish": "بعدی"
+				},
+				"integration": {
+					"intro": "دستگاه ها و خدمات در دستیار خانگی به صورت یکپارچه ارائه می شوند. اکنون می توانید آنها را تنظیم کنید یا بعدا از صفحه تنظیمات استفاده کنید.",
+					"more_integrations": "بیشتر",
+					"finish": "پایان"
+				}
+			},
+			"custom": {
+				"external_panel": {
+					"question_trust": "Do you trust the external panel {name} at {link}?",
+					"complete_access": "It will have access to all data in Home Assistant.",
+					"hide_message": "Check docs for the panel_custom component to hide this message"
+				}
+			}
+		}
+	},
+	"attribute": {
+		"weather": {
+			"humidity": "رطوبت",
+			"visibility": "قابل دیدن",
+			"wind_speed": "سرعت باد"
+		}
+	}
+}

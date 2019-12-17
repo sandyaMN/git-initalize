@@ -1,0 +1,2158 @@
+{
+	"domain": {
+		"alarm_control_panel": "แผงควบคุมสัญญาณเตือนภัย",
+		"automation": "การทำงานอัตโนมัติ",
+		"binary_sensor": "เซ็นเซอร์แบบไบนารี",
+		"calendar": "ปฏิทิน",
+		"camera": "กล้อง",
+		"climate": "สภาพอากาศ",
+		"configurator": "ตัวตั้งค่า",
+		"conversation": "การสนทนา",
+		"cover": "ม่าน",
+		"device_tracker": "อุปกรณ์ติดตาม",
+		"fan": "พัดลม",
+		"group": "กลุ่ม",
+		"hassio": "Hass.io",
+		"history_graph": "กราฟประวัติ",
+		"homeassistant": "Home Assistant",
+		"image_processing": "การประมวลผลภาพ",
+		"input_boolean": "ป้อนค่าตรรกะ",
+		"input_datetime": "ป้อนวันเวลา",
+		"input_number": "ป้อนตัวเลข",
+		"input_select": "เลือกข้อมูล",
+		"input_text": "ป้อนข้อความ",
+		"light": "แสงสว่าง",
+		"lock": "ล็อค",
+		"lovelace": "Lovelace",
+		"mailbox": "กล่องจดหมาย",
+		"media_player": "เครื่องเล่นสื่อ",
+		"notify": "แจ้ง",
+		"person": "บุคคล",
+		"plant": "พืช",
+		"proximity": "ใกล้ชิด",
+		"remote": "รีโมต",
+		"scene": "ฉาก",
+		"script": "สคริปต์",
+		"sensor": "เซนเซอร์",
+		"sun": "ดวงอาทิตย์",
+		"switch": "สวิตซ์",
+		"system_health": "ข้อมูลสถานะของระบบ",
+		"updater": "อัพเดต",
+		"vacuum": "เครื่องดูดฝุ่น",
+		"weblink": "เว็บลิงค์",
+		"zha": "ZHA",
+		"zwave": "Z-Wave"
+	},
+	"panel": {
+		"calendar": "ปฏิทิน",
+		"config": "การตั้งค่า",
+		"states": "ภาพรวม",
+		"map": "แผนที่",
+		"logbook": "สมุดบันทึก",
+		"history": "ประวัติการทำงาน",
+		"mailbox": "กล่องจดหมาย",
+		"shopping_list": "รายการซื้อของ",
+		"developer_tools": "เครื่องมือสำหรับนักพัฒนา",
+		"profile": "ข้อมูลส่วนตัว",
+		"dev-info": "ข้อมูล"
+	},
+	"state": {
+		"default": {
+			"off": "ปิด",
+			"on": "เปิด",
+			"unknown": "ไม่ทราบสถานะ",
+			"unavailable": "ไม่พร้อมใช้งาน"
+		},
+		"alarm_control_panel": {
+			"armed": "เปิดการป้องกัน",
+			"disarmed": "ปลดการป้องกัน",
+			"armed_home": "เปิดการป้องกัน-โหมดอยู่บ้าน",
+			"armed_away": "เปิดการป้องกัน-โหมดไม่อยู่บ้าน",
+			"armed_night": "เปิดการป้องกัน-โหมดกลางคืน",
+			"armed_custom_bypass": "ป้องกันโดยกำหนดเอง",
+			"pending": "ค้างอยู่",
+			"arming": "เปิดการป้องกัน",
+			"disarming": "ปลดการป้องกัน",
+			"triggered": "ถูกกระตุ้น"
+		},
+		"automation": {
+			"off": "ปิด",
+			"on": "เปิด"
+		},
+		"binary_sensor": {
+			"default": {
+				"off": "ปิด",
+				"on": "เปิด"
+			},
+			"battery": {
+				"off": "ปกติ",
+				"on": "ต่ำ"
+			},
+			"cold": {
+				"off": "ปกติ",
+				"on": "หนาว"
+			},
+			"connectivity": {
+				"off": "ตัดการเชื่อมต่อ",
+				"on": "เชื่อมต่อแล้ว"
+			},
+			"door": {
+				"off": "ปิดแล้ว",
+				"on": "เปิด"
+			},
+			"garage_door": {
+				"off": "ปิดแล้ว",
+				"on": "เปิด"
+			},
+			"gas": {
+				"off": "ไม่พบแก๊ส",
+				"on": "ตรวจพบแก๊ส"
+			},
+			"heat": {
+				"off": "ปกติ",
+				"on": "ร้อน"
+			},
+			"lock": {
+				"off": "ล็อคอยู่",
+				"on": "ปลดล็อคแล้ว"
+			},
+			"moisture": {
+				"off": "แห้ง",
+				"on": "เปียก"
+			},
+			"motion": {
+				"off": "ไม่พบการเคลื่อนไหว",
+				"on": "พบการเคลื่อนไหว"
+			},
+			"occupancy": {
+				"off": "ไม่พบ",
+				"on": "พบ"
+			},
+			"opening": {
+				"off": "ปิด",
+				"on": "เปิด"
+			},
+			"presence": {
+				"off": "ไม่อยู่",
+				"on": "อยู่บ้าน"
+			},
+			"problem": {
+				"off": "ตกลง",
+				"on": "ปัญหา"
+			},
+			"safety": {
+				"off": "ปิด",
+				"on": "เปิด"
+			},
+			"smoke": {
+				"off": "ไม่พบควัน",
+				"on": "พบควัน"
+			},
+			"sound": {
+				"off": "ไม่ได้ยิน",
+				"on": "ได้ยิน"
+			},
+			"vibration": {
+				"off": "ไม่พบการสั่น",
+				"on": "พบการสั่น"
+			},
+			"window": {
+				"off": "ปิดแล้ว",
+				"on": "เปิด"
+			}
+		},
+		"calendar": {
+			"off": "ปิด",
+			"on": "เปิด"
+		},
+		"camera": {
+			"recording": "กำลังบันทึก",
+			"streaming": "สตรีมมิ่ง",
+			"idle": "ไม่ได้ใช้งาน"
+		},
+		"climate": {
+			"off": "ปิด",
+			"heat": "ร้อน",
+			"cool": "เย็น",
+			"heat_cool": "Heat/Cool",
+			"auto": "อัตโนมัติ",
+			"dry": "แห้ง",
+			"fan_only": "เฉพาะพัดลม",
+			"eco": "อีโค",
+			"electric": "ไฟฟ้า",
+			"gas": "แก๊ส",
+			"heat_pump": "ปั๊มความร้อน",
+			"high_demand": "ความต้องการสูง",
+			"idle": "ไม่ได้ใช้งาน",
+			"manual": "คู่มือ",
+			"on": "เปิด",
+			"performance": "ประสิทธิภาพ"
+		},
+		"configurator": {
+			"configure": "ตั้งค่า",
+			"configured": "ตั้งค่าแล้ว"
+		},
+		"cover": {
+			"open": "เปิด",
+			"opening": "กำลังเปิด",
+			"closed": "ปิด",
+			"closing": "กำลังปิด",
+			"stopped": "หยุด"
+		},
+		"device_tracker": {
+			"home": "อยู่บ้าน",
+			"not_home": "ไม่อยู่"
+		},
+		"fan": {
+			"off": "ปิด",
+			"on": "เปิด"
+		},
+		"group": {
+			"off": "ปิด",
+			"on": "เปิด",
+			"home": "อยู่บ้าน",
+			"not_home": "ไม่อยู่บ้าน",
+			"open": "เปิด",
+			"opening": "กำลังเปิด",
+			"closed": "ปิดแล้ว",
+			"closing": "กำลังปิด",
+			"stopped": "หยุดแล้ว",
+			"locked": "ล็อคแล้ว",
+			"unlocked": "ปลดล็อคแล้ว",
+			"ok": "พร้อมใช้งาน",
+			"problem": "มีปัญหา"
+		},
+		"input_boolean": {
+			"off": "ปิด",
+			"on": "เปิด"
+		},
+		"light": {
+			"off": "ปิด",
+			"on": "เปิด"
+		},
+		"lock": {
+			"locked": "ล็อค",
+			"unlocked": "ปลดล็อค"
+		},
+		"media_player": {
+			"off": "ปิด",
+			"on": "เปิด",
+			"playing": "กำลังเล่น",
+			"paused": "หยุดชั่วคราว",
+			"idle": "ไม่ได้ใช้งาน",
+			"standby": "แสตนด์บาย"
+		},
+		"person": {
+			"home": "อยู่บ้าน",
+			"not_home": "ไม่อยู่บ้าน"
+		},
+		"plant": {
+			"ok": "พร้อมใช้งาน",
+			"problem": "มีปัญหา"
+		},
+		"remote": {
+			"off": "ปิด",
+			"on": "เปิด"
+		},
+		"scene": {
+			"scening": "ซีน"
+		},
+		"script": {
+			"off": "ปิด",
+			"on": "เปิด"
+		},
+		"sensor": {
+			"off": "ปิด",
+			"on": "เปิด"
+		},
+		"sun": {
+			"above_horizon": "เหนือขอบฟ้า",
+			"below_horizon": "ตกดิน"
+		},
+		"switch": {
+			"off": "ปิด",
+			"on": "เปิด"
+		},
+		"timer": {
+			"active": "ใช้งานอยู่",
+			"idle": "ไม่ได้ใช้งาน",
+			"paused": "หยุดชั่วคราว"
+		},
+		"vacuum": {
+			"cleaning": "กำลังทำความสะอาด",
+			"docked": "เชื่อมต่อ",
+			"error": "ผิดพลาด",
+			"idle": "ว่าง",
+			"off": "ปิด",
+			"on": "เปิด",
+			"paused": "หยุดชั่วคราว",
+			"returning": "กลับไปจุดเชื่อมต่อ"
+		},
+		"weather": {
+			"clear-night": "ฟ้าโปร่ง, กลางคืน",
+			"cloudy": "มีเมฆมาก",
+			"exceptional": "Exceptional",
+			"fog": "หมอก",
+			"hail": "ลูกเห็บ",
+			"lightning": "ฟ้าแลบ",
+			"lightning-rainy": "ฟ้าแลบ, ฝนตก",
+			"partlycloudy": "มีเมฆบางส่วน",
+			"pouring": "เท",
+			"rainy": "ฝน",
+			"snowy": "หิมะ",
+			"snowy-rainy": "หิมะ, ฝน",
+			"sunny": "แดดจัด",
+			"windy": "ลมแรง",
+			"windy-variant": "ลมแรง"
+		},
+		"zwave": {
+			"default": {
+				"initializing": "กำลังเริ่มต้น",
+				"dead": "ไม่พร้อมใช้งาน",
+				"sleeping": "กำลังหลับ",
+				"ready": "พร้อมใช้งาน"
+			},
+			"query_stage": {
+				"initializing": "กำลังเริ่มต้น ( {query_stage} )",
+				"dead": "ไม่พร้อมใช้งาน ({query_stage})"
+			}
+		}
+	},
+	"state_attributes": {
+		"climate": {
+			"fan_mode": {
+				"off": "ปิด",
+				"on": "เปิด",
+				"auto": "อัตโนมัติ"
+			},
+			"preset_mode": {
+				"none": "None",
+				"eco": "Eco",
+				"away": "Away",
+				"boost": "Boost",
+				"comfort": "Comfort",
+				"home": "บ้าน",
+				"sleep": "Sleep",
+				"activity": "กิจกรรม"
+			},
+			"hvac_action": {
+				"off": "ปิด",
+				"heating": "Heating",
+				"cooling": "Cooling",
+				"drying": "Drying",
+				"idle": "ไม่ได้ใช้งาน",
+				"fan": "Fan"
+			}
+		}
+	},
+	"state_badge": {
+		"default": {
+			"unknown": "ไม่ทราบสถานะ",
+			"unavailable": "ไม่พร้อมใช้งาน",
+			"error": "เกิดข้อผิดพลาด",
+			"entity_not_found": "ไม่พบเอนทิตี"
+		},
+		"alarm_control_panel": {
+			"armed": "เปิดการป้องกัน",
+			"disarmed": "ปลดการป้องกัน",
+			"armed_home": "เฝ้าระวังอยู่",
+			"armed_away": "เปิดการป้องกัน",
+			"armed_night": "เปิดการป้องกัน",
+			"armed_custom_bypass": "เปิดการป้องกัน",
+			"pending": "ค้างอยู่",
+			"arming": "กำลังเปิดการป้องกัน",
+			"disarming": "กำลังปลดการป้องกัน",
+			"triggered": "ถูกกระตุ้น"
+		},
+		"device_tracker": {
+			"home": "อยู่บ้าน",
+			"not_home": "ไม่อยู่"
+		},
+		"person": {
+			"home": "อยู่บ้าน",
+			"not_home": "ไม่อยู่บ้าน"
+		}
+	},
+	"groups": {
+		"system-admin": "ผู้ดูแลระบบ",
+		"system-users": "ผู้ใช้",
+		"system-read-only": "ผู้ใช้ที่สามารถดูได้อย่างเดียว"
+	},
+	"config_entry": {
+		"disabled_by": {
+			"user": "User",
+			"integration": "Integration",
+			"config_entry": "Config Entry"
+		}
+	},
+	"ui": {
+		"auth_store": {
+			"ask": "คุณต้องการจำการเข้าระบบนี้หรือไม่?",
+			"decline": "ไม่เป็นไรขอบคุณ",
+			"confirm": "จำการเข้าสู่ระบบ"
+		},
+		"card": {
+			"alarm_control_panel": {
+				"code": "รหัส",
+				"clear_code": "ล้าง",
+				"disarm": "ปิดระบบสัญญาณกันขโมย",
+				"arm_home": "ล็อคแบบอยู่บ้าน",
+				"arm_away": "ล็อคแบบออกข้างนอก",
+				"arm_night": "เฝ้ายามกลางคืน",
+				"arm_custom_bypass": "ปล่อยผ่านตามที่กำหนด",
+				"armed_custom_bypass": "ปล่อยผ่านตามที่กำหนด"
+			},
+			"automation": {
+				"last_triggered": "การทำงานครั้งล่าสุด",
+				"trigger": "การทำงาน"
+			},
+			"camera": {
+				"not_available": "ไม่มีรูปภาพ"
+			},
+			"climate": {
+				"currently": "ในขณะนี้",
+				"on_off": "เปิด / ปิด",
+				"target_temperature": "อุณหภูมิที่ต้องการ",
+				"target_temperature_entity": "{name} target temperature",
+				"target_temperature_mode": "{name} target temperature {mode}",
+				"current_temperature": "{name} current temperature",
+				"heating": "{name} heating",
+				"cooling": "{name} cooling",
+				"high": "high",
+				"low": "low",
+				"target_humidity": "ค่าความชื้นที่ต้องการ",
+				"operation": "การทำงาน",
+				"fan_mode": "โหมดของพัดลม",
+				"swing_mode": "โหมดแกว่ง",
+				"preset_mode": "Preset",
+				"away_mode": "โหมดไม่อยู่บ้าน",
+				"aux_heat": "ความร้อน Aux"
+			},
+			"counter": {
+				"actions": {
+					"increment": "increment",
+					"decrement": "decrement",
+					"reset": "reset"
+				}
+			},
+			"cover": {
+				"position": "ตำแหน่ง",
+				"tilt_position": "ตำแหน่งการเอียง"
+			},
+			"fan": {
+				"speed": "ความเร็วลม",
+				"oscillate": "การส่าย",
+				"direction": "ทิศทาง",
+				"forward": "Forward",
+				"reverse": "Reverse"
+			},
+			"light": {
+				"brightness": "ความสว่าง",
+				"color_temperature": "อุณหภูมิสี",
+				"white_value": "ค่าสีขาว",
+				"effect": "ลูกเล่น"
+			},
+			"lock": {
+				"code": "Code",
+				"lock": "ล็อค",
+				"unlock": "ปลดล็อค"
+			},
+			"media_player": {
+				"source": "แหล่งที่มา",
+				"sound_mode": "โหมดเสียง",
+				"text_to_speak": "ข้อความที่จะให้ออกเสียง"
+			},
+			"persistent_notification": {
+				"dismiss": "ยกเลิก"
+			},
+			"scene": {
+				"activate": "กระตุ้น"
+			},
+			"script": {
+				"execute": "ปฏิบัติ"
+			},
+			"timer": {
+				"actions": {
+					"start": "start",
+					"pause": "pause",
+					"cancel": "cancel",
+					"finish": "finish"
+				}
+			},
+			"vacuum": {
+				"actions": {
+					"resume_cleaning": "ทำความสะอาดต่อไป",
+					"return_to_base": "กลับไปจุดเชื่อมต่อ",
+					"start_cleaning": "เริ่มทำความสะอาด",
+					"turn_on": "เปิดใข้งาน",
+					"turn_off": "ปิดใข้งาน"
+				}
+			},
+			"water_heater": {
+				"currently": "ในขณะนี้",
+				"on_off": "เปิด / ปิด",
+				"target_temperature": "อุณหภูมิ",
+				"operation": "การดำเนินการ",
+				"away_mode": "โหมดไม่อยู่บ้าน"
+			},
+			"weather": {
+				"attributes": {
+					"air_pressure": "ความกดอากาศ",
+					"humidity": "ความชื้น",
+					"temperature": "อุณหภูมิ",
+					"visibility": "ทัศนวิสัย",
+					"wind_speed": "ความเร็วลม"
+				},
+				"cardinal_direction": {
+					"e": "ทิศตะวันออก",
+					"ene": "ทิศอีสานเฉียงตะวันออก",
+					"ese": "ทิศอาคเนย์เฉียงตะวันออก",
+					"n": "ทิศเหนือ",
+					"ne": "ทิศตะวันออกเฉียงเหนือ",
+					"nne": "ทิศอีสานเฉียงเหนือ",
+					"nw": "ทิศตะวันตกเฉียงเหนือ",
+					"nnw": "ทิศพายัพเฉียงเหนือ",
+					"s": "ทิศใต้",
+					"se": "ทิศตะวันออกเฉียงใต้",
+					"sse": "ทิศอาคเนย์เฉียงใต้",
+					"ssw": "ทิศตะวันตกเฉียงใต้ค่อนใต้",
+					"sw": "ทิศตะวันตกเฉียงใต้",
+					"w": "ทิศตะวันตก",
+					"wnw": "ทิศพายัพเฉียงตะวันตก",
+					"wsw": "ทิศตะวันตกเฉียงใต้ค่อนตะวันตก"
+				},
+				"forecast": "พยากรณ์ล่วงหน้า"
+			}
+		},
+		"common": {
+			"loading": "กำลังโหลด",
+			"cancel": "ยกเลิก",
+			"save": "บันทึก",
+			"yes": "Yes",
+			"no": "No",
+			"successfully_saved": "Successfully saved"
+		},
+		"components": {
+			"entity": {
+				"entity-picker": {
+					"entity": "เลือกเอนทิตี",
+					"clear": "Clear",
+					"show_entities": "Show entities"
+				}
+			},
+			"device-picker": {
+				"clear": "Clear",
+				"show_devices": "Show devices",
+				"device": "Device"
+			},
+			"relative_time": {
+				"past": "{time}ที่แล้ว",
+				"future": "{time} ที่แล้ว",
+				"never": "ไม่เคย",
+				"duration": {
+					"second": "{count} {count, plural,\n  one {วินาที}\n  other {วินาที}\n}",
+					"minute": "{count} {count, plural,\n  one {นาที}\n  other {นาที}\n}",
+					"hour": "{count} {count, plural,\n  one {ชั่วโมง}\n  other {ชั่วโมง}\n}",
+					"day": "{count} {count, plural,\n  one {วัน}\n  other {วัน}\n}",
+					"week": "{count} {count, plural,\n  one {สัปดาห์}\n  other {สัปดาห์}\n}"
+				}
+			},
+			"history_charts": {
+				"loading_history": "กำลังโหลดประวัติการทำงาน..",
+				"no_history_found": "ไม่พบประวัติการทำงาน"
+			},
+			"service-picker": {
+				"service": "บริการ"
+			}
+		},
+		"dialogs": {
+			"voice_command": {
+				"did_not_hear": "Home Assistant did not hear anything",
+				"found": "I found the following for you:",
+				"error": "Oops, an error has occurred",
+				"how_can_i_help": "How can I help?",
+				"label": "Type a question and press 'Enter'",
+				"label_voice": "Type and press 'Enter' or tap the microphone to speak"
+			},
+			"confirmation": {
+				"cancel": "Cancel",
+				"ok": "OK",
+				"title": "Are you sure?"
+			},
+			"more_info_control": {
+				"script": {
+					"last_action": "การทำงานครั้งล่าสุด"
+				},
+				"sun": {
+					"elevation": "มุมเงย",
+					"rising": "ขึ้นสู่ท้องฟ้าอีกครั้งใน",
+					"setting": "เปลี่ยนแปลงสถานะล่าสุด"
+				},
+				"updater": {
+					"title": "คำแนะนำในการอัพเดท"
+				}
+			},
+			"more_info_settings": {
+				"save": "บันทึก",
+				"name": "ชื่อที่สำหรับแทนที่ค่าเดิม",
+				"entity_id": "รหัสประจำเอนทิตี"
+			},
+			"options_flow": {
+				"form": {
+					"header": "Options"
+				},
+				"success": {
+					"description": "Options successfully saved."
+				}
+			},
+			"config_entry_system_options": {
+				"title": "System Options for {integration}",
+				"enable_new_entities_label": "Enable newly added entities.",
+				"enable_new_entities_description": "If disabled, newly discovered entities for {integration} will not be automatically added to Home Assistant."
+			},
+			"zha_device_info": {
+				"manuf": "by {manufacturer}",
+				"no_area": "No Area",
+				"buttons": {
+					"add": "Add Devices",
+					"remove": "Remove Device",
+					"reconfigure": "Reconfigure Device"
+				},
+				"services": {
+					"reconfigure": "Reconfigure ZHA device (heal device). Use this if you are having issues with the device. If the device in question is a battery powered device please ensure it is awake and accepting commands when you use this service.",
+					"updateDeviceName": "Set a custom name for this device in the device registry.",
+					"remove": "Remove a device from the Zigbee network."
+				},
+				"quirk": "Quirk",
+				"last_seen": "Last Seen",
+				"power_source": "Power Source",
+				"unknown": "Unknown",
+				"zha_device_card": {
+					"device_name_placeholder": "User given name",
+					"area_picker_label": "Area",
+					"update_name_button": "Update Name"
+				}
+			},
+			"domain_toggler": {
+				"title": "Toggle Domains"
+			}
+		},
+		"duration": {
+			"second": "วินาที",
+			"minute": "{count} {count, plural,\n  one {นาที}\n  other {นาที}\n}",
+			"hour": "{count} {count, plural,\n  one {ชั่วโมง}\n  other {ชั่วโมง}\n}",
+			"day": "{count} {count, plural,\n  one {วัน}\n  other {วัน}\n}",
+			"week": "{count} {count, plural,\n  one {สัปดาห์}\n  other {สัปดาห์}\n}"
+		},
+		"login-form": {
+			"password": "รหัสผ่าน",
+			"remember": "จดจำ",
+			"log_in": "ลงชื่อเข้า"
+		},
+		"notification_drawer": {
+			"click_to_configure": "คลิกปุ่มเพื่อกำหนดค่า {entity}",
+			"empty": "ไม่มีการแจ้งเตือน",
+			"title": "การแจ้งเตือน"
+		},
+		"notification_toast": {
+			"service_call_failed": "การเรียกบริการ {service} ล้มเหลว",
+			"connection_lost": "สูญเสียการเชื่อมต่อ ดำเนินการเชื่อมต่อใหม่...",
+			"triggered": "Triggered {name}",
+			"entity_turned_off": "ปิดใช้งาน {entity} แล้ว",
+			"entity_turned_on": "เปิดใช้งาน {entity} แล้ว",
+			"service_called": "เรียกบริการ {service} แล้ว"
+		},
+		"sidebar": {
+			"external_app_configuration": "การกำหนดค่าแอพ",
+			"sidebar_toggle": "Sidebar Toggle",
+			"log_out": "ออกจากระบบ"
+		},
+		"panel": {
+			"config": {
+				"header": "การตั้งค่า Home Assistant",
+				"introduction": "ดูสิ! สามารถกำหนดค่าส่วนประกอบต่างๆ ของคุณได้ด้วย รวมถึงส่วนของระบบของ Home Assistant เลยเชียวนะ! ถึงแม้ตอนนี้ส่วนการแสดงผลยังทำไม่ได้ก็ตาม แต่เรากำลังพัฒนามันอยู่ คงจะใช้ได้เร็วๆ นี้ละ",
+				"common": {
+					"editor": {
+						"confirm_unsaved": "You have unsaved changes. Are you sure you want to leave?"
+					}
+				},
+				"area_registry": {
+					"caption": "ค่าของห้อง",
+					"description": "ภาพรวมของห้องทั้งหมดในบ้านของคุณ",
+					"picker": {
+						"header": "ค่าของห้อง",
+						"introduction": "Areas are used to organize where devices are. This information will be used throughout Home Assistant to help you in organizing your interface, permissions and integrations with other systems.",
+						"introduction2": "สำหรับการวางอุปกรณ์นี้ลงในห้องนี้ ใช้ลิงค์ด้านล่างเพื่อไปยังหน้า 'การทำงานร่วมกัน' และคลิ๊กทีุ่่ม 'ตั้งค่าให้ทำงานร่วมกัน' เพื่อที่จะให้แสดงการ์ดสำหรับอุปกรณ์นั้น",
+						"integrations_page": "หน้าการทำงานร่วมกัน",
+						"no_areas": "ดูเหมือนว่าคุณยังไม่มีห้องเลย!",
+						"create_area": "สร้างห้องใหม่"
+					},
+					"editor": {
+						"default_name": "ห้องใหม่",
+						"delete": "ลบ",
+						"update": "แก้ไข",
+						"create": "สร้าง"
+					},
+					"create_area": "สร้างห้องใหม่",
+					"no_areas": "ดูเหมือนว่าคุณยังไม่มีห้องเลย!"
+				},
+				"core": {
+					"caption": "ทั่วไป",
+					"description": "ตรวจสอบไฟล์การกำหนดค่าและควบคุมเซิร์ฟเวอร์",
+					"section": {
+						"core": {
+							"header": "การกำหนดค่าและควบคุมเซิร์ฟเวอร์",
+							"introduction": "เรารู้นะว่าการตั้งค่าเนี่ยมันน่าเบื่อขนาดไหน ในส่วนนี้มันจะช่วยทำให้ชีวิตคุณง่ายขึ้นนิดหน่อย",
+							"core_config": {
+								"edit_requires_storage": "ตัวช่วยแก้ไขถูกปิดใช้งาน เนื่องจากการกำหนดค่าถูกกำหนดไว้ในไฟล์ configuration.yaml",
+								"location_name": "ชื่อในการติดตั้ง Home Assistant ของคุณ",
+								"latitude": "ละติจูด",
+								"longitude": "ลองจิจูด",
+								"elevation": "มุมเงย",
+								"elevation_meters": "เมตร",
+								"time_zone": "เขตเวลา",
+								"unit_system": "ระบบหน่วย",
+								"unit_system_imperial": "ของจักรพรรดิ",
+								"unit_system_metric": "เมตริก",
+								"imperial_example": "ฟาเรนไฮต์, ปอนด์",
+								"metric_example": "เซลเซียส, กิโลกรัม",
+								"save_button": "บันทึก"
+							}
+						},
+						"server_control": {
+							"reloading": {
+								"automation": "โหลดระบบอัตโนมัติใหม่",
+								"core": "โหลดส่วนกลางใหม่",
+								"group": "โหลดกลุ่มใหม่",
+								"heading": "โหลดไฟล์ตั้งค่าต่างๆ ใหม่",
+								"introduction": "บางส่วนของระบบสามารถรีโหลดใหม่ได้ โดยไม่ต้องรีสตาร์ท เมื่อกดปุ่มแล้วระบบจะโหลดไฟล์นั้นใหม่อีกครั้งนึงขึ้นมา",
+								"script": "โหลดสคริปต์อีกครั้ง"
+							},
+							"server_management": {
+								"heading": "การจัดการเซิร์ฟเวอร์",
+								"introduction": "สำหรับควบคุมเซิร์ฟเวอร์ Home Assistant อีกทีนึงจาก Home Assistant อีกที",
+								"restart": "เริ่มต้นใหม่",
+								"stop": "หยุด"
+							},
+							"validation": {
+								"check_config": "ตรวจสอบการกำหนดค่า",
+								"heading": "ตรวจสอบการกำหนดค่า",
+								"introduction": "ตรวจสอบความถูกต้องการกำหนดค่าของคุณหากคุณเพิ่งทำการเปลี่ยนแปลงบางอย่างกับการกำหนดค่าของคุณและต้องการตรวจสอบให้แน่ใจว่าถูกต้องทั้งหมด",
+								"invalid": "การกำหนดค่าไม่ถูกต้อง",
+								"valid": "การกำหนดค่าถูกต้อง!"
+							}
+						}
+					}
+				},
+				"server_control": {
+					"caption": "Server Controls",
+					"description": "Restart and stop the Home Assistant server",
+					"section": {
+						"validation": {
+							"heading": "Configuration validation",
+							"introduction": "Validate your configuration if you recently made some changes to your configuration and want to make sure that it is all valid",
+							"check_config": "ตรวจสอบการกำหนดค่า",
+							"valid": "Configuration valid!",
+							"invalid": "Configuration invalid"
+						},
+						"reloading": {
+							"heading": "Configuration reloading",
+							"introduction": "Some parts of Home Assistant can reload without requiring a restart. Hitting reload will unload their current configuration and load the new one.",
+							"core": "โหลดส่วนกลางใหม่",
+							"group": "โหลดกลุ่มใหม่",
+							"automation": "Reload automations",
+							"script": "โหลดสคริปต์อีกครั้ง",
+							"scene": "Reload scenes"
+						},
+						"server_management": {
+							"heading": "การจัดการเซิร์ฟเวอร์",
+							"introduction": "Control your Home Assistant server… from Home Assistant.",
+							"restart": "เริ่มต้นใหม่",
+							"confirm_restart": "Are you sure you want to restart Home Assistant?",
+							"stop": "หยุด",
+							"confirm_stop": "Are you sure you want to stop Home Assistant?"
+						}
+					}
+				},
+				"customize": {
+					"caption": "การปรับแต่ง",
+					"description": "ปรับแต่งเอนทิตี้ในรูปแบบของคุณ",
+					"picker": {
+						"header": "การปรับแต่ง",
+						"introduction": "ปรับแต่งคุณลักษณะของเอนทิตี้แต่ละตัว เมื่อมีการเพิ่มหรือแก้ไขจะมีผลทันที หากลบคุณลักษณะจะเห็นผลต่อเมื่อเอนทิตี้นั้นได้รับการอัพเดท"
+					},
+					"warning": {
+						"include_sentence": "It seems that your configuration.yaml doesn't properly",
+						"include_link": "include customize.yaml",
+						"not_applied": "Changes made here are written in it, but will not be applied after a configuration reload unless the include is in place."
+					},
+					"attributes_customize": "The following attributes are already set in customize.yaml",
+					"attributes_outside": "The following attributes are customized from outside of customize.yaml",
+					"different_include": "Possibly via a domain, a glob or a different include.",
+					"attributes_set": "The following attributes of the entity are set programmatically.",
+					"attributes_override": "You can override them if you like.",
+					"attributes_not_set": "The following attributes weren't set. Set them if you like.",
+					"pick_attribute": "Pick an attribute to override"
+				},
+				"automation": {
+					"caption": "การทำงานอัตโนมัติ",
+					"description": "สร้างและแก้ไขระบบอัตโนมัติ",
+					"picker": {
+						"header": "เครื่องมือแก้ไข ระบบอัตโนมัติ",
+						"introduction": "เป็นตัวช่วยแก้ไขที่ทำให้คุณสามารถสร้างหรือแก้ไขการทำงานอัตโนมัติ\nโปรดอ่าน [คำแนะนำ] (https://home-assistant.io/docs/automation/editor/) เพื่อให้การกำหนดค่าของคุณเป็นไปได้อย่างถูกต้อง",
+						"learn_more": "เรียนรู้เพิ่มเติมเกี่ยวกับ Automation",
+						"pick_automation": "เลือกระบบอัตโนมัติเพื่อแก้ไข",
+						"no_automations": "เราไม่พบระบบอัตโนมัติใด ๆ สามารถแก้ไขได้",
+						"add_automation": "เพิ่มระบบอัตโนมัติ",
+						"only_editable": "Only automations defined in automations.yaml are editable.",
+						"edit_automation": "Edit automation",
+						"show_info_automation": "Show info about automation",
+						"delete_automation": "Delete automation",
+						"delete_confirm": "Are you sure you want to delete this automation?"
+					},
+					"editor": {
+						"introduction": "ใช้ระบบอัตโนมัติเพื่อทำให้บ้านของคุณมีชีวิตชีวา",
+						"default_name": "ระบบอัตโนมัติใหม่",
+						"load_error_not_editable": "ระบบอัตโนมัติที่อยู่ในไฟล์ Automations.yaml เท่านั้นที่สามารถแก้ไขได้",
+						"load_error_unknown": "เกิดข้อผิดพลาดในการโหลดระบบอัตโนมัติ ({err_no})",
+						"save": "บันทึก",
+						"unsaved_confirm": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก คุณแน่ใจหรือไม่ว่าต้องการออก?",
+						"alias": "ชื่อ",
+						"description": {
+							"label": "Description",
+							"placeholder": "Optional description"
+						},
+						"triggers": {
+							"name": "Trigger",
+							"header": "ทริกเกอร์",
+							"introduction": "ทริกเกอร์คือสิ่งที่เริ่มต้นในการประมวลผลกฎอัตโนมัติ คุณสามารถระบุทริกเกอร์หลายรายการสำหรับกฎเดียวกันได้ เมื่อตัวทริกเกอร์เริ่มทำงานผู้ช่วยแรกจะตรวจสอบเงื่อนไขหากมีและเรียกการดำเนินการ.\n\n[เรียนรู้เพิ่มเติมเกี่ยวกับทริกเกอร์] (https://home-assistant.io/docs/automation/trigger/)",
+							"learn_more": "เรียนรู้เพิ่มเติมเกี่ยวกับ Trigger",
+							"add": "เพิ่มทริกเกอร์",
+							"duplicate": "ซ้ำ",
+							"delete": "ลบ",
+							"delete_confirm": "แน่ใจหรือว่าต้องการจะลบ?",
+							"unsupported_platform": "แพลตฟอร์มที่ไม่สนับสนุน: {platform}",
+							"type_select": "ประเภททริกเกอร์",
+							"type": {
+								"device": {
+									"label": "Device",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"event": {
+									"label": "เหตุการณ์",
+									"event_type": "ชนิดเหตุการณ์",
+									"event_data": "ข้อมูลเหตุการณ์"
+								},
+								"geo_location": {
+									"label": "พิกัดตำแหน่ง",
+									"source": "แหล่งที่มา",
+									"zone": "โซน",
+									"event": "เหตุการณ์:",
+									"enter": "เข้าสู่",
+									"leave": "ออก"
+								},
+								"state": {
+									"label": "สถานะ",
+									"from": "จาก",
+									"for": "ถึง",
+									"to": "ไปยัง"
+								},
+								"homeassistant": {
+									"label": "Home Assistant",
+									"event": "เหตุการณ์:",
+									"start": "เริ่มต้น",
+									"shutdown": "ปิด"
+								},
+								"mqtt": {
+									"label": "MQTT",
+									"topic": "หัวข้อเรื่อง",
+									"payload": "Payload (ตัวเลือก)"
+								},
+								"numeric_state": {
+									"label": "สถานะตัวเลข",
+									"above": "เหนือกว่า",
+									"below": "ต่ำกว่า",
+									"value_template": "ค่าแบบ (เลือกเพิ่ม)"
+								},
+								"sun": {
+									"label": "พระอาทิตย์",
+									"event": "เหตุการณ์",
+									"sunrise": "พระอาทิตย์ขึ้น",
+									"sunset": "พระอาทิตย์ตกดิน",
+									"offset": "ช่วงเวลา(เลือกเพิ่ม)"
+								},
+								"template": {
+									"label": "แบบ",
+									"value_template": "ค่าแบบ"
+								},
+								"time": {
+									"label": "เวลา",
+									"at": "ที่"
+								},
+								"time_pattern": {
+									"label": "รูปแบบเวลา",
+									"hours": "ชั่วโมง",
+									"minutes": "นาที",
+									"seconds": "วินาที"
+								},
+								"webhook": {
+									"label": "Webhook",
+									"webhook_id": "Webhook ID"
+								},
+								"zone": {
+									"label": "โซน",
+									"entity": "รายละเอียดพร้อมสถานที่ตั้ง",
+									"zone": "โซน",
+									"event": "การกระทำ",
+									"enter": "เข้าสู่",
+									"leave": "ออกจาก"
+								}
+							}
+						},
+						"conditions": {
+							"name": "Condition",
+							"header": "เงื่อนไข",
+							"introduction": "เงื่อนไขเป็นส่วนที่ปล่อยว่างได้ของกฎอัตโนมัติและสามารถใช้เพื่อป้องกันไม่ให้เกิดการกระทำเมื่อถูกเรียกใช้งาน เงื่อนไขดูคล้ายกับการกระตุ้น แต่แตกต่างกันมาก การกระตุ้นจะพิจารณาเหตุการณ์ที่เกิดขึ้นในระบบในขณะที่เงื่อนไขจะดูเฉพาะที่ระบบจะดูในตอนนี้เท่านั้น การกระตุ้นสามารถสังเกตได้จากสวิตช์ที่กำลังเปิดอยู่ โดยเงื่อนไขสามารถเห็นได้เฉพาะเมื่อสวิตช์เปิดหรือปิดอยู่เท่านั้น",
+							"learn_more": "เรียนรู้เพิ่มเติมเกี่ยวกับเงื่อนไข",
+							"add": "เพิ่มเงื่อนไข",
+							"duplicate": "แยกออกมาเป็นอันใหม่",
+							"delete": "ลบ",
+							"delete_confirm": "คุณแน่ใจหรือไม่ว่าจะลบสิ่งนี้ทิ้ง?",
+							"unsupported_condition": "ไม่รองรับเงื่อนไข: {condition}",
+							"type_select": "ประเภทเงื่อนไข",
+							"type": {
+								"and": {
+									"label": "And"
+								},
+								"device": {
+									"label": "Device",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"numeric_state": {
+									"label": "สถานะตัวเลข",
+									"above": "เหนือหัว",
+									"below": "ต่ำกว่า",
+									"value_template": "ค่าของรูปแบบ (ปล่อยว่างได้)"
+								},
+								"or": {
+									"label": "Or"
+								},
+								"state": {
+									"label": "สถานะ",
+									"state": "สถานะ"
+								},
+								"sun": {
+									"label": "ดวงอาทิตย์",
+									"before": "ก่อน:",
+									"after": "หลังจาก:",
+									"before_offset": "ก่อนช่วงเวลา(เลือกเพิ่ม)",
+									"after_offset": "หลังจากช่วงเวลา(เลือกเพิ่ม)",
+									"sunrise": "พระอาทิตย์ขึ้น",
+									"sunset": "พระอาทิตย์ตก"
+								},
+								"template": {
+									"label": "แม่แบบ",
+									"value_template": "ค่าของรูปแม่แบบ"
+								},
+								"time": {
+									"label": "เวลา",
+									"after": "หลังจาก",
+									"before": "ก่อนที่จะ"
+								},
+								"zone": {
+									"label": "โซน",
+									"entity": "Entity พร้อมตำแหน่ง",
+									"zone": "โซน"
+								}
+							}
+						},
+						"actions": {
+							"name": "Action",
+							"header": "การกระทำ",
+							"introduction": "ใช้สำหรับการกระทำที่ Home Assistant จะทำต่อเมื่อระบบอัตโนมัติมีการเรียกใช้งาน",
+							"learn_more": "เรียนรู้เพิ่มเติมเกี่ยวกับ Action",
+							"add": "เพิ่มการกระทำ",
+							"duplicate": "แยกออกมาเป็นอันใหม่",
+							"delete": "ลบ",
+							"delete_confirm": "คุณแน่ใจหรือไม่ว่าจะลบสิ่งนี้ทิ้ง?",
+							"unsupported_action": "ไม่รองรับการดำเนินการ: {action}",
+							"type_select": "ประเภทการทำงาน",
+							"type": {
+								"service": {
+									"label": "เรียกบริการ",
+									"service_data": "ข้อมูลบริการ"
+								},
+								"delay": {
+									"label": "หน่วงเวลา",
+									"delay": "หน่วงเวลา"
+								},
+								"wait_template": {
+									"label": "รอ",
+									"wait_template": "แบบ รอ",
+									"timeout": "หมดเวลา (ตัวเลือก)"
+								},
+								"condition": {
+									"label": "สถานะ"
+								},
+								"event": {
+									"label": "กระทำเหตุการณ์",
+									"event": "การกระทำ",
+									"service_data": "บริการ"
+								},
+								"device_id": {
+									"label": "Device",
+									"extra_fields": {
+										"code": "Code"
+									}
+								},
+								"scene": {
+									"label": "Activate scene"
+								}
+							}
+						}
+					}
+				},
+				"script": {
+					"caption": "สคริปต์",
+					"description": "สร้างและแก้ไขสคริปต์",
+					"picker": {
+						"header": "Script Editor",
+						"introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scripts",
+						"no_scripts": "We couldn’t find any editable scripts",
+						"add_script": "Add script",
+						"trigger_script": "Trigger script",
+						"edit_script": "Edit script"
+					},
+					"editor": {
+						"introduction": "Use scripts to execute a sequence of actions.",
+						"header": "Script: {name}",
+						"default_name": "New Script",
+						"load_error_not_editable": "Only scripts inside scripts.yaml are editable.",
+						"delete_confirm": "Are you sure you want to delete this script?",
+						"delete_script": "Delete script",
+						"sequence": "Sequence",
+						"sequence_sentence": "The sequence of actions of this script.",
+						"link_available_actions": "Learn more about available actions."
+					}
+				},
+				"scene": {
+					"caption": "Scenes",
+					"description": "Create and edit scenes",
+					"activated": "Activated scene {name}.",
+					"picker": {
+						"header": "Scene Editor",
+						"introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scenes",
+						"pick_scene": "Pick scene to edit",
+						"no_scenes": "We couldn’t find any editable scenes",
+						"add_scene": "Add scene",
+						"only_editable": "Only scenes defined in scenes.yaml are editable.",
+						"edit_scene": "Edit scene",
+						"show_info_scene": "Show info about scene",
+						"delete_scene": "Delete scene",
+						"delete_confirm": "Are you sure you want to delete this scene?"
+					},
+					"editor": {
+						"introduction": "Use scenes to bring your home alive.",
+						"default_name": "New Scene",
+						"load_error_not_editable": "Only scenes in scenes.yaml are editable.",
+						"load_error_unknown": "Error loading scene ({err_no}).",
+						"save": "Save",
+						"unsaved_confirm": "You have unsaved changes. Are you sure you want to leave?",
+						"name": "Name",
+						"devices": {
+							"header": "Devices",
+							"introduction": "Add the devices that you want to be included in your scene. Set all the devices to the state you want for this scene.",
+							"add": "Add a device",
+							"delete": "Delete device"
+						},
+						"entities": {
+							"header": "Entities",
+							"introduction": "Entities that do not belong to a devices can be set here.",
+							"without_device": "Entities without device",
+							"device_entities": "If you add an entity that belongs to a device, the device will be added.",
+							"add": "Add an entity",
+							"delete": "Delete entity"
+						}
+					}
+				},
+				"cloud": {
+					"caption": "Home Assistant Cloud",
+					"description_login": "ลงชื่อเข้าใช้เป็น {email}",
+					"description_not_login": "ยังไม่ได้เข้าสู่ระบบ",
+					"description_features": "ควบคุมการทำงานเมื่อออกจากบ้านร่วมกับ Alexa และ Google Assistant",
+					"login": {
+						"title": "Cloud Login",
+						"introduction": "Home Assistant Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+						"introduction2": "This service is run by our partner ",
+						"introduction2a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"introduction3": "Home Assistant Cloud is a subscription service with a free one month trial. No payment information necessary.",
+						"learn_more_link": "Learn more about Home Assistant Cloud",
+						"dismiss": "Dismiss",
+						"sign_in": "Sign in",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"forgot_password": "forgot password?",
+						"start_trial": "Start your free 1 month trial",
+						"trial_info": "No payment information necessary",
+						"alert_password_change_required": "You need to change your password before logging in.",
+						"alert_email_confirm_necessary": "You need to confirm your email before logging in."
+					},
+					"forgot_password": {
+						"title": "Forgot password",
+						"subtitle": "Forgot your password",
+						"instructions": "Enter your email address and we will send you a link to reset your password.",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"send_reset_email": "Send reset email",
+						"check_your_email": "Check your email for instructions on how to reset your password."
+					},
+					"register": {
+						"title": "Register Account",
+						"headline": "Start your free trial",
+						"information": "Create an account to start your free one month trial with Home Assistant Cloud. No payment information necessary.",
+						"information2": "The trial will give you access to all the benefits of Home Assistant Cloud, including:",
+						"feature_remote_control": "Control of Home Assistant away from home",
+						"feature_google_home": "Integration with Google Assistant",
+						"feature_amazon_alexa": "Integration with Amazon Alexa",
+						"feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
+						"information3": "This service is run by our partner ",
+						"information3a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"information4": "By registering an account you agree to the following terms and conditions.",
+						"link_terms_conditions": "Terms and Conditions",
+						"link_privacy_policy": "Privacy Policy",
+						"create_account": "Create Account",
+						"email_address": "Email address",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"start_trial": "Start Trial",
+						"resend_confirm_email": "Resend confirmation email",
+						"account_created": "Account created! Check your email for instructions on how to activate your account."
+					},
+					"account": {
+						"thank_you_note": "Thank you for being part of Home Assistant Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
+						"nabu_casa_account": "Nabu Casa Account",
+						"connection_status": "Cloud connection status",
+						"manage_account": "Manage Account",
+						"sign_out": "Sign out",
+						"integrations": "Integrations",
+						"integrations_introduction": "Integrations for Home Assistant Cloud allow you to connect with services in the cloud without having to expose your Home Assistant instance publicly on the internet.",
+						"integrations_introduction2": "Check the website for ",
+						"integrations_link_all_features": " all available features",
+						"connected": "Connected",
+						"not_connected": "Not Connected",
+						"fetching_subscription": "Fetching subscription…",
+						"remote": {
+							"title": "Remote Control",
+							"access_is_being_prepared": "Remote access is being prepared. We will notify you when it's ready.",
+							"info": "Home Assistant Cloud provides a secure remote connection to your instance while away from home.",
+							"instance_is_available": "Your instance is available at",
+							"instance_will_be_available": "Your instance will be available at",
+							"link_learn_how_it_works": "Learn how it works",
+							"certificate_info": "Certificate Info"
+						},
+						"alexa": {
+							"title": "Alexa",
+							"info": "With the Alexa integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Alexa-enabled device.",
+							"enable_ha_skill": "Enable the Home Assistant skill for Alexa",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+							"sync_entities": "Sync Entities",
+							"manage_entities": "Manage Entities",
+							"sync_entities_error": "Failed to sync entities:",
+							"state_reporting_error": "Unable to {enable_disable} report state.",
+							"enable": "enable",
+							"disable": "disable"
+						},
+						"google": {
+							"title": "Google Assistant",
+							"info": "With the Google Assistant integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Google Assistant-enabled device.",
+							"enable_ha_skill": "Activate the Home Assistant skill for Google Assistant",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Google. This allows you to always see the latest states in the Google app.",
+							"security_devices": "Security Devices",
+							"enter_pin_info": "Please enter a pin to interact with security devices. Security devices are doors, garage doors and locks. You will be asked to say/enter this pin when interacting with such devices via Google Assistant.",
+							"devices_pin": "Security Devices Pin",
+							"enter_pin_hint": "Enter a PIN to use security devices",
+							"sync_entities": "Sync Entities to Google",
+							"manage_entities": "Manage Entities",
+							"enter_pin_error": "Unable to store pin:"
+						},
+						"webhooks": {
+							"title": "Webhooks",
+							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to Home Assistant from anywhere, without exposing your instance to the internet.",
+							"no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
+							"no_hooks_yet_link_integration": "webhook-based integration",
+							"no_hooks_yet2": " or by creating a ",
+							"no_hooks_yet_link_automation": "webhook automation",
+							"link_learn_more": "Learn more about creating webhook-powered automations.",
+							"loading": "Loading ...",
+							"manage": "Manage",
+							"disable_hook_error_msg": "Failed to disable webhook:"
+						}
+					},
+					"alexa": {
+						"title": "Alexa",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"expose": "Expose to Alexa"
+					},
+					"dialog_certificate": {
+						"certificate_information": "Certificate Information",
+						"certificate_expiration_date": "Certificate expiration date",
+						"will_be_auto_renewed": "Will be automatically renewed",
+						"fingerprint": "Certificate fingerprint:",
+						"close": "Close"
+					},
+					"google": {
+						"title": "Google Assistant",
+						"expose": "Expose to Google Assistant",
+						"disable_2FA": "Disable two factor authentication",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"sync_to_google": "Synchronizing changes to Google."
+					},
+					"dialog_cloudhook": {
+						"webhook_for": "Webhook for {name}",
+						"available_at": "The webhook is available at the following url:",
+						"managed_by_integration": "This webhook is managed by an integration and cannot be disabled.",
+						"info_disable_webhook": "If you no longer want to use this webhook, you can",
+						"link_disable_webhook": "disable it",
+						"view_documentation": "View documentation",
+						"close": "Close",
+						"confirm_disable": "Are you sure you want to disable this webhook?",
+						"copied_to_clipboard": "Copied to clipboard"
+					}
+				},
+				"devices": {
+					"caption": "Devices",
+					"description": "Manage connected devices",
+					"unnamed_device": "Unnamed device",
+					"unknown_error": "Unknown error",
+					"area_picker_label": "Area",
+					"automation": {
+						"triggers": {
+							"caption": "Do something when..."
+						},
+						"conditions": {
+							"caption": "Only do something if..."
+						},
+						"actions": {
+							"caption": "When something is triggered..."
+						}
+					},
+					"device_not_found": "Device not found.",
+					"info": "Device info",
+					"details": "Here are all the details of your device.",
+					"entities": "Entities",
+					"automations": "Automations",
+					"confirm_rename_entity_ids": "Do you also want to rename the entity id's of your entities?",
+					"data_table": {
+						"device": "Device",
+						"manufacturer": "Manufacturer",
+						"model": "Model",
+						"area": "Area",
+						"integration": "Integration",
+						"battery": "Battery"
+					}
+				},
+				"entity_registry": {
+					"caption": "เอนทิตีรีจิสทรี",
+					"description": "ภาพรวมของเอนทิตีทั้งหมดที่รู้จัก",
+					"picker": {
+						"header": "เอนทิตีรีจิสทรี",
+						"introduction": "ระบบจะเก็บค่าของทุกๆ เอนทิตี้ไว้ โดยมันจะเป็นแบบนั้นและสามารถระบุค่าให้ไม่ซ้ำกันได้ ในแต่ละเอนทิตี้นั้นจะมี 'รหัสเอนทิตี้' ถูกกำหนดไว้อยู่แล้วซึ่งจะถูกกำหนดไว้ให้ใช้กับเอนทิตี้นั้นๆ เท่านั้น",
+						"introduction2": "ใช้เอนทิตี้รีจิสตรีเพื่อแทนที่ชื่อเปลี่ยนรหัสประจำเอนทิตีหรือลบรายการออกจาก Home Assistant \nหมายเหตุ: การลบรายการเอนทิตีรีจิสตรีจะไม่ลบเอนทิตี โดยทำตามลิงก์ด้านล่างและลบออกจากหน้าการรวมระบบ",
+						"integrations_page": "หน้าการทำงานร่วมกัน",
+						"show_disabled": "Show disabled entities",
+						"headers": {
+							"name": "Name",
+							"entity_id": "Entity ID",
+							"integration": "Integration",
+							"enabled": "Enabled"
+						},
+						"unavailable": "(ไม่พร้อมใช้งาน)"
+					},
+					"editor": {
+						"unavailable": "Entity นี้ยังไม่พร้อมใช้งานในขณะนี้",
+						"default_name": "ห้องใหม่",
+						"enabled_label": "Enable entity",
+						"enabled_cause": "Disabled by {cause}.",
+						"enabled_description": "Disabled entities will not be added to Home Assistant.",
+						"delete": "ลบ",
+						"confirm_delete": "Are you sure you want to delete this entry?",
+						"confirm_delete2": "Deleting an entry will not remove the entity from Home Assistant. To do this, you will need to remove the integration '{platform}' from Home Assistant.",
+						"update": "อัพเดท",
+						"note": "Note: this might not work yet with all integrations."
+					}
+				},
+				"person": {
+					"caption": "บุคคล",
+					"description": "จัดการบุคคลที่ระบบจะทำการติดตาม",
+					"introduction": "Here you can define each person of interest in Home Assistant.",
+					"note_about_persons_configured_in_yaml": "Note: persons configured via configuration.yaml cannot be edited via the UI.",
+					"no_persons_created_yet": "Looks like you have not created any persons yet.",
+					"create_person": "Create Person",
+					"add_person": "Add Person",
+					"confirm_delete": "Are you sure you want to delete this person?",
+					"confirm_delete2": "All devices belonging to this person will become unassigned.",
+					"detail": {
+						"new_person": "New Person",
+						"name": "ชื่อ",
+						"name_error_msg": "Name is required",
+						"linked_user": "Linked User",
+						"device_tracker_intro": "เลือกอุปกรณ์ที่จะให้บุคคลนี้เป็นเจ้าของ",
+						"no_device_tracker_available_intro": "When you have devices that indicate the presence of a person, you will be able to assign them to a person here. You can add your first device by adding a presence-detection integration from the integrations page.",
+						"link_presence_detection_integrations": "Presence Detection Integrations",
+						"link_integrations_page": "Integrations page",
+						"device_tracker_picked": "ติดตามอุปกรณ์",
+						"device_tracker_pick": "เลือกอุปกรณ์ที่จะติดตาม",
+						"delete": "Delete",
+						"create": "Create",
+						"update": "Update"
+					}
+				},
+				"integrations": {
+					"caption": "การทำงานร่วมกัน",
+					"description": "จัดการการเชื่อมต่อของอุปกรณ์กับการบริการ",
+					"discovered": "ค้นพบแล้ว",
+					"configured": "ตั้งค่าไว้แล้ว",
+					"new": "สร้างการทำงานร่วมกันอันใหม่",
+					"note_about_integrations": "Not all integrations can be configured via the UI yet.",
+					"note_about_website_reference": "More are available on the ",
+					"home_assistant_website": "Home Assistant website",
+					"configure": "ปรับแต่ง",
+					"none": "ยังไม่มีการกำหนดค่าใดๆ เลย",
+					"integration_not_found": "Integration not found.",
+					"config_entry": {
+						"settings_button": "Edit settings for {integration}",
+						"system_options_button": "System options for {integration}",
+						"delete_button": "Delete {integration}",
+						"no_devices": "การทำงานร่วมกันนี้ไม่มีอุปกรณ์ใดๆ อยู่เลย",
+						"no_device": "เป็น Entities โดยไม่มีอุปกรณ์",
+						"delete_confirm": "แน่ใจหรือว่าต้องการจะลบการบูรณาการนี้",
+						"restart_confirm": "เริ่ม Home Assistant ใหม่หลังจากลบการบูรณาการนี้",
+						"manuf": "โดย {manufacturer}",
+						"hub": "Connected via",
+						"firmware": "Firmware: {version}",
+						"device_unavailable": "อุปกรณ์นี้ไม่พร้อมใช้งาน",
+						"entity_unavailable": "Entity นี้ไม่พร้อมใช้งาน",
+						"area": "In {area}",
+						"no_area": "ไม่มีห้อง",
+						"via": "เชื่อมต่อแล้ว"
+					},
+					"config_flow": {
+						"aborted": "Aborted",
+						"close": "Close",
+						"finish": "Finish",
+						"submit": "Submit",
+						"not_all_required_fields": "Not all required fields are filled in.",
+						"add_area": "Add Area",
+						"area_picker_label": "Area",
+						"failed_create_area": "Failed to create area.",
+						"error_saving_area": "Error saving area: {error}",
+						"name_new_area": "Name of the new area?",
+						"created_config": "Created config for {name}.",
+						"external_step": {
+							"description": "ขั้นตอนนี้กำหนดให้คุณเยี่ยมชมเว็บไซต์ภายนอกเพื่อทำให้การดำเนินการสมบูรณ์",
+							"open_site": "เปิดเว็บไซต์"
+						}
+					}
+				},
+				"users": {
+					"caption": "ผู้ใช้",
+					"description": "จัดการผู้ใช้งานในระบบ",
+					"picker": {
+						"title": "ผู้ใช้",
+						"system_generated": "System generated"
+					},
+					"editor": {
+						"caption": "ดูผู้ใช้",
+						"rename_user": "เปลี่ยนชื่อผู้ใช้",
+						"change_password": "เปลี่ยนรหัสผ่าน",
+						"activate_user": "เปิดใช้งานผู้ใช้",
+						"deactivate_user": "ปิดใช้งานผู้ใช้",
+						"delete_user": "ลบผู้ใช้",
+						"id": "ID",
+						"owner": "Owner",
+						"group": "Group",
+						"active": "Active",
+						"system_generated": "System generated",
+						"system_generated_users_not_removable": "Unable to remove system generated users.",
+						"unnamed_user": "Unnamed User",
+						"enter_new_name": "Enter new name",
+						"user_rename_failed": "User rename failed:",
+						"group_update_failed": "Group update failed:",
+						"confirm_user_deletion": "Are you sure you want to delete {name}?"
+					},
+					"add_user": {
+						"caption": "เพิ่มผู้ใช้",
+						"name": "ชื่อ",
+						"username": "ชื่อผู้ใช้",
+						"password": "รหัสผ่าน",
+						"create": "สร้าง"
+					}
+				},
+				"zha": {
+					"caption": "ZHA",
+					"description": "การจัดการระบบอัติโนมัติของ Zigbee",
+					"common": {
+						"add_devices": "Add Devices",
+						"clusters": "Clusters",
+						"devices": "Devices",
+						"manufacturer_code_override": "Manufacturer Code Override",
+						"value": "Value"
+					},
+					"add_device_page": {
+						"header": "Zigbee Home Automation - เพิ่มอุปกรณ์",
+						"spinner": "กำลังค้นหาอุปกรณ์ ZHA Zigbee ...",
+						"discovery_text": "อุปกรณ์ที่ค้นหาเจอจะปรากฏที่นี่ ทำตามคำแนะนำบนอุปกรณ์ของคุณและให้อุปกรณ์อยู่ในโหมดการจับคู่ด้วย",
+						"search_again": "Search Again"
+					},
+					"network_management": {
+						"header": "Network Management",
+						"introduction": "Commands that affect the entire network"
+					},
+					"node_management": {
+						"header": "Device Management",
+						"introduction": "Run ZHA commands that affect a single device. Pick a device to see a list of available commands.",
+						"hint_battery_devices": "Note: Sleepy (battery powered) devices need to be awake when executing commands against them. You can generally wake a sleepy device by triggering it.",
+						"hint_wakeup": "Some devices such as Xiaomi sensors have a wake up button that you can press at ~5 second intervals that keep devices awake while you interact with them.",
+						"help_node_dropdown": "Select a device to view per-device options."
+					},
+					"clusters": {
+						"help_cluster_dropdown": "Select a cluster to view attributes and commands."
+					},
+					"cluster_attributes": {
+						"header": "Cluster Attributes",
+						"introduction": "View and edit cluster attributes.",
+						"attributes_of_cluster": "Attributes of the selected cluster",
+						"get_zigbee_attribute": "Get Zigbee Attribute",
+						"set_zigbee_attribute": "Set Zigbee Attribute",
+						"help_attribute_dropdown": "Select an attribute to view or set its value.",
+						"help_get_zigbee_attribute": "Get the value for the selected attribute.",
+						"help_set_zigbee_attribute": "Set attribute value for the specified cluster on the specified entity."
+					},
+					"cluster_commands": {
+						"header": "Cluster Commands",
+						"introduction": "View and issue cluster commands.",
+						"commands_of_cluster": "Commands of the selected cluster",
+						"issue_zigbee_command": "Issue Zigbee Command",
+						"help_command_dropdown": "Select a command to interact with."
+					},
+					"device_card": {
+						"area_picker_label": "ห้อง",
+						"device_name_placeholder": "ชื่อที่ผู้ใช้กำหนดให้",
+						"update_name_button": "ชื่อการปรับปรุง"
+					},
+					"services": {
+						"reconfigure": "กำหนดค่าอุปกรณ์ ZHA อีกครั้ง (เพื่อรักษาอุปกรณ์) ใช้สิ่งนี้หากคุณมีปัญหากับอุปกรณ์ หากอุปกรณ์ดังกล่าวเป็นอุปกรณ์ที่ใช้พลังงานจากแบตเตอรี่โปรดตรวจสอบให้แน่ใจว่าอุปกรณ์นั้นเปิดอยู่และยอมรับคำสั่งเมื่อคุณใช้บริการ",
+						"remove": "ลบอุปกรณ์ออกจากเครือข่าย Zigbee",
+						"updateDeviceName": "ตั้งชื่อที่กำหนดเองสำหรับอุปกรณ์นี้ในการลงทะเบียนอุปกรณ์"
+					}
+				},
+				"zwave": {
+					"caption": "Z-Wave",
+					"description": "จัดการเครือข่าย Z-Wave",
+					"learn_more": "Learn more about Z-Wave",
+					"common": {
+						"value": "ค่า",
+						"instance": "Instance",
+						"index": "Index",
+						"unknown": "ไม่ทราบ",
+						"wakeup_interval": "Wakeup Interval"
+					},
+					"network_management": {
+						"header": "Z-Wave Network Management",
+						"introduction": "Run commands that affect the Z-Wave network. You won't get feedback on whether most commands succeeded, but you can check the OZW Log to try to find out."
+					},
+					"ozw_log": {
+						"header": "OZW Log",
+						"introduction": "View the log. 0 is the minimum (loads entire log) and 1000 is the maximum. Load will show a static log and tail will auto update with the last specified number of lines of the log."
+					},
+					"network_status": {
+						"network_stopped": "Z-Wave Network Stopped",
+						"network_starting": "Starting Z-Wave Network...",
+						"network_starting_note": "This may take a while depending on the size of your network.",
+						"network_started": "Z-Wave Network Started",
+						"network_started_note_some_queried": "Awake nodes have been queried. Sleeping nodes will be queried when they wake.",
+						"network_started_note_all_queried": "All nodes have been queried."
+					},
+					"node_config": {
+						"header": "Node Config Options",
+						"seconds": "วินาที",
+						"set_wakeup": "Set Wakeup Interval",
+						"config_parameter": "Config Parameter",
+						"config_value": "Config Value",
+						"true": "True",
+						"false": "False",
+						"set_config_parameter": "ตั้งค่าพารามิเตอร์การกำหนดค่า"
+					},
+					"values": {
+						"header": "Node Values"
+					},
+					"services": {
+						"start_network": "Start Network",
+						"stop_network": "Stop Network",
+						"heal_network": "Heal Network",
+						"test_network": "Test Network",
+						"soft_reset": "Soft Reset",
+						"save_config": "Save Config",
+						"add_node_secure": "Add Node Secure",
+						"add_node": "Add Node",
+						"remove_node": "Remove Node",
+						"cancel_command": "Cancel Command"
+					}
+				}
+			},
+			"history": {
+				"showing_entries": "วันที่ต้องการแสดง",
+				"period": "ช่วงเวลา"
+			},
+			"logbook": {
+				"showing_entries": "วันที่ต้องการแสดง",
+				"period": "ช่วงเวลา",
+				"entries_not_found": "No logbook entries found."
+			},
+			"lovelace": {
+				"cards": {
+					"confirm_delete": "Are you sure you want to delete this card?",
+					"empty_state": {
+						"title": "ยินดีต้อนรับกลับบ้าน",
+						"no_devices": "หน้านี้ช่วยให้คุณควบคุมอุปกรณ์ของคุณได้ แต่ยังไงก็ตามมันดูเหมือนว่าคุณยังไม่ได้ติดตั้งอุปกรณ์อะไรไว้เลย ไปยัง 'หน้าการทำงานด้วยกัน' เพื่อเริ่มติดตั้ง",
+						"go_to_integrations_page": "ไปที่หน้าการรวมระบบ"
+					},
+					"shopping-list": {
+						"checked_items": "รายการที่เลือก",
+						"clear_items": "ล้างรายการที่เลือก",
+						"add_item": "เพิ่มรายการ"
+					},
+					"picture-elements": {
+						"hold": "ถือ:",
+						"tap": "แตะ:",
+						"navigate_to": "นำทางไปยัง {location}",
+						"url": "Open window to {url_path}",
+						"toggle": "สลับ {name}",
+						"call_service": "เรียกบริการ {name}",
+						"more_info": "แสดงข้อมูลเพิ่มเติม: {name}"
+					}
+				},
+				"unused_entities": {
+					"title": "Unused entities",
+					"available_entities": "These are the entities that you have available, but are not in your Lovelace UI yet.",
+					"select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+					"entity": "Entity",
+					"entity_id": "Entity ID",
+					"domain": "Domain",
+					"last_changed": "Last Changed"
+				},
+				"views": {
+					"confirm_delete": "Are you sure you want to delete this view?",
+					"existing_cards": "You can't delete a view that has cards in it. Remove the cards first."
+				},
+				"menu": {
+					"configure_ui": "ตั้งค่าการแสดงผล",
+					"help": "วิธีใช้",
+					"refresh": "รีเฟรช",
+					"close": "Close",
+					"unused_entities": "เอนทิตีที่ไม่ได้ใช้"
+				},
+				"editor": {
+					"header": "แก้ไข UI",
+					"menu": {
+						"open": "Open Lovelace menu",
+						"raw_editor": "ตัวแก้ไข config แบบดิบๆ"
+					},
+					"raw_editor": {
+						"header": "แก้ไขการกำหนดค่า",
+						"save": "บันทึก",
+						"unsaved_changes": "การเปลี่ยนแปลงที่ยังไม่ได้ถูกบันทึก",
+						"saved": "บันทึกแล้ว",
+						"confirm_unsaved_changes": "You have unsaved changes, are you sure you want to exit?",
+						"confirm_unsaved_comments": "Your config contains comment(s), these will not be saved. Do you want to continue?",
+						"error_parse_yaml": "Unable to parse YAML: {error}",
+						"error_invalid_config": "Your config is not valid: {error}",
+						"error_save_yaml": "Unable to save YAML: {error}"
+					},
+					"edit_lovelace": {
+						"header": "Title of your Lovelace UI",
+						"explanation": "This title is shown above all your views in Lovelace.",
+						"edit_title": "Edit title"
+					},
+					"edit_view": {
+						"header": "ดูการกำหนดค่า",
+						"header_name": "{name} View Configuration",
+						"add": "เพิ่มมุมมอง",
+						"edit": "แก้ไขมุมมอง",
+						"delete": "ลบมุมมอง",
+						"move_left": "Move view left",
+						"move_right": "Move view right"
+					},
+					"edit_card": {
+						"header": "การกำหนดค่าการ์ด",
+						"pick_card": "เลือกการ์ดที่คุณอยากจะเพิ่ม",
+						"pick_card_view_title": "Which card would you like to add to your {name} view?",
+						"toggle_editor": "เปิด/ปิดเครื่องมือแก้ไข",
+						"show_visual_editor": "Show Visual Editor",
+						"show_code_editor": "Show Code Editor",
+						"add": "เพิ่มการ์ดใหม่",
+						"edit": "แก้ไข",
+						"delete": "ลบ",
+						"move": "ย้าย",
+						"options": "More options",
+						"save": "บันทึก"
+					},
+					"save_config": {
+						"header": "ควบคุม Lovelace UI ในแบบของคุณ",
+						"para": "โดยเริ่มต้น Home Assistant จะควบคุมส่วนต่อประสานผู้ใช้งานเอง เมื่อมี Entity หรือส่วนควบคุมใหม่ๆ จะถูกแสดงขึ้นให้เอง แต่ถ้าคุณอยากจะควบคุมเอง เราจะไม่มีการอัพเดทตามข้างต้นให้กับคุณ",
+						"para_sure": "คุณแน่ใจหรือไม่ว่าต้องการควบคุมส่วนต่อประสานผู้ใช้งาน?",
+						"cancel": "ไม่เป็นไร",
+						"save": "ใช้การควบคุม"
+					},
+					"migrate": {
+						"header": "การกำหนดค่าไม่ถูกต้อง",
+						"para_no_id": "องค์ประกอบนี้ยังไม่มี ID (สามารถเพิ่ม ID ลงในองค์ประกอบนี้ได้ในไฟล์ 'ui-lovelace.yaml')",
+						"para_migrate": "Home Assistant สามารถเพิ่มเลขกำกับของการ์ดและแสดงผลอัตโนมัติให้คุณได้ โดยกดปุ่ม 'Mirate Config'",
+						"migrate": "โอนย้ายการกำหนดค่า"
+					},
+					"card": {
+						"alarm-panel": {
+							"name": "Alarm Panel",
+							"available_states": "Available States"
+						},
+						"conditional": {
+							"name": "Conditional"
+						},
+						"config": {
+							"required": "Required",
+							"optional": "Optional"
+						},
+						"entities": {
+							"name": "Entities",
+							"show_header_toggle": "Show Header Toggle?",
+							"toggle": "Toggle entities."
+						},
+						"entity-button": {
+							"name": "Entity Button"
+						},
+						"entity-filter": {
+							"name": "Entity Filter"
+						},
+						"gauge": {
+							"name": "Gauge",
+							"severity": {
+								"define": "Define Severity?",
+								"green": "Green",
+								"red": "Red",
+								"yellow": "Yellow"
+							}
+						},
+						"glance": {
+							"name": "Glance",
+							"columns": "Columns"
+						},
+						"history-graph": {
+							"name": "History Graph"
+						},
+						"horizontal-stack": {
+							"name": "Horizontal Stack"
+						},
+						"iframe": {
+							"name": "iFrame"
+						},
+						"light": {
+							"name": "Light"
+						},
+						"generic": {
+							"aspect_ratio": "Aspect Ratio",
+							"camera_image": "Camera Entity",
+							"camera_view": "Camera View",
+							"entities": "Entities",
+							"entity": "Entity",
+							"hold_action": "Hold Action",
+							"hours_to_show": "Hours to Show",
+							"icon": "Icon",
+							"icon_height": "Icon Height",
+							"image": "Image Path",
+							"maximum": "Maximum",
+							"minimum": "Minimum",
+							"name": "Name",
+							"refresh_interval": "Refresh Interval",
+							"show_icon": "Show Icon?",
+							"show_name": "Show Name?",
+							"show_state": "Show State?",
+							"tap_action": "Tap Action",
+							"title": "Title",
+							"theme": "Theme",
+							"unit": "Unit",
+							"url": "Url"
+						},
+						"map": {
+							"name": "Map",
+							"geo_location_sources": "Geolocation Sources",
+							"dark_mode": "Dark Mode?",
+							"default_zoom": "Default Zoom",
+							"source": "Source"
+						},
+						"markdown": {
+							"name": "Markdown",
+							"content": "Content"
+						},
+						"media-control": {
+							"name": "Media Control"
+						},
+						"picture": {
+							"name": "Picture"
+						},
+						"picture-elements": {
+							"name": "Picture Elements"
+						},
+						"picture-entity": {
+							"name": "Picture Entity"
+						},
+						"picture-glance": {
+							"name": "Picture Glance"
+						},
+						"plant-status": {
+							"name": "Plant Status"
+						},
+						"sensor": {
+							"name": "Sensor",
+							"graph_detail": "Graph Detail",
+							"graph_type": "Graph Type"
+						},
+						"shopping-list": {
+							"name": "Shopping List"
+						},
+						"thermostat": {
+							"name": "Thermostat"
+						},
+						"vertical-stack": {
+							"name": "Vertical Stack"
+						},
+						"weather-forecast": {
+							"name": "Weather Forecast"
+						}
+					},
+					"view": {
+						"panel_mode": {
+							"title": "Panel Mode?",
+							"description": "This renders the first card at full width; other cards in this view will not be rendered."
+						}
+					}
+				},
+				"warning": {
+					"entity_not_found": "Entity ไม่พร้อมใช้งาน: {entity}",
+					"entity_non_numeric": "Entity ที่ไม่ใช่ตัวเลข: {entity}"
+				},
+				"changed_toast": {
+					"message": "อัพเดทการกำหนดค่าส่วนแสดงผล Lovelace แล้ว คุณต้องการจะรีเฟรชหน้าหรือไม่",
+					"refresh": "รีเฟรช"
+				},
+				"reload_lovelace": "โหลดส่วนแสดงผล Lovelace ใหม่"
+			},
+			"mailbox": {
+				"empty": "ไม่มีข้อความ",
+				"playback_title": "เล่นข้อความ",
+				"delete_prompt": "ลบข้อความนี้หรือไม่?",
+				"delete_button": "ลบ"
+			},
+			"profile": {
+				"current_user": "ขณะนี้คุณเข้าสู่ระบบในชื่อ {fullName}",
+				"is_owner": "ในฐานะ \"เจ้าของ\"",
+				"logout": "Log out",
+				"force_narrow": {
+					"header": "ซ่อนแถบด้านข้างเสมอ",
+					"description": "This will hide the sidebar by default, similar to the mobile experience."
+				},
+				"vibrate": {
+					"header": "Vibrate",
+					"description": "Enable or disable vibration on this device when controlling devices."
+				},
+				"push_notifications": {
+					"header": "การแจ้งเตือน",
+					"description": "ส่งการแจ้งเตือนไปยังอุปกรณ์นี้",
+					"error_load_platform": "กำหนดค่า notify.html5.",
+					"error_use_https": "ต้องเปิดใช้งาน SSL สำหรับส่วนหน้า",
+					"push_notifications": "การแจ้งเตือน",
+					"link_promo": "เรียนรู้เพิ่มเติม"
+				},
+				"language": {
+					"header": "ภาษา",
+					"link_promo": "ช่วยเราแปลภาษาเป็นประเทศของคุณ",
+					"dropdown_label": "ภาษา"
+				},
+				"themes": {
+					"header": "ชุดตกแต่ง",
+					"error_no_theme": "ไม่มีธีม",
+					"link_promo": "เรียนรู้เกี่ยวกับธีม",
+					"dropdown_label": "ธีม"
+				},
+				"change_password": {
+					"header": "เปลี่ยนรหัสผ่าน",
+					"current_password": "รหัสผ่านปัจจุบัน",
+					"new_password": "รหัสผ่านใหม่",
+					"confirm_new_password": "ยืนยันรหัสผ่านใหม่",
+					"error_required": "ต้องระบุ",
+					"submit": "ส่งข้อมูล"
+				},
+				"mfa": {
+					"header": "โมดูลการพิสูจน์ตัวตนแบบหลายปัจจัย",
+					"disable": "ปิดการใช้งาน",
+					"enable": "เปิดใช้งาน",
+					"confirm_disable": "คุณแน่ใจหรือไม่ว่าต้องการปิดใช้งาน {name} ?"
+				},
+				"mfa_setup": {
+					"title_aborted": "ยกเลิก",
+					"title_success": "สำเร็จ!",
+					"step_done": "ติดตั้งเสร็จแล้วในขั้นตอนที่ {step}",
+					"close": "ปิด",
+					"submit": "ส่งข้อมูล"
+				},
+				"advanced_mode": {
+					"title": "Advanced Mode",
+					"description": "Home Assistant hides advanced features and options by default. You can make these features accessible by checking this toggle. This is a user-specific setting and does not impact other users using Home Assistant.",
+					"hint_enable": "Missing config options? Enable advanced mode on",
+					"link_profile_page": "your profile page"
+				},
+				"refresh_tokens": {
+					"header": "Refresh Tokens",
+					"description": "ในแต่ละครั้ง Refresh Token จะถูกเห็นเป็น Login Session โดย Refresh Token จะถูกลบอัตโนมัติเมื่อคุณกดปุ่มออกจากระบบ\nRefresh Token ต่อไปนี้กำลังถูกใช้ในบัญชีของคุณอยู่..",
+					"token_title": "Refresh Tokens สำหรับ {clientId}",
+					"created_at": "สร้างเมื่อ {date}",
+					"last_used": "ใช้ครั้งล่าสุดเมื่อ {date} จาก {location}",
+					"not_used": "ยังไม่เคยถูกใช้งาน",
+					"confirm_delete": "คุณแน่ใจหรือไม่ว่าต้องการลบ Refresh Tokens ของ {name} ?",
+					"delete_failed": "การลบ Refresh Token ล้มเหลว",
+					"current_token_tooltip": "ไม่สามารถลบ Refresh Token ปัจจุบันได้"
+				},
+				"long_lived_access_tokens": {
+					"header": "โทเค็นการเข้าถึงระยะยาว",
+					"description": "สร้างโทเค็นการเข้าถึงระยะยาวเพื่อให้สคริปต์ของคุณเชื่อมต่อกับ Home Assistant ได้ โดยแต่ละโทเค็นที่สร้างขึ้นจะอยู่ได้ 10 ปีนับจากวันที่สร้าง\nโทเค็นการเข้าถึงระยะยาวต่อไปนี้กำลังถูกใช้ในบัญชีของคุณอยู่..",
+					"learn_auth_requests": "เรียนรู้วิธีสร้างคำขอที่มีการรับรองความถูกต้อง",
+					"created_at": "สร้างเมื่อ {date}",
+					"last_used": "ใช้ครั้งล่าสุดเมื่อ {date} จาก {location}",
+					"not_used": "ยังไม่เคยถูกใช้งาน",
+					"confirm_delete": "คุณแน่ใจหรือไม่ว่าต้องการลบโทเค็นการเข้าถึงของ {name} ?",
+					"delete_failed": "เกิดข้อผิดพลาดในการลบ Access Token",
+					"create": "สร้าง Token ใหม่",
+					"create_failed": "เกิดข้อผิดพลาดในการลบ Access Token ",
+					"prompt_name": "ชื่อ?",
+					"prompt_copy_token": "จด Access Token ของคุณไว้ที่อื่นด้วย มันจะไม่แสดงให้เห็นอีกแล้วหลังจากนี้",
+					"empty_state": "คุณยังไม่มีโทเค็นการเข้าถึงระยะยาวเลย"
+				}
+			},
+			"shopping-list": {
+				"clear_completed": "จัดการเรียบร้อย",
+				"add_item": "เพิ่มรายการใหม่",
+				"microphone_tip": "ลองแตะไมโครโฟนที่ด้านบนขวาและพูดว่า \"เพิ่มลูกอมลงในรายการช้อปปิ้งของฉัน\" ดูสิ!"
+			},
+			"page-authorize": {
+				"initializing": "กำลังเริ่มการทำงาน",
+				"authorizing_client": "คุณกำลังจะให้ {clientId} เข้าถึงเซิร์ฟเวอร์ Home Assistant ของคุณ",
+				"logging_in_with": "เข้าสู่ระบบด้วย ** {authProviderName} **",
+				"pick_auth_provider": "หรือเข้าสู่ระบบด้วย",
+				"abort_intro": "เข้าสู่ระบบถูกยกเลิก",
+				"form": {
+					"working": "กรุณารอสักครู่",
+					"unknown_error": "มีบางอย่างผิดพลาด",
+					"providers": {
+						"command_line": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "ชื่อผู้ใช้",
+										"password": "รหัสผ่าน"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "รหัสผ่านยืนยัน 2 ขั้นตอน"
+									},
+									"description": "เปิด ** {mfa_module_name} ** บนอุปกรณ์ของคุณเพื่อดูรหัสการตรวจสอบสิทธิ์แบบสองปัจจัยและยืนยันตัวตนของคุณ"
+								}
+							},
+							"error": {
+								"invalid_auth": "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง",
+								"invalid_code": "Authentication code ไม่ถูกต้อง"
+							},
+							"abort": {
+								"login_expired": "เซสชันหมดอายุ กรุณาเข้าสู่ระบบอีกครั้ง"
+							}
+						},
+						"homeassistant": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "ชื่อผู้ใช้",
+										"password": "รหัสผ่าน"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "รหัสรับรองความถูกต้องสองปัจจัย"
+									},
+									"description": "เปิด ** {mfa_module_name} ** บนอุปกรณ์ของคุณเพื่อดูรหัสการตรวจสอบสิทธิ์แบบสองปัจจัยและยืนยันตัวตนของคุณ"
+								}
+							},
+							"error": {
+								"invalid_auth": "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง",
+								"invalid_code": "รหัสรับรองความถูกต้องสองปัจจัย ไม่ถูกต้อง"
+							},
+							"abort": {
+								"login_expired": "เซสชันหมดอายุ กรุณาเข้าสู่ระบบอีกครั้ง"
+							}
+						},
+						"legacy_api_password": {
+							"step": {
+								"init": {
+									"data": {
+										"password": "รหัสผ่าน API"
+									},
+									"description": "โปรดป้อน API Password ในการกำหนดค่า http ของคุณ:"
+								},
+								"mfa": {
+									"data": {
+										"code": "รหัสรับรองความถูกต้องสองปัจจัย"
+									},
+									"description": "เปิด ** {mfa_module_name} ** บนอุปกรณ์ของคุณเพื่อดูรหัสการตรวจสอบสิทธิ์แบบสองปัจจัยและยืนยันตัวตนของคุณ"
+								}
+							},
+							"error": {
+								"invalid_auth": "API Password ไม่ถูกต้อง",
+								"invalid_code": "รหัสรับรองความถูกต้องสองปัจจัย ไม่ถูกต้อง"
+							},
+							"abort": {
+								"no_api_password_set": "คุณยังไม่ได้ตั้งค่า API Password เลย",
+								"login_expired": "เซสชั่นหมดอายุ โปรดเข้าสู่ระบบใหม่"
+							}
+						},
+						"trusted_networks": {
+							"step": {
+								"init": {
+									"data": {
+										"user": "ผู้ใช้"
+									},
+									"description": "โปรดเลือกผู้ใช้ที่ คุณต้องการเข้าสู่ระบบในชื่อของ"
+								}
+							},
+							"abort": {
+								"not_whitelisted": "คอมพิวเตอร์ของคุณไม่ได้รับสิทธิ์ในการเข้าถึง"
+							}
+						}
+					}
+				}
+			},
+			"page-demo": {
+				"cards": {
+					"demo": {
+						"demo_by": "by {name}",
+						"next_demo": "Next demo",
+						"introduction": "Welcome home! You've reached the Home Assistant demo where we showcase the best UIs created by our community.",
+						"learn_more": "Learn more about Home Assistant"
+					}
+				},
+				"config": {
+					"arsaboo": {
+						"names": {
+							"upstairs": "Upstairs",
+							"family_room": "Family Room",
+							"kitchen": "Kitchen",
+							"patio": "Patio",
+							"hallway": "Hallway",
+							"master_bedroom": "Master Bedroom",
+							"left": "Left",
+							"right": "Right",
+							"mirror": "Mirror",
+							"temperature_study": "Temperature Study"
+						},
+						"labels": {
+							"lights": "Lights",
+							"information": "Information",
+							"morning_commute": "Morning Commute",
+							"commute_home": "Commute to Home",
+							"entertainment": "Entertainment",
+							"activity": "Activity",
+							"hdmi_input": "HDMI Input",
+							"hdmi_switcher": "HDMI Switcher",
+							"volume": "Volume",
+							"total_tv_time": "Total TV Time",
+							"turn_tv_off": "Turn Television off",
+							"air": "Air"
+						},
+						"unit": {
+							"watching": "watching",
+							"minutes_abbr": "min"
+						}
+					}
+				}
+			},
+			"developer-tools": {
+				"tabs": {
+					"info": {
+						"title": "ข้อมูล",
+						"remove": "Remove",
+						"set": "Set",
+						"default_ui": "{action} {name} as default page on this device",
+						"lovelace_ui": "Go to the Lovelace UI",
+						"states_ui": "Go to the states UI",
+						"home_assistant_logo": "Home Assistant logo",
+						"path_configuration": "Path to configuration.yaml: {path}",
+						"developed_by": "Developed by a bunch of awesome people.",
+						"license": "Published under the Apache 2.0 license",
+						"source": "Source:",
+						"server": "server",
+						"frontend": "frontend-ui",
+						"built_using": "Built using",
+						"icons_by": "Icons by",
+						"frontend_version": "Frontend version: {version} - {type}",
+						"custom_uis": "Custom UIs:",
+						"system_health_error": "System Health component is not loaded. Add 'system_health:' to configuration.yaml"
+					},
+					"logs": {
+						"title": "Logs",
+						"details": "Log Details ({level})",
+						"load_full_log": "Load Full Home Assistant Log",
+						"loading_log": "Loading error log…",
+						"no_errors": "No errors have been reported.",
+						"no_issues": "There are no new issues!",
+						"clear": "Clear",
+						"refresh": "Refresh",
+						"multiple_messages": "message first occurred at {time} and shows up {counter} times"
+					},
+					"events": {
+						"title": "เหตุการณ์",
+						"description": "Fire an event on the event bus.",
+						"documentation": "Events Documentation.",
+						"type": "Event Type",
+						"data": "Event Data (YAML, optional)",
+						"fire_event": "Fire Event",
+						"event_fired": "Event {name} fired",
+						"available_events": "Available Events",
+						"count_listeners": " ({count}  listeners)",
+						"listen_to_events": "Listen to events",
+						"listening_to": "Listening to",
+						"subscribe_to": "Event to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"alert_event_type": "Event type is a mandatory field",
+						"notification_event_fired": "Event {type} successful fired!"
+					},
+					"mqtt": {
+						"title": "MQTT",
+						"description_publish": "Publish a packet",
+						"topic": "topic",
+						"payload": "Payload (template allowed)",
+						"publish": "Publish",
+						"description_listen": "Listen to a topic",
+						"listening_to": "Listening to",
+						"subscribe_to": "Topic to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"message_received": "Message {id} received on {topic} at {time}:"
+					},
+					"services": {
+						"title": "บริการ",
+						"description": "The service dev tool allows you to call any available service in Home Assistant.",
+						"data": "Service Data (YAML, optional)",
+						"call_service": "Call Service",
+						"select_service": "Select a service to see the description",
+						"no_description": "No description is available",
+						"no_parameters": "This service takes no parameters.",
+						"column_parameter": "Parameter",
+						"column_description": "Description",
+						"column_example": "Example",
+						"fill_example_data": "Fill Example Data",
+						"alert_parsing_yaml": "Error parsing YAML: {data}"
+					},
+					"states": {
+						"title": "สถานะ",
+						"description1": "Set the representation of a device within Home Assistant.",
+						"description2": "This will not communicate with the actual device.",
+						"entity": "Entity",
+						"state": "State",
+						"attributes": "Attributes",
+						"state_attributes": "State attributes (YAML, optional)",
+						"set_state": "Set State",
+						"current_entities": "Current entities",
+						"filter_entities": "Filter entities",
+						"filter_states": "Filter states",
+						"filter_attributes": "Filter attributes",
+						"no_entities": "No entities",
+						"more_info": "More Info",
+						"alert_entity_field": "Entity is a mandatory field"
+					},
+					"templates": {
+						"title": "แม่แบบ",
+						"description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+						"editor": "Template editor",
+						"jinja_documentation": "Jinja2 template documentation",
+						"template_extensions": "Home Assistant template extensions",
+						"unknown_error_template": "Unknown error rendering template"
+					}
+				}
+			},
+			"page-onboarding": {
+				"intro": "พร้อมที่จะปลุกบ้านของคุณแล้วหรือยัง เรียกความเป็นส่วนตัวของคุณและเข้าร่วมกับชุมชนของเราดูสิ!",
+				"user": {
+					"intro": "มาเริ่มกันเลยด้วยการสร้างบัญชีผู้ใช้",
+					"required_field": "ต้องระบุ",
+					"data": {
+						"name": "ชื่อ",
+						"username": "ชื่อผู้ใช้",
+						"password": "รหัสผ่าน",
+						"password_confirm": "ยืนยันรหัสผ่าน"
+					},
+					"create_account": "สร้างบัญชี",
+					"error": {
+						"required_fields": "กรอกข้อมูลในฟิลด์ที่จำเป็นทั้งหมด",
+						"password_not_match": "รหัสผ่านไม่ตรงกัน"
+					}
+				},
+				"core-config": {
+					"intro": "สวัสดี {name} ยินดีต้อนรับสู่ Home Assistant คุณต้องการตั้งชื่อบ้านของคุณยังไงดีละ",
+					"intro_location": "เราต้องการทราบว่าคุณอาศัยอยู่ที่ไหน ข้อมูลนี้จะช่วยในการแสดงข้อมูลต่างๆ และตั้งค่าการทำงานอัตโนมัติตามดวงอาทิตย์ ข้อมูลนี้จะไม่เปิดเผยไปยังนอกเครือข่ายของคุณ",
+					"intro_location_detect": "เราสามารถช่วยคุณกรอกข้อมูลส่วนนี้ได้โดยร้องขอข้อมูลไปยังบริการภายนอกครั้งเดียว",
+					"location_name_default": "บ้าน",
+					"button_detect": "ตรวจจับ",
+					"finish": "ต่อไป"
+				},
+				"integration": {
+					"intro": "อุปกรณ์และบริการแสดงอยู่ใน Home Assistant เป็นการผสานรวม คุณสามารถตั้งค่าตอนนี้หรือทำภายหลังจากหน้าจอการตั้งค่า",
+					"more_integrations": "เพิ่มเติม",
+					"finish": "เสร็จสิ้น"
+				}
+			},
+			"custom": {
+				"external_panel": {
+					"question_trust": "Do you trust the external panel {name} at {link}?",
+					"complete_access": "It will have access to all data in Home Assistant.",
+					"hide_message": "Check docs for the panel_custom component to hide this message"
+				}
+			}
+		}
+	},
+	"attribute": {
+		"weather": {
+			"humidity": "ความชื้น",
+			"visibility": "ทัศนวิสัย",
+			"wind_speed": "ความเร็วลม"
+		}
+	}
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+  <title>paper-scroll-header-panel: Combine with paper-drawer-panel</title>
+
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@^2.0.0/webcomponents-loader.js"></script>
+
+  <script type="module">
+    import '../paper-scroll-header-panel.js';
+    import '@polymer/paper-toolbar/paper-toolbar.js';
+    import '@polymer/iron-icons/iron-icons.js';
+    import '@polymer/paper-icon-button/paper-icon-button.js';
+    import '@polymer/paper-drawer-panel/paper-drawer-panel.js';
+    import './sample-content.js';
+  </script>
+
+  <custom-style>
+    <style is="custom-style">
+
+      paper-scroll-header-panel {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: var(--paper-grey-200, #eee);
+      }
+
+      paper-toolbar {
+        background-color: var(--google-blue-500, #4285f4);
+      }
+
+      paper-toolbar .title {
+        margin: 0 8px;
+      }
+
+      paper-scroll-header-panel .content {
+        padding: 8px;
+      }
+
+    </style>
+  </custom-style>
+
+</head>
+<body unresolved>
+
+  <paper-drawer-panel>
+
+    <paper-header-panel slot="drawer" drawer>
+      <paper-toolbar>Menu</paper-toolbar>
+    </paper-header-panel>
+
+    <paper-scroll-header-panel slot="main" main>
+
+      <paper-toolbar slot="header">
+        <paper-icon-button icon="arrow-back" slot="top"></paper-icon-button>
+
+        <div class="flex title" slot="top">Title</div>
+
+        <paper-icon-button icon="search" slot="top"></paper-icon-button>
+        <paper-icon-button icon="more-vert" slot="top"></paper-icon-button>
+      </paper-toolbar>
+
+      <div slot="content" class="content">
+        <sample-content size="100"></sample-content>
+      </div>
+
+    </paper-scroll-header-panel>
+
+  </paper-drawer-panel>
+
+</body>
+</html>

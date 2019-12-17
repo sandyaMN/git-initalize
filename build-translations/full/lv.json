@@ -1,0 +1,2158 @@
+{
+	"domain": {
+		"alarm_control_panel": "Signalizācijas vadības panelis",
+		"automation": "Automatizācija",
+		"binary_sensor": "Binārais sensors",
+		"calendar": "Kalendārs",
+		"camera": "Kamera",
+		"climate": "Klimats",
+		"configurator": "Konfigurētājs",
+		"conversation": "Saruna",
+		"cover": "Nosegi",
+		"device_tracker": "Ierīču izsekotājs",
+		"fan": "Ventilators",
+		"group": "Grupa",
+		"hassio": "Hass.io",
+		"history_graph": "Vēstures grafiks",
+		"homeassistant": "Home Assistant",
+		"image_processing": "Attēlu apstrāde",
+		"input_boolean": "Ieejas boolean",
+		"input_datetime": "Ievades datuma laiks",
+		"input_number": "Ievades numurs",
+		"input_select": "Ievades izvēle",
+		"input_text": "Ievades teksts",
+		"light": "Gaisma",
+		"lock": "Slēdzene",
+		"lovelace": "Lovelace",
+		"mailbox": "Pastkastīte",
+		"media_player": "Multivides atskaņotājs",
+		"notify": "Paziņot",
+		"person": "Persona",
+		"plant": "Augs",
+		"proximity": "Tuvums",
+		"remote": "Tālvadība",
+		"scene": "Sižets",
+		"script": "Skripts",
+		"sensor": "Sensors",
+		"sun": "Saule",
+		"switch": "Slēdzis",
+		"system_health": "Sistēmas Veselība",
+		"updater": "Atjauninātājs",
+		"vacuum": "Putekļsūcējs",
+		"weblink": "Weblink",
+		"zha": "ZHA",
+		"zwave": "Z-Wave"
+	},
+	"panel": {
+		"calendar": "Kalendārs",
+		"config": "Konfigurācija",
+		"states": "Pārskats",
+		"map": "Karte",
+		"logbook": "Žurnāls",
+		"history": "Vēsture",
+		"mailbox": "Pastkaste",
+		"shopping_list": "Iepirkumu saraksts",
+		"developer_tools": "Izstrādātāju rīki",
+		"profile": "Profils",
+		"dev-info": "Info"
+	},
+	"state": {
+		"default": {
+			"off": "Izslēgts",
+			"on": "Ieslēgts",
+			"unknown": "Nezināms",
+			"unavailable": "Nepieejams"
+		},
+		"alarm_control_panel": {
+			"armed": "Pieslēgts",
+			"disarmed": "Atslēgts",
+			"armed_home": "Pieslēgts mājās",
+			"armed_away": "Pieslēgts uz prombūtni",
+			"armed_night": "Pieslēgts uz nakti",
+			"armed_custom_bypass": "Pieslēgts pielāgots apvedceļš",
+			"pending": "Gaida",
+			"arming": "Pieslēdzu",
+			"disarming": "Atslēdzu",
+			"triggered": "Aktivizēts"
+		},
+		"automation": {
+			"off": "Izslēgts",
+			"on": "Ieslēgts"
+		},
+		"binary_sensor": {
+			"default": {
+				"off": "Izslēgts",
+				"on": "Ieslēgts"
+			},
+			"battery": {
+				"off": "Normāls",
+				"on": "Zems"
+			},
+			"cold": {
+				"off": "Normāls",
+				"on": "Auksts"
+			},
+			"connectivity": {
+				"off": "Atvienots",
+				"on": "Pieslēdzies"
+			},
+			"door": {
+				"off": "Aizvērtas",
+				"on": "Atvērtas"
+			},
+			"garage_door": {
+				"off": "Aizvērtas",
+				"on": "Atvērtas"
+			},
+			"gas": {
+				"off": "Brīvs",
+				"on": "Sajusta"
+			},
+			"heat": {
+				"off": "Normāls",
+				"on": "Karsts"
+			},
+			"lock": {
+				"off": "Slēgts",
+				"on": "Atslēgts"
+			},
+			"moisture": {
+				"off": "Sauss",
+				"on": "Slapjš"
+			},
+			"motion": {
+				"off": "Brīvs",
+				"on": "Sajusta"
+			},
+			"occupancy": {
+				"off": "Brīvs",
+				"on": "Aizņemts"
+			},
+			"opening": {
+				"off": "Aizvērts",
+				"on": "Atvērts"
+			},
+			"presence": {
+				"off": "Prombūtne",
+				"on": "Mājās"
+			},
+			"problem": {
+				"off": "OK",
+				"on": "Problēma"
+			},
+			"safety": {
+				"off": "Droši",
+				"on": "Nedroši"
+			},
+			"smoke": {
+				"off": "Brīvs",
+				"on": "Sajusta"
+			},
+			"sound": {
+				"off": "Brīvs",
+				"on": "Sajusts"
+			},
+			"vibration": {
+				"off": "Brīvs",
+				"on": "Sajusts"
+			},
+			"window": {
+				"off": "Aizvērts",
+				"on": "Atvērts"
+			}
+		},
+		"calendar": {
+			"off": "Izslēgts",
+			"on": "Ieslēgts"
+		},
+		"camera": {
+			"recording": "Ieraksta",
+			"streaming": "Straumē",
+			"idle": "Dīkstāve"
+		},
+		"climate": {
+			"off": "Izslēgts",
+			"heat": "Sildīšana",
+			"cool": "Dzesēšana",
+			"heat_cool": "Sildīt / Atdzesēt",
+			"auto": "Auto",
+			"dry": "Sauss",
+			"fan_only": "Tikai ventilators",
+			"eco": "Eko",
+			"electric": "Elektriska",
+			"gas": "Gāze",
+			"heat_pump": "Siltumsūknis",
+			"high_demand": "Augsts pieprasījums",
+			"idle": "Dīkstāve",
+			"manual": "Rokasgrāmata",
+			"on": "Ieslēgts",
+			"performance": "Veiktspēja"
+		},
+		"configurator": {
+			"configure": "Konfigurēt",
+			"configured": "Konfigurēts"
+		},
+		"cover": {
+			"open": "Atvērts",
+			"opening": "Atveras",
+			"closed": "Slēgts",
+			"closing": "Slēdzas",
+			"stopped": "Apturēts"
+		},
+		"device_tracker": {
+			"home": "Mājās",
+			"not_home": "Prom"
+		},
+		"fan": {
+			"off": "Izslēgts",
+			"on": "Ieslēgts"
+		},
+		"group": {
+			"off": "Izslēgta",
+			"on": "Ieslēgta",
+			"home": "Mājās",
+			"not_home": "Prombūtnē",
+			"open": "Atvērta",
+			"opening": "Atveras",
+			"closed": "Slēgta",
+			"closing": "Slēdzas",
+			"stopped": "Apturēta",
+			"locked": "Bloķēta",
+			"unlocked": "Atbloķēta",
+			"ok": "OK",
+			"problem": "Problēma"
+		},
+		"input_boolean": {
+			"off": "Izslēgta",
+			"on": "Ieslēgta"
+		},
+		"light": {
+			"off": "Izslēgta",
+			"on": "Ieslēgta"
+		},
+		"lock": {
+			"locked": "Aizslēgts",
+			"unlocked": "Atslēgts"
+		},
+		"media_player": {
+			"off": "Izslēgts",
+			"on": "Ieslēgts",
+			"playing": "Atskaņo",
+			"paused": "Apturēts",
+			"idle": "Dīkstāvē",
+			"standby": "Gaidīšanas režīmā"
+		},
+		"person": {
+			"home": "Mājās",
+			"not_home": "Prombūtne"
+		},
+		"plant": {
+			"ok": "Labi",
+			"problem": "Problēma"
+		},
+		"remote": {
+			"off": "Izslēgta",
+			"on": "Ieslēgts"
+		},
+		"scene": {
+			"scening": "Ainas radīšana"
+		},
+		"script": {
+			"off": "Izslēgts",
+			"on": "Ieslēgts"
+		},
+		"sensor": {
+			"off": "Izslēgts",
+			"on": "Ieslēgts"
+		},
+		"sun": {
+			"above_horizon": "Virs horizonta",
+			"below_horizon": "Zem horizonta"
+		},
+		"switch": {
+			"off": "Izslēgts",
+			"on": "Ieslēgts"
+		},
+		"timer": {
+			"active": "aktīvs",
+			"idle": "dīkstāve",
+			"paused": "apturēta"
+		},
+		"vacuum": {
+			"cleaning": "Notiek uzkopšana",
+			"docked": "Pie doka",
+			"error": "Kļūda",
+			"idle": "Dīkstāvē",
+			"off": "Izslēgts",
+			"on": "Ieslēgts",
+			"paused": "Apturēts",
+			"returning": "Ceļā pie doka"
+		},
+		"weather": {
+			"clear-night": "Skaidrs, nakts",
+			"cloudy": "Mākoņains",
+			"exceptional": "Izņēmuma kārtā",
+			"fog": "Migla",
+			"hail": "Krusa",
+			"lightning": "Zibens",
+			"lightning-rainy": "Zibens, lietus",
+			"partlycloudy": "Daļēji apmācies",
+			"pouring": "Lietusgāze",
+			"rainy": "Lietains",
+			"snowy": "Sniegs",
+			"snowy-rainy": "Sniegs, lietus",
+			"sunny": "Saulains",
+			"windy": "Vējains",
+			"windy-variant": "Vējains"
+		},
+		"zwave": {
+			"default": {
+				"initializing": "Inicializē",
+				"dead": "Beigta",
+				"sleeping": "Guļ",
+				"ready": "Gatavs"
+			},
+			"query_stage": {
+				"initializing": "Inicializē ( {query_stage} )",
+				"dead": "Beigta ({query_stage})"
+			}
+		}
+	},
+	"state_attributes": {
+		"climate": {
+			"fan_mode": {
+				"off": "Izslēgts",
+				"on": "Ieslēgts",
+				"auto": "Automātisks"
+			},
+			"preset_mode": {
+				"none": "Nav",
+				"eco": "Eko",
+				"away": "Prombūtne",
+				"boost": "Palielināt",
+				"comfort": "Komforts",
+				"home": "Mājās",
+				"sleep": "Miega",
+				"activity": "Aktivitāte"
+			},
+			"hvac_action": {
+				"off": "Izslēgts",
+				"heating": "Sildīšana",
+				"cooling": "Dzesēšana",
+				"drying": "Žāvēšana",
+				"idle": "Dīkstāve",
+				"fan": "Ventilators"
+			}
+		}
+	},
+	"state_badge": {
+		"default": {
+			"unknown": "Nez",
+			"unavailable": "Nepie",
+			"error": "Kļūda",
+			"entity_not_found": "Vienība Nav Atrasta"
+		},
+		"alarm_control_panel": {
+			"armed": "Pieslēgta",
+			"disarmed": "Atslēgt",
+			"armed_home": "Piesl.",
+			"armed_away": "Pieslēgta",
+			"armed_night": "Pieslēgta",
+			"armed_custom_bypass": "Pieslēgta",
+			"pending": "Gaida",
+			"arming": "Pieslēdz",
+			"disarming": "Atslēgt",
+			"triggered": "Trig"
+		},
+		"device_tracker": {
+			"home": "Mājās",
+			"not_home": "Prom"
+		},
+		"person": {
+			"home": "Mājas",
+			"not_home": "Prombūtne"
+		}
+	},
+	"groups": {
+		"system-admin": "Administratori",
+		"system-users": "Lietotāji",
+		"system-read-only": "Tikai-Lasīt Lietotāji"
+	},
+	"config_entry": {
+		"disabled_by": {
+			"user": "Lietotājs",
+			"integration": "Integrācija",
+			"config_entry": "Konfigurēt Ierakstu"
+		}
+	},
+	"ui": {
+		"auth_store": {
+			"ask": "Vai vēlaties saglabāt šo pieteikšanos?",
+			"decline": "Nē paldies",
+			"confirm": "Saglabāt pieteikšanos"
+		},
+		"card": {
+			"alarm_control_panel": {
+				"code": "Kods",
+				"clear_code": "Notīrīt",
+				"disarm": "Atslēgt",
+				"arm_home": "Pieslēgt mājas",
+				"arm_away": "Pieslēgt prombūtni",
+				"arm_night": "Pieslēgts uz nakti",
+				"arm_custom_bypass": "Pielāgots apvedceļš",
+				"armed_custom_bypass": "Pielāgots apvedceļš"
+			},
+			"automation": {
+				"last_triggered": "Pēdējais izsaukums",
+				"trigger": "Izsaukt"
+			},
+			"camera": {
+				"not_available": "Attēls nav pieejams"
+			},
+			"climate": {
+				"currently": "Pašlaik",
+				"on_off": "Ieslēgts / Izslēgts",
+				"target_temperature": "Mērķa temperatūra",
+				"target_temperature_entity": "{name} target temperature",
+				"target_temperature_mode": "{name} target temperature {mode}",
+				"current_temperature": "{name} current temperature",
+				"heating": "{name} heating",
+				"cooling": "{name} cooling",
+				"high": "high",
+				"low": "low",
+				"target_humidity": "Mērķa mitrums",
+				"operation": "Darbība",
+				"fan_mode": "Ventilatora režīms",
+				"swing_mode": "Šūpošanas režīms",
+				"preset_mode": "Iestatījums",
+				"away_mode": "Prombūtnes režīms",
+				"aux_heat": "Ārējais sildītājs"
+			},
+			"counter": {
+				"actions": {
+					"increment": "increment",
+					"decrement": "decrement",
+					"reset": "reset"
+				}
+			},
+			"cover": {
+				"position": "Pozīcija",
+				"tilt_position": "Slīpuma pozīcija"
+			},
+			"fan": {
+				"speed": "Ātrums",
+				"oscillate": "Svārstīties",
+				"direction": "Virziens",
+				"forward": "Uz priekšu",
+				"reverse": "Uz atpakaļu"
+			},
+			"light": {
+				"brightness": "Spilgtums",
+				"color_temperature": "Krāsu temperatūra",
+				"white_value": "Baltā vērtība",
+				"effect": "Efekts"
+			},
+			"lock": {
+				"code": "Kods",
+				"lock": "Aizslēgt",
+				"unlock": "Atslēgt"
+			},
+			"media_player": {
+				"source": "Avots",
+				"sound_mode": "Skaņas režīms",
+				"text_to_speak": "Teksts, ko izrunāt"
+			},
+			"persistent_notification": {
+				"dismiss": "Aizvērt"
+			},
+			"scene": {
+				"activate": "Aktivizēt"
+			},
+			"script": {
+				"execute": "Izpildīt"
+			},
+			"timer": {
+				"actions": {
+					"start": "sākt",
+					"pause": "pauze",
+					"cancel": "atcelt",
+					"finish": "pabeigt"
+				}
+			},
+			"vacuum": {
+				"actions": {
+					"resume_cleaning": "Atsākt uzkopšanu",
+					"return_to_base": "Atgriezties pie doka",
+					"start_cleaning": "Sākt uzkopšanu",
+					"turn_on": "Ieslēgt",
+					"turn_off": "Izslēgt"
+				}
+			},
+			"water_heater": {
+				"currently": "Pašlaik",
+				"on_off": "Ieslēgts / Izslēgts",
+				"target_temperature": "Mērķa temperatūra",
+				"operation": "Darbība",
+				"away_mode": "Prombūtnes režīms"
+			},
+			"weather": {
+				"attributes": {
+					"air_pressure": "Gaisa spiediens",
+					"humidity": "Gaisa mitrums",
+					"temperature": "Temperatūra",
+					"visibility": "Redzamība",
+					"wind_speed": "Vēja ātrums"
+				},
+				"cardinal_direction": {
+					"e": "A",
+					"ene": "AZA",
+					"ese": "ADA",
+					"n": "Z",
+					"ne": "ZA",
+					"nne": "ZA",
+					"nw": "ZR",
+					"nnw": "ZZR",
+					"s": "D",
+					"se": "DA",
+					"sse": "DDA",
+					"ssw": "DDR",
+					"sw": "DR",
+					"w": "R",
+					"wnw": "RZR",
+					"wsw": "RDR"
+				},
+				"forecast": "Prognoze"
+			}
+		},
+		"common": {
+			"loading": "Ielāde",
+			"cancel": "Atcelt",
+			"save": "Saglabāt",
+			"yes": "Yes",
+			"no": "No",
+			"successfully_saved": "Veiksmīgi saglabāts"
+		},
+		"components": {
+			"entity": {
+				"entity-picker": {
+					"entity": "Vienība",
+					"clear": "Clear",
+					"show_entities": "Show entities"
+				}
+			},
+			"device-picker": {
+				"clear": "Clear",
+				"show_devices": "Show devices",
+				"device": "Device"
+			},
+			"relative_time": {
+				"past": "{time} atpakaļ",
+				"future": "Pēc {time}",
+				"never": "Nekad",
+				"duration": {
+					"second": "{count} {count, plural,\n  one {sekunde}\n  other {sekundes}\n}",
+					"minute": "{count} {count, plural,\n  one {minūte}\n  other {minūtes}\n}",
+					"hour": "{count} {count, plural,\n  one {stunda}\n  other {stundas}\n}",
+					"day": "{count} {count, plural,\n  one {diena}\n  other {dienas}\n}",
+					"week": "{count} {count, plural,\n  one {nedēļa}\n  other {nedēļas}\n}"
+				}
+			},
+			"history_charts": {
+				"loading_history": "Vēsturiskie ieraksti par stāvokli tiek ielādēti.",
+				"no_history_found": "Vēsturiskie ieraksti par stāvokli netika atrasti."
+			},
+			"service-picker": {
+				"service": "Pakalpojums"
+			}
+		},
+		"dialogs": {
+			"voice_command": {
+				"did_not_hear": "Home Assistant did not hear anything",
+				"found": "I found the following for you:",
+				"error": "Oops, an error has occurred",
+				"how_can_i_help": "How can I help?",
+				"label": "Type a question and press 'Enter'",
+				"label_voice": "Type and press 'Enter' or tap the microphone to speak"
+			},
+			"confirmation": {
+				"cancel": "Cancel",
+				"ok": "OK",
+				"title": "Are you sure?"
+			},
+			"more_info_control": {
+				"script": {
+					"last_action": "Pēdējā Darbība"
+				},
+				"sun": {
+					"elevation": "Augstums",
+					"rising": "Aust",
+					"setting": "Riet"
+				},
+				"updater": {
+					"title": "Atjaunināt Instrukcijas"
+				}
+			},
+			"more_info_settings": {
+				"save": "Saglabāt",
+				"name": "Piesķirt nosaukumu",
+				"entity_id": "Vienības ID"
+			},
+			"options_flow": {
+				"form": {
+					"header": "Opcijas"
+				},
+				"success": {
+					"description": "Opcijas ir veiksmīgi saglabātas."
+				}
+			},
+			"config_entry_system_options": {
+				"title": "Sistēmas Opcijas",
+				"enable_new_entities_label": "Iespējot tikko pievienotās vienības.",
+				"enable_new_entities_description": "Ja atspējots, jaunatklātās vienības netiks automātiski pievienotas Home Assistant."
+			},
+			"zha_device_info": {
+				"manuf": "autors {manufacturer}",
+				"no_area": "Nav Apgabala",
+				"buttons": {
+					"add": "Add Devices",
+					"remove": "Remove Device",
+					"reconfigure": "Reconfigure Device"
+				},
+				"services": {
+					"reconfigure": "Pārkonfigurējiet ZHA ierīci ( labot ierīci). Izmantojiet to, ja rodas problēmas ar ierīci. Ja attiecīgā ierīce ir ar akumulatoru darbināma ierīce, lūdzu, pārliecinieties, ka tā ir nomodā un pieņem komandas, kad izmantojat šo pakalpojumu.",
+					"updateDeviceName": "Ierīču reģistrā iestatiet šai ierīcei pielāgotu nosaukumu.",
+					"remove": "Noņemt ierīci no Zigbee tīkla."
+				},
+				"quirk": "Quirk",
+				"last_seen": "Last Seen",
+				"power_source": "Power Source",
+				"unknown": "Unknown",
+				"zha_device_card": {
+					"device_name_placeholder": "Lietotāja dots vārds",
+					"area_picker_label": "Apgabals",
+					"update_name_button": "Atjaunināt Vārdu"
+				}
+			},
+			"domain_toggler": {
+				"title": "Toggle Domains"
+			}
+		},
+		"duration": {
+			"second": "{count} {count, plural,\n  one {sekunde}\n  other {sekundes}\n}",
+			"minute": "{count} {count, plural,\n  one {minūte}\n  other {minūtes}\n}",
+			"hour": "{count} {count, plural,\n  one {stunda}\n  other {stundas}\n}",
+			"day": "{count} {count, plural,\none {diena}\nother {dienas}\n}",
+			"week": "{count} {count, plural,\n  one {nedēļa}\n  other {nedēļas}\n}"
+		},
+		"login-form": {
+			"password": "Parole",
+			"remember": "Atcerēties",
+			"log_in": "Pieslēgties"
+		},
+		"notification_drawer": {
+			"click_to_configure": "Noklikšķiniet uz pogas, lai konfigurētu {entity}",
+			"empty": "Nav paziņojumu",
+			"title": "Paziņojumi"
+		},
+		"notification_toast": {
+			"service_call_failed": "Neizdevās izsaukt servisu {service}.",
+			"connection_lost": "Savienojums zaudēts. Atkārtota savienošanās ...",
+			"triggered": "Triggered {name}",
+			"entity_turned_off": "{entity} izslēgta.",
+			"entity_turned_on": "{entity} ieslēgta.",
+			"service_called": "Serviss {service} izsaukts."
+		},
+		"sidebar": {
+			"external_app_configuration": "Lietotņu Konfigurēšana",
+			"sidebar_toggle": "Sidebar Toggle",
+			"log_out": "Iziet"
+		},
+		"panel": {
+			"config": {
+				"header": "Home Assistant konfigurēšana",
+				"introduction": "Šeit iespējams konfigurēt Jūsu komponentus un pašu Home Assistant. Pagaidām ne visu ir iespējams konfigurēt no lietotāja saskarnes, bet mēs strādājam pie tā.",
+				"common": {
+					"editor": {
+						"confirm_unsaved": "You have unsaved changes. Are you sure you want to leave?"
+					}
+				},
+				"area_registry": {
+					"caption": "Apgabala Reģistrs",
+					"description": "Pārskats par visām vietām jūsu mājās.",
+					"picker": {
+						"header": "Apgabala Reģistrs",
+						"introduction": "Apgabali tiek izmantoti, lai organizētu ierīces atrašanās vietu. Šī informācija tiks izmantota visā Home Assistant, lai palīdzētu organizēt Jūsu saskarni, atļaujas un integrāciju ar citām sistēmām.",
+						"introduction2": "Lai novietotu ierīces apgabalā, izmantojiet zemāk esošo saiti, lai pārietu uz integrācijas lapu un pēc tam noklikšķiniet uz konfigurētas integrācijas, lai iegūtu ierīces kartiņu.",
+						"integrations_page": "Integrāciju lapa",
+						"no_areas": "Izskatās, ka jums vēl nav apgabalu!",
+						"create_area": "IZVEIDOT APGABALU"
+					},
+					"editor": {
+						"default_name": "Jauns Apgabals",
+						"delete": "DZĒST",
+						"update": "ATJAUNINĀT",
+						"create": "IZVEIDOT"
+					},
+					"create_area": "IZVEIDOT APGABALU",
+					"no_areas": "Izskatās, ka jums vēl nav apgabalu!"
+				},
+				"core": {
+					"caption": "Vispārīgi",
+					"description": "Mainiet vispārējo Home Assistant konfigurāciju",
+					"section": {
+						"core": {
+							"header": "Vispārējā konfigurācija",
+							"introduction": "Izmaiņas konfigurācijā var būt nogurdinošs process. Mēs zinām. Šai sadaļai vajadzētu padarīt dzīvi mazliet vieglāku.",
+							"core_config": {
+								"edit_requires_storage": "Redaktors ir atspējots, jo konfigurācija ir definēta configuration.yaml.",
+								"location_name": "Jūsu Home Assistant instalācijas nosaukums",
+								"latitude": "Platums",
+								"longitude": "Garums",
+								"elevation": "Augstums",
+								"elevation_meters": "metri",
+								"time_zone": "Laika josla",
+								"unit_system": "Mērvienību sistēma",
+								"unit_system_imperial": "Imperiālā",
+								"unit_system_metric": "Metriskā",
+								"imperial_example": "Fārenheita, mārciņas",
+								"metric_example": "Celsija, kilogrami",
+								"save_button": "Saglabāt"
+							}
+						},
+						"server_control": {
+							"reloading": {
+								"automation": "Pārlādēt automatizācijas",
+								"core": "Pārlādēt kodolu",
+								"group": "Pārlādēt grupas",
+								"heading": "Konfigurācijas pārlādēšana",
+								"introduction": "Atsevišķas Home Assistant daļas var pārlādēt bez nepieciešamības restartēt. Veicot pārlādēšanu iepriekšējā konfigurācija tiks atiestatīta un tiks ielādēta jaunā.",
+								"script": "Pārlādēt skriptus"
+							},
+							"server_management": {
+								"heading": "Servera pārvaldība",
+								"introduction": "Pārvaldiet Home Assistant serveri no Home Assistant saskarnes.",
+								"restart": "Restartēt",
+								"stop": "Apturēt"
+							},
+							"validation": {
+								"check_config": "Pārbaudīt",
+								"heading": "Konfigurācijas pārbaude",
+								"introduction": "Veiciet konfigurācijas pārbaudi, ja nesen esat veicis izmaiņas konfigurācijā un vēlaties pārliecināties, ka tā ir korekta.",
+								"invalid": "Konfigurācija kļūdaina",
+								"valid": "Konfigurācija korekta!"
+							}
+						}
+					}
+				},
+				"server_control": {
+					"caption": "Servera vadība",
+					"description": "Restartēt un apturēt Home Assistant serveri",
+					"section": {
+						"validation": {
+							"heading": "Konfigurācijas pārbaude",
+							"introduction": "Veiciet konfigurācijas pārbaudi, ja nesen esat veicis izmaiņas konfigurācijā un vēlaties pārliecināties, ka tā ir korekta",
+							"check_config": "Pārbaudīt konfigurāciju",
+							"valid": "Konfigurācija korekta!",
+							"invalid": "Konfigurācija kļūdaina"
+						},
+						"reloading": {
+							"heading": "Konfigurācijas pārlādēšana",
+							"introduction": "Atsevišķas Home Assistant daļas var pārlādēt bez nepieciešamības restartēt. Veicot pārlādēšanu iepriekšējā konfigurācija tiks atiestatīta un tiks ielādēta jaunā.",
+							"core": "Pārlādēt kodolu",
+							"group": "Pārlādēt grupas",
+							"automation": "Pārlādēt automatizācijas",
+							"script": "Pārlādēt skriptus",
+							"scene": "Pārlādēt ainas"
+						},
+						"server_management": {
+							"heading": "Servera pārvaldība",
+							"introduction": "Kontrolējiet savu Home Assistant serveri… no Home Assistant.",
+							"restart": "Restartēt",
+							"confirm_restart": "Vai tiešām vēlaties restartēt Home Assistant?",
+							"stop": "Apturēt",
+							"confirm_stop": "Vai tiešām vēlaties apturēt Home Assistant?"
+						}
+					}
+				},
+				"customize": {
+					"caption": "Pielāgošana",
+					"description": "Pielāgojiet jūsu iekārtas",
+					"picker": {
+						"header": "Pielāgošana",
+						"introduction": "Korekcijas atribūti vienai vienībai. Pievienotās / labotās pielāgošanas stāsies spēkā nekavējoties. Noņemtie pielāgojumi stāsies spēkā, kad vienība tiks atjaunināta."
+					},
+					"warning": {
+						"include_sentence": "It seems that your configuration.yaml doesn't properly",
+						"include_link": "include customize.yaml",
+						"not_applied": "Changes made here are written in it, but will not be applied after a configuration reload unless the include is in place."
+					},
+					"attributes_customize": "The following attributes are already set in customize.yaml",
+					"attributes_outside": "The following attributes are customized from outside of customize.yaml",
+					"different_include": "Possibly via a domain, a glob or a different include.",
+					"attributes_set": "The following attributes of the entity are set programmatically.",
+					"attributes_override": "You can override them if you like.",
+					"attributes_not_set": "The following attributes weren't set. Set them if you like.",
+					"pick_attribute": "Pick an attribute to override"
+				},
+				"automation": {
+					"caption": "Automatizācija",
+					"description": "Veidojiet un rediģējiet automatizācijas",
+					"picker": {
+						"header": "Automatizāciju redaktors",
+						"introduction": "Automatizācijas redaktors ļauj jums izveidot un rediģēt automatizācijas. Lūdzu, sekojiet saitei zemāk, lai pārliecinātos, ka esat pareizi konfigurējis Home Assistant.",
+						"learn_more": "Uzziniet vairāk par automatizācijām",
+						"pick_automation": "Izvēlieties automatizāciju rediģēšanai",
+						"no_automations": "Mēs nevarējām atrast rediģējamas automatizācijas",
+						"add_automation": "Pievienot automatizāciju",
+						"only_editable": "Only automations defined in automations.yaml are editable.",
+						"edit_automation": "Edit automation",
+						"show_info_automation": "Show info about automation",
+						"delete_automation": "Delete automation",
+						"delete_confirm": "Are you sure you want to delete this automation?"
+					},
+					"editor": {
+						"introduction": "Lietojiet automatizācijas, lai iedzīvinātu Jūsu mājās",
+						"default_name": "Jauna automatizācija",
+						"load_error_not_editable": "Automatizācijas ir rediģējamas tikai \"automations.yaml\" failā.",
+						"load_error_unknown": "Kļūda ielādējot automatizāciju ({err_no})",
+						"save": "Saglabāt",
+						"unsaved_confirm": "Jums ir nesaglabātas izmaiņas. Vai tiešām vēlaties pamest?",
+						"alias": "Nosaukums",
+						"description": {
+							"label": "Description",
+							"placeholder": "Optional description"
+						},
+						"triggers": {
+							"name": "Trigger",
+							"header": "Trigeri",
+							"introduction": "Trigeri ir tas, kas sāk automatizācijas noteikuma apstrādi. Vienam noteikumam ir iespējams norādīt vairākus trigerus. Kad trigeris sāk, Home Assistant apstiprina nosacījumus, ja tādi ir, un izsauc darbību.",
+							"learn_more": "Uzziniet vairāk par trigeriem",
+							"add": "Pievienot trigeri",
+							"duplicate": "Dublicēt",
+							"delete": "Dzēst",
+							"delete_confirm": "Vai tiešām vēlaties dzēst?",
+							"unsupported_platform": "Neatbalstīta platforma: {platform}",
+							"type_select": "Trigera veids",
+							"type": {
+								"device": {
+									"label": "Ierīce",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"event": {
+									"label": "Notikums",
+									"event_type": "Notikuma tips",
+									"event_data": "Notikuma dati"
+								},
+								"geo_location": {
+									"label": "Ģeogrāfiskā atrašanās vieta",
+									"source": "Avots",
+									"zone": "Zona",
+									"event": "Notikums:",
+									"enter": "Ieiet",
+									"leave": "Iziet"
+								},
+								"state": {
+									"label": "Stāvoklis",
+									"from": "No",
+									"for": "Uz",
+									"to": "Uz"
+								},
+								"homeassistant": {
+									"label": "Home Assistant",
+									"event": "Notikums:",
+									"start": "Sākt",
+									"shutdown": "Izslēgt"
+								},
+								"mqtt": {
+									"label": "MQTT",
+									"topic": "Temats",
+									"payload": "Vērtība (pēc izvēles)"
+								},
+								"numeric_state": {
+									"label": "Skaitliskais stāvoklis",
+									"above": "Virs",
+									"below": "Zem",
+									"value_template": "Vērtības veidne (nav obligāta)"
+								},
+								"sun": {
+									"label": "Saule",
+									"event": "Notikums:",
+									"sunrise": "Saullēkts",
+									"sunset": "Saulriets",
+									"offset": "Nobīde (pēc izvēles)"
+								},
+								"template": {
+									"label": "Veidne",
+									"value_template": "Vērtības veidne"
+								},
+								"time": {
+									"label": "Laiks",
+									"at": "Pie"
+								},
+								"time_pattern": {
+									"label": "Laika Modelis",
+									"hours": "Stundas",
+									"minutes": "Minūtes",
+									"seconds": "Sekundes"
+								},
+								"webhook": {
+									"label": "Webhook",
+									"webhook_id": "Webhook ID"
+								},
+								"zone": {
+									"label": "Zona",
+									"entity": "Vienība ar atrašanās vietu",
+									"zone": "Zona",
+									"event": "Notikums:",
+									"enter": "Ieiet",
+									"leave": "Iziet"
+								}
+							}
+						},
+						"conditions": {
+							"name": "Condition",
+							"header": "Nosacījumi",
+							"introduction": "Nosacījumi ir automatizācijas noteikuma izvēles daļa, un to var izmantot, lai novērstu darbību rašanos. Nosacījumi izskatās ļoti līdzīgi trigeriem, taču tie ir ļoti atšķirīgi. Trigeri izskatīs notikumus, kas notiek sistēmā, bet nosacījums tikai aplūko, kā sistēma šobrīd izskatās. Trigeri var novērot, ka slēdzis tiek ieslēgts. Nosacījums var redzēt tikai to, vai slēdzis pašlaik ir ieslēgts vai izslēgts.",
+							"learn_more": "Uzziniet vairāk par nosacījumiem",
+							"add": "Pievienot nosacījumu",
+							"duplicate": "Duplicēt",
+							"delete": "Dzēst",
+							"delete_confirm": "Vai tiešām vēlaties dzēst?",
+							"unsupported_condition": "Neatbalstīts nosacījums: {condition}",
+							"type_select": "Nosacījuma tips",
+							"type": {
+								"and": {
+									"label": "And"
+								},
+								"device": {
+									"label": "Ierīce",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"numeric_state": {
+									"label": "Skaitliskais stāvoklis",
+									"above": "Virs",
+									"below": "Zem",
+									"value_template": "Vērtības veidne (neobligāti)"
+								},
+								"or": {
+									"label": "Or"
+								},
+								"state": {
+									"label": "Stāvoklis",
+									"state": "Stāvoklis"
+								},
+								"sun": {
+									"label": "Saule",
+									"before": "Pirms:",
+									"after": "Pēc:",
+									"before_offset": "Pirms nobīdes (neobligāti)",
+									"after_offset": "Pēc nobīdes (neobligāti)",
+									"sunrise": "Saullēkts",
+									"sunset": "Saulriets"
+								},
+								"template": {
+									"label": "Veidne",
+									"value_template": "Vērtības veidne"
+								},
+								"time": {
+									"label": "Laiks",
+									"after": "Pēc",
+									"before": "Pirms"
+								},
+								"zone": {
+									"label": "Zona",
+									"entity": "Vienība ar atrašanos vietu",
+									"zone": "Zona"
+								}
+							}
+						},
+						"actions": {
+							"name": "Action",
+							"header": "Darbības",
+							"introduction": "Darbības nosaka, ko Home Assistant darīs, kad tiks aktivizēta automatizācija.",
+							"learn_more": "Uzziniet vairāk par darbībām",
+							"add": "Pievienot darbību",
+							"duplicate": "Dublicēt",
+							"delete": "Dzēst",
+							"delete_confirm": "Vai tiešām vēlaties dzēst?",
+							"unsupported_action": "Neatbalstīta darbība: {action}",
+							"type_select": "Darbības tips",
+							"type": {
+								"service": {
+									"label": "Izsaukt pakalpojumu",
+									"service_data": "Pakalpojuma dati"
+								},
+								"delay": {
+									"label": "Atlikt",
+									"delay": "Atlikt"
+								},
+								"wait_template": {
+									"label": "Pagaidīt",
+									"wait_template": "Pagaidīt Veidne",
+									"timeout": "Taimauts (pēc izvēles)"
+								},
+								"condition": {
+									"label": "Nosacījums"
+								},
+								"event": {
+									"label": "Palaist notikumu:",
+									"event": "Notikums:",
+									"service_data": "Pakalpojuma dati"
+								},
+								"device_id": {
+									"label": "Ierīce",
+									"extra_fields": {
+										"code": "Code"
+									}
+								},
+								"scene": {
+									"label": "Activate scene"
+								}
+							}
+						}
+					}
+				},
+				"script": {
+					"caption": "Skripti",
+					"description": "Veidojiet un rediģējiet skriptus",
+					"picker": {
+						"header": "Script Editor",
+						"introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scripts",
+						"no_scripts": "We couldn’t find any editable scripts",
+						"add_script": "Add script",
+						"trigger_script": "Trigger script",
+						"edit_script": "Edit script"
+					},
+					"editor": {
+						"introduction": "Use scripts to execute a sequence of actions.",
+						"header": "Script: {name}",
+						"default_name": "New Script",
+						"load_error_not_editable": "Only scripts inside scripts.yaml are editable.",
+						"delete_confirm": "Are you sure you want to delete this script?",
+						"delete_script": "Delete script",
+						"sequence": "Sequence",
+						"sequence_sentence": "The sequence of actions of this script.",
+						"link_available_actions": "Learn more about available actions."
+					}
+				},
+				"scene": {
+					"caption": "Scenes",
+					"description": "Create and edit scenes",
+					"activated": "Activated scene {name}.",
+					"picker": {
+						"header": "Scene Editor",
+						"introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scenes",
+						"pick_scene": "Pick scene to edit",
+						"no_scenes": "We couldn’t find any editable scenes",
+						"add_scene": "Add scene",
+						"only_editable": "Only scenes defined in scenes.yaml are editable.",
+						"edit_scene": "Edit scene",
+						"show_info_scene": "Show info about scene",
+						"delete_scene": "Delete scene",
+						"delete_confirm": "Are you sure you want to delete this scene?"
+					},
+					"editor": {
+						"introduction": "Use scenes to bring your home alive.",
+						"default_name": "New Scene",
+						"load_error_not_editable": "Only scenes in scenes.yaml are editable.",
+						"load_error_unknown": "Error loading scene ({err_no}).",
+						"save": "Save",
+						"unsaved_confirm": "You have unsaved changes. Are you sure you want to leave?",
+						"name": "Name",
+						"devices": {
+							"header": "Devices",
+							"introduction": "Add the devices that you want to be included in your scene. Set all the devices to the state you want for this scene.",
+							"add": "Add a device",
+							"delete": "Delete device"
+						},
+						"entities": {
+							"header": "Entities",
+							"introduction": "Entities that do not belong to a devices can be set here.",
+							"without_device": "Entities without device",
+							"device_entities": "If you add an entity that belongs to a device, the device will be added.",
+							"add": "Add an entity",
+							"delete": "Delete entity"
+						}
+					}
+				},
+				"cloud": {
+					"caption": "Home Assistant Cloud",
+					"description_login": "Pieteikts kā {email}",
+					"description_not_login": "Neesat pieteicies",
+					"description_features": "Kontrolējiet prom no mājām, integrējieties ar Alexa un Google Assistant.",
+					"login": {
+						"title": "Cloud Login",
+						"introduction": "Home Assistant Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+						"introduction2": "This service is run by our partner ",
+						"introduction2a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"introduction3": "Home Assistant Cloud is a subscription service with a free one month trial. No payment information necessary.",
+						"learn_more_link": "Learn more about Home Assistant Cloud",
+						"dismiss": "Dismiss",
+						"sign_in": "Sign in",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"forgot_password": "forgot password?",
+						"start_trial": "Start your free 1 month trial",
+						"trial_info": "No payment information necessary",
+						"alert_password_change_required": "You need to change your password before logging in.",
+						"alert_email_confirm_necessary": "You need to confirm your email before logging in."
+					},
+					"forgot_password": {
+						"title": "Forgot password",
+						"subtitle": "Forgot your password",
+						"instructions": "Enter your email address and we will send you a link to reset your password.",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"send_reset_email": "Send reset email",
+						"check_your_email": "Check your email for instructions on how to reset your password."
+					},
+					"register": {
+						"title": "Register Account",
+						"headline": "Start your free trial",
+						"information": "Create an account to start your free one month trial with Home Assistant Cloud. No payment information necessary.",
+						"information2": "The trial will give you access to all the benefits of Home Assistant Cloud, including:",
+						"feature_remote_control": "Control of Home Assistant away from home",
+						"feature_google_home": "Integration with Google Assistant",
+						"feature_amazon_alexa": "Integration with Amazon Alexa",
+						"feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
+						"information3": "This service is run by our partner ",
+						"information3a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"information4": "By registering an account you agree to the following terms and conditions.",
+						"link_terms_conditions": "Terms and Conditions",
+						"link_privacy_policy": "Privacy Policy",
+						"create_account": "Create Account",
+						"email_address": "Email address",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"start_trial": "Start Trial",
+						"resend_confirm_email": "Resend confirmation email",
+						"account_created": "Account created! Check your email for instructions on how to activate your account."
+					},
+					"account": {
+						"thank_you_note": "Thank you for being part of Home Assistant Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
+						"nabu_casa_account": "Nabu Casa Account",
+						"connection_status": "Cloud connection status",
+						"manage_account": "Manage Account",
+						"sign_out": "Sign out",
+						"integrations": "Integrations",
+						"integrations_introduction": "Integrations for Home Assistant Cloud allow you to connect with services in the cloud without having to expose your Home Assistant instance publicly on the internet.",
+						"integrations_introduction2": "Check the website for ",
+						"integrations_link_all_features": " all available features",
+						"connected": "Connected",
+						"not_connected": "Not Connected",
+						"fetching_subscription": "Fetching subscription…",
+						"remote": {
+							"title": "Remote Control",
+							"access_is_being_prepared": "Remote access is being prepared. We will notify you when it's ready.",
+							"info": "Home Assistant Cloud provides a secure remote connection to your instance while away from home.",
+							"instance_is_available": "Your instance is available at",
+							"instance_will_be_available": "Your instance will be available at",
+							"link_learn_how_it_works": "Learn how it works",
+							"certificate_info": "Certificate Info"
+						},
+						"alexa": {
+							"title": "Alexa",
+							"info": "With the Alexa integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Alexa-enabled device.",
+							"enable_ha_skill": "Enable the Home Assistant skill for Alexa",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+							"sync_entities": "Sync Entities",
+							"manage_entities": "Manage Entities",
+							"sync_entities_error": "Failed to sync entities:",
+							"state_reporting_error": "Unable to {enable_disable} report state.",
+							"enable": "enable",
+							"disable": "disable"
+						},
+						"google": {
+							"title": "Google Assistant",
+							"info": "With the Google Assistant integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Google Assistant-enabled device.",
+							"enable_ha_skill": "Activate the Home Assistant skill for Google Assistant",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Google. This allows you to always see the latest states in the Google app.",
+							"security_devices": "Security Devices",
+							"enter_pin_info": "Please enter a pin to interact with security devices. Security devices are doors, garage doors and locks. You will be asked to say/enter this pin when interacting with such devices via Google Assistant.",
+							"devices_pin": "Security Devices Pin",
+							"enter_pin_hint": "Enter a PIN to use security devices",
+							"sync_entities": "Sync Entities to Google",
+							"manage_entities": "Manage Entities",
+							"enter_pin_error": "Unable to store pin:"
+						},
+						"webhooks": {
+							"title": "Webhooks",
+							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to Home Assistant from anywhere, without exposing your instance to the internet.",
+							"no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
+							"no_hooks_yet_link_integration": "webhook-based integration",
+							"no_hooks_yet2": " or by creating a ",
+							"no_hooks_yet_link_automation": "webhook automation",
+							"link_learn_more": "Learn more about creating webhook-powered automations.",
+							"loading": "Loading ...",
+							"manage": "Manage",
+							"disable_hook_error_msg": "Failed to disable webhook:"
+						}
+					},
+					"alexa": {
+						"title": "Alexa",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"expose": "Expose to Alexa"
+					},
+					"dialog_certificate": {
+						"certificate_information": "Certificate Information",
+						"certificate_expiration_date": "Certificate expiration date",
+						"will_be_auto_renewed": "Will be automatically renewed",
+						"fingerprint": "Certificate fingerprint:",
+						"close": "Close"
+					},
+					"google": {
+						"title": "Google Assistant",
+						"expose": "Expose to Google Assistant",
+						"disable_2FA": "Disable two factor authentication",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"sync_to_google": "Synchronizing changes to Google."
+					},
+					"dialog_cloudhook": {
+						"webhook_for": "Webhook for {name}",
+						"available_at": "The webhook is available at the following url:",
+						"managed_by_integration": "This webhook is managed by an integration and cannot be disabled.",
+						"info_disable_webhook": "If you no longer want to use this webhook, you can",
+						"link_disable_webhook": "disable it",
+						"view_documentation": "View documentation",
+						"close": "Close",
+						"confirm_disable": "Are you sure you want to disable this webhook?",
+						"copied_to_clipboard": "Copied to clipboard"
+					}
+				},
+				"devices": {
+					"caption": "Ierīces",
+					"description": "Pievienoto ierīču pārvaldība",
+					"unnamed_device": "Unnamed device",
+					"unknown_error": "Unknown error",
+					"area_picker_label": "Area",
+					"automation": {
+						"triggers": {
+							"caption": "Do something when..."
+						},
+						"conditions": {
+							"caption": "Only do something if..."
+						},
+						"actions": {
+							"caption": "When something is triggered..."
+						}
+					},
+					"device_not_found": "Device not found.",
+					"info": "Device info",
+					"details": "Here are all the details of your device.",
+					"entities": "Entities",
+					"automations": "Automations",
+					"confirm_rename_entity_ids": "Do you also want to rename the entity id's of your entities?",
+					"data_table": {
+						"device": "Device",
+						"manufacturer": "Manufacturer",
+						"model": "Model",
+						"area": "Area",
+						"integration": "Integration",
+						"battery": "Battery"
+					}
+				},
+				"entity_registry": {
+					"caption": "Vienību Reģistrs",
+					"description": "Pārskats par visām zināmajām vienībām.",
+					"picker": {
+						"header": "Vienību Reģistrs",
+						"introduction": "Home Assistant uztur katras vienības reģistru, kuru var unikāli identificēt. Katrai no šīm vienībām tiks piešķirts vienības ID, kas tiks rezervēts tikai šai vienībai.",
+						"introduction2": "Izmantojiet vienību reģistru, lai piešķirtu vārdu, mainītu vienību ID vai noņemtu ierakstu no Home Assistant. Ņemiet vērā: noņemot vienības reģistra ierakstu, vienība netiks noņemta. Lai to izdarītu, sekojiet zemāk esošajai saitei un noņemiet to no integrācijas lapas.",
+						"integrations_page": "Integrāciju lapa",
+						"show_disabled": "Show disabled entities",
+						"headers": {
+							"name": "Name",
+							"entity_id": "Entity ID",
+							"integration": "Integration",
+							"enabled": "Enabled"
+						},
+						"unavailable": "(nav pieejams)"
+					},
+					"editor": {
+						"unavailable": "Šī vienība pašlaik nav pieejama.",
+						"default_name": "Jauns Apgabals",
+						"enabled_label": "Iespējot vienību",
+						"enabled_cause": "Atspējots dēļ {cause}.",
+						"enabled_description": "Atspējotās vienības netiks pievienotas Home Assistant.",
+						"delete": "DZĒST",
+						"confirm_delete": "Are you sure you want to delete this entry?",
+						"confirm_delete2": "Deleting an entry will not remove the entity from Home Assistant. To do this, you will need to remove the integration '{platform}' from Home Assistant.",
+						"update": "ATJAUNINĀT",
+						"note": "Note: this might not work yet with all integrations."
+					}
+				},
+				"person": {
+					"caption": "Personas",
+					"description": "Pārvaldīt personas, kuras izseko Home Assistant.",
+					"introduction": "Here you can define each person of interest in Home Assistant.",
+					"note_about_persons_configured_in_yaml": "Note: persons configured via configuration.yaml cannot be edited via the UI.",
+					"no_persons_created_yet": "Looks like you have not created any persons yet.",
+					"create_person": "Create Person",
+					"add_person": "Add Person",
+					"confirm_delete": "Are you sure you want to delete this person?",
+					"confirm_delete2": "All devices belonging to this person will become unassigned.",
+					"detail": {
+						"new_person": "New Person",
+						"name": "Nosaukums",
+						"name_error_msg": "Name is required",
+						"linked_user": "Linked User",
+						"device_tracker_intro": "Atlasiet ierīces, kas pieder šai personai.",
+						"no_device_tracker_available_intro": "When you have devices that indicate the presence of a person, you will be able to assign them to a person here. You can add your first device by adding a presence-detection integration from the integrations page.",
+						"link_presence_detection_integrations": "Presence Detection Integrations",
+						"link_integrations_page": "Integrations page",
+						"device_tracker_picked": "Izsekot Ierīci",
+						"device_tracker_pick": "Izvēlieties izsekojamo ierīci",
+						"delete": "Delete",
+						"create": "Create",
+						"update": "Update"
+					}
+				},
+				"integrations": {
+					"caption": "Integrācijas",
+					"description": "Pārvaldīt un iestatīt integrācijas",
+					"discovered": "Atklāts",
+					"configured": "Konfigurēts",
+					"new": "Izveidot jaunu integrāciju",
+					"note_about_integrations": "Not all integrations can be configured via the UI yet.",
+					"note_about_website_reference": "More are available on the ",
+					"home_assistant_website": "Home Assistant website",
+					"configure": "Konfigurēt",
+					"none": "Nekas vēl nav konfigurēts",
+					"integration_not_found": "Integration not found.",
+					"config_entry": {
+						"settings_button": "Edit settings for {integration}",
+						"system_options_button": "System options for {integration}",
+						"delete_button": "Delete {integration}",
+						"no_devices": "Šai integrācijai nav ierīču.",
+						"no_device": "Vienības, bez ierīcēm",
+						"delete_confirm": "Vai tiešām vēlaties dzēst šo integrāciju?",
+						"restart_confirm": "Restartēt Home Assistant, lai pabeigtu šīs integrācijas noņemšanu",
+						"manuf": "{manufacturer}",
+						"hub": "Savienots caur",
+						"firmware": "Programmaparatūra: {version}",
+						"device_unavailable": "ierīce nav pieejama",
+						"entity_unavailable": "vienība nav pieejama",
+						"area": "In {area}",
+						"no_area": "Nav Apgabala",
+						"via": "Savienots ar"
+					},
+					"config_flow": {
+						"aborted": "Aborted",
+						"close": "Close",
+						"finish": "Finish",
+						"submit": "Submit",
+						"not_all_required_fields": "Not all required fields are filled in.",
+						"add_area": "Add Area",
+						"area_picker_label": "Area",
+						"failed_create_area": "Failed to create area.",
+						"error_saving_area": "Error saving area: {error}",
+						"name_new_area": "Name of the new area?",
+						"created_config": "Created config for {name}.",
+						"external_step": {
+							"description": "Šajā solī ir nepieciešams, lai jūs apmeklētu ārēju tīmekļa vietni, lai pabeigtu.",
+							"open_site": "Atvērt tīmekļa vietni"
+						}
+					}
+				},
+				"users": {
+					"caption": "Lietotāji",
+					"description": "Pārvaldīt lietotājus",
+					"picker": {
+						"title": "Lietotāji",
+						"system_generated": "System generated"
+					},
+					"editor": {
+						"caption": "Skatīt lietotāju",
+						"rename_user": "Pārdēvēt lietotāju",
+						"change_password": "Mainīt paroli",
+						"activate_user": "Aktivizēt lietotāju",
+						"deactivate_user": "Deaktivizēt lietotāju",
+						"delete_user": "Dzēst lietotāju",
+						"id": "ID",
+						"owner": "Owner",
+						"group": "Group",
+						"active": "Active",
+						"system_generated": "System generated",
+						"system_generated_users_not_removable": "Unable to remove system generated users.",
+						"unnamed_user": "Unnamed User",
+						"enter_new_name": "Enter new name",
+						"user_rename_failed": "User rename failed:",
+						"group_update_failed": "Group update failed:",
+						"confirm_user_deletion": "Are you sure you want to delete {name}?"
+					},
+					"add_user": {
+						"caption": "Lietotāja pievienošana",
+						"name": "Vārds",
+						"username": "Lietotājvārds",
+						"password": "Parole",
+						"create": "Izveidot"
+					}
+				},
+				"zha": {
+					"caption": "ZHA",
+					"description": "Zigbee Home Automation tīkla pārvaldība",
+					"common": {
+						"add_devices": "Add Devices",
+						"clusters": "Clusters",
+						"devices": "Devices",
+						"manufacturer_code_override": "Manufacturer Code Override",
+						"value": "Value"
+					},
+					"add_device_page": {
+						"header": "Zigbee Home Automation - Pievienot ierīces",
+						"spinner": "Meklē ZHA Zigbee ierīces...",
+						"discovery_text": "Šeit tiks parādītas atklātās ierīces. Izpildiet ierīces (-ču) instrukcijas un iestatiet ierīci (-es) pārī savienošanas režīmā.",
+						"search_again": "Search Again"
+					},
+					"network_management": {
+						"header": "Network Management",
+						"introduction": "Commands that affect the entire network"
+					},
+					"node_management": {
+						"header": "Device Management",
+						"introduction": "Run ZHA commands that affect a single device. Pick a device to see a list of available commands.",
+						"hint_battery_devices": "Note: Sleepy (battery powered) devices need to be awake when executing commands against them. You can generally wake a sleepy device by triggering it.",
+						"hint_wakeup": "Some devices such as Xiaomi sensors have a wake up button that you can press at ~5 second intervals that keep devices awake while you interact with them.",
+						"help_node_dropdown": "Select a device to view per-device options."
+					},
+					"clusters": {
+						"help_cluster_dropdown": "Select a cluster to view attributes and commands."
+					},
+					"cluster_attributes": {
+						"header": "Cluster Attributes",
+						"introduction": "View and edit cluster attributes.",
+						"attributes_of_cluster": "Attributes of the selected cluster",
+						"get_zigbee_attribute": "Get Zigbee Attribute",
+						"set_zigbee_attribute": "Set Zigbee Attribute",
+						"help_attribute_dropdown": "Select an attribute to view or set its value.",
+						"help_get_zigbee_attribute": "Get the value for the selected attribute.",
+						"help_set_zigbee_attribute": "Set attribute value for the specified cluster on the specified entity."
+					},
+					"cluster_commands": {
+						"header": "Cluster Commands",
+						"introduction": "View and issue cluster commands.",
+						"commands_of_cluster": "Commands of the selected cluster",
+						"issue_zigbee_command": "Issue Zigbee Command",
+						"help_command_dropdown": "Select a command to interact with."
+					},
+					"device_card": {
+						"area_picker_label": "Apgabals",
+						"device_name_placeholder": "Lietotāja dots nosaukums",
+						"update_name_button": "Atjaunināt Nosaukumu"
+					},
+					"services": {
+						"reconfigure": "Pārkonfigurējiet ZHA ierīci (heal device). Izmantojiet to, ja rodas problēmas ar ierīci. Ja attiecīgā ierīce ir ar akumulatoru darbināma ierīce, lūdzu, pārliecinieties, ka tā ir nomodā un pieņem komandas, kad izmantojat šo pakalpojumu.",
+						"remove": "Noņemt ierīci no Zigbee tīkla.",
+						"updateDeviceName": "Ierīču reģistrā iestatiet šai ierīcei pielāgotu nosaukumu."
+					}
+				},
+				"zwave": {
+					"caption": "Z-Wave",
+					"description": "Pārvaldiet Z-Wave tīklu",
+					"learn_more": "Learn more about Z-Wave",
+					"common": {
+						"value": "Vērtība",
+						"instance": "Instance",
+						"index": "Indekss",
+						"unknown": "nezināms",
+						"wakeup_interval": "Wakeup intervāls"
+					},
+					"network_management": {
+						"header": "Z-Wave Tīkla Pārvaldība",
+						"introduction": "Palaist komandas, kas ietekmē Z-Wave tīklu. Jūs nesaņemsit atpakaļsaiti par to, vai vairums komandu ir izdevušās, taču varat pārbaudīt OZW žurnālu, lai mēģinātu to uzzināt."
+					},
+					"ozw_log": {
+						"header": "OZW Log",
+						"introduction": "View the log. 0 is the minimum (loads entire log) and 1000 is the maximum. Load will show a static log and tail will auto update with the last specified number of lines of the log."
+					},
+					"network_status": {
+						"network_stopped": "Z-Wave Tīkls Apturēts",
+						"network_starting": "Z-Wave tīkla startēšana...",
+						"network_starting_note": "Tas var aizņemt kādu laiku atkarībā no Jūsu tīkla lieluma.",
+						"network_started": "Z-Wave Tīkls Sākts",
+						"network_started_note_some_queried": "Nomodā esoši megli ir ierindoti. Miega režimā esoši mezgli tiks ierindoti tiklīdz tie būs nomodā.",
+						"network_started_note_all_queried": "Visi mezgli ir ierindoti."
+					},
+					"node_config": {
+						"header": "Mezgla konfigurēšanas opcijas",
+						"seconds": "sekundes",
+						"set_wakeup": "Wakeup intervāla iestatīšana",
+						"config_parameter": "Konfigurācijas parametrs",
+						"config_value": "Konfigurētā vērtība",
+						"true": "Patiess",
+						"false": "Nepatiess",
+						"set_config_parameter": "Iestatīt konfigurācijas parametru"
+					},
+					"values": {
+						"header": "Mezglu vērtības"
+					},
+					"services": {
+						"start_network": "Sākt Tīklu",
+						"stop_network": "Apturēt Tīklu",
+						"heal_network": "Labot Tīklu",
+						"test_network": "Pārbaudīt Tīklu",
+						"soft_reset": "Vieglā Atiestatīšana",
+						"save_config": "Saglabāt konfigurāciju",
+						"add_node_secure": "Pievienot Drošo Mezglu",
+						"add_node": "Pievienot Mezglu",
+						"remove_node": "Noņemt Mezglu",
+						"cancel_command": "Atcelt Komandu"
+					}
+				}
+			},
+			"history": {
+				"showing_entries": "Rāda ierakstus par",
+				"period": "Periods"
+			},
+			"logbook": {
+				"showing_entries": "Ieraksti par",
+				"period": "Periods",
+				"entries_not_found": "No logbook entries found."
+			},
+			"lovelace": {
+				"cards": {
+					"confirm_delete": "Are you sure you want to delete this card?",
+					"empty_state": {
+						"title": "Laipni lūgti mājās",
+						"no_devices": "Šī lapa ļauj jums kontrolēt savas ierīces, tomēr izskatās, ka vēl nav izveidotas ierīces. Lai sāktu darbu, dodieties uz integrācijas lapu.",
+						"go_to_integrations_page": "Dodieties uz integrācijas lapu."
+					},
+					"shopping-list": {
+						"checked_items": "Atzīmētie vienumi",
+						"clear_items": "Notīrīt atzīmētos vienumus",
+						"add_item": "Pievienot vienumu"
+					},
+					"picture-elements": {
+						"hold": "Turēt:",
+						"tap": "Pieskarties:",
+						"navigate_to": "Dodieties uz {location}",
+						"url": "Open window to {url_path}",
+						"toggle": "Pārslēgt {name}",
+						"call_service": "Izsaukt pakalpojumu {name}",
+						"more_info": "Rādīt vairāk informācijas: {name}"
+					}
+				},
+				"unused_entities": {
+					"title": "Unused entities",
+					"available_entities": "These are the entities that you have available, but are not in your Lovelace UI yet.",
+					"select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+					"entity": "Entity",
+					"entity_id": "Entity ID",
+					"domain": "Domain",
+					"last_changed": "Last Changed"
+				},
+				"views": {
+					"confirm_delete": "Are you sure you want to delete this view?",
+					"existing_cards": "You can't delete a view that has cards in it. Remove the cards first."
+				},
+				"menu": {
+					"configure_ui": "Konfigurēt lietotāja saskarni",
+					"help": "Palīdzība",
+					"refresh": "Atsvaidzināt",
+					"close": "Close",
+					"unused_entities": "Neizmantotās vienības"
+				},
+				"editor": {
+					"header": "Rediģēt lietotāja saskarni",
+					"menu": {
+						"open": "Open Lovelace menu",
+						"raw_editor": "Konfigurācijas teksta redaktors"
+					},
+					"raw_editor": {
+						"header": "Konfigurācijas redaktors",
+						"save": "Saglabāt",
+						"unsaved_changes": "Nesaglabātās izmaiņas",
+						"saved": "Saglabāts",
+						"confirm_unsaved_changes": "You have unsaved changes, are you sure you want to exit?",
+						"confirm_unsaved_comments": "Your config contains comment(s), these will not be saved. Do you want to continue?",
+						"error_parse_yaml": "Unable to parse YAML: {error}",
+						"error_invalid_config": "Your config is not valid: {error}",
+						"error_save_yaml": "Unable to save YAML: {error}"
+					},
+					"edit_lovelace": {
+						"header": "Jūsu Lovelace UI virsraksts",
+						"explanation": "Šis nosaukums tiek parādīts virs visiem Jūsu Lovelace skatiem.",
+						"edit_title": "Edit title"
+					},
+					"edit_view": {
+						"header": "Skatīt konfigurāciju",
+						"header_name": "{name} View Configuration",
+						"add": "Pievienot skatu",
+						"edit": "Rediģēt skatu",
+						"delete": "Dzēst skatu",
+						"move_left": "Move view left",
+						"move_right": "Move view right"
+					},
+					"edit_card": {
+						"header": "Kartītes konfigurācija",
+						"pick_card": "Izvēlieties kartīti, kuru vēlaties pievienot.",
+						"pick_card_view_title": "Which card would you like to add to your {name} view?",
+						"toggle_editor": "Pārslēgt redaktoru",
+						"show_visual_editor": "Show Visual Editor",
+						"show_code_editor": "Show Code Editor",
+						"add": "Pievienot kartīti",
+						"edit": "Rediģēt",
+						"delete": "Dzēst",
+						"move": "Pārvietot",
+						"options": "More options",
+						"save": "Saglabāt"
+					},
+					"save_config": {
+						"header": "Pārņemt kontroli pār savu Lovelace lietotāja saskarni",
+						"para": "Pēc noklusējuma Home Assistant uzturēs jūsu lietotāja saskarni, atjauninot to, kad būs pieejami jauni objekti vai Lovelace komponenti. Ja jūs uzņematies kontroli, mēs jums vairs neveiksim izmaiņas automātiski jūsu vietā.",
+						"para_sure": "Vai tiešām vēlaties pārņemt kontroli pār lietotāja saskarni?",
+						"cancel": "Atcelt",
+						"save": "Pārņemt kontroli"
+					},
+					"migrate": {
+						"header": "Nesaderīga konfigurācija",
+						"para_no_id": "Šim elementam nav ID. Lūdzu, pievienojiet ID šim elementam 'ui-lovelace.yaml' failā.",
+						"para_migrate": "Home Assistant var automātiski pievienot ID visām kartītēm un skatiem, nospiežot pogu \"Pārvietot konfigurāciju\".",
+						"migrate": "Pārvietot konfigurāciju"
+					},
+					"card": {
+						"alarm-panel": {
+							"name": "Alarm Panel",
+							"available_states": "Available States"
+						},
+						"conditional": {
+							"name": "Conditional"
+						},
+						"config": {
+							"required": "Required",
+							"optional": "Optional"
+						},
+						"entities": {
+							"name": "Entities",
+							"show_header_toggle": "Show Header Toggle?",
+							"toggle": "Toggle entities."
+						},
+						"entity-button": {
+							"name": "Entity Button"
+						},
+						"entity-filter": {
+							"name": "Entity Filter"
+						},
+						"gauge": {
+							"name": "Gauge",
+							"severity": {
+								"define": "Define Severity?",
+								"green": "Green",
+								"red": "Red",
+								"yellow": "Yellow"
+							}
+						},
+						"glance": {
+							"name": "Glance",
+							"columns": "Columns"
+						},
+						"history-graph": {
+							"name": "History Graph"
+						},
+						"horizontal-stack": {
+							"name": "Horizontal Stack"
+						},
+						"iframe": {
+							"name": "iFrame"
+						},
+						"light": {
+							"name": "Light"
+						},
+						"generic": {
+							"aspect_ratio": "Aspect Ratio",
+							"camera_image": "Camera Entity",
+							"camera_view": "Camera View",
+							"entities": "Entities",
+							"entity": "Entity",
+							"hold_action": "Hold Action",
+							"hours_to_show": "Hours to Show",
+							"icon": "Icon",
+							"icon_height": "Icon Height",
+							"image": "Image Path",
+							"maximum": "Maximum",
+							"minimum": "Minimum",
+							"name": "Name",
+							"refresh_interval": "Refresh Interval",
+							"show_icon": "Show Icon?",
+							"show_name": "Show Name?",
+							"show_state": "Show State?",
+							"tap_action": "Tap Action",
+							"title": "Title",
+							"theme": "Theme",
+							"unit": "Unit",
+							"url": "Url"
+						},
+						"map": {
+							"name": "Map",
+							"geo_location_sources": "Geolocation Sources",
+							"dark_mode": "Dark Mode?",
+							"default_zoom": "Default Zoom",
+							"source": "Source"
+						},
+						"markdown": {
+							"name": "Markdown",
+							"content": "Content"
+						},
+						"media-control": {
+							"name": "Media Control"
+						},
+						"picture": {
+							"name": "Picture"
+						},
+						"picture-elements": {
+							"name": "Picture Elements"
+						},
+						"picture-entity": {
+							"name": "Picture Entity"
+						},
+						"picture-glance": {
+							"name": "Picture Glance"
+						},
+						"plant-status": {
+							"name": "Plant Status"
+						},
+						"sensor": {
+							"name": "Sensor",
+							"graph_detail": "Graph Detail",
+							"graph_type": "Graph Type"
+						},
+						"shopping-list": {
+							"name": "Shopping List"
+						},
+						"thermostat": {
+							"name": "Thermostat"
+						},
+						"vertical-stack": {
+							"name": "Vertical Stack"
+						},
+						"weather-forecast": {
+							"name": "Weather Forecast"
+						}
+					},
+					"view": {
+						"panel_mode": {
+							"title": "Panel Mode?",
+							"description": "This renders the first card at full width; other cards in this view will not be rendered."
+						}
+					}
+				},
+				"warning": {
+					"entity_not_found": "Vienība nav pieejama: {entity}",
+					"entity_non_numeric": "Vienībai nav skaitļu: {entity}"
+				},
+				"changed_toast": {
+					"message": "Lovelace konfigurācija tika atjaunināta. Vai vēlaties atsvaidzināt?",
+					"refresh": "Atsvaidzināt"
+				},
+				"reload_lovelace": "Pārlādēt Lovelace"
+			},
+			"mailbox": {
+				"empty": "Jums nav ziņu",
+				"playback_title": "Ziņu atskaņošana",
+				"delete_prompt": "Vai dzēst šo ziņojumu?",
+				"delete_button": "Dzēst"
+			},
+			"profile": {
+				"current_user": "Jūs šobrīd esat pieteicies kā {fullName}.",
+				"is_owner": "Jūs esat īpašnieks.",
+				"logout": "Iziet",
+				"force_narrow": {
+					"header": "Vienmēr slēpt sānjoslu",
+					"description": "Tas pēc noklusējuma slēps sānjoslu, līdzīgi kā mobilajās ierīcēs."
+				},
+				"vibrate": {
+					"header": "Vibrate",
+					"description": "Enable or disable vibration on this device when controlling devices."
+				},
+				"push_notifications": {
+					"header": "Pašpiegādes paziņojumi",
+					"description": "Sūtīt paziņojumus uz šo ierīci.",
+					"error_load_platform": "Konfigurēt notify.html5.",
+					"error_use_https": "Nepieciešama SSL iespējošana priekšpusei.",
+					"push_notifications": "Pašpiegādes paziņojumi",
+					"link_promo": "Uzziniet vairāk"
+				},
+				"language": {
+					"header": "Valoda",
+					"link_promo": "Palīdziet tulkot",
+					"dropdown_label": "Valoda"
+				},
+				"themes": {
+					"header": "Tēma",
+					"error_no_theme": "Nav nevienas tēmas",
+					"link_promo": "Uzziniet par tēmām",
+					"dropdown_label": "Tēma"
+				},
+				"change_password": {
+					"header": "Mainīt paroli",
+					"current_password": "Pašreizējā parole",
+					"new_password": "Jauna parole",
+					"confirm_new_password": "Apstipriniet jauno paroli",
+					"error_required": "Obligāts",
+					"submit": "Iesniegt"
+				},
+				"mfa": {
+					"header": "Daudzfaktoru autentifikācijas moduļi",
+					"disable": "Atspējot",
+					"enable": "Iespējot",
+					"confirm_disable": "Vai tiešām vēlaties atspējot {name}?"
+				},
+				"mfa_setup": {
+					"title_aborted": "Priekšlaikus pārtraukta",
+					"title_success": "Veiksmīgi!",
+					"step_done": "Iestatīšana ir pabeigta {step}",
+					"close": "Aizvērt",
+					"submit": "Iesniegt"
+				},
+				"advanced_mode": {
+					"title": "Advanced Mode",
+					"description": "Home Assistant hides advanced features and options by default. You can make these features accessible by checking this toggle. This is a user-specific setting and does not impact other users using Home Assistant.",
+					"hint_enable": "Missing config options? Enable advanced mode on",
+					"link_profile_page": "your profile page"
+				},
+				"refresh_tokens": {
+					"header": "Atsvaidzināšanas pilnvaras",
+					"description": "Katra atsvaidzināšanas pilvara pārstāv pieteikšanās sesiju. Atsvaidzināšanas pilvaras tiks automātiski noņemtas, kad Jūs izrakstīsieties. Šāda atsvaidzināšanas pilvaras ir pašreiz aktīvas Jūsu kontā.",
+					"token_title": "{clientId} atsvaidzināšanas pilnvara",
+					"created_at": "Izveidots {date}",
+					"last_used": "Pēdējoreiz izmantots {date} no {location}",
+					"not_used": "Nekad nav izmantots",
+					"confirm_delete": "Vai tiešām vēlaties dzēst piekļuves pilnvaru {name}?",
+					"delete_failed": "Neizdevās dzēst atsvaidzināšanas pilnvaru.",
+					"current_token_tooltip": "Nevar izdzēst pašreizējo atsvaidzināšanas pilnvaru"
+				},
+				"long_lived_access_tokens": {
+					"header": "Ilgtermiņas piekļuves pilnvaras",
+					"description": "Izveidojiet ilgtermiņa piekļuves pilnvaras, lai ļautu jūsu skriptiem mijiedarboties ar jūsu Home Assistant instanci. Katra pilnvara būs derīga 10 gadus pēc tās radīšanas. Pašlaik ir aktīvas sekojošas ilgstošas piekļuves pilvaras.",
+					"learn_auth_requests": "Uzziniet, kā veikt autentificētus pieprasījumus.",
+					"created_at": "Izveidots {date}",
+					"last_used": "Pēdējoreiz izmantots {date} no {location}",
+					"not_used": "Nekad nav izmantots",
+					"confirm_delete": "Vai tiešām vēlaties dzēst piekļuves pilnvaru {name}?",
+					"delete_failed": "Neizdevās dzēst piekļuves pilnvaru.",
+					"create": "Izveidot pilnvaru",
+					"create_failed": "Neizdevās izveidot piekļuves pilnvaru.",
+					"prompt_name": "Vārds?",
+					"prompt_copy_token": "Kopējiet savu piekļuves pilnvaru. Tas vairs netiks rādīts.",
+					"empty_state": "Jums vēl nav ilgtermiņa piekļuves pilnvaru."
+				}
+			},
+			"shopping-list": {
+				"clear_completed": "Noņemt izpildītos",
+				"add_item": "Pievienot vienumu",
+				"microphone_tip": "Pieskarieties mikrofonam augšējā labajā stūrī un sakiet \"Pievienojiet konfektes manam iepirkumu sarakstam\""
+			},
+			"page-authorize": {
+				"initializing": "Inicializēšana",
+				"authorizing_client": "Jūs gatavojaties piešķirt {clientId} piekļuvi jūsu Home Assistant.",
+				"logging_in_with": "Pieteikšanās ar ** {authProviderName} **.",
+				"pick_auth_provider": "Vai pieteikties, izmantojot",
+				"abort_intro": "Pieteikšanās priekšlaikus pārtraukta",
+				"form": {
+					"working": "Lūdzu uzgaidiet",
+					"unknown_error": "Kaut kas nogāja greizi",
+					"providers": {
+						"command_line": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Lietotājvārds",
+										"password": "Parole"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Divpakāpju Autorizācijas Kods"
+									},
+									"description": "Savā ierīcē atveriet ** {mfa_module_name} **, lai skatītu divu faktoru autentifikācijas kodu un verificētu savu identitāti:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Nederīgs lietotājvārds vai parole",
+								"invalid_code": "Nepareizs autorizācijas kods"
+							},
+							"abort": {
+								"login_expired": "Sesija ir beigusies, lūdzu, ielogojaties vēlreiz."
+							}
+						},
+						"homeassistant": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Lietotājvārds",
+										"password": "Parole"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Divu faktoru autentifikācijas kods"
+									},
+									"description": "Savā ierīcē atveriet ** {mfa_module_name} **, lai skatītu divu faktoru autentifikācijas kodu un verificētu savu identitāti:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Nederīgs lietotājvārds vai parole",
+								"invalid_code": "Nederīgs autentifikācijas kods"
+							},
+							"abort": {
+								"login_expired": "Sesija beidzās, lūdzu, piesakieties vēlreiz."
+							}
+						},
+						"legacy_api_password": {
+							"step": {
+								"init": {
+									"data": {
+										"password": "API parole"
+									},
+									"description": "Lūdzu, ievadiet API paroli savā http config:"
+								},
+								"mfa": {
+									"data": {
+										"code": "Divu faktoru autentifikācijas kods"
+									},
+									"description": "Savā ierīcē atveriet ** {mfa_module_name} **, lai skatītu divu faktoru autentifikācijas kodu un verificētu savu identitāti:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Nederīga API parole",
+								"invalid_code": "Nederīgs autentifikācijas kods"
+							},
+							"abort": {
+								"no_api_password_set": "Jums nav konfigurēta API parole.",
+								"login_expired": "Sesija beigusies, lūdzu piesakaties vēlreiz."
+							}
+						},
+						"trusted_networks": {
+							"step": {
+								"init": {
+									"data": {
+										"user": "Lietotājs"
+									},
+									"description": "Lūdzu, atlasiet lietotāju, kuru vēlaties pieteikties kā:"
+								}
+							},
+							"abort": {
+								"not_whitelisted": "Jūsu dators nav iekļauts baltajā sarakstā."
+							}
+						}
+					}
+				}
+			},
+			"page-demo": {
+				"cards": {
+					"demo": {
+						"demo_by": "{name}",
+						"next_demo": "Nākamā demonstrācija",
+						"introduction": "Laipni lūgts mājās! Jūs esat sasniedzis Home Assistant demonstrāciju, kurā mēs parādām labākos lietotāja kopienas izveidotos lietotāja interfeisus.",
+						"learn_more": "Uzziniet vairāk par Home Assistant"
+					}
+				},
+				"config": {
+					"arsaboo": {
+						"names": {
+							"upstairs": "Augšstāvs",
+							"family_room": "Ģimenes Istaba",
+							"kitchen": "Virtuve",
+							"patio": "Terase",
+							"hallway": "Gaitenis",
+							"master_bedroom": "Galvenā Guļamistaba",
+							"left": "Pa kreisi",
+							"right": "Pa labi",
+							"mirror": "Spogulis",
+							"temperature_study": "Temperature Study"
+						},
+						"labels": {
+							"lights": "Gaismas",
+							"information": "Informācija",
+							"morning_commute": "Rīta Brauciens",
+							"commute_home": "Brauciens uz Mājām",
+							"entertainment": "Izklaide",
+							"activity": "Aktivitāte",
+							"hdmi_input": "HDMI Ievade",
+							"hdmi_switcher": "HDMI Pārslēdzējs",
+							"volume": "Skaļums",
+							"total_tv_time": "Kopējais TV Laiks",
+							"turn_tv_off": "Izslēgt Televizoru",
+							"air": "Gaiss"
+						},
+						"unit": {
+							"watching": "skatotās",
+							"minutes_abbr": "min"
+						}
+					}
+				}
+			},
+			"developer-tools": {
+				"tabs": {
+					"info": {
+						"title": "Informācija",
+						"remove": "Remove",
+						"set": "Set",
+						"default_ui": "{action} {name} as default page on this device",
+						"lovelace_ui": "Go to the Lovelace UI",
+						"states_ui": "Go to the states UI",
+						"home_assistant_logo": "Home Assistant logo",
+						"path_configuration": "Path to configuration.yaml: {path}",
+						"developed_by": "Developed by a bunch of awesome people.",
+						"license": "Published under the Apache 2.0 license",
+						"source": "Source:",
+						"server": "server",
+						"frontend": "frontend-ui",
+						"built_using": "Built using",
+						"icons_by": "Icons by",
+						"frontend_version": "Frontend version: {version} - {type}",
+						"custom_uis": "Custom UIs:",
+						"system_health_error": "System Health component is not loaded. Add 'system_health:' to configuration.yaml"
+					},
+					"logs": {
+						"title": "Žurnāli",
+						"details": "Log Details ({level})",
+						"load_full_log": "Load Full Home Assistant Log",
+						"loading_log": "Loading error log…",
+						"no_errors": "No errors have been reported.",
+						"no_issues": "There are no new issues!",
+						"clear": "Clear",
+						"refresh": "Refresh",
+						"multiple_messages": "message first occurred at {time} and shows up {counter} times"
+					},
+					"events": {
+						"title": "Notikumi",
+						"description": "Fire an event on the event bus.",
+						"documentation": "Events Documentation.",
+						"type": "Event Type",
+						"data": "Event Data (YAML, optional)",
+						"fire_event": "Fire Event",
+						"event_fired": "Event {name} fired",
+						"available_events": "Available Events",
+						"count_listeners": " ({count}  listeners)",
+						"listen_to_events": "Listen to events",
+						"listening_to": "Listening to",
+						"subscribe_to": "Event to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"alert_event_type": "Event type is a mandatory field",
+						"notification_event_fired": "Event {type} successful fired!"
+					},
+					"mqtt": {
+						"title": "MQTT",
+						"description_publish": "Publish a packet",
+						"topic": "topic",
+						"payload": "Payload (template allowed)",
+						"publish": "Publish",
+						"description_listen": "Listen to a topic",
+						"listening_to": "Listening to",
+						"subscribe_to": "Topic to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"message_received": "Message {id} received on {topic} at {time}:"
+					},
+					"services": {
+						"title": "Pakalpojumi",
+						"description": "The service dev tool allows you to call any available service in Home Assistant.",
+						"data": "Service Data (YAML, optional)",
+						"call_service": "Call Service",
+						"select_service": "Select a service to see the description",
+						"no_description": "No description is available",
+						"no_parameters": "This service takes no parameters.",
+						"column_parameter": "Parameter",
+						"column_description": "Description",
+						"column_example": "Example",
+						"fill_example_data": "Fill Example Data",
+						"alert_parsing_yaml": "Error parsing YAML: {data}"
+					},
+					"states": {
+						"title": "Stāvokļi",
+						"description1": "Set the representation of a device within Home Assistant.",
+						"description2": "This will not communicate with the actual device.",
+						"entity": "Entity",
+						"state": "State",
+						"attributes": "Attributes",
+						"state_attributes": "State attributes (YAML, optional)",
+						"set_state": "Set State",
+						"current_entities": "Current entities",
+						"filter_entities": "Filter entities",
+						"filter_states": "Filter states",
+						"filter_attributes": "Filter attributes",
+						"no_entities": "No entities",
+						"more_info": "More Info",
+						"alert_entity_field": "Entity is a mandatory field"
+					},
+					"templates": {
+						"title": "Veidne",
+						"description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+						"editor": "Template editor",
+						"jinja_documentation": "Jinja2 template documentation",
+						"template_extensions": "Home Assistant template extensions",
+						"unknown_error_template": "Unknown error rendering template"
+					}
+				}
+			},
+			"page-onboarding": {
+				"intro": "Vai esat gatavs pamodināt savu māju, atgūt savu konfidencialitāti un pievienoties pasaules mēroga kopienai?",
+				"user": {
+					"intro": "Sāksim ar lietotāja konta izveidi.",
+					"required_field": "Obligāts",
+					"data": {
+						"name": "Vārds",
+						"username": "Lietotājvārds",
+						"password": "Parole",
+						"password_confirm": "Apstipriniet Paroli"
+					},
+					"create_account": "Izveidot Kontu",
+					"error": {
+						"required_fields": "Aizpildiet visus obligātos laukus",
+						"password_not_match": "Paroles nesakrīt"
+					}
+				},
+				"core-config": {
+					"intro": "Sveiki {name}! Laipni lūdzam Home Assistant. Kā jūs vēlētos nosaukt savas mājas?",
+					"intro_location": "Mēs gribētu zināt, kur tu dzīvo. Šī informācija palīdzēs parādīt informāciju un iestatīt uz saules bāzes balstītas automātikas. Šie dati nekad netiek koplietoti ārpus jūsu tīkla.",
+					"intro_location_detect": "Mēs varam palīdzēt jums aizpildīt šo informāciju, iesniedzot vienreizēju pieprasījumu ārējam pakalpojumam.",
+					"location_name_default": "Mājas",
+					"button_detect": "Noteikt",
+					"finish": "Nākamais"
+				},
+				"integration": {
+					"intro": "Home Assistant ierīces un pakalpojumi tiek parādītas kā integrācijas. Tos var iestatīt tūlīt vai izdarīt vēlāk konfigurācijas ekrānā.",
+					"more_integrations": "Vairāk",
+					"finish": "Pabeigt"
+				}
+			},
+			"custom": {
+				"external_panel": {
+					"question_trust": "Do you trust the external panel {name} at {link}?",
+					"complete_access": "It will have access to all data in Home Assistant.",
+					"hide_message": "Check docs for the panel_custom component to hide this message"
+				}
+			}
+		}
+	},
+	"attribute": {
+		"weather": {
+			"humidity": "Gaisa mitrums",
+			"visibility": "Redzamība",
+			"wind_speed": "Vēja ātrums"
+		}
+	}
+}

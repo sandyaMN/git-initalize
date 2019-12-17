@@ -1,0 +1,2158 @@
+{
+	"domain": {
+		"alarm_control_panel": "Valvekeskuse juhtpaneel",
+		"automation": "Automatiseerimine",
+		"binary_sensor": "Binaarne andur",
+		"calendar": "Kalender",
+		"camera": "Kaamera",
+		"climate": "Kliima",
+		"configurator": "Seadistaja",
+		"conversation": "Vestlus",
+		"cover": "Kate",
+		"device_tracker": "Seadme träkker",
+		"fan": "Ventilaator",
+		"group": "Grupp",
+		"hassio": "Hass.io",
+		"history_graph": "Ajaloo graafik",
+		"homeassistant": "Home Assistant",
+		"image_processing": "Pilditöötlus",
+		"input_boolean": "Sisesta tõeväärtus",
+		"input_datetime": "Sisesta kuupäev ja kellaaeg",
+		"input_number": "Sisendi number",
+		"input_select": "Vali sisend",
+		"input_text": "Teksti sisestamine",
+		"light": "Tuled",
+		"lock": "Lukk",
+		"lovelace": "Lovelace",
+		"mailbox": "Postkast",
+		"media_player": "Meediamängija",
+		"notify": "Teata",
+		"person": "Isik",
+		"plant": "Taim",
+		"proximity": "Lähedus",
+		"remote": "Kaugjuhtimispult",
+		"scene": "Stseen",
+		"script": "Skript",
+		"sensor": "Andur",
+		"sun": "Päike",
+		"switch": "Lüliti",
+		"system_health": "Süsteemi tervis",
+		"updater": "Uuendaja",
+		"vacuum": "Tühjenda",
+		"weblink": "Veebilink",
+		"zha": "ZHA",
+		"zwave": "Z-Wave"
+	},
+	"panel": {
+		"calendar": "Kalender",
+		"config": "Seaded",
+		"states": "Ülevaade",
+		"map": "Kaart",
+		"logbook": "Logi",
+		"history": "Ajalugu",
+		"mailbox": "Postkast",
+		"shopping_list": "Ostunimekiri",
+		"developer_tools": "Arendaja tööriistad",
+		"profile": "Profiil",
+		"dev-info": "Info"
+	},
+	"state": {
+		"default": {
+			"off": "Väljas",
+			"on": "Sees",
+			"unknown": "Teadmata",
+			"unavailable": "Kadunud"
+		},
+		"alarm_control_panel": {
+			"armed": "Valves",
+			"disarmed": "Maas",
+			"armed_home": "Valves kodus",
+			"armed_away": "Valves eemal",
+			"armed_night": "Valves öine",
+			"armed_custom_bypass": "Valves, eranditega",
+			"pending": "Ootel",
+			"arming": "Valvestab",
+			"disarming": "Maas...",
+			"triggered": "Häires"
+		},
+		"automation": {
+			"off": "Väljas",
+			"on": "Sees"
+		},
+		"binary_sensor": {
+			"default": {
+				"off": "Väljas",
+				"on": "Sees"
+			},
+			"battery": {
+				"off": "Tavaline",
+				"on": "Madal"
+			},
+			"cold": {
+				"off": "Normaalne",
+				"on": "Jahe"
+			},
+			"connectivity": {
+				"off": "Lahti ühendatud",
+				"on": "Ühendatud"
+			},
+			"door": {
+				"off": "Suletud",
+				"on": "Avatud"
+			},
+			"garage_door": {
+				"off": "Suletud",
+				"on": "Avatud"
+			},
+			"gas": {
+				"off": "Puudub",
+				"on": "Tuvastatud"
+			},
+			"heat": {
+				"off": "Normaalne",
+				"on": "Palav"
+			},
+			"lock": {
+				"off": "Lukus",
+				"on": "Lukustamata"
+			},
+			"moisture": {
+				"off": "Kuiv",
+				"on": "Märg"
+			},
+			"motion": {
+				"off": "Puudub",
+				"on": "Tuvastatud"
+			},
+			"occupancy": {
+				"off": "Puudub",
+				"on": "Tuvastatud"
+			},
+			"opening": {
+				"off": "Suletud",
+				"on": "Avatud"
+			},
+			"presence": {
+				"off": "Eemal",
+				"on": "Kodus"
+			},
+			"problem": {
+				"off": "OK",
+				"on": "Probleem"
+			},
+			"safety": {
+				"off": "Ohutu",
+				"on": "Ohtlik"
+			},
+			"smoke": {
+				"off": "Puudub",
+				"on": "Tuvastatud"
+			},
+			"sound": {
+				"off": "Puudub",
+				"on": "Tuvastatud"
+			},
+			"vibration": {
+				"off": "Puudub",
+				"on": "Tuvastatud"
+			},
+			"window": {
+				"off": "Suletud",
+				"on": "Avatud"
+			}
+		},
+		"calendar": {
+			"off": "Väljas",
+			"on": "Sees"
+		},
+		"camera": {
+			"recording": "Salvestab",
+			"streaming": "Voogedastab",
+			"idle": "Ootel"
+		},
+		"climate": {
+			"off": "Väljas",
+			"heat": "Soojenda",
+			"cool": "Jahuta",
+			"heat_cool": "Küta/jahuta",
+			"auto": "Automaatne",
+			"dry": "Kuiv",
+			"fan_only": "Ainult ventilaator",
+			"eco": "Öko",
+			"electric": "Elektriline",
+			"gas": "Gaas",
+			"heat_pump": "Soojuspump",
+			"high_demand": "Kõrge nõudlus",
+			"idle": "Ootel",
+			"manual": "Käsitsi",
+			"on": "Sees",
+			"performance": "Jõudlus"
+		},
+		"configurator": {
+			"configure": "Seadista",
+			"configured": "Seadistatud"
+		},
+		"cover": {
+			"open": "Avatud",
+			"opening": "Avaneb",
+			"closed": "Suletud",
+			"closing": "Sulgub",
+			"stopped": "Peatatud"
+		},
+		"device_tracker": {
+			"home": "Kodus",
+			"not_home": "Eemal"
+		},
+		"fan": {
+			"off": "Väljas",
+			"on": "Sees"
+		},
+		"group": {
+			"off": "Väljas",
+			"on": "Sees",
+			"home": "Kodus",
+			"not_home": "Eemal",
+			"open": "Avatud",
+			"opening": "Avaneb",
+			"closed": "Suletud",
+			"closing": "Sulgub",
+			"stopped": "Peatunud",
+			"locked": "Lukus",
+			"unlocked": "Lukustamata",
+			"ok": "OK",
+			"problem": "Probleem"
+		},
+		"input_boolean": {
+			"off": "Väljas",
+			"on": "Sees"
+		},
+		"light": {
+			"off": "Väljas",
+			"on": "Sees"
+		},
+		"lock": {
+			"locked": "Lukus",
+			"unlocked": "Lahti"
+		},
+		"media_player": {
+			"off": "Väljas",
+			"on": "Sees",
+			"playing": "Mängib",
+			"paused": "Peatatud",
+			"idle": "Ootel",
+			"standby": "Unerežiimil"
+		},
+		"person": {
+			"home": "Kodus",
+			"not_home": "Eemal"
+		},
+		"plant": {
+			"ok": "OK",
+			"problem": "Probleem"
+		},
+		"remote": {
+			"off": "Väljas",
+			"on": "Sees"
+		},
+		"scene": {
+			"scening": "Stseenis"
+		},
+		"script": {
+			"off": "Väljas",
+			"on": "Sees"
+		},
+		"sensor": {
+			"off": "Väljas",
+			"on": "Sees"
+		},
+		"sun": {
+			"above_horizon": "Tõusnud",
+			"below_horizon": "Loojunud"
+		},
+		"switch": {
+			"off": "Väljas",
+			"on": "Sees"
+		},
+		"timer": {
+			"active": "aktiivne",
+			"idle": "ootel",
+			"paused": "peatatud"
+		},
+		"vacuum": {
+			"cleaning": "Puhastamine",
+			"docked": "Dokitud",
+			"error": "Viga",
+			"idle": "Ootel",
+			"off": "Väljas",
+			"on": "Sees",
+			"paused": "Peatatud",
+			"returning": "Pöördun tagasi dokki"
+		},
+		"weather": {
+			"clear-night": "Selge öö",
+			"cloudy": "Pilves",
+			"exceptional": "Erakordne",
+			"fog": "Udu",
+			"hail": "Rahe",
+			"lightning": "Äikeseline",
+			"lightning-rainy": "Äikeseline, vihmane",
+			"partlycloudy": "Osaliselt pilves",
+			"pouring": "Kallab",
+			"rainy": "Vihmane",
+			"snowy": "Lumine",
+			"snowy-rainy": "Lörtsine",
+			"sunny": "Päikeseline",
+			"windy": "Tuuline",
+			"windy-variant": "Tuuline"
+		},
+		"zwave": {
+			"default": {
+				"initializing": "Lähtestan",
+				"dead": "Surnud",
+				"sleeping": "Ootel",
+				"ready": "Valmis"
+			},
+			"query_stage": {
+				"initializing": "Lähtestan ( {query_stage} )",
+				"dead": "Surnud ({query_stage})"
+			}
+		}
+	},
+	"state_attributes": {
+		"climate": {
+			"fan_mode": {
+				"off": "Väljas",
+				"on": "Sees",
+				"auto": "Automaatne"
+			},
+			"preset_mode": {
+				"none": "Puudub",
+				"eco": "Öko",
+				"away": "Eemal",
+				"boost": "Suurenda",
+				"comfort": "Mugavus",
+				"home": "Kodus",
+				"sleep": "Uinuv",
+				"activity": "Tegevus"
+			},
+			"hvac_action": {
+				"off": "Väljas",
+				"heating": "Küte",
+				"cooling": "Jahutamine",
+				"drying": "Kuivatamine",
+				"idle": "Ootel",
+				"fan": "Ventilaator"
+			}
+		}
+	},
+	"state_badge": {
+		"default": {
+			"unknown": "?",
+			"unavailable": "Kadunud",
+			"error": "Viga",
+			"entity_not_found": "Olemit ei leitud"
+		},
+		"alarm_control_panel": {
+			"armed": "Valves",
+			"disarmed": "Maas",
+			"armed_home": "Valves",
+			"armed_away": "Valves",
+			"armed_night": "Valves",
+			"armed_custom_bypass": "Valves",
+			"pending": "Ootel",
+			"arming": "Valvestab",
+			"disarming": "Maas...",
+			"triggered": "Häire"
+		},
+		"device_tracker": {
+			"home": "Kodus",
+			"not_home": "Eemal"
+		},
+		"person": {
+			"home": "Kodus",
+			"not_home": "Eemal"
+		}
+	},
+	"groups": {
+		"system-admin": "Administraatorid",
+		"system-users": "Kasutajad",
+		"system-read-only": "Ainult lugemisõigusega kasutajad"
+	},
+	"config_entry": {
+		"disabled_by": {
+			"user": "Kasutaja",
+			"integration": "Sidumine",
+			"config_entry": "Seade kanne"
+		}
+	},
+	"ui": {
+		"auth_store": {
+			"ask": "Kas soovid selle sisselogimise salvestada?",
+			"decline": "Tänan ei",
+			"confirm": "Salvesta sisselogimine"
+		},
+		"card": {
+			"alarm_control_panel": {
+				"code": "Kood",
+				"clear_code": "Puhasta",
+				"disarm": "Valvest maha",
+				"arm_home": "Valvesta kodus",
+				"arm_away": "Valvesta eemal",
+				"arm_night": "Valvesta öine",
+				"arm_custom_bypass": "Eranditega",
+				"armed_custom_bypass": "Eranditega"
+			},
+			"automation": {
+				"last_triggered": "Viimati käivitatud",
+				"trigger": "Käivita"
+			},
+			"camera": {
+				"not_available": "Kujutis pole saadaval"
+			},
+			"climate": {
+				"currently": "Hetkel",
+				"on_off": "Sees / väljas",
+				"target_temperature": "Soovitud temperatuur",
+				"target_temperature_entity": "{name} soovitud temperatuur",
+				"target_temperature_mode": "{name} soovitud temperatuur {mode}",
+				"current_temperature": "{name} praegune temperatuur",
+				"heating": "{name} soojendab",
+				"cooling": "{name} jahutab",
+				"high": "kõrge",
+				"low": "madal",
+				"target_humidity": "Soovitud niiskusemäär",
+				"operation": "Töörežiim",
+				"fan_mode": "Ventilaatori režiim",
+				"swing_mode": "Õõtsumise režiim",
+				"preset_mode": "Eelseade",
+				"away_mode": "Eemal",
+				"aux_heat": "Abiküte"
+			},
+			"counter": {
+				"actions": {
+					"increment": "suurenda",
+					"decrement": "vähenda",
+					"reset": "lähtesta"
+				}
+			},
+			"cover": {
+				"position": "Asend",
+				"tilt_position": "Kalde asend"
+			},
+			"fan": {
+				"speed": "Kiirus",
+				"oscillate": "Võnkumine",
+				"direction": "Suund",
+				"forward": "Edaspidi",
+				"reverse": "Tagurpidi"
+			},
+			"light": {
+				"brightness": "Heledus",
+				"color_temperature": "Värvustemperatuur",
+				"white_value": "Valge väärtus",
+				"effect": "Efekt"
+			},
+			"lock": {
+				"code": "Kood",
+				"lock": "Lukusta",
+				"unlock": "Ava"
+			},
+			"media_player": {
+				"source": "Allikas",
+				"sound_mode": "Heli režiim",
+				"text_to_speak": "Tekst kõneks"
+			},
+			"persistent_notification": {
+				"dismiss": "Loobu"
+			},
+			"scene": {
+				"activate": "Aktiveeri"
+			},
+			"script": {
+				"execute": "Täida"
+			},
+			"timer": {
+				"actions": {
+					"start": "käivita",
+					"pause": "peata",
+					"cancel": "loobu",
+					"finish": "lõpeta"
+				}
+			},
+			"vacuum": {
+				"actions": {
+					"resume_cleaning": "Jätka puhastamist",
+					"return_to_base": "Tagasi dokki",
+					"start_cleaning": "Alusta puhastamist",
+					"turn_on": "Lülita sisse",
+					"turn_off": "Lülita välja"
+				}
+			},
+			"water_heater": {
+				"currently": "Hetkel",
+				"on_off": "Sees / väljas",
+				"target_temperature": "Soovitud temperatuur",
+				"operation": "Töörežiim",
+				"away_mode": "Eemalolekurežiim"
+			},
+			"weather": {
+				"attributes": {
+					"air_pressure": "Õhurõhk",
+					"humidity": "Niiskus",
+					"temperature": "Temperatuur",
+					"visibility": "Nähtavus",
+					"wind_speed": "Tuule kiirus"
+				},
+				"cardinal_direction": {
+					"e": "E",
+					"ene": "ENE",
+					"ese": "ESE",
+					"n": "N",
+					"ne": "NE",
+					"nne": "NNE",
+					"nw": "NW",
+					"nnw": "NNW",
+					"s": "S",
+					"se": "SE",
+					"sse": "SSE",
+					"ssw": "SSW",
+					"sw": "SW",
+					"w": "W",
+					"wnw": "WNW",
+					"wsw": "WSW"
+				},
+				"forecast": "Ennustus"
+			}
+		},
+		"common": {
+			"loading": "Laadimine",
+			"cancel": "Loobu",
+			"save": "Salvesta",
+			"yes": "Yes",
+			"no": "No",
+			"successfully_saved": "Edukalt salvestatud"
+		},
+		"components": {
+			"entity": {
+				"entity-picker": {
+					"entity": "Olem",
+					"clear": "Puhasta",
+					"show_entities": "Näita olemeid"
+				}
+			},
+			"device-picker": {
+				"clear": "Puhasta",
+				"show_devices": "Näita seadmeid",
+				"device": "Device"
+			},
+			"relative_time": {
+				"past": "{time} tagasi",
+				"future": "{time} pärast",
+				"never": "Iial",
+				"duration": {
+					"second": "{count} {count, plural,\n  one {sekund}\n  other {sekundit}\n}",
+					"minute": "{count} {count, plural,\n  one {minut}\n  other {minutit}\n}",
+					"hour": "{count} {count, plural,\n  one {tund}\n  other {tundi}\n}",
+					"day": "{count} {count, plural,\n  one {päev}\n  other {päeva}\n}",
+					"week": "{count} {count, plural,\n  one {nädal}\n  other {nädalat}\n}"
+				}
+			},
+			"history_charts": {
+				"loading_history": "Laadin ajalugu...",
+				"no_history_found": "Oleku ajalugu ei leitud"
+			},
+			"service-picker": {
+				"service": "Teenus"
+			}
+		},
+		"dialogs": {
+			"voice_command": {
+				"did_not_hear": "Home Assistant did not hear anything",
+				"found": "I found the following for you:",
+				"error": "Oops, an error has occurred",
+				"how_can_i_help": "How can I help?",
+				"label": "Type a question and press 'Enter'",
+				"label_voice": "Type and press 'Enter' or tap the microphone to speak"
+			},
+			"confirmation": {
+				"cancel": "Loobu",
+				"ok": "OK",
+				"title": "Oled sa kindel?"
+			},
+			"more_info_control": {
+				"script": {
+					"last_action": "Viimane tegevus"
+				},
+				"sun": {
+					"elevation": "Tõus",
+					"rising": "Tõuseb",
+					"setting": "Loojub"
+				},
+				"updater": {
+					"title": "Uuendamise juhised"
+				}
+			},
+			"more_info_settings": {
+				"save": "Salvesta",
+				"name": "Nime muutmine",
+				"entity_id": "Olemi ID"
+			},
+			"options_flow": {
+				"form": {
+					"header": "Valikud"
+				},
+				"success": {
+					"description": "Valikud on edukalt salvestatud."
+				}
+			},
+			"config_entry_system_options": {
+				"title": "Süsteemi valikud",
+				"enable_new_entities_label": "Luba äsja lisatud olemid.",
+				"enable_new_entities_description": "Kui see on keelatud, ei lisata äsja avastatud olemeid automaatselt Home Assistant'i."
+			},
+			"zha_device_info": {
+				"manuf": "{manufacturer}",
+				"no_area": "Ala puudub",
+				"buttons": {
+					"add": "Lisa seadmeid",
+					"remove": "Eemalda seade",
+					"reconfigure": "Reconfigure Device"
+				},
+				"services": {
+					"reconfigure": "Taasseadista (tervenda) ZHA seade. Kasuta seda, kui seadmega on probleeme. Kui seade on akutoitega, siis veendu, et see oleks ärkvel ja oleks valmis käske vastu võtma.",
+					"updateDeviceName": "Anna sellele seadmele seadmete registris kohandatud nimi.",
+					"remove": "Eemalda seade Zigbee võrgust."
+				},
+				"quirk": "Quirk",
+				"last_seen": "Viimati nähtud",
+				"power_source": "Toiteallikas",
+				"unknown": "Teadmata",
+				"zha_device_card": {
+					"device_name_placeholder": "Kasutaja antud nimi",
+					"area_picker_label": "Ala",
+					"update_name_button": "Värskenda nime"
+				}
+			},
+			"domain_toggler": {
+				"title": "Toggle Domains"
+			}
+		},
+		"duration": {
+			"second": "{count} {count, plural,\n  one {sekund}\n  other {sekundit}\n}",
+			"minute": "{count} {count, plural,\n  one {minut}\n  other {minutit}\n}",
+			"hour": "{count} {count, plural,\n  one {tund}\n  other {tundi}\n}",
+			"day": "{count} {count, plural,\n  one {päev}\n  other {päeva}\n}",
+			"week": "{count} {count, plural,\n  one {nädal}\n  other {nädalat}\n}"
+		},
+		"login-form": {
+			"password": "Salasõna",
+			"remember": "Jäta meelde",
+			"log_in": "Logi sisse"
+		},
+		"notification_drawer": {
+			"click_to_configure": "{entity} seadistamiseks klõpsa nuppu",
+			"empty": "Teavitusi pole",
+			"title": "Teavitused"
+		},
+		"notification_toast": {
+			"service_call_failed": "Teenuse {service} väljakutsumine ebaõnnestus.",
+			"connection_lost": "Ühendus kadunud. Taasühendamine...",
+			"triggered": "Triggered {name}",
+			"entity_turned_off": "Välja lülitatud {entity}.",
+			"entity_turned_on": "Sisse lülitatud {entity}.",
+			"service_called": "Teenus {service} kutsuti välja."
+		},
+		"sidebar": {
+			"external_app_configuration": "Äpi seaded",
+			"sidebar_toggle": "Külgriba lülitamine",
+			"log_out": "Logi välja"
+		},
+		"panel": {
+			"config": {
+				"header": "Home Assistant'i seadistamine",
+				"introduction": "Siin saab seadistada oma komponente ja Home Assistant'i. Mitte kõike ei saa veel kasutajaliidese kaudu seadistada, kuid me töötame selle nimel.",
+				"common": {
+					"editor": {
+						"confirm_unsaved": "Sul on salvestamata muudatusi. Oled kindel, et soovid lahkuda?"
+					}
+				},
+				"area_registry": {
+					"caption": "Alade register",
+					"description": "Ülevaade kõikidest oma kodu aladest.",
+					"picker": {
+						"header": "Alade register",
+						"introduction": "Alasid kasutatakse seadmete paiknemise korraldamiseks. Seda teavet kasutatakse läbivalt kasutajaliidese, lubade ja teiste süsteemidega sidumise korraldamisel.",
+						"introduction2": "Seadmete paigutamiseks alale mine alloleva lingi kaudu sidumiste lehele ja seejärel klõpsa seadme kaartideni jõudmiseks seadistatud sidumisel.",
+						"integrations_page": "Sidumiste leht",
+						"no_areas": "Paistab, et sul pole veel alasid!",
+						"create_area": "LOO ALA"
+					},
+					"editor": {
+						"default_name": "Uus ala",
+						"delete": "KUSTUTA",
+						"update": "UUENDA",
+						"create": "LOO"
+					},
+					"create_area": "LOO ALA",
+					"no_areas": "Paistab, et sul pole veel alasid!"
+				},
+				"core": {
+					"caption": "Üldine",
+					"description": "Home Assistant'i üldiste seadete muutmine",
+					"section": {
+						"core": {
+							"header": "Seadete ja serveri kontroll",
+							"introduction": "Seadete muutmine võib olla väsitav tegevus. Me teame. See osa püüab su elu natuke hõlpsamaks teha.",
+							"core_config": {
+								"edit_requires_storage": "Redaktor on keelatud, kuna seaded asuvad configuration.yaml failis.",
+								"location_name": "Sinu Home Assistant paigalduse nimi",
+								"latitude": "Laius",
+								"longitude": "Pikkus",
+								"elevation": "Kõrgus",
+								"elevation_meters": "meetrit",
+								"time_zone": "Ajavöönd",
+								"unit_system": "Ühikute süsteem",
+								"unit_system_imperial": "Imperiaalne süsteem",
+								"unit_system_metric": "Meetermõõdustik",
+								"imperial_example": "Fahrenheit, naelad",
+								"metric_example": "Celsius, kilogrammid",
+								"save_button": "Salvesta"
+							}
+						},
+						"server_control": {
+							"reloading": {
+								"automation": "Taaslae automatiseeringud",
+								"core": "Taaslae tuum",
+								"group": "Taaslae grupid",
+								"heading": "Seadete taaslaadimine",
+								"introduction": "Mõned Home Assistant'i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
+								"script": "Taaslae skriptid"
+							},
+							"server_management": {
+								"heading": "Serveri haldamine",
+								"introduction": "Kontrolli oma Home Assistant serverit... Home Assistant'ist.",
+								"restart": "Taaskäivita",
+								"stop": "Peata"
+							},
+							"validation": {
+								"check_config": "Kontrolli seadeid",
+								"heading": "Seadete kontrollimine",
+								"introduction": "Kontrolli oma seadeid kui oled neis hiljuti muutusi teinud ja tahad veenduda, et kõik on korrektne",
+								"invalid": "Seaded on vigased",
+								"valid": "Seaded on korrektsed!"
+							}
+						}
+					}
+				},
+				"server_control": {
+					"caption": "Serveri juhtimine",
+					"description": "Taaskäivita ja peata Home Assistant server",
+					"section": {
+						"validation": {
+							"heading": "Seadete kontrollimine",
+							"introduction": "Kontrolli oma seadeid kui oled neis hiljuti muutusi teinud ja tahad veenduda, et kõik on korrektne",
+							"check_config": "Kontrolli seadeid",
+							"valid": "Konfiguratsioon on korrektne!",
+							"invalid": "Konfiguratsioon on vigane"
+						},
+						"reloading": {
+							"heading": "Konfiguratsiooni taaslaadimine",
+							"introduction": "Mõned Home Assistant'i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
+							"core": "Taaslae tuum",
+							"group": "Taaslae grupid",
+							"automation": "Taaslae automatiseeringud",
+							"script": "Taaslae skriptid",
+							"scene": "Taaslae stseenid"
+						},
+						"server_management": {
+							"heading": "Serveri haldamine",
+							"introduction": "Kontrolli oma Home Assistant serverit... Home Assistant'ist.",
+							"restart": "Taaskäivita",
+							"confirm_restart": "Oled kindel, et soovid taaskäivitada Home Assistant'i?",
+							"stop": "Peata",
+							"confirm_stop": "Oled kindel, et soovid seisata Home Assistant'i?"
+						}
+					}
+				},
+				"customize": {
+					"caption": "Kohandamine",
+					"description": "Kohanda oma olemeid",
+					"picker": {
+						"header": "Kohandamine",
+						"introduction": "Kohanda olemi atribuute. Lisatud või muudetud kohandused rakenduvad kohe. Eemaldatud kohandused rakenduvad olemi värskendamisel."
+					},
+					"warning": {
+						"include_sentence": "It seems that your configuration.yaml doesn't properly",
+						"include_link": "include customize.yaml",
+						"not_applied": "Changes made here are written in it, but will not be applied after a configuration reload unless the include is in place."
+					},
+					"attributes_customize": "The following attributes are already set in customize.yaml",
+					"attributes_outside": "The following attributes are customized from outside of customize.yaml",
+					"different_include": "Possibly via a domain, a glob or a different include.",
+					"attributes_set": "The following attributes of the entity are set programmatically.",
+					"attributes_override": "You can override them if you like.",
+					"attributes_not_set": "The following attributes weren't set. Set them if you like.",
+					"pick_attribute": "Pick an attribute to override"
+				},
+				"automation": {
+					"caption": "Automatiseerimine",
+					"description": "Loo ja redigeeri automatiseeringuid",
+					"picker": {
+						"header": "Automaatika redaktor",
+						"introduction": "Automaatika redaktor võimaldab teil luua ja muuta automatiseeringuid. Palun järgige allolevat linki, veendumaks, et oled Home Assistant'i õigesti seadistanud.",
+						"learn_more": "Lisateave automatiseeringute kohta",
+						"pick_automation": "Vali muudetav automatiseering",
+						"no_automations": "Me ei leidnud ühtegi muudetavat automatiseeringut",
+						"add_automation": "Lisa automatiseering",
+						"only_editable": "Only automations defined in automations.yaml are editable.",
+						"edit_automation": "Edit automation",
+						"show_info_automation": "Show info about automation",
+						"delete_automation": "Delete automation",
+						"delete_confirm": "Are you sure you want to delete this automation?"
+					},
+					"editor": {
+						"introduction": "Kasuta oma kodule elu sisse puhumiseks automatiseeringuid.",
+						"default_name": "Uus automatiseering",
+						"load_error_not_editable": "Ainult automations.yaml failis asuvad automatiseeringud on muudetavad.",
+						"load_error_unknown": "Viga automatiseeringu laadimisel ({err_no}).",
+						"save": "Salvesta",
+						"unsaved_confirm": "Sul on salvestamata muudatusi. Oled kindel, et soovid lahkuda?",
+						"alias": "Nimi",
+						"description": {
+							"label": "Kirjeldus",
+							"placeholder": "Valikuline kirjeldus"
+						},
+						"triggers": {
+							"name": "Trigger",
+							"header": "Päästikud",
+							"introduction": "Päästikud on need, millest algab automatiseeringu töö. Ühe automatiseeringu jaoks on võimalik määrata mitu päästikut. Kui päästik vallandub, kontrollib Home Assistant võimalike tingimuste täidetust ja käivitab tegevuse.",
+							"learn_more": "Lisateave päästikute kohta",
+							"add": "Lisa päästik",
+							"duplicate": "Paljunda",
+							"delete": "Kustuta",
+							"delete_confirm": "Oled kindel, et soovid kustutada?",
+							"unsupported_platform": "Toetamata platvorm: {platform}",
+							"type_select": "Päästiku tüüp",
+							"type": {
+								"device": {
+									"label": "Seade",
+									"extra_fields": {
+										"above": "Üle",
+										"below": "Alla",
+										"for": "Kestus"
+									}
+								},
+								"event": {
+									"label": "Sündmus",
+									"event_type": "Sündmuse tüüp",
+									"event_data": "Sündmuse andmed"
+								},
+								"geo_location": {
+									"label": "Geolokatsioon",
+									"source": "Allikas",
+									"zone": "Ala",
+									"event": "Sündmus:",
+									"enter": "Sisenemine",
+									"leave": "Väljumine"
+								},
+								"state": {
+									"label": "Olek",
+									"from": "Algväärtus",
+									"for": "Jaoks",
+									"to": "Lõppväärtus"
+								},
+								"homeassistant": {
+									"label": "Home Assistant",
+									"event": "Sündmus:",
+									"start": "Käivitamine",
+									"shutdown": "Seiskamine"
+								},
+								"mqtt": {
+									"label": "MQTT",
+									"topic": "Teema",
+									"payload": "Kandam (valikuline)"
+								},
+								"numeric_state": {
+									"label": "Numbriline olek",
+									"above": "Üle",
+									"below": "Alla",
+									"value_template": "Väärtuse mall (valikuline)"
+								},
+								"sun": {
+									"label": "Päike",
+									"event": "Sündmus:",
+									"sunrise": "Tõus",
+									"sunset": "Loojang",
+									"offset": "Nihe (valikuline)"
+								},
+								"template": {
+									"label": "Mall",
+									"value_template": "Väärtuse mall"
+								},
+								"time": {
+									"label": "Aeg",
+									"at": "Kell"
+								},
+								"time_pattern": {
+									"label": "Aeg",
+									"hours": "Tundi",
+									"minutes": "Minutit",
+									"seconds": "Sekundit"
+								},
+								"webhook": {
+									"label": "Webhook",
+									"webhook_id": "Webhook ID"
+								},
+								"zone": {
+									"label": "Ala",
+									"entity": "Asukohaga olem",
+									"zone": "Ala",
+									"event": "Sündmus:",
+									"enter": "Sisenemine",
+									"leave": "Lahkumine"
+								}
+							}
+						},
+						"conditions": {
+							"name": "Condition",
+							"header": "Tingimused",
+							"introduction": "Tingimused on automatiseeringu valikuline osa ja neid saab kasutada, et vältida tegevuse käivitumist päästiku vallandumisel. Tingimused tunduvad väga sarnased päästikutele, kuid on siiski erinevad. Päästik jälgib süsteemis toimuvaid sündmusi, tingimus jälgib ainult süsteem praegust olekut. Päästik võib märgata, et lülitit ollakse parasjagu lülitamas. Tingimus võib näha ainult seda, kas lüliti on praegu sisse või välja lülitatud.",
+							"learn_more": "Lisateave tingimuste kohta",
+							"add": "Lisa tingimus",
+							"duplicate": "Duubelda",
+							"delete": "Kustuta",
+							"delete_confirm": "Oled kindel, et soovid kustutada?",
+							"unsupported_condition": "Tundmatu tingimus: {condition}",
+							"type_select": "Tingimuse tüüp",
+							"type": {
+								"and": {
+									"label": "ja"
+								},
+								"device": {
+									"label": "Seade",
+									"extra_fields": {
+										"above": "Üle",
+										"below": "Alla",
+										"for": "Kestus"
+									}
+								},
+								"numeric_state": {
+									"label": "Numbriline olek",
+									"above": "Üle",
+									"below": "Alla",
+									"value_template": "Väärtuse mall (valikuline)"
+								},
+								"or": {
+									"label": "või"
+								},
+								"state": {
+									"label": "Olek",
+									"state": "Olek"
+								},
+								"sun": {
+									"label": "Päike",
+									"before": "Enne:",
+									"after": "Peale:",
+									"before_offset": "Eelnev viiteaeg (valikuline)",
+									"after_offset": "Pärastine viiteaeg (valikuline)",
+									"sunrise": "Tõusu",
+									"sunset": "Loojangut"
+								},
+								"template": {
+									"label": "Mall",
+									"value_template": "Väärtuse mall"
+								},
+								"time": {
+									"label": "Aeg",
+									"after": "Peale",
+									"before": "Enne"
+								},
+								"zone": {
+									"label": "Ala",
+									"entity": "Asukohaga olem",
+									"zone": "Ala"
+								}
+							}
+						},
+						"actions": {
+							"name": "Action",
+							"header": "Tegevused",
+							"introduction": "Tegevused on need, mida Home Assistant teeb kui päästik käivitab automatiseeringu.",
+							"learn_more": "Lisateave tegevuste kohta",
+							"add": "Lisa toiming",
+							"duplicate": "Paljunda",
+							"delete": "Kustuta",
+							"delete_confirm": "Oled kindel, et soovid kustutada?",
+							"unsupported_action": "Toetamata tegevus: {action}",
+							"type_select": "Tegevuse tüüp",
+							"type": {
+								"service": {
+									"label": "Kutsu teenus",
+									"service_data": "Teenuse andmed"
+								},
+								"delay": {
+									"label": "Viide",
+									"delay": "Viide"
+								},
+								"wait_template": {
+									"label": "Oota",
+									"wait_template": "Ootamise mall",
+									"timeout": "Aegumine (valikuline)"
+								},
+								"condition": {
+									"label": "Tingimus"
+								},
+								"event": {
+									"label": "Vallanda sündmus",
+									"event": "Sündmus:",
+									"service_data": "Teenuse andmed"
+								},
+								"device_id": {
+									"label": "Seade",
+									"extra_fields": {
+										"code": "Kood"
+									}
+								},
+								"scene": {
+									"label": "Aktiveeri stseen"
+								}
+							}
+						}
+					}
+				},
+				"script": {
+					"caption": "Skript",
+					"description": "Loo ja muuda skripte",
+					"picker": {
+						"header": "Skriptiredaktor",
+						"introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Lisateave skriptide kohta",
+						"no_scripts": "We couldn’t find any editable scripts",
+						"add_script": "Lisa skript",
+						"trigger_script": "Trigger script",
+						"edit_script": "Edit script"
+					},
+					"editor": {
+						"introduction": "Use scripts to execute a sequence of actions.",
+						"header": "Skript: {name}",
+						"default_name": "Uus skript",
+						"load_error_not_editable": "Only scripts inside scripts.yaml are editable.",
+						"delete_confirm": "Oled kindel, et soovid selle skripti kustutada?",
+						"delete_script": "Delete script",
+						"sequence": "Sequence",
+						"sequence_sentence": "The sequence of actions of this script.",
+						"link_available_actions": "Learn more about available actions."
+					}
+				},
+				"scene": {
+					"caption": "Scenes",
+					"description": "Create and edit scenes",
+					"activated": "Activated scene {name}.",
+					"picker": {
+						"header": "Scene Editor",
+						"introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scenes",
+						"pick_scene": "Pick scene to edit",
+						"no_scenes": "We couldn’t find any editable scenes",
+						"add_scene": "Add scene",
+						"only_editable": "Only scenes defined in scenes.yaml are editable.",
+						"edit_scene": "Edit scene",
+						"show_info_scene": "Show info about scene",
+						"delete_scene": "Delete scene",
+						"delete_confirm": "Are you sure you want to delete this scene?"
+					},
+					"editor": {
+						"introduction": "Use scenes to bring your home alive.",
+						"default_name": "New Scene",
+						"load_error_not_editable": "Only scenes in scenes.yaml are editable.",
+						"load_error_unknown": "Error loading scene ({err_no}).",
+						"save": "Save",
+						"unsaved_confirm": "You have unsaved changes. Are you sure you want to leave?",
+						"name": "Name",
+						"devices": {
+							"header": "Devices",
+							"introduction": "Add the devices that you want to be included in your scene. Set all the devices to the state you want for this scene.",
+							"add": "Add a device",
+							"delete": "Delete device"
+						},
+						"entities": {
+							"header": "Entities",
+							"introduction": "Entities that do not belong to a devices can be set here.",
+							"without_device": "Entities without device",
+							"device_entities": "If you add an entity that belongs to a device, the device will be added.",
+							"add": "Add an entity",
+							"delete": "Delete entity"
+						}
+					}
+				},
+				"cloud": {
+					"caption": "Home Assistant pilv",
+					"description_login": "Sisse logitud kui {email}",
+					"description_not_login": "Pole sisse logitud",
+					"description_features": "Juhi kodust eemal viibides, seo Alexa ja Google Assistant'iga.",
+					"login": {
+						"title": "Pilve sisselogimine",
+						"introduction": "Home Assistant Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+						"introduction2": "This service is run by our partner ",
+						"introduction2a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"introduction3": "Home Assistant Cloud is a subscription service with a free one month trial. No payment information necessary.",
+						"learn_more_link": "Lisateave Home Assistant Cloud kohta",
+						"dismiss": "Loobu",
+						"sign_in": "Logi sisse",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"forgot_password": "unustasid salasõna?",
+						"start_trial": "Alusta oma tasuta 1-kuulist prooviversiooni",
+						"trial_info": "No payment information necessary",
+						"alert_password_change_required": "You need to change your password before logging in.",
+						"alert_email_confirm_necessary": "You need to confirm your email before logging in."
+					},
+					"forgot_password": {
+						"title": "Unustasid salasõna",
+						"subtitle": "Unustasid oma salasõna",
+						"instructions": "Enter your email address and we will send you a link to reset your password.",
+						"email": "E-post",
+						"email_error_msg": "Vigane meiliaadress",
+						"send_reset_email": "Send reset email",
+						"check_your_email": "Check your email for instructions on how to reset your password."
+					},
+					"register": {
+						"title": "Register Account",
+						"headline": "Alusta tasuta prooviperioodi",
+						"information": "Create an account to start your free one month trial with Home Assistant Cloud. No payment information necessary.",
+						"information2": "The trial will give you access to all the benefits of Home Assistant Cloud, including:",
+						"feature_remote_control": "Control of Home Assistant away from home",
+						"feature_google_home": "Sidumine Google Assistant'iga",
+						"feature_amazon_alexa": "Sidumine Amazon Alexa'ga",
+						"feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
+						"information3": "This service is run by our partner ",
+						"information3a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"information4": "Konto registreerimisega nõustud järgmiste tingimustega.",
+						"link_terms_conditions": "Tingimused",
+						"link_privacy_policy": "Privaatsuspoliitika",
+						"create_account": "Loo konto",
+						"email_address": "E-posti aadress",
+						"email_error_msg": "Vigane meiliaadress",
+						"password": "Salasõna",
+						"password_error_msg": "Salasõnad on vähemalt 8 tähemärki",
+						"start_trial": "Alusta proovimist",
+						"resend_confirm_email": "Saada kinnitusmeil uuesti",
+						"account_created": "Account created! Check your email for instructions on how to activate your account."
+					},
+					"account": {
+						"thank_you_note": "Thank you for being part of Home Assistant Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
+						"nabu_casa_account": "Nabu Casa konto",
+						"connection_status": "Pilveühenduse olek",
+						"manage_account": "Halda kontot",
+						"sign_out": "Logi välja",
+						"integrations": "Sidumised",
+						"integrations_introduction": "Integrations for Home Assistant Cloud allow you to connect with services in the cloud without having to expose your Home Assistant instance publicly on the internet.",
+						"integrations_introduction2": "Check the website for ",
+						"integrations_link_all_features": " all available features",
+						"connected": "Ühendatud",
+						"not_connected": "Pole ühendatud",
+						"fetching_subscription": "Fetching subscription…",
+						"remote": {
+							"title": "Kaugjuhtimine",
+							"access_is_being_prepared": "Remote access is being prepared. We will notify you when it's ready.",
+							"info": "Home Assistant Cloud provides a secure remote connection to your instance while away from home.",
+							"instance_is_available": "Your instance is available at",
+							"instance_will_be_available": "Your instance will be available at",
+							"link_learn_how_it_works": "Loe, kuidas see töötab",
+							"certificate_info": "Sertifikaadi teave"
+						},
+						"alexa": {
+							"title": "Alexa",
+							"info": "With the Alexa integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Alexa-enabled device.",
+							"enable_ha_skill": "Enable the Home Assistant skill for Alexa",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+							"sync_entities": "Sünkrooni olemid",
+							"manage_entities": "Halda olemeid",
+							"sync_entities_error": "Olemite sünkroonimine ebaõnnestus:",
+							"state_reporting_error": "Unable to {enable_disable} report state.",
+							"enable": "luba",
+							"disable": "keela"
+						},
+						"google": {
+							"title": "Google Assistant",
+							"info": "With the Google Assistant integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Google Assistant-enabled device.",
+							"enable_ha_skill": "Activate the Home Assistant skill for Google Assistant",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Google. This allows you to always see the latest states in the Google app.",
+							"security_devices": "Turvaseadmed",
+							"enter_pin_info": "Please enter a pin to interact with security devices. Security devices are doors, garage doors and locks. You will be asked to say/enter this pin when interacting with such devices via Google Assistant.",
+							"devices_pin": "Turvaseadmete PIN",
+							"enter_pin_hint": "Turvaseadmete kasutamiseks sisesta PIN",
+							"sync_entities": "Sünkrooni olemid Google'iga",
+							"manage_entities": "Halda olemeid",
+							"enter_pin_error": "Unable to store pin:"
+						},
+						"webhooks": {
+							"title": "Veebihaagid",
+							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to Home Assistant from anywhere, without exposing your instance to the internet.",
+							"no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
+							"no_hooks_yet_link_integration": "veebihaagipõhine sidumine",
+							"no_hooks_yet2": " or by creating a ",
+							"no_hooks_yet_link_automation": "veebihaagi automatiseering",
+							"link_learn_more": "Learn more about creating webhook-powered automations.",
+							"loading": "Laadin ...",
+							"manage": "Halda",
+							"disable_hook_error_msg": "Veebihaagi keelamine ebaõnnestus:"
+						}
+					},
+					"alexa": {
+						"title": "Alexa",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Avaldatud olemid",
+						"not_exposed_entities": "Mitteavaldatud olemid",
+						"expose": "Avalda Alexa'le"
+					},
+					"dialog_certificate": {
+						"certificate_information": "Sertifikaadi teave",
+						"certificate_expiration_date": "Sertifikaadi aegumiskuupäev",
+						"will_be_auto_renewed": "Uuendatakse automaatselt",
+						"fingerprint": "Sertifikaadi sõrmejälg:",
+						"close": "Sulge"
+					},
+					"google": {
+						"title": "Google Assistant",
+						"expose": "Avalda Google Assistant'ile",
+						"disable_2FA": "Keela kaheastmeline autentimine",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Avaldatud olemid",
+						"not_exposed_entities": "Mitteavaldatud olemid",
+						"sync_to_google": "Sünkroonin muutusi Google'iga"
+					},
+					"dialog_cloudhook": {
+						"webhook_for": "Veebihaak {name} jaoks",
+						"available_at": "Veebihook on saadaval järgmisel URL-il:",
+						"managed_by_integration": "This webhook is managed by an integration and cannot be disabled.",
+						"info_disable_webhook": "Kui sa ei soovi enam seda veebihaaki kasutada, võid",
+						"link_disable_webhook": "keela see",
+						"view_documentation": "Vaata dokumentatsiooni",
+						"close": "Sulge",
+						"confirm_disable": "Oled kindel, et soovid selle veebihaagi keelata?",
+						"copied_to_clipboard": "Kopeeritud lõikepuhvrisse"
+					}
+				},
+				"devices": {
+					"caption": "Seadmed",
+					"description": "Halda ühendatud seadmeid",
+					"unnamed_device": "Unnamed device",
+					"unknown_error": "Unknown error",
+					"area_picker_label": "Area",
+					"automation": {
+						"triggers": {
+							"caption": "Tee midagi, kui..."
+						},
+						"conditions": {
+							"caption": "Tee midagi ainult siis, kui ..."
+						},
+						"actions": {
+							"caption": "Kui midagi käivitatakse ..."
+						}
+					},
+					"device_not_found": "Device not found.",
+					"info": "Device info",
+					"details": "Here are all the details of your device.",
+					"entities": "Entities",
+					"automations": "Automations",
+					"confirm_rename_entity_ids": "Do you also want to rename the entity id's of your entities?",
+					"data_table": {
+						"device": "Device",
+						"manufacturer": "Manufacturer",
+						"model": "Model",
+						"area": "Area",
+						"integration": "Integration",
+						"battery": "Battery"
+					}
+				},
+				"entity_registry": {
+					"caption": "Olemite register",
+					"description": "Ülevaade kõikidest teadaolevatest olemitest.",
+					"picker": {
+						"header": "Olemite register",
+						"introduction": "Home Assistant peab registrit iga olemi kohta, mida ta kunagi näinud on ja mida saab üheselt tuvastada. Kõigile nendele olemitele antakse olemi ID, mis reserveeritakse ainult sellele olemile.",
+						"introduction2": "Kasuta olemite registrit olemi nime või ID muutmiseks või olemi eemaldamiseks Home Assistant'ist. Pane tähele, et olemi registrikirje eemaldamine ei eemalda olemit. Selleks järgi allolevat linki ja eemalda olem sidumiste lehelt.",
+						"integrations_page": "Sidumiste leht",
+						"show_disabled": "Kuva keelatud olemid",
+						"headers": {
+							"name": "Nimi",
+							"entity_id": "Olemi ID",
+							"integration": "Sidumine",
+							"enabled": "Lubatud"
+						},
+						"unavailable": "(pole saadaval)"
+					},
+					"editor": {
+						"unavailable": "See olem pole praegu saadaval.",
+						"default_name": "Uus ala",
+						"enabled_label": "Luba olem",
+						"enabled_cause": "Keelatud {cause}.",
+						"enabled_description": "Keelatud olemeid ei lisata Home Assistant'i.",
+						"delete": "KUSTUTA",
+						"confirm_delete": "Oled kindel, et soovid selle kirje kustutada?",
+						"confirm_delete2": "Deleting an entry will not remove the entity from Home Assistant. To do this, you will need to remove the integration '{platform}' from Home Assistant.",
+						"update": "UUENDA",
+						"note": "Note: this might not work yet with all integrations."
+					}
+				},
+				"person": {
+					"caption": "Isikud",
+					"description": "Halda isikuid, keda Home Assistant jälgib.",
+					"introduction": "Here you can define each person of interest in Home Assistant.",
+					"note_about_persons_configured_in_yaml": "Note: persons configured via configuration.yaml cannot be edited via the UI.",
+					"no_persons_created_yet": "Paistab, et sa pole veel ühtegi isikut loonud.",
+					"create_person": "Loo isik",
+					"add_person": "Lisa isik",
+					"confirm_delete": "Oled kindel, et soovid selle isiku kustutada?",
+					"confirm_delete2": "Kõik sellele isikule kuuluvad seadmed jäävad peremehetuks.",
+					"detail": {
+						"new_person": "Uus isik",
+						"name": "Nimi",
+						"name_error_msg": "Nimi on kohustuslik",
+						"linked_user": "Lingitud kasutaja",
+						"device_tracker_intro": "Vali seadmed, mis kuuluvad sellele isikule.",
+						"no_device_tracker_available_intro": "When you have devices that indicate the presence of a person, you will be able to assign them to a person here. You can add your first device by adding a presence-detection integration from the integrations page.",
+						"link_presence_detection_integrations": "Presence Detection Integrations",
+						"link_integrations_page": "Sidumiste leht",
+						"device_tracker_picked": "Jälgi seadet",
+						"device_tracker_pick": "Vali jälgitav seade",
+						"delete": "Kustuta",
+						"create": "Loo",
+						"update": "Uuenda"
+					}
+				},
+				"integrations": {
+					"caption": "Sidumised",
+					"description": "Halda ja seadista sidumisi",
+					"discovered": "Leitud",
+					"configured": "Seadistatud",
+					"new": "Loo uus sidumine",
+					"note_about_integrations": "Not all integrations can be configured via the UI yet.",
+					"note_about_website_reference": "More are available on the ",
+					"home_assistant_website": "Home Assistant veebisait",
+					"configure": "Seadista",
+					"none": "Midagi pole veel seadistatud",
+					"integration_not_found": "Integration not found.",
+					"config_entry": {
+						"settings_button": "Edit settings for {integration}",
+						"system_options_button": "System options for {integration}",
+						"delete_button": "Kustuta {integration}",
+						"no_devices": "See sidumine ei hõlma ühtegi seadet",
+						"no_device": "Olemid ilma seadmeteta",
+						"delete_confirm": "Oled kindel, et soovid selle sidumise kustutada?",
+						"restart_confirm": "Selle sidumise lõplikuks eemaldamiseks taaskäivita Home Assistant",
+						"manuf": "{manufacturer}",
+						"hub": "Ühendatud",
+						"firmware": "Püsivara: {version}",
+						"device_unavailable": "seade pole saadaval",
+						"entity_unavailable": "olem pole saadaval",
+						"area": "In {area}",
+						"no_area": "Ala puudub",
+						"via": "Ühendatud"
+					},
+					"config_flow": {
+						"aborted": "Aborted",
+						"close": "Close",
+						"finish": "Finish",
+						"submit": "Submit",
+						"not_all_required_fields": "Not all required fields are filled in.",
+						"add_area": "Add Area",
+						"area_picker_label": "Area",
+						"failed_create_area": "Failed to create area.",
+						"error_saving_area": "Error saving area: {error}",
+						"name_new_area": "Name of the new area?",
+						"created_config": "Created config for {name}.",
+						"external_step": {
+							"description": "Selle etapi lõpetamine nõuab välise veebisaidi külastamist.",
+							"open_site": "Ava veebisait"
+						}
+					}
+				},
+				"users": {
+					"caption": "Kasutajad",
+					"description": "Halda kasutajaid",
+					"picker": {
+						"title": "Kasutajad",
+						"system_generated": "Süsteemi genereeritud"
+					},
+					"editor": {
+						"caption": "Vaata kasutajat",
+						"rename_user": "Nimeta kasutaja ümber",
+						"change_password": "Muuda salasõna",
+						"activate_user": "Aktiveeri kasutaja",
+						"deactivate_user": "Deaktiveeri kasutaja",
+						"delete_user": "Kustuta kasutaja",
+						"id": "ID",
+						"owner": "Omanik",
+						"group": "Grupp",
+						"active": "Aktiivne",
+						"system_generated": "Süsteemi genereeritud",
+						"system_generated_users_not_removable": "Unable to remove system generated users.",
+						"unnamed_user": "Nimetu kasutaja",
+						"enter_new_name": "Sisesta uus nimi",
+						"user_rename_failed": "Kasutaja ümbernimetamine nurjus:",
+						"group_update_failed": "Grupi värskendamine ebaõnnestus:",
+						"confirm_user_deletion": "Oled kindel, et soovid kustutada {name}?"
+					},
+					"add_user": {
+						"caption": "Lisa kasutaja",
+						"name": "Nimi",
+						"username": "Kasutajanimi",
+						"password": "Salasõna",
+						"create": "Loo"
+					}
+				},
+				"zha": {
+					"caption": "ZHA",
+					"description": "Zigbee Home Automation võrgu haldamine",
+					"common": {
+						"add_devices": "Lisa seadmeid",
+						"clusters": "Klastrid",
+						"devices": "Seadmed",
+						"manufacturer_code_override": "Manufacturer Code Override",
+						"value": "Väärtus"
+					},
+					"add_device_page": {
+						"header": "Zigbee Home Automation - seadmete lisamine",
+						"spinner": "ZHA Zigbee seadmete otsimine ...",
+						"discovery_text": "Leitud seadmed kuvatakse siin. Järgige seadme(te) juhiseid ja pange seade sidumisrežiimile.",
+						"search_again": "Otsi uuesti"
+					},
+					"network_management": {
+						"header": "Võrgu haldamine",
+						"introduction": "Kogu võrku mõjutavad käsud"
+					},
+					"node_management": {
+						"header": "Seadme haldus",
+						"introduction": "Run ZHA commands that affect a single device. Pick a device to see a list of available commands.",
+						"hint_battery_devices": "Note: Sleepy (battery powered) devices need to be awake when executing commands against them. You can generally wake a sleepy device by triggering it.",
+						"hint_wakeup": "Some devices such as Xiaomi sensors have a wake up button that you can press at ~5 second intervals that keep devices awake while you interact with them.",
+						"help_node_dropdown": "Select a device to view per-device options."
+					},
+					"clusters": {
+						"help_cluster_dropdown": "Atribuutide ja käskude vaatamiseks vali klaster."
+					},
+					"cluster_attributes": {
+						"header": "Klastri atribuudid",
+						"introduction": "Vaata ja muuda klastri atribuute.",
+						"attributes_of_cluster": "Attributes of the selected cluster",
+						"get_zigbee_attribute": "Get Zigbee Attribute",
+						"set_zigbee_attribute": "Set Zigbee Attribute",
+						"help_attribute_dropdown": "Select an attribute to view or set its value.",
+						"help_get_zigbee_attribute": "Get the value for the selected attribute.",
+						"help_set_zigbee_attribute": "Set attribute value for the specified cluster on the specified entity."
+					},
+					"cluster_commands": {
+						"header": "Klastri käsud",
+						"introduction": "Vaata ja väljasta klastrikäske.",
+						"commands_of_cluster": "Valitud klastri käsud",
+						"issue_zigbee_command": "Väljasta Zigbee käsk",
+						"help_command_dropdown": "Vali käsk, millega suhelda."
+					},
+					"device_card": {
+						"area_picker_label": "Ala",
+						"device_name_placeholder": "Kasutaja antud nimi",
+						"update_name_button": "Värskenda nime"
+					},
+					"services": {
+						"reconfigure": "Taasseadista (tervenda) ZHA seade. Kasuta seda, kui seadmega on probleeme. Kui seade on akutoitega, siis veendu, et see oleks ärkvel ja oleks valmis käske vastu võtma.",
+						"remove": "Eemalda seade Zigbee võrgust.",
+						"updateDeviceName": "Anna sellele seadmele seadmete registris kohandatud nimi."
+					}
+				},
+				"zwave": {
+					"caption": "Z-Wave",
+					"description": "Halda oma Z-Wave võrku",
+					"learn_more": "Lisateave Z-Wave'i kohta",
+					"common": {
+						"value": "Väärtus",
+						"instance": "Eksemplar",
+						"index": "Indeks",
+						"unknown": "tundmatu",
+						"wakeup_interval": "Ärkamise intervall"
+					},
+					"network_management": {
+						"header": "Z-Wave võrgu haldamine",
+						"introduction": "Käivita käske, mis mõjutavad Z-Wave võrku. Sa ei saa tagasisidet selle kohta, kas enamik käske õnnestus, kuid selle kontrollimiseks võid uurida OZW-logi."
+					},
+					"ozw_log": {
+						"header": "OZW logi",
+						"introduction": "View the log. 0 is the minimum (loads entire log) and 1000 is the maximum. Load will show a static log and tail will auto update with the last specified number of lines of the log."
+					},
+					"network_status": {
+						"network_stopped": "Z-Wave võrk on seiskunud",
+						"network_starting": "Z-Wave võrgu käivitamine ...",
+						"network_starting_note": "Sõltuvalt võrgu suurusest võib see natuke aega võtta.",
+						"network_started": "Z-Wave võrk on käivitatud",
+						"network_started_note_some_queried": "Ärkvel sõlmedele on päringud tehtud. Uinuvatele sõlmedele tehakse päringud, kui nad ärkavad.",
+						"network_started_note_all_queried": "Kõikidele sõlmedele on päringud esitatud."
+					},
+					"node_config": {
+						"header": "Sõlme seadistamise valikud",
+						"seconds": "sekundit",
+						"set_wakeup": "Määra ärkamise intervall",
+						"config_parameter": "Konfiguratsiooniparameeter",
+						"config_value": "Seade väärtus",
+						"true": "Tõene",
+						"false": "Väär",
+						"set_config_parameter": "Seadista parameeter Config"
+					},
+					"values": {
+						"header": "Sõlme väärtused"
+					},
+					"services": {
+						"start_network": "Käivita võrk",
+						"stop_network": "Peata võrk",
+						"heal_network": "Tervenda võrku",
+						"test_network": "Testi võrku",
+						"soft_reset": "Pehme lähtestamine",
+						"save_config": "Salvesta seaded",
+						"add_node_secure": "Lisa turvaline sõlm",
+						"add_node": "Lisa sõlm",
+						"remove_node": "Eemalda sõlm",
+						"cancel_command": "Tühista käsk"
+					}
+				}
+			},
+			"history": {
+				"showing_entries": "Näitan kuupäeva",
+				"period": "Periood"
+			},
+			"logbook": {
+				"showing_entries": "Näitan kuupäeva",
+				"period": "Periood",
+				"entries_not_found": "No logbook entries found."
+			},
+			"lovelace": {
+				"cards": {
+					"confirm_delete": "Oled kindel, et soovid selle kaardi kustutada?",
+					"empty_state": {
+						"title": "Tere tulemast koju",
+						"no_devices": "See leht võimaldab sul oma seadmeid juhtida, kuid tundub, et sul pole veel seadistatud seadmeid. Alustamiseks suundu sidumiste lehele.",
+						"go_to_integrations_page": "Mine sidumiste lehele."
+					},
+					"shopping-list": {
+						"checked_items": "Märgitud tooted",
+						"clear_items": "Tühjenda märgitud tooted",
+						"add_item": "Lisa toode"
+					},
+					"picture-elements": {
+						"hold": "Hoia:",
+						"tap": "Toksa:",
+						"navigate_to": "Liigu asukohta {location}",
+						"url": "Open window to {url_path}",
+						"toggle": "Lülita {name}",
+						"call_service": "Kutsu välja teenus {name}",
+						"more_info": "Näita rohkem teavet: {name}"
+					}
+				},
+				"unused_entities": {
+					"title": "Unused entities",
+					"available_entities": "These are the entities that you have available, but are not in your Lovelace UI yet.",
+					"select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+					"entity": "Entity",
+					"entity_id": "Entity ID",
+					"domain": "Domain",
+					"last_changed": "Last Changed"
+				},
+				"views": {
+					"confirm_delete": "Oled kindel, et soovid selle vaate kustutada?",
+					"existing_cards": "You can't delete a view that has cards in it. Remove the cards first."
+				},
+				"menu": {
+					"configure_ui": "Seadista kasutajaliidest",
+					"help": "Abi",
+					"refresh": "Värskenda",
+					"close": "Close",
+					"unused_entities": "Kasutamata olemid"
+				},
+				"editor": {
+					"header": "Muuda kasutajaliidest",
+					"menu": {
+						"open": "Open Lovelace menu",
+						"raw_editor": "Toore konfiguratsiooni redaktor"
+					},
+					"raw_editor": {
+						"header": "Muuda seadeid",
+						"save": "Salvesta",
+						"unsaved_changes": "Salvestamata muudatused",
+						"saved": "Salvestatud",
+						"confirm_unsaved_changes": "You have unsaved changes, are you sure you want to exit?",
+						"confirm_unsaved_comments": "Your config contains comment(s), these will not be saved. Do you want to continue?",
+						"error_parse_yaml": "Unable to parse YAML: {error}",
+						"error_invalid_config": "Your config is not valid: {error}",
+						"error_save_yaml": "Unable to save YAML: {error}"
+					},
+					"edit_lovelace": {
+						"header": "Lovelace kasutajaliidese pealkiri",
+						"explanation": "Seda pealkirja näidatakse kõikide Lovelace'i vaadete kohal.",
+						"edit_title": "Edit title"
+					},
+					"edit_view": {
+						"header": "Vaata seadeid",
+						"header_name": "{name} Vaata seadeid",
+						"add": "Lisa vaade",
+						"edit": "Muuda vaadet",
+						"delete": "Kustuta vaade",
+						"move_left": "Move view left",
+						"move_right": "Move view right"
+					},
+					"edit_card": {
+						"header": "Kaardi seadistamine",
+						"pick_card": "Vali kaart, mida soovid lisada.",
+						"pick_card_view_title": "Which card would you like to add to your {name} view?",
+						"toggle_editor": "Lülita redaktor sisse/välja",
+						"show_visual_editor": "Kuva visuaalne redaktor",
+						"show_code_editor": "Kuva koodiredaktor",
+						"add": "Lisa kaart",
+						"edit": "Muuda",
+						"delete": "Kustuta",
+						"move": "Liiguta",
+						"options": "More options",
+						"save": "Salvesta"
+					},
+					"save_config": {
+						"header": "Võta Lovelace kasutajaliides oma kontrolli alla",
+						"para": "Vaikimisi hoolitseb kasutajaliidese eest Home Assistant, värskendades seda, kui saadaval on uued olemid või Lovelace komponendid. Kui võtad kontrolli üle, ei tee me sinu jaoks enam automaatselt muudatusi.",
+						"para_sure": "Oled kindel, et soovid kasutajaliidese oma kontrolli alla võtta?",
+						"cancel": "Ära pane tähele",
+						"save": "Võta kontroll"
+					},
+					"migrate": {
+						"header": "Konfiguratsioon ei ühildu",
+						"para_no_id": "Sellel elemendil puudub ID. Lisa sellele elemendile ID 'ui-lovelace.yaml' failis.",
+						"para_migrate": "Home Assistant võib kõikidele kaartidele ja vaadetele automaatselt ID-d lisada, kui vajutad nupule \"Siirda seaded\".",
+						"migrate": "Siirda seaded"
+					},
+					"card": {
+						"alarm-panel": {
+							"name": "Alarm Panel",
+							"available_states": "Available States"
+						},
+						"conditional": {
+							"name": "Tingimuslik"
+						},
+						"config": {
+							"required": "Nõutav",
+							"optional": "Valikuline"
+						},
+						"entities": {
+							"name": "Olemid",
+							"show_header_toggle": "Show Header Toggle?",
+							"toggle": "Toggle entities."
+						},
+						"entity-button": {
+							"name": "Olemi nupp"
+						},
+						"entity-filter": {
+							"name": "Olemi filter"
+						},
+						"gauge": {
+							"name": "Mõõtur",
+							"severity": {
+								"define": "Kas määrata raskusaste?",
+								"green": "Roheline",
+								"red": "Punane",
+								"yellow": "Kollane"
+							}
+						},
+						"glance": {
+							"name": "Pilk",
+							"columns": "Veerud"
+						},
+						"history-graph": {
+							"name": "Ajalooline graafik"
+						},
+						"horizontal-stack": {
+							"name": "Horisontaalne pinu"
+						},
+						"iframe": {
+							"name": "iFrame"
+						},
+						"light": {
+							"name": "Valgus"
+						},
+						"generic": {
+							"aspect_ratio": "Proportsioonid",
+							"camera_image": "Kaamera olem",
+							"camera_view": "Camera View",
+							"entities": "Olemid",
+							"entity": "Olem",
+							"hold_action": "Hold Action",
+							"hours_to_show": "Hours to Show",
+							"icon": "Ikoon",
+							"icon_height": "Ikooni kõrgus",
+							"image": "Image Path",
+							"maximum": "Maksimaalne",
+							"minimum": "Minimaalne",
+							"name": "Nimi",
+							"refresh_interval": "Värskendamise intervall",
+							"show_icon": "Kas näidata ikooni?",
+							"show_name": "Kas näidata nime?",
+							"show_state": "Kas näidata olekut?",
+							"tap_action": "Tap Action",
+							"title": "Pealkiri",
+							"theme": "Teema",
+							"unit": "Ühik",
+							"url": "Url"
+						},
+						"map": {
+							"name": "Kaart",
+							"geo_location_sources": "Geolocation Sources",
+							"dark_mode": "Tume režiim?",
+							"default_zoom": "Default Zoom",
+							"source": "Allikas"
+						},
+						"markdown": {
+							"name": "Markdown",
+							"content": "Sisu"
+						},
+						"media-control": {
+							"name": "Meedia juhtimine"
+						},
+						"picture": {
+							"name": "Pilt"
+						},
+						"picture-elements": {
+							"name": "Pildi elemendid"
+						},
+						"picture-entity": {
+							"name": "Pildi olem"
+						},
+						"picture-glance": {
+							"name": "Picture Glance"
+						},
+						"plant-status": {
+							"name": "Taime olek"
+						},
+						"sensor": {
+							"name": "Andur",
+							"graph_detail": "Graph Detail",
+							"graph_type": "Graph Type"
+						},
+						"shopping-list": {
+							"name": "Ostunimekiri"
+						},
+						"thermostat": {
+							"name": "Termostaat"
+						},
+						"vertical-stack": {
+							"name": "Vertikaalne pinu"
+						},
+						"weather-forecast": {
+							"name": "Ilmateade"
+						}
+					},
+					"view": {
+						"panel_mode": {
+							"title": "Panel Mode?",
+							"description": "This renders the first card at full width; other cards in this view will not be rendered."
+						}
+					}
+				},
+				"warning": {
+					"entity_not_found": "Olem pole saadaval: {entity}",
+					"entity_non_numeric": "Olem on mittenumbriline: {entity}"
+				},
+				"changed_toast": {
+					"message": "Lovelace'i seadeid uuendati, kas soovid värskendada?",
+					"refresh": "Värskenda"
+				},
+				"reload_lovelace": "Taaslae Lovelace"
+			},
+			"mailbox": {
+				"empty": "Teile pole ühtegi sõnumit",
+				"playback_title": "Sõnumi taasesitus",
+				"delete_prompt": "Kas kustutada sõnum?",
+				"delete_button": "Kustuta"
+			},
+			"profile": {
+				"current_user": "Oled praegu sisse logitud kui {fullName}.",
+				"is_owner": "Oled omanik.",
+				"logout": "Logi välja",
+				"force_narrow": {
+					"header": "Peida alati külgriba",
+					"description": "See peidab vaikimisi külgriba, sarnaselt mobiilikogemusega."
+				},
+				"vibrate": {
+					"header": "Vibreeri",
+					"description": "Enable or disable vibration on this device when controlling devices."
+				},
+				"push_notifications": {
+					"header": "Tõuketeavitused",
+					"description": "Saada teatisi sellele seadmele.",
+					"error_load_platform": "Seadista notify.html5.",
+					"error_use_https": "Nõuab kasutajaliidese jaoks SSL lubamist.",
+					"push_notifications": "Tõuketeavitused",
+					"link_promo": "Lisateave"
+				},
+				"language": {
+					"header": "Keel",
+					"link_promo": "Aita tõlkida",
+					"dropdown_label": "Keel"
+				},
+				"themes": {
+					"header": "Teema",
+					"error_no_theme": "Teemasid pole saadaval.",
+					"link_promo": "Lisateave teemade kohta",
+					"dropdown_label": "Teema"
+				},
+				"change_password": {
+					"header": "Muuda salasõna",
+					"current_password": "Praegune salasõna",
+					"new_password": "Uus salasõna",
+					"confirm_new_password": "Kinnita uut salasõna",
+					"error_required": "Nõutav",
+					"submit": "Esita"
+				},
+				"mfa": {
+					"header": "Mitmeastmelise autentimise moodulid",
+					"disable": "Keela",
+					"enable": "Luba",
+					"confirm_disable": "Oled kindel, et soovid keelata kasutaja {name}?"
+				},
+				"mfa_setup": {
+					"title_aborted": "Katkestatud",
+					"title_success": "Korras!",
+					"step_done": "{step} seadistatud",
+					"close": "Sulge",
+					"submit": "Esita"
+				},
+				"advanced_mode": {
+					"title": "Edasijõudnute režiim",
+					"description": "Home Assistant hides advanced features and options by default. You can make these features accessible by checking this toggle. This is a user-specific setting and does not impact other users using Home Assistant.",
+					"hint_enable": "Missing config options? Enable advanced mode on",
+					"link_profile_page": "your profile page"
+				},
+				"refresh_tokens": {
+					"header": "Ajutised juurdepääsutõendid",
+					"description": "Iga ajutine juurdepääsutõend kehtib ühe seansi jaoks. Ajutised juurdepääsutõendid kustutatakse automaatselt pärast välja logimist. Sinu konto jaoks on praegu aktiivsed järgmised ajutised juurdepääsutõendid.",
+					"token_title": "Ajutine juurdepääsutõend {clientId} jaoks",
+					"created_at": "Loodud {date}",
+					"last_used": "Viimati kasutatud {date} asukohast {location}",
+					"not_used": "Pole kunagi kasutatud",
+					"confirm_delete": "Oled kindel, et soovid kustutada ajutise juurdepääsutõendi {name} jaoks?",
+					"delete_failed": "Ajutise juurdepääsutõendi kustutamine ebaõnnestus.",
+					"current_token_tooltip": "Ei saa kustutada seda ajutist juurdepääsutõendit"
+				},
+				"long_lived_access_tokens": {
+					"header": "Pikaajalised juurdepääsutõendid",
+					"description": "Loo pikaajalised juurdepääsutõendid, mis võimaldavad sinu skriptidel suhelda sinu Home Assistant serveriga. Iga juurdepääsutõend kehtib kümme aastat loomisest alates. Praegu on aktiivsed järgmised pikaajalised juurdepääsutõendid.",
+					"learn_auth_requests": "Loe, kuidas teha tõendatud päringuid.",
+					"created_at": "Loodud {date}",
+					"last_used": "Viimati kasutatud {date} asukohast {location}",
+					"not_used": "Pole kunagi kasutatud",
+					"confirm_delete": "Oled kindel, et soovid kustutada juurdepääsutõendi {name} jaoks?",
+					"delete_failed": "Juurdepääsutõendi kustutamine ebaõnnestus.",
+					"create": "Loo juurdepääsutõend",
+					"create_failed": "Juurdepääsutõendi loomine ebaõnnestus.",
+					"prompt_name": "Nimi?",
+					"prompt_copy_token": "Kopeeri oma juurdepääsutõend. Seda ei näidata rohkem.",
+					"empty_state": "Sul pole veel pikaajalisi juurdepääsutõendeid."
+				}
+			},
+			"shopping-list": {
+				"clear_completed": "Tühjenda täidetud",
+				"add_item": "Lisa toode",
+				"microphone_tip": "Puudutage paremas ülanurgas asuvat mikrofoni ikooni ja öelge: \"Add candy to my shopping list\""
+			},
+			"page-authorize": {
+				"initializing": "Lähtestan",
+				"authorizing_client": "Kavatsed anda {clientId} jaoks juurdepääsu oma Home Assistant serverile.",
+				"logging_in_with": "Login sisse **{authProviderName}** abil.",
+				"pick_auth_provider": "Või logi sisse, kasutades",
+				"abort_intro": "Sisselogimine katkestatud",
+				"form": {
+					"working": "Palun oota",
+					"unknown_error": "Midagi läks valesti",
+					"providers": {
+						"command_line": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Kasutajanimi",
+										"password": "Salasõna"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Kaheastmeline autentimiskood"
+									},
+									"description": "Ava oma seadmes **{mfa_module_name}**, et näha oma kaheastmelise autentimise koodi ja tõendada oma isikut:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Vale kasutajanimi või salasõna",
+								"invalid_code": "Vale autoriseerimiskood"
+							},
+							"abort": {
+								"login_expired": "Sessioon aegus, palun logi uuesti sisse."
+							}
+						},
+						"homeassistant": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Kasutajanimi",
+										"password": "Salasõna"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Kaheastmeline autentimiskood"
+									},
+									"description": "Ava oma seadmes **{mfa_module_name}**, et näha oma kaheastmelise autentimise koodi ja tõendada oma isikut:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Vale kasutajanimi või salasõna",
+								"invalid_code": "Vigane autentimiskood"
+							},
+							"abort": {
+								"login_expired": "Sessioon aegus, palun logi uuesti sisse."
+							}
+						},
+						"legacy_api_password": {
+							"step": {
+								"init": {
+									"data": {
+										"password": "API salasõna"
+									},
+									"description": "Palun seadista http seadetes oma API salasõna:"
+								},
+								"mfa": {
+									"data": {
+										"code": "Kaheastmeline autentimiskood"
+									},
+									"description": "Ava oma seadmes **{mfa_module_name}**, et näha oma kaheastmelise autentimise koodi ja tõendada oma isikut:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Vale API salasõna",
+								"invalid_code": "Vigane autentimiskood"
+							},
+							"abort": {
+								"no_api_password_set": "Sul pole API salasõna seadistatud",
+								"login_expired": "Sessioon aegus, palun logi uuesti sisse."
+							}
+						},
+						"trusted_networks": {
+							"step": {
+								"init": {
+									"data": {
+										"user": "Kasutaja"
+									},
+									"description": "Palun vali kasutaja, kellena soovid sisse logida:"
+								}
+							},
+							"abort": {
+								"not_whitelisted": "Sinu arvuti ei ole lubatute nimekirjas."
+							}
+						}
+					}
+				}
+			},
+			"page-demo": {
+				"cards": {
+					"demo": {
+						"demo_by": "{name}",
+						"next_demo": "Järgmine demo",
+						"introduction": "Tere tulemast koju! Siin asub Home Assistant'i demo, mis tutvustab parimaid meie kogukonna loodud kasutajaliideseid.",
+						"learn_more": "Lisateave Home Assistant'i kohta"
+					}
+				},
+				"config": {
+					"arsaboo": {
+						"names": {
+							"upstairs": "Ülemine korrus",
+							"family_room": "Elutuba",
+							"kitchen": "Köök",
+							"patio": "Terrass",
+							"hallway": "Esik",
+							"master_bedroom": "Suur magamistuba",
+							"left": "Vasakpoolne",
+							"right": "Parempoolne",
+							"mirror": "Peegel",
+							"temperature_study": "Temperature Study"
+						},
+						"labels": {
+							"lights": "Valgustid",
+							"information": "Teave",
+							"morning_commute": "Hommikune pendelränne",
+							"commute_home": "Teel koju",
+							"entertainment": "Meelelahutus",
+							"activity": "Tegevus",
+							"hdmi_input": "HDMI sisend",
+							"hdmi_switcher": "HDMI lüliti",
+							"volume": "Helitugevus",
+							"total_tv_time": "TV-aeg kokku",
+							"turn_tv_off": "Lülita teler välja",
+							"air": "Õhk"
+						},
+						"unit": {
+							"watching": "jälgin",
+							"minutes_abbr": "min"
+						}
+					}
+				}
+			},
+			"developer-tools": {
+				"tabs": {
+					"info": {
+						"title": "Info",
+						"remove": "Eemalda",
+						"set": "Säti",
+						"default_ui": "{action} {name} as default page on this device",
+						"lovelace_ui": "Go to the Lovelace UI",
+						"states_ui": "Go to the states UI",
+						"home_assistant_logo": "Home Assistant'i logo",
+						"path_configuration": "Path to configuration.yaml: {path}",
+						"developed_by": "Developed by a bunch of awesome people.",
+						"license": "Published under the Apache 2.0 license",
+						"source": "Allikas:",
+						"server": "server",
+						"frontend": "frontend-ui",
+						"built_using": "Built using",
+						"icons_by": "Icons by",
+						"frontend_version": "Frontend version: {version} - {type}",
+						"custom_uis": "Custom UIs:",
+						"system_health_error": "System Health component is not loaded. Add 'system_health:' to configuration.yaml"
+					},
+					"logs": {
+						"title": "Logid",
+						"details": "Logi üksikasjad ({level})",
+						"load_full_log": "Load Full Home Assistant Log",
+						"loading_log": "Laadin vigade logi...",
+						"no_errors": "Vigadest pole teatatud.",
+						"no_issues": "Uusi probleeme pole!",
+						"clear": "Puhasta",
+						"refresh": "Värskenda",
+						"multiple_messages": "message first occurred at {time} and shows up {counter} times"
+					},
+					"events": {
+						"title": "Sündmused",
+						"description": "Vallanda sündmus sündmuste siinil.",
+						"documentation": "Sündmuste dokumentatsioon.",
+						"type": "Sündmuse tüüp",
+						"data": "Sündmuse andmed (YAML, valikuline)",
+						"fire_event": "Vallanda sündmus",
+						"event_fired": "Sündmus {name} vallandus",
+						"available_events": "Saadaolevad sündmused",
+						"count_listeners": " ({count}  kuulajat)",
+						"listen_to_events": "Kuula sündmusi",
+						"listening_to": "Kuulamas",
+						"subscribe_to": "Sündmus, mida tellida",
+						"start_listening": "Alusta kuulamist",
+						"stop_listening": "Lõpeta kuulamine",
+						"alert_event_type": "Event type is a mandatory field",
+						"notification_event_fired": "Event {type} successful fired!"
+					},
+					"mqtt": {
+						"title": "MQTT",
+						"description_publish": "Publish a packet",
+						"topic": "teema",
+						"payload": "Payload (template allowed)",
+						"publish": "Avalda",
+						"description_listen": "Kuula teemat",
+						"listening_to": "Kuulamas",
+						"subscribe_to": "Teema, mida tellida",
+						"start_listening": "Alusta kuulamist",
+						"stop_listening": "Lõpeta kuulamine",
+						"message_received": "Message {id} received on {topic} at {time}:"
+					},
+					"services": {
+						"title": "Teenused",
+						"description": "The service dev tool allows you to call any available service in Home Assistant.",
+						"data": "Teenuse andmed (YAML, valikuline)",
+						"call_service": "Kutsu teenus",
+						"select_service": "Kirjelduse kuvamiseks vali teenus",
+						"no_description": "Kirjeldus pole saadaval",
+						"no_parameters": "Sellel teenusel pole parameetreid.",
+						"column_parameter": "Parameeter",
+						"column_description": "Kirjeldus",
+						"column_example": "Näide",
+						"fill_example_data": "Täida näidisandmetega",
+						"alert_parsing_yaml": "Viga YAML'i parsimisel: {data}"
+					},
+					"states": {
+						"title": "Olekud",
+						"description1": "Set the representation of a device within Home Assistant.",
+						"description2": "This will not communicate with the actual device.",
+						"entity": "Olem",
+						"state": "Olek",
+						"attributes": "Atribuudid",
+						"state_attributes": "Oleku atribuudid (YAML, valikuline)",
+						"set_state": "Määra olek",
+						"current_entities": "Praegused olemid",
+						"filter_entities": "Filter entities",
+						"filter_states": "Filter states",
+						"filter_attributes": "Filter attributes",
+						"no_entities": "Olemid puuduvad",
+						"more_info": "Rohkem infot",
+						"alert_entity_field": "Olem on kohustuslik väli"
+					},
+					"templates": {
+						"title": "Mall",
+						"description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+						"editor": "Malliredaktor",
+						"jinja_documentation": "Jinja2 malli dokumentatsioon",
+						"template_extensions": "Home Assistant template extensions",
+						"unknown_error_template": "Unknown error rendering template"
+					}
+				}
+			},
+			"page-onboarding": {
+				"intro": "Kas oled valmis oma kodu ellu äratama, oma privaatsust tagasi võitma ja ühinema ülemaailmse nokitsejate kogukonnaga?",
+				"user": {
+					"intro": "Alustame kasutajakonto loomisega.",
+					"required_field": "Nõutud",
+					"data": {
+						"name": "Nimi",
+						"username": "Kasutajanimi",
+						"password": "Salasõna",
+						"password_confirm": "Kinnita salasõna"
+					},
+					"create_account": "Loo konto",
+					"error": {
+						"required_fields": "Täida kõik nõutud väljad",
+						"password_not_match": "Salasõnad ei ühti"
+					}
+				},
+				"core-config": {
+					"intro": "Tere tulemast Home Assistant'i kasutama, {name}. Kuidas sa soovid oma kodu nimetada?",
+					"intro_location": "Soovime teada, kus sa elad. See teave aitab informatsiooni kuvamisel ja päikesepõhiste automatiseeringute loomisel. Neid andmeid ei jagata kunagi väljaspool teie võrku.",
+					"intro_location_detect": "Me saame aidata sul seda teavet leida, tehes ühekordse päringu välisele teenusele.",
+					"location_name_default": "Kodu",
+					"button_detect": "Tuvasta",
+					"finish": "Edasi"
+				},
+				"integration": {
+					"intro": "Seadmed ja teenused on Home Assistant'is esitatud sidumistena. Võid neid seadistada kohe või teha seda hiljem konfiguratsioonilehelt.",
+					"more_integrations": "Rohkem",
+					"finish": "Lõpeta"
+				}
+			},
+			"custom": {
+				"external_panel": {
+					"question_trust": "Do you trust the external panel {name} at {link}?",
+					"complete_access": "It will have access to all data in Home Assistant.",
+					"hide_message": "Check docs for the panel_custom component to hide this message"
+				}
+			}
+		}
+	},
+	"attribute": {
+		"weather": {
+			"humidity": "Niiskus",
+			"visibility": "Nähtavus",
+			"wind_speed": "Tuule kiirus"
+		}
+	}
+}

@@ -1,0 +1,2158 @@
+{
+	"domain": {
+		"alarm_control_panel": "Контрол на аларма",
+		"automation": "Автоматизация",
+		"binary_sensor": "Двоичен сензор",
+		"calendar": "Календар",
+		"camera": "Камера",
+		"climate": "Климат",
+		"configurator": "Конфигуратор",
+		"conversation": "Разговор",
+		"cover": "Параван",
+		"device_tracker": "Проследяване на устройства",
+		"fan": "Вентилатор",
+		"group": "Група",
+		"hassio": "Hass.io",
+		"history_graph": "Хронологична графика",
+		"homeassistant": "Home Assistant",
+		"image_processing": "Обработка на изображениe",
+		"input_boolean": "Булеви промеливи",
+		"input_datetime": "Въвеждане на дата и час",
+		"input_number": "Въвеждане на число",
+		"input_select": "Избор",
+		"input_text": "Въвеждане на текст",
+		"light": "Осветление",
+		"lock": "Ключалка",
+		"lovelace": "Lovelace",
+		"mailbox": "Пощенска кутия",
+		"media_player": "Медиен плейър",
+		"notify": "Известяване",
+		"person": "Човек",
+		"plant": "Растение",
+		"proximity": "Близост",
+		"remote": "Дистанционно",
+		"scene": "Сцена",
+		"script": "Скрипт",
+		"sensor": "Сензор",
+		"sun": "Слънце",
+		"switch": "Ключ",
+		"system_health": "Здраве на системата",
+		"updater": "Обновяване",
+		"vacuum": "Прахосмукачка",
+		"weblink": "Уеб връзка",
+		"zha": "ZHA",
+		"zwave": "Z-Wave"
+	},
+	"panel": {
+		"calendar": "Календар",
+		"config": "Конфигурация",
+		"states": "Състояние",
+		"map": "Карта",
+		"logbook": "Дневник",
+		"history": "История",
+		"mailbox": "Пощенска кутия",
+		"shopping_list": "Списък за пазаруване",
+		"developer_tools": "Инструменти за разработчици",
+		"profile": "Профил",
+		"dev-info": "Информация"
+	},
+	"state": {
+		"default": {
+			"off": "Изключен",
+			"on": "Включен",
+			"unknown": "Неизвестно",
+			"unavailable": "Недостъпен"
+		},
+		"alarm_control_panel": {
+			"armed": "Под охрана",
+			"disarmed": "Деактивирана",
+			"armed_home": "Под охрана - вкъщи",
+			"armed_away": "Под охрана",
+			"armed_night": "Под охрана - нощ",
+			"armed_custom_bypass": "Под охрана",
+			"pending": "В очакване",
+			"arming": "Активиране",
+			"disarming": "Деактивиране",
+			"triggered": "Задействан"
+		},
+		"automation": {
+			"off": "Изключен",
+			"on": "Включен"
+		},
+		"binary_sensor": {
+			"default": {
+				"off": "Изключен",
+				"on": "Включен"
+			},
+			"battery": {
+				"off": "Нормална",
+				"on": "Изтощена"
+			},
+			"cold": {
+				"off": "Нормално",
+				"on": "Студено"
+			},
+			"connectivity": {
+				"off": "Изключен",
+				"on": "Свързан"
+			},
+			"door": {
+				"off": "Затворена",
+				"on": "Отворена"
+			},
+			"garage_door": {
+				"off": "Затворена",
+				"on": "Отворена"
+			},
+			"gas": {
+				"off": "Чисто",
+				"on": "Регистриран"
+			},
+			"heat": {
+				"off": "Нормално",
+				"on": "Горещо"
+			},
+			"lock": {
+				"off": "Заключено",
+				"on": "Отключено"
+			},
+			"moisture": {
+				"off": "Сух",
+				"on": "Мокър"
+			},
+			"motion": {
+				"off": "Без движение",
+				"on": "Движение"
+			},
+			"occupancy": {
+				"off": "Чисто",
+				"on": "Регистриран"
+			},
+			"opening": {
+				"off": "Затворен",
+				"on": "Отворен"
+			},
+			"presence": {
+				"off": "Отсъства",
+				"on": "Вкъщи"
+			},
+			"problem": {
+				"off": "ОК",
+				"on": "Проблем"
+			},
+			"safety": {
+				"off": "Безопасен",
+				"on": "Опасност"
+			},
+			"smoke": {
+				"off": "Чисто",
+				"on": "Регистриран"
+			},
+			"sound": {
+				"off": "Чисто",
+				"on": "Регистриран"
+			},
+			"vibration": {
+				"off": "Чисто",
+				"on": "Регистрирана"
+			},
+			"window": {
+				"off": "Затворен",
+				"on": "Отворен"
+			}
+		},
+		"calendar": {
+			"off": "Изключен",
+			"on": "Включен"
+		},
+		"camera": {
+			"recording": "Записване",
+			"streaming": "Предава",
+			"idle": "Не записва"
+		},
+		"climate": {
+			"off": "Изключен",
+			"heat": "Отопление",
+			"cool": "Охлаждане",
+			"heat_cool": "Отопление/Охлаждане",
+			"auto": "Автоматичен",
+			"dry": "Сух",
+			"fan_only": "Само вентилатор",
+			"eco": "Еко",
+			"electric": "Електрически",
+			"gas": "Газ",
+			"heat_pump": "Термопомпа",
+			"high_demand": "Високо натоварване",
+			"idle": "Неработещ",
+			"manual": "Ръчен режим",
+			"on": "Включен",
+			"performance": "Производителност"
+		},
+		"configurator": {
+			"configure": "Настройване",
+			"configured": "Настроен"
+		},
+		"cover": {
+			"open": "Отворена",
+			"opening": "Отваряне",
+			"closed": "Затворена",
+			"closing": "Затваряне",
+			"stopped": "Спряна"
+		},
+		"device_tracker": {
+			"home": "Вкъщи",
+			"not_home": "Отсъства"
+		},
+		"fan": {
+			"off": "Изключен",
+			"on": "Включен"
+		},
+		"group": {
+			"off": "Изключен",
+			"on": "Включена",
+			"home": "Вкъщи",
+			"not_home": "Отсъства",
+			"open": "Отворена",
+			"opening": "Отваряне",
+			"closed": "Затворена",
+			"closing": "Затваряне",
+			"stopped": "Спряна",
+			"locked": "Заключена",
+			"unlocked": "Отключена",
+			"ok": "Добре",
+			"problem": "Проблем"
+		},
+		"input_boolean": {
+			"off": "Изключен",
+			"on": "Включен"
+		},
+		"light": {
+			"off": "Изключено",
+			"on": "Включено"
+		},
+		"lock": {
+			"locked": "Заключен",
+			"unlocked": "Отключен"
+		},
+		"media_player": {
+			"off": "Изключен",
+			"on": "Включен",
+			"playing": "Възпроизвеждане",
+			"paused": "В пауза",
+			"idle": "Неработещ",
+			"standby": "Режим на готовност"
+		},
+		"person": {
+			"home": "Вкъщи",
+			"not_home": "Отсъства"
+		},
+		"plant": {
+			"ok": "Добре",
+			"problem": "Проблем"
+		},
+		"remote": {
+			"off": "Изключен",
+			"on": "Включен"
+		},
+		"scene": {
+			"scening": "Промяна на сцена"
+		},
+		"script": {
+			"off": "Изключен",
+			"on": "Включен"
+		},
+		"sensor": {
+			"off": "Изключен",
+			"on": "Включен"
+		},
+		"sun": {
+			"above_horizon": "Над хоризонта",
+			"below_horizon": "Под хоризонта"
+		},
+		"switch": {
+			"off": "Изключен",
+			"on": "Включен"
+		},
+		"timer": {
+			"active": "активен",
+			"idle": "неработещ",
+			"paused": "в пауза"
+		},
+		"vacuum": {
+			"cleaning": "Почистване",
+			"docked": "В базова станция",
+			"error": "Грешка",
+			"idle": "Неработещ",
+			"off": "Изключен",
+			"on": "Включен",
+			"paused": "Пауза",
+			"returning": "Връщане в базовата станция"
+		},
+		"weather": {
+			"clear-night": "Ясно, нощ",
+			"cloudy": "Облачно",
+			"exceptional": "Изключително",
+			"fog": "Мъгла",
+			"hail": "Градушка",
+			"lightning": "Светкавица",
+			"lightning-rainy": "Светкавица, дъждовно",
+			"partlycloudy": "Частична облачност",
+			"pouring": "Обилен дъжд",
+			"rainy": "Дъждовно",
+			"snowy": "Снежно",
+			"snowy-rainy": "Снежно, дъждовно",
+			"sunny": "Слънчево",
+			"windy": "Ветровито",
+			"windy-variant": "Ветровито"
+		},
+		"zwave": {
+			"default": {
+				"initializing": "Инициализация",
+				"dead": "Мъртъв",
+				"sleeping": "Спящ",
+				"ready": "Готов"
+			},
+			"query_stage": {
+				"initializing": "Инициализация ( {query_stage} )",
+				"dead": "Мъртъв ({query_stage})"
+			}
+		}
+	},
+	"state_attributes": {
+		"climate": {
+			"fan_mode": {
+				"off": "Изключен",
+				"on": "Включен",
+				"auto": "Автоматичен"
+			},
+			"preset_mode": {
+				"none": "Без",
+				"eco": "Еко",
+				"away": "Отсъства",
+				"boost": "Ускорен",
+				"comfort": "Комфорт",
+				"home": "Вкъщи",
+				"sleep": "Сън",
+				"activity": "Дейност"
+			},
+			"hvac_action": {
+				"off": "Изключен",
+				"heating": "Отопление",
+				"cooling": "Охлаждане",
+				"drying": "Изсушаване",
+				"idle": "Неработещ",
+				"fan": "Вентилатор"
+			}
+		}
+	},
+	"state_badge": {
+		"default": {
+			"unknown": "Неизвестно",
+			"unavailable": "Недост",
+			"error": "Грешка",
+			"entity_not_found": "Обектът не е намерен"
+		},
+		"alarm_control_panel": {
+			"armed": "Под охрана",
+			"disarmed": "Деактивирана",
+			"armed_home": "Под охрана",
+			"armed_away": "Под охрана",
+			"armed_night": "Под охрана",
+			"armed_custom_bypass": "Под охрана",
+			"pending": "Изчаква",
+			"arming": "Активиране",
+			"disarming": "Деактивирaне",
+			"triggered": "Задействана"
+		},
+		"device_tracker": {
+			"home": "Вкъщи",
+			"not_home": "Отсъства"
+		},
+		"person": {
+			"home": "Вкъщи",
+			"not_home": "Отсъства"
+		}
+	},
+	"groups": {
+		"system-admin": "Администратори",
+		"system-users": "Потребители",
+		"system-read-only": "Потребители с достъп само за четене"
+	},
+	"config_entry": {
+		"disabled_by": {
+			"user": "Потребител",
+			"integration": "Интеграция",
+			"config_entry": "Конфигурационен запис"
+		}
+	},
+	"ui": {
+		"auth_store": {
+			"ask": "Искате ли да запазите този логин?",
+			"decline": "Не, благодаря",
+			"confirm": "Запази логин"
+		},
+		"card": {
+			"alarm_control_panel": {
+				"code": "Код",
+				"clear_code": "Изчистване",
+				"disarm": "Деактивирaне",
+				"arm_home": "Под охрана - вкъщи",
+				"arm_away": "Под охрана",
+				"arm_night": "Под охрана - нощ",
+				"arm_custom_bypass": "Потребителски байпас",
+				"armed_custom_bypass": "Потребителски байпас"
+			},
+			"automation": {
+				"last_triggered": "Последно задействане",
+				"trigger": "Тригер"
+			},
+			"camera": {
+				"not_available": "Няма налично изображение"
+			},
+			"climate": {
+				"currently": "В момента",
+				"on_off": "Вкл. / Изкл",
+				"target_temperature": "Желана температура",
+				"target_temperature_entity": "{name} target temperature",
+				"target_temperature_mode": "{name} target temperature {mode}",
+				"current_temperature": "{name} current temperature",
+				"heating": "{name} heating",
+				"cooling": "{name} cooling",
+				"high": "high",
+				"low": "low",
+				"target_humidity": "Желана влажност",
+				"operation": "Режим",
+				"fan_mode": "Режим на вентилатора",
+				"swing_mode": "Режим на люлеене",
+				"preset_mode": "Предварително-зададени настройки",
+				"away_mode": "Режим на отсъствие",
+				"aux_heat": "Помощен нагревател"
+			},
+			"counter": {
+				"actions": {
+					"increment": "increment",
+					"decrement": "decrement",
+					"reset": "reset"
+				}
+			},
+			"cover": {
+				"position": "Позиция",
+				"tilt_position": "Наклон"
+			},
+			"fan": {
+				"speed": "Скорост",
+				"oscillate": "Въртене",
+				"direction": "Посока",
+				"forward": "Напред",
+				"reverse": "Назад"
+			},
+			"light": {
+				"brightness": "Яркост",
+				"color_temperature": "Цветова температура",
+				"white_value": "Стойност на бялото",
+				"effect": "Ефект"
+			},
+			"lock": {
+				"code": "Код",
+				"lock": "Заключване",
+				"unlock": "Отключване"
+			},
+			"media_player": {
+				"source": "Източник",
+				"sound_mode": "Режим на звука",
+				"text_to_speak": "Текст за произнасяне"
+			},
+			"persistent_notification": {
+				"dismiss": "Отхвърли"
+			},
+			"scene": {
+				"activate": "Активирай"
+			},
+			"script": {
+				"execute": "Изпълни"
+			},
+			"timer": {
+				"actions": {
+					"start": "старт",
+					"pause": "пауза",
+					"cancel": "прекратяване",
+					"finish": "финал"
+				}
+			},
+			"vacuum": {
+				"actions": {
+					"resume_cleaning": "Продължете почистването",
+					"return_to_base": "Върни се в базовата станция",
+					"start_cleaning": "Започнете почистването",
+					"turn_on": "Включи",
+					"turn_off": "Изключи"
+				}
+			},
+			"water_heater": {
+				"currently": "В момента",
+				"on_off": "Вкл. / Изкл.",
+				"target_temperature": "Желана температура",
+				"operation": "Режим",
+				"away_mode": "Режим на отсъствие"
+			},
+			"weather": {
+				"attributes": {
+					"air_pressure": "Въздушно налягане",
+					"humidity": "Влажност",
+					"temperature": "Температура",
+					"visibility": "Видимост",
+					"wind_speed": "Скорост на вятъра"
+				},
+				"cardinal_direction": {
+					"e": "И",
+					"ene": "ИСИ",
+					"ese": "ИЮИ",
+					"n": "С",
+					"ne": "СИ",
+					"nne": "ССИ",
+					"nw": "СЗ",
+					"nnw": "ССЗ",
+					"s": "Ю",
+					"se": "ЮИ",
+					"sse": "ЮЮИ",
+					"ssw": "ЮЮЗ",
+					"sw": "ЮЗ",
+					"w": "З",
+					"wnw": "ЗСЗ",
+					"wsw": "ЗЮЗ"
+				},
+				"forecast": "Прогноза"
+			}
+		},
+		"common": {
+			"loading": "Зареждане",
+			"cancel": "Отмени",
+			"save": "Запазване",
+			"yes": "Yes",
+			"no": "No",
+			"successfully_saved": "Успешно запазено"
+		},
+		"components": {
+			"entity": {
+				"entity-picker": {
+					"entity": "Обект",
+					"clear": "Clear",
+					"show_entities": "Show entities"
+				}
+			},
+			"device-picker": {
+				"clear": "Clear",
+				"show_devices": "Show devices",
+				"device": "Device"
+			},
+			"relative_time": {
+				"past": "Преди {time}",
+				"future": "След {time}",
+				"never": "Никога",
+				"duration": {
+					"second": "{count}{count, plural,\n  one {секунда}\n  other {секунди}\n}",
+					"minute": "{count} {count, plural,\n  one {минута}\n  other {минути}\n}",
+					"hour": "{count} {count, plural,\n  one {час}\n  other {часа}\n}",
+					"day": "{count}{count, plural,\n  one {ден}\n  other {дни}\n}",
+					"week": "{count}{count, plural,\n  one {седмица}\n  other {седмици}\n}"
+				}
+			},
+			"history_charts": {
+				"loading_history": "Зареждане на история за състоянието...",
+				"no_history_found": "Не е намерена история за състоянието"
+			},
+			"service-picker": {
+				"service": "Услуга"
+			}
+		},
+		"dialogs": {
+			"voice_command": {
+				"did_not_hear": "Home Assistant did not hear anything",
+				"found": "I found the following for you:",
+				"error": "Oops, an error has occurred",
+				"how_can_i_help": "How can I help?",
+				"label": "Type a question and press 'Enter'",
+				"label_voice": "Type and press 'Enter' or tap the microphone to speak"
+			},
+			"confirmation": {
+				"cancel": "Cancel",
+				"ok": "OK",
+				"title": "Are you sure?"
+			},
+			"more_info_control": {
+				"script": {
+					"last_action": "Последно задействане"
+				},
+				"sun": {
+					"elevation": "Височина",
+					"rising": "Изгрев",
+					"setting": "Залез"
+				},
+				"updater": {
+					"title": "Инструкции за актуализиране"
+				}
+			},
+			"more_info_settings": {
+				"save": "Запазване",
+				"name": "Име",
+				"entity_id": "Идентификация на обект"
+			},
+			"options_flow": {
+				"form": {
+					"header": "Опции"
+				},
+				"success": {
+					"description": "Опциите бяха запазени успешно."
+				}
+			},
+			"config_entry_system_options": {
+				"title": "Системни опции",
+				"enable_new_entities_label": "Активирай новодобавените устройства.",
+				"enable_new_entities_description": "Ако е изключено, новооткритите устройства няма да бъдат автоматично добавени в Home Assistant"
+			},
+			"zha_device_info": {
+				"manuf": "от {manufacturer}",
+				"no_area": "Без област",
+				"buttons": {
+					"add": "Add Devices",
+					"remove": "Remove Device",
+					"reconfigure": "Reconfigure Device"
+				},
+				"services": {
+					"reconfigure": "Преконфигурирайте ZHA устройство (оздравяване на устройство). Използвайте това, ако имате проблеми с устройството. Ако въпросното устройство е захранвано с батерии, моля, уверете се, че е будно и приема команди, когато използвате тази услуга.",
+					"updateDeviceName": "Задайте персонализирано име за това устройство в регистъра на устройствата.",
+					"remove": "Премахване на устройство от Zigbee мрежата."
+				},
+				"quirk": "Quirk",
+				"last_seen": "Last Seen",
+				"power_source": "Power Source",
+				"unknown": "Unknown",
+				"zha_device_card": {
+					"device_name_placeholder": "Име, зададено от потребителя",
+					"area_picker_label": "Област",
+					"update_name_button": "Актуализиране на името"
+				}
+			},
+			"domain_toggler": {
+				"title": "Toggle Domains"
+			}
+		},
+		"duration": {
+			"second": "{count}{count, plural,\n  one {секунда}\n  other {секунди}\n}",
+			"minute": "{count} {count, plural,\n  one {минута}\n  other {минути}\n}",
+			"hour": "{count} {count, plural,\n  one {час}\n  other {часа}\n}",
+			"day": "{count}{count, plural,\n  one {ден}\n  other {дни}\n}",
+			"week": "{count}{count, plural,\n  one {седмица}\n  other {седмици}\n}"
+		},
+		"login-form": {
+			"password": "Парола",
+			"remember": "Запомни",
+			"log_in": "Вход"
+		},
+		"notification_drawer": {
+			"click_to_configure": "Щракнете върху бутона, за да конфигурирате {entity}",
+			"empty": "Няма известия",
+			"title": "Известия"
+		},
+		"notification_toast": {
+			"service_call_failed": "Неуспешно повикване на услуга {service}.",
+			"connection_lost": "Връзката е прекъсната. Повторно свързване...",
+			"triggered": "Triggered {name}",
+			"entity_turned_off": "Изключване на {entity}.",
+			"entity_turned_on": "Включване на {entity}.",
+			"service_called": "Повикване на услуга {service}."
+		},
+		"sidebar": {
+			"external_app_configuration": "Конфигурация на приложение",
+			"sidebar_toggle": "Sidebar Toggle",
+			"log_out": "Изход"
+		},
+		"panel": {
+			"config": {
+				"header": "Конфигуриране на Home Assistant",
+				"introduction": "Тук е възможно да конфигурирате Вашите компоненти и Home Assistant. Не всичко е възможно да се конфигурира от Интерфейса, но работим по върпоса.",
+				"common": {
+					"editor": {
+						"confirm_unsaved": "You have unsaved changes. Are you sure you want to leave?"
+					}
+				},
+				"area_registry": {
+					"caption": "Регистър на областите",
+					"description": "Преглед на всички области във Вашия дом.",
+					"picker": {
+						"header": "Регистър на областите",
+						"introduction": "Областите се използват за организиране на местоположението на устройствата. Тази информация ще се използва в Home Assistant, за да ви помогне при организирането на Вашия интерфейс, права за достъп и интеграции с други системи.",
+						"introduction2": "За да поставите устройства в дадена област, използвайте връзката по-долу, за да отидете на страницата за интеграции, след което кликнете върху конфигурирана интеграция, за да видите картите на устройството.",
+						"integrations_page": "Интеграции",
+						"no_areas": "Изглежда, че все още нямате области!",
+						"create_area": "СЪЗДАВАНЕ НА ОБЛАСТ"
+					},
+					"editor": {
+						"default_name": "Нова област",
+						"delete": "ИЗТРИВАНЕ",
+						"update": "АКТУАЛИЗАЦИЯ",
+						"create": "СЪЗДАВАНЕ"
+					},
+					"create_area": "СЪЗДАВАНЕ НА ОБЛАСТ",
+					"no_areas": "Изглежда, че все още нямате области!"
+				},
+				"core": {
+					"caption": "Общи",
+					"description": "Проверка на конфигурацията и управление на сървъра",
+					"section": {
+						"core": {
+							"header": "Конфигуриране и управление на сървъра",
+							"introduction": "Промяната на конфигурацията може да бъде труден процес. Знаем това. Този раздел ще се опита да направи живота Ви малко по-лесен.",
+							"core_config": {
+								"edit_requires_storage": "Редакторът е деактивиран, защото конфигурацията е съхранена в configuration.yaml.",
+								"location_name": "Име на Вашия Home Assistant",
+								"latitude": "Географска ширина",
+								"longitude": "Географска дължина",
+								"elevation": "Надморска височина",
+								"elevation_meters": "метра",
+								"time_zone": "Часова зона",
+								"unit_system": "Система единици",
+								"unit_system_imperial": "Имперски единици",
+								"unit_system_metric": "Метрични единици",
+								"imperial_example": "Фаренхайт, паунд",
+								"metric_example": "Целзий, килограми",
+								"save_button": "Запази"
+							}
+						},
+						"server_control": {
+							"reloading": {
+								"automation": "Презареждане на автоматизациите",
+								"core": "Презареждане на ядрото",
+								"group": "Презареждане на групи",
+								"heading": "Презареждане на конфигурацията",
+								"introduction": "Някои части от Home Assistant могат да се презаредят без да е необходимо рестартиране. Натискането на Презареди ще зареди новата конфигурация.",
+								"script": "Презареждане на скриптовете"
+							},
+							"server_management": {
+								"heading": "Управление на сървъра",
+								"introduction": "Управление на Home Assistant сървъра... от Home Assistant.",
+								"restart": "Рестарт",
+								"stop": "Спиране"
+							},
+							"validation": {
+								"check_config": "Проверка на конфигурацията",
+								"heading": "Проверка на конфигурацията",
+								"introduction": "Проверете конфигурацията, ако скоро сте направили промени и искате да се уверите, че всичко работи",
+								"invalid": "Невалидна конфигурация",
+								"valid": "Валидна конфигурация!"
+							}
+						}
+					}
+				},
+				"server_control": {
+					"caption": "Управление на сървъра",
+					"description": "Рестартиране и спиране на Home Assistant сървъра",
+					"section": {
+						"validation": {
+							"heading": "Проверка на конфигурацията",
+							"introduction": "Проверете конфигурацията, ако скоро сте направили промени и искате да се уверите, че всичко работи",
+							"check_config": "Проверка на конфигурацията",
+							"valid": "Валидна конфигурация!",
+							"invalid": "Невалидна конфигурация"
+						},
+						"reloading": {
+							"heading": "Презареждане на конфигурацията",
+							"introduction": "Някои части от Home Assistant могат да се презаредят без да е необходимо рестартиране. Натискането на Презареди ще отхвърли настоящата конфигурация и ще зареди новата конфигурация.",
+							"core": "Презареждане на ядрото",
+							"group": "Презареждане на гурпите",
+							"automation": "Презареждане на автоматизациите",
+							"script": "Презареждане на скриптовете",
+							"scene": "Презареди сцените"
+						},
+						"server_management": {
+							"heading": "Управление на сървъра",
+							"introduction": "Управляване на Home Assistant сървъра... от Home Assistant.",
+							"restart": "Рестартирай",
+							"confirm_restart": "Сигурни ли сте, че искате да рестартирате Home Assistant?",
+							"stop": "Спри",
+							"confirm_stop": "Сигурни ли сте, че искате да спрете Home Assistant?"
+						}
+					}
+				},
+				"customize": {
+					"caption": "Персонализиране",
+					"description": "Персонализирайте Вашите обекти",
+					"picker": {
+						"header": "Персонализиране",
+						"introduction": "Настройте атрибутите за всеки обект. Добавени/редактирани персонализации ще имат ефект, когато обектът бъде опреснен."
+					},
+					"warning": {
+						"include_sentence": "It seems that your configuration.yaml doesn't properly",
+						"include_link": "include customize.yaml",
+						"not_applied": "Changes made here are written in it, but will not be applied after a configuration reload unless the include is in place."
+					},
+					"attributes_customize": "The following attributes are already set in customize.yaml",
+					"attributes_outside": "The following attributes are customized from outside of customize.yaml",
+					"different_include": "Possibly via a domain, a glob or a different include.",
+					"attributes_set": "The following attributes of the entity are set programmatically.",
+					"attributes_override": "You can override them if you like.",
+					"attributes_not_set": "The following attributes weren't set. Set them if you like.",
+					"pick_attribute": "Pick an attribute to override"
+				},
+				"automation": {
+					"caption": "Автоматизация",
+					"description": "Създаване и редактиране на автоматизации",
+					"picker": {
+						"header": "Редактор на автоматизации",
+						"introduction": "Редакторът на автоматизации позволява да създавате и редактирате автоматизации. Моля, последвайте препратката по-долу за да прочетете инструкциите за да се уверите, че Home Assistant е правилно конфигуриран.",
+						"learn_more": "Научете повече за автоматизациите",
+						"pick_automation": "Изберете автоматизация за редактиране",
+						"no_automations": "Не можахме да намерим никакви автоматизации подлежащи на редакция",
+						"add_automation": "Добавяне на автоматизация",
+						"only_editable": "Only automations defined in automations.yaml are editable.",
+						"edit_automation": "Edit automation",
+						"show_info_automation": "Show info about automation",
+						"delete_automation": "Delete automation",
+						"delete_confirm": "Are you sure you want to delete this automation?"
+					},
+					"editor": {
+						"introduction": "Използвайте автоматизации, за да съживите дома си",
+						"default_name": "Нова автоматизация",
+						"load_error_not_editable": "Само автоматизации от automations.yaml могат да се редактират.",
+						"load_error_unknown": "Грешка при зареждане на автоматизация ({еrr_no}).",
+						"save": "Запазване",
+						"unsaved_confirm": "Имате незапазени промени. Сигурни ли сте, че искате да напуснете?",
+						"alias": "Име",
+						"description": {
+							"label": "Description",
+							"placeholder": "Optional description"
+						},
+						"triggers": {
+							"name": "Trigger",
+							"header": "Тригери",
+							"introduction": "Тригерите са това, което стартира обработката на правило за автоматизация. Възможно е да се зададат множество тригери за едно и също правило. След като тригера стартира, Home Assistant ще провери условията, ако има такива, и ще стартира действието.",
+							"learn_more": "Научете повече за тригерите",
+							"add": "Добавяне на тригер",
+							"duplicate": "Копиране",
+							"delete": "Изтриване",
+							"delete_confirm": "Сигурни ли сте, че искате да изтриете?",
+							"unsupported_platform": "Неподдържана платформа: {platform}",
+							"type_select": "Тип на тригера",
+							"type": {
+								"device": {
+									"label": "Устройство",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"event": {
+									"label": "Събитие",
+									"event_type": "Тип на събитието",
+									"event_data": "Данни на събитието"
+								},
+								"geo_location": {
+									"label": "Местоположение",
+									"source": "Източник",
+									"zone": "Зона",
+									"event": "Събитие:",
+									"enter": "Влизане",
+									"leave": "Излизане"
+								},
+								"state": {
+									"label": "Състояние",
+									"from": "От",
+									"for": "За период от",
+									"to": "Във"
+								},
+								"homeassistant": {
+									"label": "Home Assistant",
+									"event": "Събитие",
+									"start": "Стартиране",
+									"shutdown": "Изключване"
+								},
+								"mqtt": {
+									"label": "MQTT",
+									"topic": "Тема",
+									"payload": "Съобщение (незадължително)"
+								},
+								"numeric_state": {
+									"label": "Състояние на число",
+									"above": "Над",
+									"below": "Под",
+									"value_template": "Шаблон за стойност (незадължително)"
+								},
+								"sun": {
+									"label": "Слънце",
+									"event": "Събитие",
+									"sunrise": "Изгрев",
+									"sunset": "Залез",
+									"offset": "Офсет (незадължително)"
+								},
+								"template": {
+									"label": "Шаблон",
+									"value_template": "Шаблон за стойност"
+								},
+								"time": {
+									"label": "Време",
+									"at": "В"
+								},
+								"time_pattern": {
+									"label": "Времеви шаблон",
+									"hours": "Часове",
+									"minutes": "Минути",
+									"seconds": "Секунди"
+								},
+								"webhook": {
+									"label": "Webhook",
+									"webhook_id": "Webhook идентификатор"
+								},
+								"zone": {
+									"label": "Зона",
+									"entity": "Обект с местоположение",
+									"zone": "Зона",
+									"event": "Събитие",
+									"enter": "Влизане",
+									"leave": "Излизане"
+								}
+							}
+						},
+						"conditions": {
+							"name": "Condition",
+							"header": "Условия",
+							"introduction": "Условията са незадължителна част от правилото за автоматизация и могат да се използват, за да се предотврати настъпването на действие, когато се задейства тригера. Условията изглеждат много близки до тригерите, но са много различни. Тригерът ще разглежда събитията, случващи се в системата, докато условието разглежда само как системата изглежда в момента. Тригера може да наблюдава включването на ключ. Условието може само да види дали ключ е включен или изключен в момента.",
+							"learn_more": "Научете повече за условията",
+							"add": "Добавяне на условие",
+							"duplicate": "Копиране",
+							"delete": "Изтриване",
+							"delete_confirm": "Сигурни ли сте, че искате да изтриете?",
+							"unsupported_condition": "Неподдържано условие: {condition}",
+							"type_select": "Тип на условие",
+							"type": {
+								"and": {
+									"label": "And"
+								},
+								"device": {
+									"label": "Устройство",
+									"extra_fields": {
+										"above": "Above",
+										"below": "Below",
+										"for": "Duration"
+									}
+								},
+								"numeric_state": {
+									"label": "Състояние на число",
+									"above": "Над",
+									"below": "Под",
+									"value_template": "Шаблон за стойност (незадължително)"
+								},
+								"or": {
+									"label": "Or"
+								},
+								"state": {
+									"label": "Състояние",
+									"state": "Състояние"
+								},
+								"sun": {
+									"label": "Слънце",
+									"before": "Преди:",
+									"after": "След:",
+									"before_offset": "Отместване преди (незадължително)",
+									"after_offset": "Отместване след (незадължително)",
+									"sunrise": "Изгрев",
+									"sunset": "Залез"
+								},
+								"template": {
+									"label": "Шаблон",
+									"value_template": "Шаблон за стойност"
+								},
+								"time": {
+									"label": "Време",
+									"after": "След",
+									"before": "Преди"
+								},
+								"zone": {
+									"label": "Зона",
+									"entity": "Обект с местоположение",
+									"zone": "Зона"
+								}
+							}
+						},
+						"actions": {
+							"name": "Action",
+							"header": "Действия",
+							"introduction": "Действията са това, което Home Assistant ще направи, когато се активира автоматизацията.",
+							"learn_more": "Научете повече за действията",
+							"add": "Добавяне на действие",
+							"duplicate": "Копиране",
+							"delete": "Изтриване",
+							"delete_confirm": "Сигурни ли сте, че искате да изтриете?",
+							"unsupported_action": "Неподдържано действие: {action}",
+							"type_select": "Тип действие",
+							"type": {
+								"service": {
+									"label": "Извикване на услуга",
+									"service_data": "Данни за услугата"
+								},
+								"delay": {
+									"label": "Забавяне",
+									"delay": "Забавяне"
+								},
+								"wait_template": {
+									"label": "Изчакване",
+									"wait_template": "Шаблон за изчакване",
+									"timeout": "Изчакване (по избор)"
+								},
+								"condition": {
+									"label": "Състояние"
+								},
+								"event": {
+									"label": "Стартирай събитие",
+									"event": "Събитие",
+									"service_data": "Сервизна информация"
+								},
+								"device_id": {
+									"label": "Устройство",
+									"extra_fields": {
+										"code": "Code"
+									}
+								},
+								"scene": {
+									"label": "Activate scene"
+								}
+							}
+						}
+					}
+				},
+				"script": {
+					"caption": "Скрипт",
+					"description": "Създаване и редактиране на скриптове",
+					"picker": {
+						"header": "Script Editor",
+						"introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scripts",
+						"no_scripts": "We couldn’t find any editable scripts",
+						"add_script": "Add script",
+						"trigger_script": "Trigger script",
+						"edit_script": "Edit script"
+					},
+					"editor": {
+						"introduction": "Use scripts to execute a sequence of actions.",
+						"header": "Script: {name}",
+						"default_name": "New Script",
+						"load_error_not_editable": "Only scripts inside scripts.yaml are editable.",
+						"delete_confirm": "Are you sure you want to delete this script?",
+						"delete_script": "Delete script",
+						"sequence": "Sequence",
+						"sequence_sentence": "The sequence of actions of this script.",
+						"link_available_actions": "Learn more about available actions."
+					}
+				},
+				"scene": {
+					"caption": "Scenes",
+					"description": "Create and edit scenes",
+					"activated": "Activated scene {name}.",
+					"picker": {
+						"header": "Scene Editor",
+						"introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+						"learn_more": "Learn more about scenes",
+						"pick_scene": "Pick scene to edit",
+						"no_scenes": "We couldn’t find any editable scenes",
+						"add_scene": "Add scene",
+						"only_editable": "Only scenes defined in scenes.yaml are editable.",
+						"edit_scene": "Edit scene",
+						"show_info_scene": "Show info about scene",
+						"delete_scene": "Delete scene",
+						"delete_confirm": "Are you sure you want to delete this scene?"
+					},
+					"editor": {
+						"introduction": "Use scenes to bring your home alive.",
+						"default_name": "New Scene",
+						"load_error_not_editable": "Only scenes in scenes.yaml are editable.",
+						"load_error_unknown": "Error loading scene ({err_no}).",
+						"save": "Save",
+						"unsaved_confirm": "You have unsaved changes. Are you sure you want to leave?",
+						"name": "Name",
+						"devices": {
+							"header": "Devices",
+							"introduction": "Add the devices that you want to be included in your scene. Set all the devices to the state you want for this scene.",
+							"add": "Add a device",
+							"delete": "Delete device"
+						},
+						"entities": {
+							"header": "Entities",
+							"introduction": "Entities that do not belong to a devices can be set here.",
+							"without_device": "Entities without device",
+							"device_entities": "If you add an entity that belongs to a device, the device will be added.",
+							"add": "Add an entity",
+							"delete": "Delete entity"
+						}
+					}
+				},
+				"cloud": {
+					"caption": "Home Assistant Cloud",
+					"description_login": "Влезли сте като {email}",
+					"description_not_login": "Не сте влезли",
+					"description_features": "Контролирайте дома си, и когато не сте вкъщи, активирайте интегрирациите с Alexa и Google Assistant.",
+					"login": {
+						"title": "Cloud Login",
+						"introduction": "Home Assistant Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+						"introduction2": "This service is run by our partner ",
+						"introduction2a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"introduction3": "Home Assistant Cloud is a subscription service with a free one month trial. No payment information necessary.",
+						"learn_more_link": "Learn more about Home Assistant Cloud",
+						"dismiss": "Dismiss",
+						"sign_in": "Sign in",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"forgot_password": "forgot password?",
+						"start_trial": "Start your free 1 month trial",
+						"trial_info": "No payment information necessary",
+						"alert_password_change_required": "You need to change your password before logging in.",
+						"alert_email_confirm_necessary": "You need to confirm your email before logging in."
+					},
+					"forgot_password": {
+						"title": "Forgot password",
+						"subtitle": "Forgot your password",
+						"instructions": "Enter your email address and we will send you a link to reset your password.",
+						"email": "Email",
+						"email_error_msg": "Invalid email",
+						"send_reset_email": "Send reset email",
+						"check_your_email": "Check your email for instructions on how to reset your password."
+					},
+					"register": {
+						"title": "Register Account",
+						"headline": "Start your free trial",
+						"information": "Create an account to start your free one month trial with Home Assistant Cloud. No payment information necessary.",
+						"information2": "The trial will give you access to all the benefits of Home Assistant Cloud, including:",
+						"feature_remote_control": "Control of Home Assistant away from home",
+						"feature_google_home": "Integration with Google Assistant",
+						"feature_amazon_alexa": "Integration with Amazon Alexa",
+						"feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
+						"information3": "This service is run by our partner ",
+						"information3a": ", a company founded by the founders of Home Assistant and Hass.io.",
+						"information4": "By registering an account you agree to the following terms and conditions.",
+						"link_terms_conditions": "Terms and Conditions",
+						"link_privacy_policy": "Privacy Policy",
+						"create_account": "Create Account",
+						"email_address": "Email address",
+						"email_error_msg": "Invalid email",
+						"password": "Password",
+						"password_error_msg": "Passwords are at least 8 characters",
+						"start_trial": "Start Trial",
+						"resend_confirm_email": "Resend confirmation email",
+						"account_created": "Account created! Check your email for instructions on how to activate your account."
+					},
+					"account": {
+						"thank_you_note": "Thank you for being part of Home Assistant Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
+						"nabu_casa_account": "Nabu Casa Account",
+						"connection_status": "Cloud connection status",
+						"manage_account": "Manage Account",
+						"sign_out": "Sign out",
+						"integrations": "Integrations",
+						"integrations_introduction": "Integrations for Home Assistant Cloud allow you to connect with services in the cloud without having to expose your Home Assistant instance publicly on the internet.",
+						"integrations_introduction2": "Check the website for ",
+						"integrations_link_all_features": " all available features",
+						"connected": "Connected",
+						"not_connected": "Not Connected",
+						"fetching_subscription": "Fetching subscription…",
+						"remote": {
+							"title": "Remote Control",
+							"access_is_being_prepared": "Remote access is being prepared. We will notify you when it's ready.",
+							"info": "Home Assistant Cloud provides a secure remote connection to your instance while away from home.",
+							"instance_is_available": "Your instance is available at",
+							"instance_will_be_available": "Your instance will be available at",
+							"link_learn_how_it_works": "Learn how it works",
+							"certificate_info": "Certificate Info"
+						},
+						"alexa": {
+							"title": "Alexa",
+							"info": "With the Alexa integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Alexa-enabled device.",
+							"enable_ha_skill": "Enable the Home Assistant skill for Alexa",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+							"sync_entities": "Sync Entities",
+							"manage_entities": "Manage Entities",
+							"sync_entities_error": "Failed to sync entities:",
+							"state_reporting_error": "Unable to {enable_disable} report state.",
+							"enable": "enable",
+							"disable": "disable"
+						},
+						"google": {
+							"title": "Google Assistant",
+							"info": "With the Google Assistant integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Google Assistant-enabled device.",
+							"enable_ha_skill": "Activate the Home Assistant skill for Google Assistant",
+							"config_documentation": "Config documentation",
+							"enable_state_reporting": "Enable State Reporting",
+							"info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Google. This allows you to always see the latest states in the Google app.",
+							"security_devices": "Security Devices",
+							"enter_pin_info": "Please enter a pin to interact with security devices. Security devices are doors, garage doors and locks. You will be asked to say/enter this pin when interacting with such devices via Google Assistant.",
+							"devices_pin": "Security Devices Pin",
+							"enter_pin_hint": "Enter a PIN to use security devices",
+							"sync_entities": "Sync Entities to Google",
+							"manage_entities": "Manage Entities",
+							"enter_pin_error": "Unable to store pin:"
+						},
+						"webhooks": {
+							"title": "Webhooks",
+							"info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to Home Assistant from anywhere, without exposing your instance to the internet.",
+							"no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
+							"no_hooks_yet_link_integration": "webhook-based integration",
+							"no_hooks_yet2": " or by creating a ",
+							"no_hooks_yet_link_automation": "webhook automation",
+							"link_learn_more": "Learn more about creating webhook-powered automations.",
+							"loading": "Loading ...",
+							"manage": "Manage",
+							"disable_hook_error_msg": "Failed to disable webhook:"
+						}
+					},
+					"alexa": {
+						"title": "Alexa",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"expose": "Expose to Alexa"
+					},
+					"dialog_certificate": {
+						"certificate_information": "Certificate Information",
+						"certificate_expiration_date": "Certificate expiration date",
+						"will_be_auto_renewed": "Will be automatically renewed",
+						"fingerprint": "Certificate fingerprint:",
+						"close": "Close"
+					},
+					"google": {
+						"title": "Google Assistant",
+						"expose": "Expose to Google Assistant",
+						"disable_2FA": "Disable two factor authentication",
+						"banner": "Editing which entities are exposed via this UI is disabled because you have configured entity filters in configuration.yaml.",
+						"exposed_entities": "Exposed entities",
+						"not_exposed_entities": "Not Exposed entities",
+						"sync_to_google": "Synchronizing changes to Google."
+					},
+					"dialog_cloudhook": {
+						"webhook_for": "Webhook for {name}",
+						"available_at": "The webhook is available at the following url:",
+						"managed_by_integration": "This webhook is managed by an integration and cannot be disabled.",
+						"info_disable_webhook": "If you no longer want to use this webhook, you can",
+						"link_disable_webhook": "disable it",
+						"view_documentation": "View documentation",
+						"close": "Close",
+						"confirm_disable": "Are you sure you want to disable this webhook?",
+						"copied_to_clipboard": "Copied to clipboard"
+					}
+				},
+				"devices": {
+					"caption": "Устройства",
+					"description": "Управление на свързани устройства",
+					"unnamed_device": "Unnamed device",
+					"unknown_error": "Unknown error",
+					"area_picker_label": "Area",
+					"automation": {
+						"triggers": {
+							"caption": "Do something when..."
+						},
+						"conditions": {
+							"caption": "Only do something if..."
+						},
+						"actions": {
+							"caption": "When something is triggered..."
+						}
+					},
+					"device_not_found": "Device not found.",
+					"info": "Device info",
+					"details": "Here are all the details of your device.",
+					"entities": "Entities",
+					"automations": "Automations",
+					"confirm_rename_entity_ids": "Do you also want to rename the entity id's of your entities?",
+					"data_table": {
+						"device": "Device",
+						"manufacturer": "Manufacturer",
+						"model": "Model",
+						"area": "Area",
+						"integration": "Integration",
+						"battery": "Battery"
+					}
+				},
+				"entity_registry": {
+					"caption": "Регистър на обектите",
+					"description": "Преглед на всички известни обекти.",
+					"picker": {
+						"header": "Регистър на обектите",
+						"introduction": "Home Assistant поддържа регистър на всички обекти, които някога е виждал, които могат да бъдат идентифицирани уникално. Всеки от тези обекти ще има  идентификатор на обект, който ще бъде резервиран само за този обект.",
+						"introduction2": "Използвайте регистъра на обектите, за да промените името, идентификатора на обекта или да премахнете записа от Home Assistant. Моля имайте на предвид, че премахването на записа от регистъра на обектите няма да премахне обекта. За да направите това, следвайте препратката по-долу и я премахнете от страницата за интеграции.",
+						"integrations_page": "Интеграции",
+						"show_disabled": "Show disabled entities",
+						"headers": {
+							"name": "Name",
+							"entity_id": "Entity ID",
+							"integration": "Integration",
+							"enabled": "Enabled"
+						},
+						"unavailable": "(недостъпен)"
+					},
+					"editor": {
+						"unavailable": "Този обект не е достъпeн към момента.",
+						"default_name": "Нова област",
+						"enabled_label": "Активирай обекта",
+						"enabled_cause": "Изключено от {cause}",
+						"enabled_description": "Изключените обекти няма да бъдат добавени в Home Assistant.",
+						"delete": "ИЗТРИВАНЕ",
+						"confirm_delete": "Are you sure you want to delete this entry?",
+						"confirm_delete2": "Deleting an entry will not remove the entity from Home Assistant. To do this, you will need to remove the integration '{platform}' from Home Assistant.",
+						"update": "АКТУАЛИЗАЦИЯ",
+						"note": "Note: this might not work yet with all integrations."
+					}
+				},
+				"person": {
+					"caption": "Хора",
+					"description": "Управлявайте хората, които следите от Home Assistant.",
+					"introduction": "Here you can define each person of interest in Home Assistant.",
+					"note_about_persons_configured_in_yaml": "Note: persons configured via configuration.yaml cannot be edited via the UI.",
+					"no_persons_created_yet": "Looks like you have not created any persons yet.",
+					"create_person": "Create Person",
+					"add_person": "Add Person",
+					"confirm_delete": "Are you sure you want to delete this person?",
+					"confirm_delete2": "All devices belonging to this person will become unassigned.",
+					"detail": {
+						"new_person": "New Person",
+						"name": "Име",
+						"name_error_msg": "Name is required",
+						"linked_user": "Linked User",
+						"device_tracker_intro": "Изберете устройствата, които принадлежат на това лице.",
+						"no_device_tracker_available_intro": "When you have devices that indicate the presence of a person, you will be able to assign them to a person here. You can add your first device by adding a presence-detection integration from the integrations page.",
+						"link_presence_detection_integrations": "Presence Detection Integrations",
+						"link_integrations_page": "Integrations page",
+						"device_tracker_picked": "Устройство за проследяване",
+						"device_tracker_pick": "Изберете устройство за проследяване",
+						"delete": "Delete",
+						"create": "Create",
+						"update": "Update"
+					}
+				},
+				"integrations": {
+					"caption": "Интеграции",
+					"description": "Управление на свързани устройства и услуги",
+					"discovered": "Открити",
+					"configured": "Конфигуриран",
+					"new": "Настройте нова интеграция",
+					"note_about_integrations": "Not all integrations can be configured via the UI yet.",
+					"note_about_website_reference": "More are available on the ",
+					"home_assistant_website": "Home Assistant website",
+					"configure": "Конфигуриране",
+					"none": "Нищо не е конфигурирано към момента",
+					"integration_not_found": "Integration not found.",
+					"config_entry": {
+						"settings_button": "Edit settings for {integration}",
+						"system_options_button": "System options for {integration}",
+						"delete_button": "Delete {integration}",
+						"no_devices": "Тази интеграция няма устройства.",
+						"no_device": "Обекти без устройства",
+						"delete_confirm": "Сигурни ли сте, че искате да изтриете интеграцията?",
+						"restart_confirm": "Рестартирайте Home Assistant за да завършите премахването на интеграцията",
+						"manuf": "от {manufacturer}",
+						"hub": "Свързан чрез",
+						"firmware": "Фърмуер: {version}",
+						"device_unavailable": "недостъпно устройство",
+						"entity_unavailable": "недостъпен",
+						"area": "In {area}",
+						"no_area": "Без област",
+						"via": "Свързан чрез"
+					},
+					"config_flow": {
+						"aborted": "Aborted",
+						"close": "Close",
+						"finish": "Finish",
+						"submit": "Submit",
+						"not_all_required_fields": "Not all required fields are filled in.",
+						"add_area": "Add Area",
+						"area_picker_label": "Area",
+						"failed_create_area": "Failed to create area.",
+						"error_saving_area": "Error saving area: {error}",
+						"name_new_area": "Name of the new area?",
+						"created_config": "Created config for {name}.",
+						"external_step": {
+							"description": "Завършването на тази стъпка изисква да посетите външен уебсайт.",
+							"open_site": "Отваряне на уеб сайт"
+						}
+					}
+				},
+				"users": {
+					"caption": "Потребители",
+					"description": "Управление на потребителите",
+					"picker": {
+						"title": "Потребители",
+						"system_generated": "System generated"
+					},
+					"editor": {
+						"caption": "Преглед на потребителя",
+						"rename_user": "Преименуване на потребител",
+						"change_password": "Смяна на парола",
+						"activate_user": "Активиране на потребител",
+						"deactivate_user": "Деактивиране на потребителя",
+						"delete_user": "Изтриване на потребител",
+						"id": "ID",
+						"owner": "Owner",
+						"group": "Group",
+						"active": "Active",
+						"system_generated": "System generated",
+						"system_generated_users_not_removable": "Unable to remove system generated users.",
+						"unnamed_user": "Unnamed User",
+						"enter_new_name": "Enter new name",
+						"user_rename_failed": "User rename failed:",
+						"group_update_failed": "Group update failed:",
+						"confirm_user_deletion": "Are you sure you want to delete {name}?"
+					},
+					"add_user": {
+						"caption": "Добавяне на потребител",
+						"name": "Име",
+						"username": "Потребителско име",
+						"password": "Парола",
+						"create": "Създаване"
+					}
+				},
+				"zha": {
+					"caption": "ZHA",
+					"description": "Управление на Zigbee мрежата за домашна автоматизация",
+					"common": {
+						"add_devices": "Add Devices",
+						"clusters": "Clusters",
+						"devices": "Devices",
+						"manufacturer_code_override": "Manufacturer Code Override",
+						"value": "Value"
+					},
+					"add_device_page": {
+						"header": "Zigbee Home Automation - Добавяне на устройства",
+						"spinner": "Търсене на ZHA Zigbee устройства...",
+						"discovery_text": "Откритите устройства ще се покажат тук. Следвайте инструкциите за вашето устройство(а) и поставете устройствата в режим на сдвояване.",
+						"search_again": "Search Again"
+					},
+					"network_management": {
+						"header": "Network Management",
+						"introduction": "Commands that affect the entire network"
+					},
+					"node_management": {
+						"header": "Device Management",
+						"introduction": "Run ZHA commands that affect a single device. Pick a device to see a list of available commands.",
+						"hint_battery_devices": "Note: Sleepy (battery powered) devices need to be awake when executing commands against them. You can generally wake a sleepy device by triggering it.",
+						"hint_wakeup": "Some devices such as Xiaomi sensors have a wake up button that you can press at ~5 second intervals that keep devices awake while you interact with them.",
+						"help_node_dropdown": "Select a device to view per-device options."
+					},
+					"clusters": {
+						"help_cluster_dropdown": "Select a cluster to view attributes and commands."
+					},
+					"cluster_attributes": {
+						"header": "Cluster Attributes",
+						"introduction": "View and edit cluster attributes.",
+						"attributes_of_cluster": "Attributes of the selected cluster",
+						"get_zigbee_attribute": "Get Zigbee Attribute",
+						"set_zigbee_attribute": "Set Zigbee Attribute",
+						"help_attribute_dropdown": "Select an attribute to view or set its value.",
+						"help_get_zigbee_attribute": "Get the value for the selected attribute.",
+						"help_set_zigbee_attribute": "Set attribute value for the specified cluster on the specified entity."
+					},
+					"cluster_commands": {
+						"header": "Cluster Commands",
+						"introduction": "View and issue cluster commands.",
+						"commands_of_cluster": "Commands of the selected cluster",
+						"issue_zigbee_command": "Issue Zigbee Command",
+						"help_command_dropdown": "Select a command to interact with."
+					},
+					"device_card": {
+						"area_picker_label": "Област",
+						"device_name_placeholder": "Име, зададено от потребителя",
+						"update_name_button": "Актуализиране на името"
+					},
+					"services": {
+						"reconfigure": "Преконфигурирайте ZHA устройство (оздравяване на устройство). Използвайте това, ако имате проблеми с устройството. Ако въпросното устройство е захранвано с батерии, моля, уверете се, че е будно и приема команди, когато използвате тази услуга.",
+						"remove": "Премахване на устройство от Zigbee мрежата.",
+						"updateDeviceName": "Задайте персонализирано име за това устройство в регистъра на устройствата."
+					}
+				},
+				"zwave": {
+					"caption": "Z-Wave",
+					"description": "Управлявайте своята Z-Wave мрежа",
+					"learn_more": "Learn more about Z-Wave",
+					"common": {
+						"value": "Стойност",
+						"instance": "Устройство",
+						"index": "Индекс",
+						"unknown": "неизвестно",
+						"wakeup_interval": "Интервал за събуждане"
+					},
+					"network_management": {
+						"header": "Управление на Z-Wave мрежата",
+						"introduction": "Изпълнение на команди, които засягат Z-Wave мрежата. Няма да получите обратна информация за това дали повечето команди са успели, но можете да проверите OZW лог файла, за да се опитате да разберете."
+					},
+					"ozw_log": {
+						"header": "OZW Log",
+						"introduction": "View the log. 0 is the minimum (loads entire log) and 1000 is the maximum. Load will show a static log and tail will auto update with the last specified number of lines of the log."
+					},
+					"network_status": {
+						"network_stopped": "Z-Wave мрежата е спряна",
+						"network_starting": "Стартиране на Z-Wave мрежа...",
+						"network_starting_note": "Това може да отнеме известно време в зависимост от размера на мрежата Ви.",
+						"network_started": "Z-Wave мрежата е стартирана",
+						"network_started_note_some_queried": "Будните устройства бяха разпитани. Спящите устройства ще бъдат разпитани, когато са на линия.",
+						"network_started_note_all_queried": "Всички устройства бяха разпитани."
+					},
+					"node_config": {
+						"header": "Конфигурационни опции на устройството",
+						"seconds": "секунди",
+						"set_wakeup": "Настрой интервал за събуждане",
+						"config_parameter": "Конфигурационен параметър",
+						"config_value": "Конфигурационна стойност",
+						"true": "Вярно",
+						"false": "Невярно",
+						"set_config_parameter": "Задайте параметър Config"
+					},
+					"values": {
+						"header": "Стойности на устройсто"
+					},
+					"services": {
+						"start_network": "Стартиране на мрежата",
+						"stop_network": "Спиране на мрежата",
+						"heal_network": "Оздравяване на мрежата",
+						"test_network": "Тестване на мрежата",
+						"soft_reset": "Soft Reset",
+						"save_config": "Запазване на конфигурацията",
+						"add_node_secure": "Добавяне на криптирано устройство",
+						"add_node": "Добавяне на устройство",
+						"remove_node": "Премахване на устройство",
+						"cancel_command": "Отмени командата"
+					}
+				}
+			},
+			"history": {
+				"showing_entries": "Показване на записите за",
+				"period": "Период"
+			},
+			"logbook": {
+				"showing_entries": "Показване на записите за",
+				"period": "Период",
+				"entries_not_found": "No logbook entries found."
+			},
+			"lovelace": {
+				"cards": {
+					"confirm_delete": "Are you sure you want to delete this card?",
+					"empty_state": {
+						"title": "Добре дошли у дома",
+						"no_devices": "Тази страница ви позволява да контролирате устройствата си, но изглежда, че все още нямате настроени устройства. Отидете на страницата за интеграции, за да започнете.",
+						"go_to_integrations_page": "Отидете на страницата за интеграции."
+					},
+					"shopping-list": {
+						"checked_items": "Отметнати артикули",
+						"clear_items": "Изчистване на отметнатите артикули",
+						"add_item": "Добави артикул"
+					},
+					"picture-elements": {
+						"hold": "Задръжте:",
+						"tap": "Натиснете:",
+						"navigate_to": "Придвижете се до {location}",
+						"url": "Open window to {url_path}",
+						"toggle": "Превключване на {name}",
+						"call_service": "Извикай услуга {name}",
+						"more_info": "Показване на повече информация: {name}"
+					}
+				},
+				"unused_entities": {
+					"title": "Unused entities",
+					"available_entities": "These are the entities that you have available, but are not in your Lovelace UI yet.",
+					"select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+					"entity": "Entity",
+					"entity_id": "Entity ID",
+					"domain": "Domain",
+					"last_changed": "Last Changed"
+				},
+				"views": {
+					"confirm_delete": "Are you sure you want to delete this view?",
+					"existing_cards": "You can't delete a view that has cards in it. Remove the cards first."
+				},
+				"menu": {
+					"configure_ui": "Конфигуриране на потребителския интерфейс",
+					"help": "Помощ",
+					"refresh": "Обновяване",
+					"close": "Close",
+					"unused_entities": "Неизползвани обекти"
+				},
+				"editor": {
+					"header": "Редактиране на потребителския интерфейс",
+					"menu": {
+						"open": "Отваряне на Lovelace меню",
+						"raw_editor": "Текстов редактор на конфурацията"
+					},
+					"raw_editor": {
+						"header": "Редактиране на конфигурацията",
+						"save": "Запазване",
+						"unsaved_changes": "Незапазени промени",
+						"saved": "Запазено",
+						"confirm_unsaved_changes": "You have unsaved changes, are you sure you want to exit?",
+						"confirm_unsaved_comments": "Your config contains comment(s), these will not be saved. Do you want to continue?",
+						"error_parse_yaml": "Unable to parse YAML: {error}",
+						"error_invalid_config": "Your config is not valid: {error}",
+						"error_save_yaml": "Unable to save YAML: {error}"
+					},
+					"edit_lovelace": {
+						"header": "Заглавие на вашия Lovelace потребителски интерфейс",
+						"explanation": "Това заглавие се показва над всичките ви изгледи в Lovelace",
+						"edit_title": "Edit title"
+					},
+					"edit_view": {
+						"header": "Конфигурация на изглед",
+						"header_name": "{name} View Configuration",
+						"add": "Добавяне на изглед",
+						"edit": "Редактиране на изгледа",
+						"delete": "Изтриване на изгледа",
+						"move_left": "Move view left",
+						"move_right": "Move view right"
+					},
+					"edit_card": {
+						"header": "Конфигуриране на Карта",
+						"pick_card": "Изберете картата, която искате да добавите.",
+						"pick_card_view_title": "Which card would you like to add to your {name} view?",
+						"toggle_editor": "Превключете редактора",
+						"show_visual_editor": "Show Visual Editor",
+						"show_code_editor": "Show Code Editor",
+						"add": "Добавяне на карта",
+						"edit": "Редактиране",
+						"delete": "Изтриване",
+						"move": "Преместване",
+						"options": "Още опции",
+						"save": "Запазване"
+					},
+					"save_config": {
+						"header": "Поемете контрол над потребителския интерфейс на Lovelace",
+						"para": "По подразбиране Home Assistant поддържа потребителския интерфейс, като го актуализира, когато нови обекти или компоненти на Lovelace станат достъпни. Ако поемете контрол, ние вече няма да правим автоматично промени вместо вас.",
+						"para_sure": "Наистина ли искате да поемете управлението на потребителския интерфейс?",
+						"cancel": "Няма значение",
+						"save": "Поемете контрола"
+					},
+					"migrate": {
+						"header": "Несъвместима конфигурация",
+						"para_no_id": "Този елемент няма идентификатор. Моля, добавете идентификатор към този елемент в \"ui-lovelace.yaml\".",
+						"para_migrate": "Home Assistant може автоматично да добави идентификатори към всичките ви карти и изгледи, като натиска бутона \"Мигриране на конфигурация\".",
+						"migrate": "Мигриране на конфигурация"
+					},
+					"card": {
+						"alarm-panel": {
+							"name": "Alarm Panel",
+							"available_states": "Available States"
+						},
+						"conditional": {
+							"name": "Conditional"
+						},
+						"config": {
+							"required": "Required",
+							"optional": "Optional"
+						},
+						"entities": {
+							"name": "Entities",
+							"show_header_toggle": "Show Header Toggle?",
+							"toggle": "Превключване на обекти."
+						},
+						"entity-button": {
+							"name": "Entity Button"
+						},
+						"entity-filter": {
+							"name": "Entity Filter"
+						},
+						"gauge": {
+							"name": "Gauge",
+							"severity": {
+								"define": "Define Severity?",
+								"green": "Green",
+								"red": "Red",
+								"yellow": "Yellow"
+							}
+						},
+						"glance": {
+							"name": "Glance",
+							"columns": "Columns"
+						},
+						"history-graph": {
+							"name": "History Graph"
+						},
+						"horizontal-stack": {
+							"name": "Horizontal Stack"
+						},
+						"iframe": {
+							"name": "iFrame"
+						},
+						"light": {
+							"name": "Light"
+						},
+						"generic": {
+							"aspect_ratio": "Aspect Ratio",
+							"camera_image": "Camera Entity",
+							"camera_view": "Camera View",
+							"entities": "Entities",
+							"entity": "Entity",
+							"hold_action": "Hold Action",
+							"hours_to_show": "Hours to Show",
+							"icon": "Icon",
+							"icon_height": "Icon Height",
+							"image": "Image Path",
+							"maximum": "Maximum",
+							"minimum": "Minimum",
+							"name": "Name",
+							"refresh_interval": "Refresh Interval",
+							"show_icon": "Show Icon?",
+							"show_name": "Show Name?",
+							"show_state": "Show State?",
+							"tap_action": "Tap Action",
+							"title": "Title",
+							"theme": "Theme",
+							"unit": "Unit",
+							"url": "Url"
+						},
+						"map": {
+							"name": "Map",
+							"geo_location_sources": "Geolocation Sources",
+							"dark_mode": "Dark Mode?",
+							"default_zoom": "Default Zoom",
+							"source": "Source"
+						},
+						"markdown": {
+							"name": "Markdown",
+							"content": "Content"
+						},
+						"media-control": {
+							"name": "Media Control"
+						},
+						"picture": {
+							"name": "Picture"
+						},
+						"picture-elements": {
+							"name": "Picture Elements"
+						},
+						"picture-entity": {
+							"name": "Picture Entity"
+						},
+						"picture-glance": {
+							"name": "Picture Glance"
+						},
+						"plant-status": {
+							"name": "Plant Status"
+						},
+						"sensor": {
+							"name": "Sensor",
+							"graph_detail": "Graph Detail",
+							"graph_type": "Graph Type"
+						},
+						"shopping-list": {
+							"name": "Shopping List"
+						},
+						"thermostat": {
+							"name": "Thermostat"
+						},
+						"vertical-stack": {
+							"name": "Вертикална колона"
+						},
+						"weather-forecast": {
+							"name": "Прогноза за времето"
+						}
+					},
+					"view": {
+						"panel_mode": {
+							"title": "Panel Mode?",
+							"description": "This renders the first card at full width; other cards in this view will not be rendered."
+						}
+					}
+				},
+				"warning": {
+					"entity_not_found": "Обектът е недостъпен: {entity}",
+					"entity_non_numeric": "Обектът не е числов: {entity}"
+				},
+				"changed_toast": {
+					"message": "Конфигурацията на Lovelace бе актуализирана, искате ли да опресните?",
+					"refresh": "Обновяване"
+				},
+				"reload_lovelace": "Презареждане на Lovelace"
+			},
+			"mailbox": {
+				"empty": "Нямате съобщения",
+				"playback_title": "Възпроизвеждане на съобщение",
+				"delete_prompt": "Изтриване на това съобщение?",
+				"delete_button": "Изтриване"
+			},
+			"profile": {
+				"current_user": "В момента сте влезли като {fullName}.",
+				"is_owner": "Вие сте собственик.",
+				"logout": "Изход",
+				"force_narrow": {
+					"header": "Винаги скривай страничната лента",
+					"description": "Това ще скрие страничната лента по подразбиране, подобно на изгледа в мобилната версия."
+				},
+				"vibrate": {
+					"header": "Vibrate",
+					"description": "Enable or disable vibration on this device when controlling devices."
+				},
+				"push_notifications": {
+					"header": "Известия",
+					"description": "Изпращане на известия до това устройство.",
+					"error_load_platform": "Конфигуриране на notify.html5.",
+					"error_use_https": "Изисква наличен SSL за уеб-интерфейса.",
+					"push_notifications": "Известия",
+					"link_promo": "Научете повече"
+				},
+				"language": {
+					"header": "Език",
+					"link_promo": "Помогнете за превода",
+					"dropdown_label": "Език"
+				},
+				"themes": {
+					"header": "Тема",
+					"error_no_theme": "Няма налични теми.",
+					"link_promo": "Научете повече за темите",
+					"dropdown_label": "Тема"
+				},
+				"change_password": {
+					"header": "Смяна на парола",
+					"current_password": "Настояща парола",
+					"new_password": "Нова парола",
+					"confirm_new_password": "Потвърждение на новата парола",
+					"error_required": "Задължително",
+					"submit": "Промяна"
+				},
+				"mfa": {
+					"header": "Модули за много-факторна аутентикация",
+					"disable": "Деактивиране",
+					"enable": "Активиране",
+					"confirm_disable": "Сигурни ли сте, че искате да деактивирате {name}?"
+				},
+				"mfa_setup": {
+					"title_aborted": "Преустановено",
+					"title_success": "Успех!",
+					"step_done": "Настройката е извършена за {step}",
+					"close": "Затвори",
+					"submit": "Изпращане"
+				},
+				"advanced_mode": {
+					"title": "Разширен режим",
+					"description": "Home Assistant hides advanced features and options by default. You can make these features accessible by checking this toggle. This is a user-specific setting and does not impact other users using Home Assistant.",
+					"hint_enable": "Missing config options? Enable advanced mode on",
+					"link_profile_page": "your profile page"
+				},
+				"refresh_tokens": {
+					"header": "Кодове за опресняване",
+					"description": "Всеки код за опресняване представлява оторизирана сесия. Кодовете за опресняване се премахват, когато натиснете \"Изход\". Следните кодове за опресняване са активни във Вашия акаунт.",
+					"token_title": "Код за опресняване за {clientId}",
+					"created_at": "Създаден на {date}",
+					"last_used": "Последно използван на {date} от {location}",
+					"not_used": "Никога не е бил използван",
+					"confirm_delete": "Сигурни ли сте, че искате да изтриете кода за опресняване за {name}?",
+					"delete_failed": "Възникна грешка при изтриването на кода за опресняване.",
+					"current_token_tooltip": "Не може да се изтрие текущия код за опресняване"
+				},
+				"long_lived_access_tokens": {
+					"header": "Дългосрочни кодове за достъп",
+					"description": "Създайте дългосрочни кодове за достъп за да могат скриптовете Ви да взаимодействат с Home Assistant. Всеки код е валиден за 10 години от създаването си. Следните дългосрочни кодове са активни в момента.",
+					"learn_auth_requests": "Научете се как да правите оторизирани заявки.",
+					"created_at": "Създаден на {date}",
+					"last_used": "Последно използван на {date} от {location}",
+					"not_used": "Никога не е бил използван",
+					"confirm_delete": "Сигурни ли сте, че искате да изтриете кода за достъп за {name}?",
+					"delete_failed": "Възникна грешка при изтриването на кода за достъп.",
+					"create": "Създай код",
+					"create_failed": "Възникна грешка при създаването на код за достъп.",
+					"prompt_name": "Име?",
+					"prompt_copy_token": "Копирайте кода си за достъп. Той няма да бъде показан отново.",
+					"empty_state": "Все още нямате дългосрочни кодове за достъп."
+				}
+			},
+			"shopping-list": {
+				"clear_completed": "Изчистването завършено",
+				"add_item": "Добави артикул",
+				"microphone_tip": "Докоснете микрофона горе вдясно и кажете \"Add candy to my shopping list\""
+			},
+			"page-authorize": {
+				"initializing": "Инициализиране",
+				"authorizing_client": "На път сте да дадете {clientId} достъп до вашия Home Assistant.",
+				"logging_in_with": "Вход с **{authProviderName}**.",
+				"pick_auth_provider": "Или влезте с",
+				"abort_intro": "Входът е прекратен",
+				"form": {
+					"working": "Моля, изчакайте",
+					"unknown_error": "Неочаквана грешка",
+					"providers": {
+						"command_line": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Потребителско име",
+										"password": "Парола"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Дву-факторен код за аутентикация"
+									},
+									"description": "Отворете **{mfa_module_name}** на Вашето устройство за да видите Вашия дву-факторен код за аутентикация и да удостоверите Вашата идентичност:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Невалидно потребителско име или парола",
+								"invalid_code": "Невалиден код за аутентикация"
+							},
+							"abort": {
+								"login_expired": "Сесията изтече, моля влезте отново."
+							}
+						},
+						"homeassistant": {
+							"step": {
+								"init": {
+									"data": {
+										"username": "Потребителско име",
+										"password": "Парола"
+									}
+								},
+								"mfa": {
+									"data": {
+										"code": "Дву-факторен код за аутентикация"
+									},
+									"description": "Отворете **{mfa_module_name}** на Вашето устройство за да видите Вашия дву-факторен код за аутентикация и да удостоверите Вашата идентичност:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Невалидно потребителско име или парола",
+								"invalid_code": "Невалиден код за аутентикация"
+							},
+							"abort": {
+								"login_expired": "Сесията изтече, моля влезте отново."
+							}
+						},
+						"legacy_api_password": {
+							"step": {
+								"init": {
+									"data": {
+										"password": "API парола"
+									},
+									"description": "Моля въведете API паролата в http конфигурацията:"
+								},
+								"mfa": {
+									"data": {
+										"code": "Дву-факторен код за аутентикация"
+									},
+									"description": "Отворете **{mfa_module_name}** на Вашето устройство за да видите Вашия дву-факторен код за аутентикация и да удостоверите Вашата идентичност:"
+								}
+							},
+							"error": {
+								"invalid_auth": "Невалидна API парола",
+								"invalid_code": "Невалиден код за аутентикация"
+							},
+							"abort": {
+								"no_api_password_set": "Няма конфигурирана API парола.",
+								"login_expired": "Сесията изтече, моля влезте отново."
+							}
+						},
+						"trusted_networks": {
+							"step": {
+								"init": {
+									"data": {
+										"user": "Потребител"
+									},
+									"description": "Моля, изберете потребител, като който искате да влезете:"
+								}
+							},
+							"abort": {
+								"not_whitelisted": "Вашият компютър не е в списъка с разрешени компютри."
+							}
+						}
+					}
+				}
+			},
+			"page-demo": {
+				"cards": {
+					"demo": {
+						"demo_by": "от {name}",
+						"next_demo": "Следваща демонстрация",
+						"introduction": "Добре дошъл у дома! Достигнахте демонстрацията на Home Assistant, където ще покажем най-добрите потребителски интерфейси, създадени от нашата общност.",
+						"learn_more": "Научете повече за Home Assistant"
+					}
+				},
+				"config": {
+					"arsaboo": {
+						"names": {
+							"upstairs": "Втори етаж",
+							"family_room": "Семейна стая",
+							"kitchen": "Кухня",
+							"patio": "Веранда",
+							"hallway": "Коридор",
+							"master_bedroom": "Главна спалня",
+							"left": "Ляво",
+							"right": "Дясно",
+							"mirror": "Огледало",
+							"temperature_study": "Temperature Study"
+						},
+						"labels": {
+							"lights": "Светлини",
+							"information": "Информация",
+							"morning_commute": "Сутрешно пътуване",
+							"commute_home": "Пътуване до дома",
+							"entertainment": "Забавление",
+							"activity": "Дейност",
+							"hdmi_input": "HDMI вход",
+							"hdmi_switcher": "HDMI превключвател",
+							"volume": "Сила на звука",
+							"total_tv_time": "Време пред телевизора",
+							"turn_tv_off": "Изключи телевизора",
+							"air": "Въздух"
+						},
+						"unit": {
+							"watching": "Гледане",
+							"minutes_abbr": "мин"
+						}
+					}
+				}
+			},
+			"developer-tools": {
+				"tabs": {
+					"info": {
+						"title": "Информация",
+						"remove": "Remove",
+						"set": "Set",
+						"default_ui": "{action} {name} as default page on this device",
+						"lovelace_ui": "Go to the Lovelace UI",
+						"states_ui": "Go to the states UI",
+						"home_assistant_logo": "Home Assistant logo",
+						"path_configuration": "Path to configuration.yaml: {path}",
+						"developed_by": "Developed by a bunch of awesome people.",
+						"license": "Published under the Apache 2.0 license",
+						"source": "Source:",
+						"server": "server",
+						"frontend": "frontend-ui",
+						"built_using": "Built using",
+						"icons_by": "Icons by",
+						"frontend_version": "Frontend version: {version} - {type}",
+						"custom_uis": "Custom UIs:",
+						"system_health_error": "System Health component is not loaded. Add 'system_health:' to configuration.yaml"
+					},
+					"logs": {
+						"title": "Журнали",
+						"details": "Log Details ({level})",
+						"load_full_log": "Load Full Home Assistant Log",
+						"loading_log": "Loading error log…",
+						"no_errors": "No errors have been reported.",
+						"no_issues": "There are no new issues!",
+						"clear": "Clear",
+						"refresh": "Refresh",
+						"multiple_messages": "message first occurred at {time} and shows up {counter} times"
+					},
+					"events": {
+						"title": "Събития",
+						"description": "Fire an event on the event bus.",
+						"documentation": "Events Documentation.",
+						"type": "Event Type",
+						"data": "Event Data (YAML, optional)",
+						"fire_event": "Fire Event",
+						"event_fired": "Event {name} fired",
+						"available_events": "Available Events",
+						"count_listeners": " ({count}  listeners)",
+						"listen_to_events": "Listen to events",
+						"listening_to": "Listening to",
+						"subscribe_to": "Event to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"alert_event_type": "Event type is a mandatory field",
+						"notification_event_fired": "Event {type} successful fired!"
+					},
+					"mqtt": {
+						"title": "MQTT",
+						"description_publish": "Publish a packet",
+						"topic": "topic",
+						"payload": "Payload (template allowed)",
+						"publish": "Publish",
+						"description_listen": "Listen to a topic",
+						"listening_to": "Listening to",
+						"subscribe_to": "Topic to subscribe to",
+						"start_listening": "Start listening",
+						"stop_listening": "Stop listening",
+						"message_received": "Message {id} received on {topic} at {time}:"
+					},
+					"services": {
+						"title": "Услуги",
+						"description": "The service dev tool allows you to call any available service in Home Assistant.",
+						"data": "Service Data (YAML, optional)",
+						"call_service": "Call Service",
+						"select_service": "Select a service to see the description",
+						"no_description": "No description is available",
+						"no_parameters": "This service takes no parameters.",
+						"column_parameter": "Parameter",
+						"column_description": "Description",
+						"column_example": "Example",
+						"fill_example_data": "Fill Example Data",
+						"alert_parsing_yaml": "Error parsing YAML: {data}"
+					},
+					"states": {
+						"title": "Състояния",
+						"description1": "Set the representation of a device within Home Assistant.",
+						"description2": "This will not communicate with the actual device.",
+						"entity": "Entity",
+						"state": "State",
+						"attributes": "Attributes",
+						"state_attributes": "State attributes (YAML, optional)",
+						"set_state": "Set State",
+						"current_entities": "Current entities",
+						"filter_entities": "Filter entities",
+						"filter_states": "Filter states",
+						"filter_attributes": "Filter attributes",
+						"no_entities": "No entities",
+						"more_info": "More Info",
+						"alert_entity_field": "Entity is a mandatory field"
+					},
+					"templates": {
+						"title": "Шаблони",
+						"description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+						"editor": "Template editor",
+						"jinja_documentation": "Jinja2 template documentation",
+						"template_extensions": "Home Assistant template extensions",
+						"unknown_error_template": "Unknown error rendering template"
+					}
+				}
+			},
+			"page-onboarding": {
+				"intro": "Готови ли сте да събудите дома си, да отвоювате независимостта си и да се присъедините към световна общност от хора автоматизиращи домовете си?",
+				"user": {
+					"intro": "Нека да започнете, като създадете потребителски акаунт.",
+					"required_field": "Задължително",
+					"data": {
+						"name": "Име",
+						"username": "Потребителско име",
+						"password": "Парола",
+						"password_confirm": "Потвърждение на парола"
+					},
+					"create_account": "Създай акаунт",
+					"error": {
+						"required_fields": "Попълнете всички задължителни полета",
+						"password_not_match": "Паролите не съвпадат"
+					}
+				},
+				"core-config": {
+					"intro": "Здравейте {name} , добре дошли в Home Assistant. Как бихте искали да назовете дома си?",
+					"intro_location": "Бихме искали да знаем къде живеете. Тази информация ще помогне за показването на информация и създаването на автоматизаци, които се активират от изгрев и залез. Тези данни никога не се споделят извън мрежата ви.",
+					"intro_location_detect": "Можем да ви помогнем да попълните тази информация, като изпратим еднократна заявка до външна услуга.",
+					"location_name_default": "Вкъщи",
+					"button_detect": "Откриване",
+					"finish": "Напред"
+				},
+				"integration": {
+					"intro": "Устройствата и услугите са представени в Home Assistant като Интеграции. Можете да ги настроите сега или да го направите по-късно от конфигурационния екран.",
+					"more_integrations": "Повече",
+					"finish": "Завърши"
+				}
+			},
+			"custom": {
+				"external_panel": {
+					"question_trust": "Do you trust the external panel {name} at {link}?",
+					"complete_access": "It will have access to all data in Home Assistant.",
+					"hide_message": "Check docs for the panel_custom component to hide this message"
+				}
+			}
+		}
+	},
+	"attribute": {
+		"weather": {
+			"humidity": "Влажност",
+			"visibility": "Видимост",
+			"wind_speed": "Скорост на вятъра"
+		}
+	}
+}
